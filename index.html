@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html lang="pl">
   <head>
-    <title>RZEMIOSŁO WEST'a - kalkulator rzemiosła w grze the-west. Zadania eventowe z Bety. Kalendarz zadań powtarzalnych</title>
+    <title>WEST-INFO - kalkulator rzemiosła w grze the-west. Zadania eventowe z Bety. Kalendarz zadań powtarzalnych</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#db5945">
@@ -32,12 +32,13 @@ and open the template in the editor.
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
   </head>
   <body>
+    <div id="background-site"></div>
     <div class="tlo">
       <header>
         <img src="https://westpl.innogamescdn.com//images/items/head/leather_hat_yellow.png?5" alt="">
         <h1>WEST</h1>
         <p>Kalkulator rzemiosła - strona poświęcona grze the-west<br/>
-          <span style="font-size:18px;">Nowe zadania<br>Parada Święta Niepodległości<br>i Paul Wielki Palladyn</span><br/>
+          <span style="font-size:18px;">Nowe zadania:<br>8.08 do 15.08 Zadanie powtarzalne Kocięta<br></span><br/>
           <span>Aby policzyć ile produktów potrzebujesz do wytworzenia, rozwiń listę z rzemiosłem a następnie kliknij na produkt który chcesz wytworzyć i wpisz żądaną ilość.</span>
         </p>
       </header>
@@ -110,8 +111,11 @@ and open the template in the editor.
               <a class="nav-link" id="kalendarz-tab" data-toggle="tab" href="#kalendarz" role="tab" aria-controls="kalendarz" aria-selected="false">Kalendarz zadań powtarzalnych</a>
             </li>
             <li class="nav-item">
-                <!--<a class="nav-link" id="zadaniaBeta-tab"  href="/zadaniaBeta/zadaniaBeta.html">Zadania z Bety</a>-->
+              <!--<a class="nav-link" id="zadaniaBeta-tab"  href="/zadaniaBeta/zadaniaBeta.html">Zadania z Bety</a>-->
               <a class="nav-link" id="zadaniaBeta-tab" href="#zadaniaBeta" data-toggle="tab" role="tab" aria-controls="zadaniaBeta" aria-selected="false">Zadania z Bety</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="fort-tab" data-toggle="tab" href="#fort" role="tab" aria-controls="fort" aria-selected="false">Forty</a>
             </li>
           </ul>
         </div>
@@ -131,7 +135,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/b/b5/PureePomidorowe.png" class="img-circle" title="Puree pomidorowe"></a>
+                              <a href="#"><img src="image/craft/PureePomidorowe.png" class="img-circle" title="Puree pomidorowe"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Puree pomidorowe</h6>
@@ -156,13 +160,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="puree1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Kamienie.png" title="Kamienie"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="puree2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/aa/Pomidor.png/33px-Pomidor.png" title="Pomidor"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Pomidor.png" title="Pomidor"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -187,7 +191,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/6/6b/SosPomidorowy.png" class="img-circle" title="Sos pomidorowy"></a>
+                              <a href="#"><img src="image/craft/SosPomidorowy.png" class="img-circle" title="Sos pomidorowy"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Sos pomidorowy</h6>
@@ -212,7 +216,7 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="sos-pomidorowy1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/PureePomidorowe.png" title="Puree pomidorowe"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -237,7 +241,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/4/46/ZapieczoneFasolki.png" class="img-circle" title="Zapieczone fasolki"></a>
+                              <a href="#"><img src="image/craft/ZapieczoneFasolki.png" class="img-circle" title="Zapieczone fasolki"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-3">
                               <h6>Zapieczone fasolki</h6>
@@ -262,13 +266,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="zapieczone1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/SosPomidorowy.png/33px-SosPomidorowy.png" title="Sos pomidorowy"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/SosPomidorowy.png" title="Sos pomidorowy"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="zapieczone2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Fasola.png" title="Fasola"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -293,7 +297,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/7/78/WegielDrzewny.png" class="img-circle" title="Węgiel drzewny"></a>
+                              <a href="#"><img src="image/craft/WegielDrzewny.png" class="img-circle" title="Węgiel drzewny"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-4">
                               <h6>Węgiel drzewny</h6>
@@ -304,7 +308,7 @@ and open the template in the editor.
                               </p>
                               <p>Kopiuj ID: <input type="text" name="ID" value="[item=1855000]"></p>
                             </div>
-                            <div class="col-1 col-sm-1 col-md-1 col-lg-1 span-stopien linia4">
+                            <div class="col-1 col-sm-1 col-md-1 col-lg-1 span-stopien linia-4">
                               <span style="display:block;"><img src="https://wiki.the-west.pl/images/e/e2/Zolty_stopien.png" title="0pkt"></span>
                               <span style="display:block;"><img src="https://wiki.the-west.pl/images/7/78/Zielony_stopien.png" title="50pkt"></span>
                               <span style="display:block;"><img src="https://wiki.the-west.pl/images/6/67/Szary_stopien.png" title="100pkt"></span>
@@ -318,13 +322,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="wegiel1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Kamienie.png" title="Kamienie"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="wegiel2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Drewno.png" title="Drewno"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -349,7 +353,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/d/d0/MakaKukurydziana.png" class="img-circle" title="Mąka kukurydziana"></a>
+                              <a href="#"><img src="image/craft/MakaKukurydziana.png" class="img-circle" title="Mąka kukurydziana"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-5">
                               <h6>Mąka kukurydziana</h6>
@@ -374,13 +378,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="maka-kuk1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Kamienie.png" title="Kamienie"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="maka-kuk2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0a/Kukurydza.png/33px-Kukurydza.png" title="Kukurydza"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Kukurydza.png" title="Kukurydza"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -405,7 +409,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/5/52/DzbanWody.png" class="img-circle" title="Dzban wody"></a>
+                              <a href="#"><img src="image/craft/DzbanWody.png" class="img-circle" title="Dzban wody"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-6">
                               <h6>Dzban wody</h6>
@@ -430,13 +434,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dzban1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Dzban.png" title="Dzban"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dzban2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="szklanka wody"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/SzklankaWody.png" title="szklanka wody"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -461,7 +465,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/c/c8/KawalekTortu.png" class="img-circle" title="Kawałek tortu"></a>
+                              <a href="#"><img src="image/craft/KawalekTortu.png" class="img-circle" title="Kawałek tortu"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-7">
                               <h6>Kawałek tortu</h6>
@@ -486,19 +490,19 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="kaw-tortu1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/01/Maka.png/33px-Maka.png" title="Mąka"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Maka.png" title="Mąka"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="kaw-tortu2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Cukier.png" title="Cukier"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="kaw-tortu3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Jagody.png" title="Jagody"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -523,7 +527,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/1/1d/FasolaZBekonem.png" class="img-circle" title="Fasola z bekonem"></a>
+                              <a href="#"><img src="image/craft/FasolaZBekonem.png" class="img-circle" title="Fasola z bekonem"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-8">
                               <h6>Fasola z bekonem</h6>
@@ -548,25 +552,25 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-bekon1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-bekon2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/PatelniaRzemioslo.png/33px-PatelniaRzemioslo.png" title="Patelnia"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Patelnia.png" title="Patelnia"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-bekon3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Szynka.png" title="Szynka"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-bekon4_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Fasola.png" title="Fasola"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -591,7 +595,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/e/ef/Dzem.png" class="img-circle" title="Dżem"></a>
+                              <a href="#"><img src="image/craft/Dzem.png" class="img-circle" title="Dżem"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-9">
                               <h6>Dżem</h6>
@@ -616,19 +620,19 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dzem1_add-sum2">2x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/Borowki.png/33px-Borowki.png" title="Borówki"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Borowki.png" title="Borówki"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dzem2_add-sum2">2x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Cukier.png" title="Cukier"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dzem3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
                                     </tr>
                                   </table>
                                 </div>
@@ -658,7 +662,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/4/46/NieoszlifowanyPirytRzemioslo.png" class="img-circle" title="Nieoszlifowany piryt"></a>
+                              <a href="#"><img src="image/craft/NieoszlifowanyPiryt.png" class="img-circle" title="Nieoszlifowany piryt"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Nieoszlifowany piryt</h6>
@@ -683,7 +687,7 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="nieosz-piryt1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/1d/Piryt.png/33px-Piryt.png" title="Piryt"></div></td>  
+                                      <td class="td-img"><div><img src="image/craft/Piryt.png" title="Piryt"></div></td>  
                                     </tr>
                                   </table>
                                 </div>
@@ -708,7 +712,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/a/a2/DyskZPirytuRzemioslo.png" class="img-circle" title="Dysk z pirytu"></a>
+                              <a href="#"><img src="image/craft/DyskZPirytu.png" class="img-circle" title="Dysk z pirytu"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Dysk z pirytu</h6>
@@ -733,7 +737,7 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="dysk1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/46/NieoszlifowanyPirytRzemioslo.png/33px-NieoszlifowanyPirytRzemioslo.png" title="Nieoszlifowany Piryt"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/NieoszlifowanyPiryt.png" title="Nieoszlifowany Piryt"></div></td> 
                                     </tr>
                                   </table>
                                 </div>
@@ -758,7 +762,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/9/94/AmuletRzemioslo.png" class="img-circle" title="Amulet"></a>
+                              <a href="#"><img src="image/craft/Amulet.png" class="img-circle" title="Amulet"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-3">
                               <h6>Amulet</h6>
@@ -783,13 +787,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="amulet1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a2/DyskZPirytuRzemioslo.png/33px-DyskZPirytuRzemioslo.png" title="Dysk z pirytu"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/DyskZPirytu.png" title="Dysk z pirytu"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="amulet2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/99/PioroKruka.png/33px-PioroKruka.png" title="Pióro kruka"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/PioroKruka.png" title="Pióro kruka"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -814,7 +818,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/8/8d/KrzesiwoRzemioslo.png" class="img-circle" title="Krzesiwo"></a>
+                              <a href="#"><img src="image/craft/Krzesiwo.png" class="img-circle" title="Krzesiwo"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-4">
                               <h6>Krzesiwo<br></h6>
@@ -839,19 +843,19 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="krzesiwo1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/1d/Piryt.png/33px-Piryt.png" title="Piryt"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Piryt.png" title="Piryt"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="krzesiwo2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Kamienie.png" title="Kamienie"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="krzesiwo3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Bawelna.png" title="Bawełna"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -876,7 +880,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/d/d4/SiarkaRzemioslo.png" class="img-circle" title="Siarka"></a>
+                              <a href="#"><img src="image/craft/Siarka.png" class="img-circle" title="Siarka"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-5">
                               <h6>Siarka</h6>
@@ -901,7 +905,7 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="siarka1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ec/RudaSiarki.png/33px-RudaSiarki.png" title="Ruda Siarki"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/RudaSiarki.png" title="Ruda Siarki"></div></td> 
                                     </tr>
                                   </table>
                                 </div>
@@ -926,7 +930,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/5/5b/ZywicaRzemioslo.png" class="img-circle" title="Żywica"></a>
+                              <a href="#"><img src="image/craft/Zywica.png" class="img-circle" title="Żywica"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-6">
                               <h6>Żywica</h6>
@@ -951,13 +955,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="zywica1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Pila.png/33px-Pila.png" title="Piła"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Pila.png" title="Piła"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="zywica2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Dzban.png" title="Dzban"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -982,7 +986,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/1/1a/PapierosZFiltremRzemioslo.png" class="img-circle" title="Papieros z filtrem"></a>
+                              <a href="#"><img src="image/craft/PapierosZFiltrem.png" class="img-circle" title="Papieros z filtrem"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-7">
                               <h6>Papieros z filtrem</h6>
@@ -1007,19 +1011,19 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="papieros1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d5/LiscieTytoniu.png/33px-LiscieTytoniu.png" title="Liscie tytoniu"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/LiscieTytoniu.png" title="Liscie tytoniu"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="papieros2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Wegiel.png" title="Węgiel"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="papieros3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/bd/Plakat.png/33px-Plakat.png" title="Plakat"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Plakat.png" title="Plakat"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -1044,7 +1048,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/1/1f/WyciorRzemioslo.png" class="img-circle" title="Wycior"></a>
+                              <a href="#"><img src="image/craft/Wycior.png" class="img-circle" title="Wycior"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-8">
                               <h6>Wycior</h6>
@@ -1069,19 +1073,19 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="wycior1_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Ropa.png" title="Ropa"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="wycior2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/99/PioroKruka.png/33px-PioroKruka.png" title="Pióro kruka"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/PioroKruka.png" title="Pióro kruka"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="wycior3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Sukno.png/33px-Sukno.png" title="Sukno"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Sukno.png" title="Sukno"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -1106,7 +1110,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img src="https://wiki.the-west.pl/images/c/c7/LekNaZoladekRzemioslo.png" class="img-circle" title="Lek na żołądek"></a>
+                              <a href="#"><img src="image/craft/LekNaZoladek.png" class="img-circle" title="Lek na żołądek"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-9">
                               <h6>Lek na żoładek</h6>
@@ -1131,13 +1135,13 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="lek1_add-sum2">2x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/Krzesiwo.png" title="Krzesiwo"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="lek2_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/84/Kreda.png/33px-Kreda.png" title="Kreda"></div></td>
+                                      <td class="td-img"><div><img src="image/craft/Kreda.png" title="Kreda"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -9877,48 +9881,41 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <!--<div class="row">
-                          <div class="col-12 nazwa">Złodzieje</div>
+                        <div class="row">
+                          <div class="col-12 nazwa">Kłopot</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
                             <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Wygrane pojedynki z bandytami 10x</div>
+                            <div>Idź do Wioska indiańska Waupee</div>
+                            <div>Załóż Historia Plemion</div>
                           </div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
                                 <img src="image/exp.png" alt="" class="img-responsive nagroda">
-                                <p>400</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/body/item_51547.png?5" alt="" class="img-responsive nagroda">
-                                <p>Kurtka Marii<br/>[item=51547000]</p>
+                                <p>200</p>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-12 nazwa">Nasz ban jest okradziony</div>
+                          <div class="col-12 nazwa">Idealny plan</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
                             <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
                           </div>
-                          <div class="col-12 col-sm-3 nazwa-link">Aby wykonać to zadanie nie możesz zaakceptować zadania "Napad na bank"</div>
+                          <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Przeganianie rozbójników 5h</div>
+                            <div>Obserwacja fortecy 15h</div>
                           </div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
                                 <img src="image/exp.png" alt="" class="img-responsive nagroda">
-                                <p>500</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="" class="img-responsive nagroda">
-                                <p>Spódnica Marii<br/>[item=51548000]</p>
+                                <p>700</p>
                               </div>
                             </div>
                           </div>
@@ -9929,130 +9926,21 @@ and open the template in the editor.
                             <p>John Fitzburn</p>
                             <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
                           </div>
-                          <div class="col-12 col-sm-3 nazwa-link">
-                            Aby wykonać to zadanie nie możesz zaakceptować zadania "Nasz bank jest okradziony"
-                          </div>
-                          <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Wygrane przygody 1x</div>
-                          </div>
-                          <div class="col-12 col-sm-3 data-nagroda">
-                            <div class="row img">
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
-                                <p>500</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="" class="img-responsive nagroda">
-                                <p>Spódnica Marii<br/>[item=51548000]</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-12 nazwa">Zespół muzyczny</div>
-                          <div class="col-12 col-sm-2 data-nagroda">
-                            <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
-                          </div>
-                          <div class="col-12 col-sm-3 nazwa-link"></div>
-                          <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Szklanka wody 30 szt</div>
-                          </div>
-                          <div class="col-12 col-sm-3 data-nagroda">
-                            <div class="row img">
-                              <div class="col-12">Do wyboru</div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
-                                <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
-                                <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
-                                <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-12 nazwa">Po paradzie I</div>
-                          <div class="col-12 col-sm-2 data-nagroda">
-                            <p>Waupee</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
-                          </div>
-                          <div class="col-12 col-sm-3 nazwa-link"></div>
-                          <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Kamienie półszlachetne 20szt</div>
-                          </div>
-                          <div class="col-12 col-sm-3 data-nagroda">
-                            <div class="row img">
-                              <div class="col-12">Do wyboru</div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
-                                <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
-                                <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
-                                <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-12 nazwa">List męża</div>
-                          <div class="col-12 col-sm-2 data-nagroda">
-                            <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
-                          </div>
-                          <div class="col-12 col-sm-3 nazwa-link"></div>
-                          <div class="col-12 col-sm-4 nazwa-link">
-                            <div>Whiskey 7 szt</div>
-                            <div>Tequila 5 szt</div>
-                            <div>Rum 2 szt</div>
-                            <div>Vodka 1 szt</div>
-                            <div>Butelka mleka 5 szt</div>
-                          </div>
-                          <div class="col-12 col-sm-3 data-nagroda">
-                            <div class="row img">
-                              <div class="col-12">Do wyboru</div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
-                                <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
-                                <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
-                              </div>
-                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
-                                <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-12 nazwa">Powrót do rzeczywistości</div>
-                          <div class="col-12 col-sm-2 data-nagroda">
-                            <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
-                          </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51488.png?5" alt="" class="img-responsive nagroda">
-                                <p>400 fajerwerków <br/>[item=51488000]</p>
+                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <p>200</p>
+                              </div>
+                              <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51555.png?6" alt="" class="img-responsive nagroda">
+                                <p>Statuetka Paladyna<br/>[item=51555000]</p>
                               </div>
                             </div>
                           </div>
-                        </div>-->
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -10900,12 +10788,43 @@ and open the template in the editor.
                 </div>
               </section>
             </div>
+            <!--MAPKI FORTOWE-->
+            <div class="tab-pane" id="fort" role="tabpanel" aria-labelledby="fort-tab">
+              <section id="sekcja-beta">
+                <div id="zad-beta">
+                  <div class="row miesiac">
+                    <div class="col-12">
+                      <h2 class="linia-4">Mały fort</h2>
+                      <div class="zad-tabela linia-4-zwin">
+                        <img src="image/maly.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row miesiac">
+                    <div class="col-12">
+                      <h2 class="linia-3">Średni fort</h2>
+                      <div class="zad-tabela linia-3-zwin">
+                        <img src="image/sredni.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row miesiac">
+                    <div class="col-12">
+                      <h2 class="linia-2">Duży fort</h2>
+                      <div class="zad-tabela linia-2-zwin">
+                        <img src="image/duzy.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
       <footer id="kontakt">
         <p>Kontakt z administracją: <a href="mailto:bialka104@interia.pl">&copy bialka104@interia.pl</a></p>
-        <p><span>Większośc grafik pochodzi z przeglądarkowej gry the-west.net oraz wikipedii <a href="/zadaniaBeta/zadaniaBeta.html">zadaniaBeta</a></span></p>
+        <p><span>Większośc grafik pochodzi z przeglądarkowej gry the-west.net oraz wikipedii <a href="/zadaniaBeta/zadaniaBeta.html" style="display:none;">zadaniaBeta</a></span></p>
       </footer>
     </div>
     <script type="text/javascript" src="script/rzemioslo.js"></script>
