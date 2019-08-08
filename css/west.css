@@ -184,19 +184,19 @@ section {
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .row-kucharz, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .row-kucharz, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .row-kucharz, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .row-kucharz, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .row-kucharz, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .row-kucharz {
-  background: url(https://wiki.the-west.pl/images/d/d2/MiodPitnyRzemioslo.png) no-repeat right top;
+  background: url(../image/craft/MiodPitny.png) no-repeat right top;
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .row-znachor, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .row-znachor, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .row-znachor, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .row-znachor, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .row-znachor, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .row-znachor {
-  background: url(https://wiki.the-west.pl/images/b/be/HerbataRzemioslo.png) no-repeat right top;
+  background: url(../image/craft/Herbata.png) no-repeat right top;
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .row-rymarz, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .row-rymarz, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .row-rymarz, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .row-rymarz, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .row-rymarz, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .row-rymarz {
-  background: url(https://wiki.the-west.pl/images/f/f5/SchowekNaAmunicjeRzemioslo.png) no-repeat right top;
+  background: url(../image/craft/SchowekNaAmunicje.png) no-repeat right top;
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .row-kowal, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .row-kowal, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .row-kowal, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .row-kowal, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .row-kowal, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .row-kowal {
-  background: url(https://wiki.the-west.pl/images/a/ac/BagnetRzemioslo.png) no-repeat right top;
+  background: url(../image/craft/Bagnet.png) no-repeat right top;
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product {
@@ -274,7 +274,7 @@ section {
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .product-description p img, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .product-description p img, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .product-description p img, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .product-description p img, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .product-description p img, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .product-description p img {
   width: 17px;
-  height: 17px;
+  height: 14px;
 }
 
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .span-stopien, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .span-stopien, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .span-stopien, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .span-stopien, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .span-stopien, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .span-stopien {
