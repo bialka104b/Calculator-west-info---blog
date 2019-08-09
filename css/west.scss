@@ -444,7 +444,9 @@ section {
               div.col-3 {
                 padding:0;
                 .nagroda {
+                  height:34px;
                   width:34px;
+                  object-fit: fill;
                 }
                 p {
                 margin-bottom: 0;

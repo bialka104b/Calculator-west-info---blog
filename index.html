@@ -31,32 +31,43 @@ and open the template in the editor.
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
     <script type="text/javascript">
-      
-      function onmouseoverHandler()
-      {
-        const el = document.createElement("div");
+      // //1) Skrypt tworzący poup po najechaniu myszą do elementu h1
+      // function onmouseoverHandler()
+      // {
+      //   const el = document.createElement("div");
 
-        el.id = "myDiv";
-        el.innerText = "Tekst w divie";
-        el.setAttribute("title", "To jest tekst w dymku");
-        el.classList.add("module");
-        el.style.setProperty("background-color", "#FF6633");
-        // alert("Tak! Kursor znalazł się nad akapitem.");
-        const div = document.querySelector("h1"); //pobieramy miejsce docelowe
-        div.appendChild(el);
-      }
-      function onmouseoutHandler() {
-        const el = document.querySelector("#myDiv"); //pobieramy miejsce docelowe
-        el.remove(el);
-      }
-      </script>
+      //   el.id = "myDiv";
+      //   el.innerText = "Tekst w divie";
+      //   el.setAttribute("title", "To jest tekst w dymku");
+      //   el.classList.add("module");
+      //   el.style.setProperty("background-color", "#FF6633");
+      //   // alert("Tak! Kursor znalazł się nad akapitem.");
+      //   const div = document.querySelector("h1"); //pobieramy miejsce docelowe
+      //   div.appendChild(el);
+      // }
+      // function onmouseoutHandler() {
+      //   const el = document.querySelector("#myDiv"); //pobieramy miejsce docelowe
+      //   el.remove(el);
+      // }
+      // function onmouseoverHandler() {
+        function display(selector) {
+            const el = document.querySelector(".my-popup");
+            el.style.setProperty("display", "block");
+        };
+        function displayNone(selector) {
+            const el = document.querySelector(".my-popup");
+            el.style.setProperty("display", "none");
+        };
+    </script>
   </head>
   <body>
     <div id="background-site"></div>
     <div class="tlo">
       <header>
         <img src="https://westpl.innogamescdn.com//images/items/head/leather_hat_yellow.png?5" alt="">
-        <h1 onmouseover="onmouseoverHandler();" onmouseout="onmouseoutHandler();">WEST</h1>
+        <!--kodHTML do skryptu 1)--<h1 onmouseover="onmouseoverHandler();" onmouseout="onmouseoutHandler();">WEST</h1>-->
+        <h1 onmouseover="display('.my-popup');" onmouseout="displayNone('.my-popup');">WEST</h1>
+        <div class="my-popup" style="display:none;">ccccccccccc</div>
         <p>Kalkulator rzemiosła - strona poświęcona grze the-west<br/>
           <span style="font-size:18px;">Nowe zadania:<br>8.08 do 15.08 Zadanie powtarzalne Kocięta<br></span><br/>
           <span>Aby policzyć ile produktów potrzebujesz do wytworzenia, rozwiń listę z rzemiosłem a następnie kliknij na produkt który chcesz wytworzyć i wpisz żądaną ilość.</span>
@@ -3712,7 +3723,7 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="piecz-indyk4_add-sum1">1x</td>
-                                      <td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
+                                      <td class="td-img"><div><img src="image/craft/WegielDrzewny.png" title="Węgiel drzewny"></div></td> 
                                     </tr>
                                   </table>
                                 </div>
@@ -7933,11 +7944,11 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img alt="" src="image/craft/FasolaWPuszce.png" class="img-circle" title="Fasola w puszce"></a>
+                              <a href="#"><img alt="Fasola w Puszce" src="image/craft/FasolaWPuszce.png" class="img-circle" title="Fasola w puszce"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Fasola w puszce</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img alt="" src="image/Zakup.png" title="cena maksymalna">500$</span>
                                 <span><img alt="" src="image/Sprzedaz.png" title="cena minimalna">250$</span>
@@ -7945,9 +7956,9 @@ and open the template in the editor.
                               <p>Kopiuj ID: <input type="text" name="ID" value="[item=1999000]"></p>
                             </div>
                             <div class="col-1 col-sm-1 col-md-1 col-lg-1 span-stopien linia-1">
-                              <span style="display:block;"><img alt="" src="image/Zolty_stopien.png" title="600pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Zielony_stopien.png" title="625pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Szary_stopien.png" title="650pkt"></span>
+                              <span style="display:block;"><img alt="Żółty poziom trudności" src="image/Zolty_stopien.png" title="600pkt"></span>
+                              <span style="display:block;"><img alt="Zielony poziom trudności" src="image/Zielony_stopien.png" title="625pkt"></span>
+                              <span style="display:block;"><img alt="Szary poziom trudności" src="image/Szary_stopien.png" title="650pkt"></span>
                               <i class="fas fa-caret-down"></i>
                             </div>
                           </div>
@@ -7958,31 +7969,31 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-puszka1_add-sum12">12x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Kamienie.png" title="Kamienie"></div></td>
+                                      <td class="td-img"><div><img alt="Kamienie" src="image/craft/Kamienie.png" title="Kamienie"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-puszka2_add-sum12">12x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Wegiel.png" title="Węgiel"></div></td>
+                                      <td class="td-img"><div><img alt="Węgiel" src="image/craft/Wegiel.png" title="Węgiel"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-puszka3_add-sum7">7x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Fasola.png" title="Fasola"></div></td>
+                                      <td class="td-img"><div><img alt="Fasola" src="image/craft/Fasola.png" title="Fasola"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-puszka4_add-sum5">5x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Mlotek.png" title="Młotek"></div></td>
+                                      <td class="td-img"><div><img alt="Młotek" src="image/craft/Mlotek.png" title="Młotek"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="fasola-puszka5_add-sum3">3x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Stal.png" title="Stal"></div></td> 
+                                      <td class="td-img"><div><img alt="Stal" src="image/craft/Stal.png" title="Stal"></div></td> 
                                     </tr>
                                   </table>
                                 </div>
@@ -8007,11 +8018,11 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img alt="" src="image/craft/NajostrzejszeChili.png" class="img-circle" title="Najostrzejsze chili na zachodzie"></a>
+                              <a href="#"><img alt="Najostrzejrze Chili Na Zachodzie" src="image/craft/NajostrzejszeChili.png" class="img-circle" title="Najostrzejsze chili na zachodzie"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Najostrzejsze chili na zachodzie</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img alt="" src="image/Zakup.png" title="cena maksymalna">800$</span>
                                 <span><img alt="" src="image/Sprzedaz.png" title="cena minimalna">400$</span>
@@ -8019,9 +8030,9 @@ and open the template in the editor.
                               <p>Kopiuj ID: <input type="text" name="ID" value="[item=2001000]"></p>
                             </div>
                             <div class="col-1 col-sm-1 col-md-1 col-lg-1 span-stopien linia-2">
-                              <span style="display:block;"><img alt="" src="image/Zolty_stopien.png" title="600pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Zielony_stopien.png" title="625pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Szary_stopien.png" title="650pkt"></span>
+                              <span style="display:block;"><img alt="Żółty poziom trudności" src="image/Zolty_stopien.png" title="600pkt"></span>
+                              <span style="display:block;"><img alt="Zielony poziom trudności" src="image/Zielony_stopien.png" title="625pkt"></span>
+                              <span style="display:block;"><img alt="Szary poziom trudności" src="image/Szary_stopien.png" title="650pkt"></span>
                               <i class="fas fa-caret-down"></i>
                             </div>
                           </div>
@@ -8075,7 +8086,7 @@ and open the template in the editor.
                         <div class="col-12">
                           <div class="row">
                             <div class="col-4 col-sm-2 col-md-3 col-xl-4 product-img">
-                              <a href="#"><img alt="" src="image/craft/MiodPitny.png" class="img-circle" title="Miód pitny"></a>
+                              <a href="#"><img alt="Miód Pitny" src="image/craft/MiodPitny.png" class="img-circle" title="Miód pitny"></a>
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-3">
                               <h6>Miód pitny</h6>
@@ -8087,9 +8098,9 @@ and open the template in the editor.
                               <p>Kopiuj ID: <input type="text" name="ID" value="[item=2738000]"></p>
                             </div>
                             <div class="col-1 col-sm-1 col-md-1 col-lg-1 span-stopien linia-3">
-                              <span style="display:block;"><img alt="" src="image/Zolty_stopien.png" title="600pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Zielony_stopien.png" title="650pkt"></span>
-                              <span style="display:block;"><img alt="" src="image/Szary_stopien.png" title="700pkt"></span>
+                              <span style="display:block;"><img alt="Żółty poziom trudności" src="image/Zolty_stopien.png" title="600pkt"></span>
+                              <span style="display:block;"><img alt="Zielony poziom trudności" src="image/Zielony_stopien.png" title="650pkt"></span>
+                              <span style="display:block;"><img alt="Szary poziom trudności" src="image/Szary_stopien.png" title="700pkt"></span>
                               <i class="fas fa-caret-down"></i>
                             </div>
                           </div>
@@ -8100,25 +8111,25 @@ and open the template in the editor.
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="miod-pitny1_add-sum2">2x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/Miod.png" title="Miód"></div></td> 
+                                      <td class="td-img"><div><img alt="Miód" src="image/craft/Miod.png" title="Miód"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="miod-pitny2_add-sum2">2x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/ButelkaMleka.png" title="Butelka mleka"></div></td>
+                                      <td class="td-img"><div><img alt="Butelka mleka" src="image/craft/ButelkaMleka.png" title="Butelka mleka"></div></td>
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="miod-pitny3_add-sum1">1x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/DzbanWody.png" title="Dzban wody"></div></td> 
+                                      <td class="td-img"><div><img alt="Dzban wody" src="image/craft/DzbanWody.png" title="Dzban wody"></div></td> 
                                     </tr>
                                   </table>
                                   <table>
                                     <tr>
                                       <td class="ilosc" id="miod-pitny4_add-sum1">1x</td>
-                                      <td class="td-img"><div><img alt="" src="image/craft/MakaKukurydziana.png" title="Mąka kukurydziana"></div></td>
+                                      <td class="td-img"><div><img alt="Mąka kukurydziana" src="image/craft/MakaKukurydziana.png" title="Mąka kukurydziana"></div></td>
                                     </tr>
                                   </table>
                                 </div>
@@ -8152,7 +8163,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Błyszcząca mikstura</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">500$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">250$</span>
@@ -8220,7 +8231,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Legendarne antidotum</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">800$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">400$</span>
@@ -8367,7 +8378,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Leciutka skóra</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">500$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">250$</span>
@@ -8435,7 +8446,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Siodło Pony-Express</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">800$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">400$</span>
@@ -8576,7 +8587,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-1">
                               <h6>Narzędzia zegarmistrzowskie</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">500$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">250$</span>
@@ -8650,7 +8661,7 @@ and open the template in the editor.
                             </div>
                             <div class="col-7 col-sm-9 col-md-8 col-xl-7 product-description linia-2">
                               <h6>Złota pozytywka</h6>
-                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="">Można wytworzyć 1szt/7dni</p>
+                              <p>Efekt: półprodukt<br><img src="https://wiki.the-west.pl/images/thumb/7/78/Uwaga.png/20px-Uwaga.png" alt="uwaga">Można wytworzyć 1szt/7dni</p>
                               <p>
                                 <span><img src="image/Zakup.png" title="cena maksymalna">800$</span>
                                 <span><img src="image/Sprzedaz.png" title="cena minimalna">400$</span>
@@ -8971,15 +8982,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejetności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>1000</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>1490</p>
                               </div>
                             </div>
@@ -9005,11 +9016,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>180</p>
                               </div>
                             </div>
@@ -9022,7 +9033,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://wiki.the-west.pl/images/thumb/d/d4/Serca2015.png/25px-Serca2015.png" alt="" style="width:34px" class="img-responsive nagroda">
+                                <img src="https://wiki.the-west.pl/images/thumb/d/d4/Serca2015.png/25px-Serca2015.png" alt="Waluta eventowa" style="width:34px" class="img-responsive nagroda">
                                 <p>750</p>
                               </div>
                             </div>
@@ -9035,15 +9046,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>1100</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>820</p>
                               </div>
                             </div>
@@ -9056,15 +9067,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/UOP.png" alt="" class="img-responsive nagroda">
+                                <img src="image/UOP.png" alt="Obligacje" class="img-responsive nagroda">
                                 <p>25</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>1402</p>
                               </div>
                             </div>
@@ -9106,23 +9117,23 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://wiki.the-west.pl/images/3/34/Si%C5%82a.png" alt="" class="img-responsive nagroda">
+                                <img src="image/skills/Sila.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://wiki.the-west.pl/images/1/1b/Charyzma.png" alt="" class="img-responsive nagroda">
+                                <img src="image/skills/Charyzma.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>250</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>2490</p>
                               </div>
                             </div>
@@ -9135,11 +9146,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>1500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/UOP/green-letter.png" alt="" class="img-responsive nagroda">
+                                <img src="image/UOP/green-letter.png" alt="Obligacje" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9156,15 +9167,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>1297</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9194,15 +9205,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1364</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9219,15 +9230,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1821</p>
                                 </div>
                               </div>
@@ -9244,7 +9255,7 @@ and open the template in the editor.
                                   <p>[item=40037000]</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/menuicons.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/menuicons.png" alt="Osiągnięcie" class="img-responsive nagroda">
                                   <p>Kolekcja ręczników</p>
                                 </div>
                               </div>
@@ -9270,15 +9281,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1872</p>
                                 </div>
                               </div>
@@ -9304,15 +9315,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/9/90/Obchodzenie.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/ZnajomoscZwierzat.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>150</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1015</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9328,11 +9339,11 @@ and open the template in the editor.
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="//westzz.innogamescdn.com/images/items/yield/mate_tea.png?5" alt="" class="img-responsive nagroda">
+                                  <img src="//westzz.innogamescdn.com/images/items/yield/mate_tea.png?5" alt="Herbata Mate" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/9/92/VP.png" alt="" class="img-responsive nagroda">
+                                  <img src="https://wiki.the-west.pl/images/9/92/VP.png" alt="Punkty Veterana" class="img-responsive nagroda">
                                   <p>50</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9349,19 +9360,19 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/1/1b/Charyzma.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/Charyzma.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                   <p>2</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>110</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>700</p>
                                 </div>
                               </div>
@@ -9374,15 +9385,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doswiadczenie" class="img-responsive nagroda">
                                   <p>1680</p>
                                 </div>
                               </div>
@@ -9408,15 +9419,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1000</p>
                                 </div>
                               </div>
@@ -9429,15 +9440,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1100</p>
                                 </div>
                               </div>
@@ -9463,15 +9474,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>1750</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>4950</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9513,15 +9524,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>700</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>6000</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9558,15 +9569,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>2809</p>
                                 </div>
                               </div>
@@ -9579,11 +9590,11 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1720</p>
                                 </div>
                               </div>
@@ -9609,11 +9620,11 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>420</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>5510</p>
                                 </div>
                               </div>
@@ -9626,15 +9637,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>500</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1674</p>
                                 </div>
                               </div>
@@ -9647,15 +9658,15 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/1/1b/Charyzma.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/Charyzma.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>4340</p>
                                 </div>
                               </div>
@@ -9681,11 +9692,11 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/1/1b/Charyzma.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/Charyzma.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                   <p>2</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>1270</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9722,11 +9733,11 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>620</p>
                                 </div>
                               </div>
@@ -9739,19 +9750,19 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/3/34/Si%C5%82a.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/Sila.png" alt="Darmowy punkt cech" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="https://wiki.the-west.pl/images/c/c4/Wytrzyma%C5%82o%C5%9B%C4%87.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/skills/Wytrzymalosc.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                   <p>1</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>1220</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>3515</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9768,11 +9779,11 @@ and open the template in the editor.
                             <div class="col-12 col-sm-3 data-nagroda">
                               <div class="row img">
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                   <p>1000</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                  <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                  <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                   <p>4800</p>
                                 </div>
                                 <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9797,15 +9808,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/umiejka.png" alt="" class="img-responsive nagroda">
+                                <img src="image/umiejka.png" alt="Darmowy punkt umiejętności" class="img-responsive nagroda">
                                 <p>1</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>1000</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9839,14 +9850,14 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Zwiadowca</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51554.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51554.png?5" alt="Historia plemion" class="img-responsive nagroda">
                                 <p>Historia plemion<br/>[item=51554000]</p>
                               </div>
                             </div>
@@ -9856,7 +9867,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Obóz wroga</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -9867,7 +9878,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>300</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -9875,7 +9886,7 @@ and open the template in the editor.
                                 <p>Kawa</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/animal/item_51553.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/animal/item_51553.png?5" alt="Koń Szpiegowski" class="img-responsive nagroda">
                                 <p>Koń szpiegowski<br/>[item=51553000]</p>
                               </div>
                             </div>
@@ -9885,7 +9896,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Dobra strategia</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -9894,11 +9905,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/gentlemendinner.png?5" alt="" class="img-responsive nagroda">
+                                <img src="image/craft/ObiadDzentelmena.png" alt="Obiad Dżentelmena" class="img-responsive nagroda">
                                 <p>Obiad dżentelmena</p>
                               </div>
                             </div>
@@ -9908,7 +9919,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Kłopot</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -9918,7 +9929,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>200</p>
                               </div>
                             </div>
@@ -9928,7 +9939,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Idealny plan</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -9937,7 +9948,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>700</p>
                               </div>
                             </div>
@@ -9947,18 +9958,18 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Napad na bank</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>200</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51555.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51555.png?6" alt="Statuetka Paladyna" class="img-responsive nagroda">
                                 <p>Statuetka Paladyna<br/>[item=51555000]</p>
                               </div>
                             </div>
@@ -9981,7 +9992,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Zajęty dzień</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -9990,11 +10001,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>50</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51484.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51484.png?5" alt="Waluta eventowa" class="img-responsive nagroda">
                                 <p>Fajerwerki 25 szt</p>
                               </div>
                             </div>
@@ -10004,7 +10015,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Strój Marii</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10015,11 +10026,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="John Fitzburn" class="img-responsive nagroda">
                                 <p>250</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51485.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51485.png?5" alt="Waluta eventowa" class="img-responsive nagroda">
                                 <p>Fajerwerki 50 szt</p>
                               </div>
                             </div>
@@ -10029,7 +10040,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Dwóch niebezpiecznych bandytów</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10038,15 +10049,15 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>400</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/foot/item_51549.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/foot/item_51549.png?5" alt="Czerwone buty Marii" class="img-responsive nagroda">
                                 <p>Czerwone buty Marii<br/>[item=51549000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51485.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51485.png?5" alt="Waluta eventowa" class="img-responsive nagroda">
                                 <p>Fajerwerki 50 szt</p>
                               </div>
                             </div>
@@ -10056,7 +10067,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Złodzieje</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10065,11 +10076,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>400</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/body/item_51547.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/body/item_51547.png?5" alt="Kurtka Marii" class="img-responsive nagroda">
                                 <p>Kurtka Marii<br/>[item=51547000]</p>
                               </div>
                             </div>
@@ -10079,7 +10090,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Nasz ban jest okradziony</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Aby wykonać to zadanie nie możesz zaakceptować zadania "Napad na bank"</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10088,11 +10099,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="Spódnica Marii" class="img-responsive nagroda">
                                 <p>Spódnica Marii<br/>[item=51548000]</p>
                               </div>
                             </div>
@@ -10102,7 +10113,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Napad na bank</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">
                             Aby wykonać to zadanie nie możesz zaakceptować zadania "Nasz bank jest okradziony"
@@ -10113,11 +10124,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/pants/item_51548.png?5" alt="Spódnica Marii" class="img-responsive nagroda">
                                 <p>Spódnica Marii<br/>[item=51548000]</p>
                               </div>
                             </div>
@@ -10127,7 +10138,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Zespół muzyczny</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10137,15 +10148,15 @@ and open the template in the editor.
                             <div class="row img">
                               <div class="col-12">Do wyboru</div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="Bęben amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="Flet amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="Róg amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
                               </div>
                             </div>
@@ -10155,7 +10166,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Po paradzie I</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Waupee</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
+                            <img src="image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10165,15 +10176,15 @@ and open the template in the editor.
                             <div class="row img">
                               <div class="col-12">Do wyboru</div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="Bęben amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="Flet amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="Róg amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
                               </div>
                             </div>
@@ -10183,7 +10194,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">List męża</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10197,15 +10208,15 @@ and open the template in the editor.
                             <div class="row img">
                               <div class="col-12">Do wyboru</div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51550.png?6" alt="Bęben amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Bęben amerykańskiej armii<br/>[item=51550000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/item_51551.png?6" alt="Flet amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Flet amerykańskiej armii<br/>[item=51551000]</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/left_arm/item_51552.png?6" alt="Róg amerykańskiej armii" class="img-responsive nagroda">
                                 <p>Róg amerykańskiej armii<br/>[item=51552000]</p>
                               </div>
                             </div>
@@ -10215,14 +10226,14 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51488.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51488.png?5" alt="Waluta eventowa" class="img-responsive nagroda">
                                 <p>400 fajerwerków <br/>[item=51488000]</p>
                               </div>
                             </div>
@@ -10245,7 +10256,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Renowacja domu</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Dzienne zadania</p>
-                            <img src="image/zadania-dzienne.png" alt="" class="img-responsive place-img">
+                            <img src="image/zadania-dzienne.png" alt="Zadania dzienne" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">
                             <div class="row img">
@@ -10279,7 +10290,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>600</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -10288,7 +10299,7 @@ and open the template in the editor.
                               </div>
                               <div class="col-3 col-sm-12 col-md-12 col-lg-12">
                                 <img src="//westzz.innogamescdn.com/images/items/yield/item_51473.png?7" alt="" class="img-responsive nagroda">
-                                <p>Karty kolekcjonerskie i <img src="image/menuicons.png" alt=''>Masz wszystkie znaczki swiata!</p>
+                                <p>Karty kolekcjonerskie i <img src="image/menuicons.png" alt='osiągniecie'>Masz wszystkie znaczki swiata!</p>
                               </div>
                             </div>
                           </div>
@@ -10297,7 +10308,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Zobacz co znalazłem</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10309,7 +10320,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>200</p>
                               </div>
                             </div>
@@ -10319,7 +10330,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Czy jestem Bob?</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10329,11 +10340,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>700</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51479.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51479.png?6" alt="List do Eleonore" class="img-responsive nagroda">
                                 <p>List do Eleonore</p>
                               </div>
                             </div>
@@ -10343,7 +10354,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Następna bitwa</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10353,7 +10364,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>600</p>
                               </div>
                             </div>
@@ -10363,7 +10374,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Armia potrzebuje jedzenia</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>John Fitzburn</p>
-                            <img src="image/John-Fitzburn.png" alt="" class="img-responsive place-img">
+                            <img src="image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10377,11 +10388,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>700</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>700</p>
                               </div>
                             </div>
@@ -10391,7 +10402,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
@@ -10408,7 +10419,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Sprawdźmy resztę twojego domu</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10423,7 +10434,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/creativity_duel_melee.png?5" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/right_arm/creativity_duel_melee.png?5" alt="Pędzel malarski" class="img-responsive nagroda">
                                 <p>Pędzel malarski [item=1018000] </p>
                               </div>
                             </div>
@@ -10433,7 +10444,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Sekretna dziura w podłodze</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10446,11 +10457,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>200</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-6">
-                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51468.png?6" alt="" class="img-responsive nagroda">
+                                <img src="https://westzz.innogamescdn.com/images/items/yield/item_51468.png?6" alt="Mała szklana fiolka" class="img-responsive nagroda">
                                 <p>Mała szklana fiolka [item=51468000]</p>
                               </div>
                             </div>
@@ -10460,7 +10471,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">List męża</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Dzienne zadania</p>
-                            <img src="image/zadania-dzienne.png" alt="" class="img-responsive place-img">
+                            <img src="image/zadania-dzienne.png" alt="Zadania Dzienne" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10470,11 +10481,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>1000</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-6">
@@ -10488,14 +10499,14 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Henry Walker</p>
-                            <img src="image/Henry-Walker.png" alt="" class="img-responsive place-img">
+                            <img src="image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -10534,14 +10545,14 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Problem na farmie</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maya Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">Wypasanie Jagniąt 30 min</div>
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>600</p>
                               </div>
                             </div>
@@ -10551,7 +10562,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Baribal</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wauppe</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
+                            <img src="image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">"Baribal"</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10561,7 +10572,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>600</p>
                               </div>
                             </div>
@@ -10571,7 +10582,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Wizyta plemienia Śpiewającej Wody</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wioska Indiańska Waupee</p>
-                            <img src="image/wioska-indianska.png" alt="" class="img-responsive place-img">
+                            <img src="image/wioska-indianska.png" alt="Wioska Indiańska Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10587,7 +10598,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -10601,7 +10612,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Niezauważony błąd</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wioska Indiańska Waupee</p>
-                            <img src="image/wioska-indianska.png" alt="" class="img-responsive place-img">
+                            <img src="image/wioska-indianska.png" alt="Wioska Indiańska Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10612,11 +10623,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>300</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                             </div>
@@ -10626,7 +10637,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Oswojony</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wioska Indiańska Waupee</p>
-                            <img src="image/wioska-indianska.png" alt="" class="img-responsive place-img">
+                            <img src="image/wioska-indianska.png" alt="Wioska Indiańska Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10637,7 +10648,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -10651,7 +10662,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Złe wieści</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maya Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10663,11 +10674,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>600</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/dolar.png" alt="" class="img-responsive nagroda">
+                                <img src="image/dolar.png" alt="Dolary" class="img-responsive nagroda">
                                 <p>700</p>
                               </div>
                             </div>
@@ -10677,7 +10688,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Przekręt</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wauppe</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
+                            <img src="image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10689,7 +10700,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                             </div>
@@ -10699,7 +10710,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Zimna noc</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wauppe</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
+                            <img src="image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10710,7 +10721,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>400</p>
                               </div>
                             </div>
@@ -10720,7 +10731,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Wizyta "Białego Pazura"</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wioska Indiańska Waupee</p>
-                            <img src="image/wioska-indianska.png" alt="" class="img-responsive place-img">
+                            <img src="image/wioska-indianska.png" alt="Wioska Indiańska Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10733,11 +10744,11 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="https://westpl.innogamescdn.com/images/items/yield/snakehide.png?5" alt="" class="img-responsive nagroda">
+                                <img src="image/craft/SkoraWeza.png" alt="Skóra Węża" class="img-responsive nagroda">
                                 <p>[item=1820000]</p>
                               </div>
                             </div>
@@ -10747,7 +10758,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Pamiątka</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Waupee</p>
-                            <img src="image/dziadek-waupee.png" alt="" class="img-responsive place-img">
+                            <img src="image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10766,7 +10777,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Naturalny bieg wydarzeń</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Wioska Indiańska Waupee</p>
-                            <img src="image/wioska-indianska.png" alt="" class="img-responsive place-img">
+                            <img src="image/wioska-indianska.png" alt="Wioska Indiańska Waupee" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
                           <div class="col-12 col-sm-4 nazwa-link">
@@ -10778,7 +10789,7 @@ and open the template in the editor.
                           <div class="col-12 col-sm-3 data-nagroda">
                             <div class="row img">
                               <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                                <img src="image/exp.png" alt="" class="img-responsive nagroda">
+                                <img src="image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
                                 <p>500</p>
                               </div>
                             </div>
@@ -10788,7 +10799,7 @@ and open the template in the editor.
                           <div class="col-12 nazwa">Obowiązki</div>
                           <div class="col-12 col-sm-2 data-nagroda">
                             <p>Maria Roalstad</p>
-                            <img src="image/Maria-Roalstad.png" alt="" class="img-responsive place-img">
+                            <img src="image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
                           </div>
                           <div class="col-12 col-sm-3 nazwa-link"></div>
                           <div class="col-12 col-sm-4 nazwa-link"></div>
@@ -10819,7 +10830,7 @@ and open the template in the editor.
                     <div class="col-12">
                       <h2 class="linia-4">Mały fort</h2>
                       <div class="mapy-tabela linia-4-zwin">
-                        <img src="image/maly.png" alt="" class="img-responsive mapafortu">
+                        <img src="image/maly.png" alt="Mapka mały fort" class="img-responsive mapafortu">
                       </div>
                     </div>
                   </div>
@@ -10827,7 +10838,7 @@ and open the template in the editor.
                     <div class="col-12">
                       <h2 class="linia-3">Średni fort</h2>
                       <div class="mapy-tabela linia-3-zwin">
-                        <img src="image/sredni.png" alt="" class="img-responsive mapafortu">
+                        <img src="image/sredni.png" alt="Mapka średni fort" class="img-responsive mapafortu">
                       </div>
                     </div>
                   </div>
@@ -10835,7 +10846,7 @@ and open the template in the editor.
                     <div class="col-12">
                       <h2 class="linia-2">Duży fort</h2>
                       <div class="mapy-tabela linia-2-zwin">
-                        <img src="image/duzy.png" alt="" class="img-responsive mapafortu">
+                        <img src="image/duzy.png" alt="Mapka duży fort" class="img-responsive mapafortu">
                       </div>
                     </div>
                   </div>

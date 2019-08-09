@@ -3,6 +3,7 @@
  * numer przy np Latarnia2 oznacza kolejność chronologiczna elementu <td> w html
  */
 /**KUCHARZ polecenia ułozone są alfabetycznie---------------------------------*/
+const array = [document.querySelectorAll("td", ".ilosc")];
 /**BULION RYBNY*/
 var calcBulion = document.getElementById("calc-bulion");
 var addSum1Bulion1 = document.getElementById("bulion1_add-sum1");
