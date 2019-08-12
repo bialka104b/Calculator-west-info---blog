@@ -227,6 +227,27 @@ section {
   width: 100%;
 }
 
+#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .product-img .my-popup, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .product-img .my-popup, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .product-img .my-popup, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .product-img .my-popup, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .product-img .my-popup, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .product-img .my-popup {
+  display: none;
+  background: url(../purty_wood/purty_wood.png);
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  border: 2px solid #380007;
+  border-radius: 10px 10px 0 0;
+  -webkit-box-shadow: 0px 0px 10px 1px white;
+          box-shadow: 0px 0px 10px 1px white;
+}
+
+#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .product-img .my-popup .opis, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .product-img .my-popup .opis, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .product-img .my-popup .opis, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .product-img .my-popup .opis, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .product-img .my-popup .opis, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .product-img .my-popup .opis {
+  padding-top: 30px;
+  background: url(../light_grey_floral_motif/brown.png);
+}
+
+#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .product-img .my-popup .opis p, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .product-img .my-popup .opis p, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .product-img .my-popup .opis p, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .product-img .my-popup .opis p, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .product-img .my-popup .opis p, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .product-img .my-popup .opis p {
+  margin: 0;
+}
+
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .product-description, #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .product-description, #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .product-description, #sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .product-description, #sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .product-description, #sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .product-description {
   padding: 0;
 }

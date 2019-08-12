@@ -188,6 +188,23 @@ section {
                 width:100%;
               }
             }
+            .my-popup {
+              display:none;
+              background:url(../purty_wood/purty_wood.png);
+              position: absolute;
+              z-index: 2;
+              width:200px;
+              border: 2px solid #380007;
+              border-radius:10px 10px 0 0;
+              box-shadow: 0px 0px 10px 1px white;            
+              .opis {
+                padding-top: 30px;
+                background:url(../light_grey_floral_motif/brown.png);
+                p {
+                  margin:0;
+                }
+              }
+            }
           }
           .product-description {
             padding:0;
