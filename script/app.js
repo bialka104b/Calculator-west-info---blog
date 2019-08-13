@@ -1,102 +1,69 @@
 //import styles from "../css.westcss";
-const img = [
-  "image/craft/Pureepomidorowe.png", "image/craft/SosPomidorowy.png",
-  "image/craft/ZapieczoneFasolki.png", "image/craft/WegielDrzewny.png",
-  "image/craft/MakaKukurydziana.png", "image/craft/DzbanWody.png",
-  "image/craft/KawalekTortu.png", "image/craft/FasolaZBekonem.png",
-  "image/craft/Dzem.png", "image/craft/NieoszlifowanyPiryt.png",
-  "image/craft/DyskZPirytu.png", "image/craft/Amulet.png",
-  "image/craft/Krzesiwo.png", "image/craft/Siarka.png",
-  "image/craft/Zywica.png", "image/craft/PapierosZFiltrem.png",
-  "image/craft/Wycior.png", "image/craft/LekNaZoladek.png",
-  "image/craft/WygarbowanaSkora.png", "image/craft/SkorzanaTorba.png",
-  "image/craft/TorbaZPasza.png", "image/craft/Manierka.png",
-  "image/craft/Rzemien.png", "image/craft/DeskaDoKrojenia.png",
-  "image/craft/TorbaPodrozna.png", "image/craft/PodkucieKopyt.png",
-  "image/craft/PaszaTresciwa.png", "image/craft/Grafit.png",
-  "image/craft/SproszkowanyGrafit.png", "image/craft/SmarGrafitowy.png",
-  "image/craft/Patelnia.png", "image/craft/StopioneZelazo.png",
-  "image/craft/Noz.png", "image/craft/ZaostrzanieBroni.png",
-  "image/craft/Bagnet.png", "image/craft/Odwaznik.png",
-  "image/craft/Zacier.png", "image/craft/Ciasto.png",
-  "image/craft/MarynowanyStek.png", "image/craft/Trunek.png",
-  "image/craft/Tort.png", "image/craft/Bulion.png",
-  "image/craft/KwasSiarkowy.png", "image/craft/Atrament.png",
-  "image/craft/Nafta.png", "image/craft/Bozek.png",
-  "image/craft/Destylat.png", "image/craft/Bimber.png",
-  "image/craft/ObdarteSiodlo.png", "image/craft/Wypelniacz.png",
-  "image/craft/SkorzanePokrycie.png", "image/craft/Znakownik.png",
-  "image/craft/NiewyregulowanyKompas.png", "image/craft/Strzemie.png",
-  "image/craft/Stal.png", "image/craft/StopionyOlow.png",
-  "image/craft/Kowadlo.png", "image/craft/OlowianaFigurka.png",
-  "image/craft/NiezastygnietaKulka.png", "image/craft/Nity.png",
-  "image/craft/PieczonyIndyk.png", "image/craft/ZupaRybna.png",
-  "image/craft/Pierog.png", "image/craft/SiekaneMieso.png",
-  "image/craft/Herbata.png", "image/craft/Prymka.png",
-  "image/craft/Nalewka.png", "image/craft/Bateria.png",
-  "image/craft/Ostrogi.png", "image/craft/Uzda.png",
-  "image/craft/Spiwor.png", "image/craft/Dera.png",
-  "image/craft/Kablak.png", "image/craft/ChustaDoChlodzenia.png",
-  "image/craft/LancuchDoBroni.png", "image/craft/Rekojesc.png",
-  "image/craft/Dorsz.png", "image/craft/Kadzidlo.png",
-  "image/craft/Sos.png", "image/craft/CiasteczkoKukurydziane.png",
-  "image/craft/RybaZawinietaWGazete.png", "image/craft/SokZKaktusa.png",
-  "image/craft/ObiadDzentelmena.png", "image/craft/Lug.png",
-  "image/craft/LikierZiolowy.png", "image/craft/Papier.png",
-  "image/craft/AtramentSympatyczny.png", "image/craft/Cyrkiel.png",
-  "image/craft/ProchStrzelniczy.png", "image/craft/WloknoLnu.png",
-  "image/craft/WodaRozana.png", "image/craft/Ozdoba.png",
-  "image/craft/CzescPowozu.png", "image/craft/KoloPowozu.png",
-  "image/craft/PowozWyscigowy.png", "image/craft/EliksirCelnosci.png",
-  "image/craft/NaprawioneSiodlo.png", "image/craft/Notatnik.png",
-  "image/craft/LekSiodla.png", "image/craft/Ksztaltownikrewolweru.png",
-  "image/craft/StaloweOstrze.png", "image/craft/Ozdoba.png",
-  "image/craft/Westerner.png", "image/craft/NierozlupanaGeoda.png",
-  "image/craft/SzwajcarskiScyzoryk.png", "image/craft/Szklo.png",
-  "image/craft/KamienPolerski.png", "image/craft/SuszoneMieso.png",
-  "image/craft/GumaDoZucia.png", "image/craft/Grog.png",
-  "image/craft/Gulasz.png", "image/craft/Zeberka.png",
-  "image/craft/Miod.png", "image/craft/Panaceum.png",
-  "image/craft/RemediumSily.png", "image/craft/OdzywkaDoWlosow.png",
-  "image/craft/ZnakomityTrunek.png", "image/craft/UzdrawiajacaMarionetka.png",
-  "image/craft/WykwintnyImpregnat.png", "image/craft/Arras.png",
-  "image/craft/WytrzymaleLejce.png", "image/craft/WytrzymalaKabura.png",
-  "image/craft/WedrownyPowoz.png", "image/craft/NierdzewneSruby.png",
-  "image/craft/SiodloWellsFargo.png", "image/craft/Piersiowka.png",
-  "image/craft/NowoczesnaZbroja.png", "image/craft/PrasaDoMiodu.png",
-  "image/craft/FasolaWPuszce.png", "image/craft/NajostrzejszeChili.png",
-  "image/craft/MiodPitny.png", "image/craft/BlyszczacaMikstura.png",
-  "image/craft/LegendarneAntidotum.png", "image/craft/DuchowaMuzyka.png",
-  "image/craft/LeciutkaSkora.png", "image/craft/SiodloPonyExpress.png",
-  "image/craft/SchowekNaAmunicje.png", "image/craft/NarzedziaZegarmistrzowskie.png",
-  "image/craft/ZlotaPozytywka.png", "image/craft/Latarnia.png"
+export const img = [
+  "image/craft/Pureepomidorowe.png", "image/craft/SosPomidorowy.png", "image/craft/ZapieczoneFasolki.png", "image/craft/WegielDrzewny.png",
+  "image/craft/MakaKukurydziana.png", "image/craft/DzbanWody.png", "image/craft/KawalekTortu.png", "image/craft/FasolaZBekonem.png",
+  "image/craft/Dzem.png", "image/craft/NieoszlifowanyPiryt.png", "image/craft/DyskZPirytu.png", "image/craft/Amulet.png",
+  "image/craft/Krzesiwo.png", "image/craft/Siarka.png", "image/craft/Zywica.png", "image/craft/PapierosZFiltrem.png",
+  "image/craft/Wycior.png", "image/craft/LekNaZoladek.png", "image/craft/WygarbowanaSkora.png", "image/craft/SkorzanaTorba.png",
+  "image/craft/TorbaZPasza.png", "image/craft/Manierka.png", "image/craft/Rzemien.png", "image/craft/DeskaDoKrojenia.png",
+  "image/craft/TorbaPodrozna.png", "image/craft/PodkucieKopyt.png", "image/craft/PaszaTresciwa.png", "image/craft/Grafit.png",
+  "image/craft/SproszkowanyGrafit.png", "image/craft/SmarGrafitowy.png", "image/craft/Patelnia.png", "image/craft/StopioneZelazo.png",
+  "image/craft/Noz.png", "image/craft/ZaostrzanieBroni.png", "image/craft/Bagnet.png", "image/craft/Odwaznik.png",
+  "image/craft/Zacier.png", "image/craft/Ciasto.png", "image/craft/MarynowanyStek.png", "image/craft/Trunek.png",
+  "image/craft/Tort.png", "image/craft/Bulion.png", "image/craft/KwasSiarkowy.png", "image/craft/Atrament.png",
+  "image/craft/Nafta.png", "image/craft/Bozek.png", "image/craft/Destylat.png", "image/craft/Bimber.png",
+  "image/craft/ObdarteSiodlo.png", "image/craft/Wypelniacz.png", "image/craft/SkorzanePokrycie.png", "image/craft/Znakownik.png",
+  "image/craft/NiewyregulowanyKompas.png", "image/craft/Strzemie.png", "image/craft/Stal.png", "image/craft/StopionyOlow.png",
+  "image/craft/Kowadlo.png", "image/craft/OlowianaFigurka.png", "image/craft/NiezastygnietaKulka.png", "image/craft/Nity.png",
+  "image/craft/PieczonyIndyk.png", "image/craft/ZupaRybna.png", "image/craft/Pierog.png", "image/craft/SiekaneMieso.png",
+  "image/craft/Herbata.png", "image/craft/Prymka.png", "image/craft/Nalewka.png", "image/craft/Bateria.png",
+  "image/craft/Ostrogi.png", "image/craft/Uzda.png", "image/craft/Spiwor.png", "image/craft/Dera.png",
+  "image/craft/Kablak.png", "image/craft/ChustaDoChlodzenia.png", "image/craft/LancuchDoBroni.png", "image/craft/Rekojesc.png",
+  "image/craft/Dorsz.png", "image/craft/Kadzidlo.png", "image/craft/Sos.png", "image/craft/CiasteczkoKukurydziane.png",
+  "image/craft/RybaZawinietaWGazete.png", "image/craft/SokZKaktusa.png", "image/craft/ObiadDzentelmena.png", "image/craft/Lug.png",
+  "image/craft/LikierZiolowy.png", "image/craft/Papier.png", "image/craft/AtramentSympatyczny.png", "image/craft/Cyrkiel.png",
+  "image/craft/ProchStrzelniczy.png", "image/craft/WloknoLnu.png", "image/craft/WodaRozana.png", "image/craft/Ozdoba.png",
+  "image/craft/CzescPowozu.png", "image/craft/KoloPowozu.png", "image/craft/PowozWyscigowy.png", "image/craft/EliksirCelnosci.png",
+  "image/craft/NaprawioneSiodlo.png", "image/craft/Notatnik.png", "image/craft/LekSiodla.png", "image/craft/Ksztaltownikrewolweru.png",
+  "image/craft/StaloweOstrze.png", "image/craft/Ozdoba.png", "image/craft/Westerner.png", "image/craft/NierozlupanaGeoda.png",
+  "image/craft/SzwajcarskiScyzoryk.png", "image/craft/Szklo.png", "image/craft/KamienPolerski.png", "image/craft/SuszoneMieso.png",
+  "image/craft/GumaDoZucia.png", "image/craft/Grog.png", "image/craft/Gulasz.png", "image/craft/Zeberka.png",
+  "image/craft/Miod.png", "image/craft/Panaceum.png", "image/craft/RemediumSily.png", "image/craft/OdzywkaDoWlosow.png",
+  "image/craft/ZnakomityTrunek.png", "image/craft/UzdrawiajacaMarionetka.png", "image/craft/WykwintnyImpregnat.png", "image/craft/Arras.png",
+  "image/craft/WytrzymaleLejce.png", "image/craft/WytrzymalaKabura.png", "image/craft/WedrownyPowoz.png", "image/craft/NierdzewneSruby.png",
+  "image/craft/SiodloWellsFargo.png", "image/craft/Piersiowka.png", "image/craft/NowoczesnaZbroja.png", "image/craft/PrasaDoMiodu.png",
+  "image/craft/FasolaWPuszce.png", "image/craft/NajostrzejszeChili.png", "image/craft/MiodPitny.png", "image/craft/BlyszczacaMikstura.png",
+  "image/craft/LegendarneAntidotum.png", "image/craft/DuchowaMuzyka.png", "image/craft/LeciutkaSkora.png", "image/craft/SiodloPonyExpress.png",
+  "image/craft/SchowekNaAmunicje.png", "image/craft/NarzedziaZegarmistrzowskie.png", "image/craft/ZlotaPozytywka.png", "image/craft/Latarnia.png",
+  "image/menuicons.png"
 ];
+
 const dollar = [ 
-  /*00*/    3,   6,   7,   8,   10,  11,  12,  14,  15,  16,
-  /*10*/    17,  20,  21,  22,  23,  24,  25,  26,  27,  28,
-  /*20*/    29,  30,  31,  32,  34,  36,  37,  39,  41,  42,
-  /*30*/    45,  46,  47,  48,  50,  52,  53,  54,  55,  56,
-  /*40*/    57,  60,  61,  62,  63,  64,  65,  66,  67,  68,
-  /*50*/    69,  71,  72,  74,  75,  77,  78,  79,  82,  83,
-  /*60*/    84,  85,  87,  89,  90,  91,  92,  94,  95,  97,
-  /*70*/    100, 103, 105, 107, 108, 109, 110, 112, 115, 117,
-  /*80*/    120, 122, 123, 124, 126, 128, 130, 131, 132, 133,
-  /*90*/    134, 135, 139, 140, 141, 142, 144, 150, 152, 153,
- /*100*/    154, 156, 164, 174, 179, 180, 185, 188, 190, 191,
- /*110*/    194, 200, 206, 207, 208, 210, 215, 218, 219, 220,
- /*120*/    234, 235, 240, 244, 246, 250, 252, 256, 260, 262,
-  /*30*/    263, 264, 265, 275, 278, 281, 282, 288, 295, 300,
-  /*40*/    304, 306, 309, 312, 315, 335, 360, 373, 400, 416,
-  /*50*/    436, 470, 500, 525, 527, 530, 551, 590, 600, 618,
-  /*60*/    630, 671, 800
-]
+      3,   6,   7,   8,   10,  11,  12,  14,  15,  16,
+      17,  20,  21,  22,  23,  24,  25,  26,  27,  28,
+      29,  30,  31,  32,  34,  36,  37,  39,  41,  42,
+      45,  46,  47,  48,  50,  52,  53,  54,  55,  56,
+      57,  60,  61,  62,  63,  64,  65,  66,  67,  68,
+      69,  71,  72,  74,  75,  77,  78,  79,  82,  83,
+      84,  85,  87,  89,  90,  91,  92,  94,  95,  97,
+      100, 103, 105, 107, 108, 109, 110, 112, 115, 117,
+      120, 122, 123, 124, 126, 128, 130, 131, 132, 133,
+      134, 135, 139, 140, 141, 142, 144, 150, 152, 153,
+      154, 156, 164, 174, 179, 180, 185, 188, 190, 191,
+      194, 200, 206, 207, 208, 210, 215, 218, 219, 220,
+      234, 235, 240, 244, 246, 250, 252, 256, 260, 262,
+      263, 264, 265, 275, 278, 281, 282, 288, 295, 300,
+      304, 306, 309, 312, 315, 335, 360, 373, 400, 416,
+      436, 470, 500, 525, 527, 530, 551, 590, 600, 618,
+      630, 671, 800
+];
+
 class App extends React.Component {
-  // state = {
+// state = {
   //   text: "Efekt: półprodukt"
   //   name: "nagłówek",
   //   number: 0
   //};ten sposób wygenerował by nam elementy po kliknięciu w button
-
   // handleClick = () => {
   //   const letter = "opis";
   //   this.setState({
@@ -134,51 +101,52 @@ class App extends React.Component {
     );
   }
 }
+
 const myPopup = document.querySelectorAll(".my-popup");
 
 ReactDOM.render(<App url={img[0]} buy={dollar[1]}  sell={dollar[0]}  text={"Efekt: półprodukt"} name={"Puree Pomidorowe"} />, myPopup[0]);
 ReactDOM.render(<App url={img[1]} buy={dollar[8]}  sell={dollar[2]}  text={"Efekt: półprodukt"} name={"Sos Pomidorowy"} />, myPopup[1]);
-ReactDOM.render(<App url={img[2]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: półprodukt"} name={"Zapieczone Fasolki"} />, myPopup[2]);
+ReactDOM.render(<App url={img[2]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: +10% energii"} name={"Zapieczone Fasolki"} />, myPopup[2]);
 ReactDOM.render(<App url={img[3]} buy={dollar[22]} sell={dollar[8]}  text={"Efekt: półprodukt"} name={"Węgiel Drzewny"} />, myPopup[3]);
 ReactDOM.render(<App url={img[4]} buy={dollar[11]} sell={dollar[4]}  text={"Efekt: półprodukt"} name={"Mąka Kukurydziana"} />, myPopup[4]);
 ReactDOM.render(<App url={img[5]} buy={dollar[21]} sell={dollar[8]}  text={"Efekt: półprodukt"} name={"Dzban Wody"} />, myPopup[5]);
-ReactDOM.render(<App url={img[6]} buy={dollar[10]} sell={dollar[3]}  text={"Efekt: półprodukt"} name={"Kawałek Tortu"} />, myPopup[6]);
-ReactDOM.render(<App url={img[7]} buy={dollar[89]} sell={dollar[47]} text={"Efekt: półprodukt"} name={"Fasola Z Bekonem"} />, myPopup[7]);
-ReactDOM.render(<App url={img[8]} buy={dollar[86]} sell={dollar[46]} text={"Efekt: półprodukt"} name={"Dżem"} />, myPopup[8]);
+ReactDOM.render(<App url={img[6]} buy={dollar[10]} sell={dollar[3]}  text={"Efekt: +15 pkt pracy"} name={"Kawałek Tortu"} />, myPopup[6]);
+ReactDOM.render(<App url={img[7]} buy={dollar[89]} sell={dollar[47]} text={"Efekt: +15 siła uderzenia, +15 unik"} name={"Fasola Z Bekonem"} />, myPopup[7]);
+ReactDOM.render(<App url={img[8]} buy={dollar[86]} sell={dollar[46]} text={"Efekt: +15 strzelanie, +15 celowanie"} name={"Dżem"} />, myPopup[8]);
 ReactDOM.render(<App url={img[9]} buy={dollar[9]}  sell={dollar[3]}  text={"Efekt: półprodukt"} name={"Nieoszlifowany Piryt"} />, myPopup[9]);
 
 ReactDOM.render(<App url={img[10]} buy={dollar[11]}  sell={dollar[4]}  text={"Efekt: półprodukt"} name={"Dysk Z Pirytu"} />, myPopup[10]);
-ReactDOM.render(<App url={img[11]} buy={dollar[34]}  sell={dollar[16]} text={"Efekt: półprodukt"} name={"Amulet"} />, myPopup[11]);
+ReactDOM.render(<App url={img[11]} buy={dollar[34]}  sell={dollar[16]} text={"Efekt: +10 Punkty życia,+10 Unik"} name={"Amulet"} />, myPopup[11]);
 ReactDOM.render(<App url={img[12]} buy={dollar[23]}  sell={dollar[9]}  text={"Efekt: półprodukt"} name={"Krzesiwo"} />, myPopup[12]);
 ReactDOM.render(<App url={img[13]} buy={dollar[32]}  sell={dollar[14]} text={"Efekt: półprodukt"} name={"Siarka"} />, myPopup[13]);
 ReactDOM.render(<App url={img[14]} buy={dollar[45]}  sell={dollar[23]} text={"Efekt: półprodukt"} name={"Żywica"} />, myPopup[14]);
-ReactDOM.render(<App url={img[15]} buy={dollar[20]}  sell={dollar[7]}  text={"Efekt: półprodukt"} name={"Papieros Z Filtrem"} />, myPopup[15]);
-ReactDOM.render(<App url={img[16]} buy={dollar[108]} sell={dollar[68]} text={"Efekt: półprodukt"} name={"Wycior"} />, myPopup[16]);
-ReactDOM.render(<App url={img[17]} buy={dollar[33]}  sell={dollar[15]} text={"Efekt: półprodukt"} name={"Lek Na Żołądek"} />, myPopup[17]);
+ReactDOM.render(<App url={img[15]} buy={dollar[20]}  sell={dollar[7]}  text={"Efekt: Motywacja do pracy i pojedynków +7%"} name={"Papieros Z Filtrem"} />, myPopup[15]);
+ReactDOM.render(<App url={img[16]} buy={dollar[108]} sell={dollar[68]} text={"Efekt: Motywacja do pojedynków +10%"} name={"Wycior"} />, myPopup[16]);
+ReactDOM.render(<App url={img[17]} buy={dollar[33]}  sell={dollar[15]} text={"Efekt: +10% Punktów życia"} name={"Lek Na Żołądek"} />, myPopup[17]);
 ReactDOM.render(<App url={img[18]} buy={dollar[9]}   sell={dollar[3]}  text={"Efekt: półprodukt"} name={"Wygarbowana Skóra"} />, myPopup[18]);
 ReactDOM.render(<App url={img[19]} buy={dollar[16]}  sell={dollar[6]}  text={"Efekt: półprodukt"} name={"Skórzana Torba"} />, myPopup[19]);
 
-ReactDOM.render(<App url={img[20]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: półprodukt"} name={"Torba Z Paszą"} />, myPopup[20]);
+ReactDOM.render(<App url={img[20]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: Prędkość +15%, Motywacja do pojedynków +10%"} name={"Torba Z Paszą"} />, myPopup[20]);
 ReactDOM.render(<App url={img[21]} buy={dollar[86]} sell={dollar[46]} text={"Efekt: półprodukt"} name={"Manierka"} />, myPopup[21]);
 ReactDOM.render(<App url={img[22]} buy={dollar[41]} sell={dollar[21]} text={"Efekt: półprodukt"} name={"Rzemień"} />, myPopup[22]);
 ReactDOM.render(<App url={img[23]} buy={dollar[39]} sell={dollar[19]} text={"Efekt: półprodukt"} name={"Deska Do Krojenia"} />, myPopup[23]);
-ReactDOM.render(<App url={img[24]} buy={dollar[13]} sell={dollar[5]}  text={"Efekt: półprodukt"} name={"Torba Podróżna"} />, myPopup[24]);
-ReactDOM.render(<App url={img[25]} buy={dollar[49]} sell={dollar[24]} text={"Efekt: półprodukt"} name={"Podkucie Kopyt"} />, myPopup[25]);
-ReactDOM.render(<App url={img[26]} buy={dollar[23]} sell={dollar[9]}  text={"Efekt: półprodukt"} name={"Pasza Treściwa"} />, myPopup[26]);
+ReactDOM.render(<App url={img[24]} buy={dollar[13]} sell={dollar[5]}  text={"Efekt: Skraca czas aktualnej podróży o 10%, Bonus energii 5%"} name={"Torba Podróżna"} />, myPopup[24]);
+ReactDOM.render(<App url={img[25]} buy={dollar[49]} sell={dollar[24]} text={"Efekt: Skrócenie czasu podróży o 15%"} name={"Podkucie Kopyt"} />, myPopup[25]);
+ReactDOM.render(<App url={img[26]} buy={dollar[23]} sell={dollar[9]}  text={"Efekt: Prędkość +25%"} name={"Pasza Treściwa"} />, myPopup[26]);
 ReactDOM.render(<App url={img[27]} buy={dollar[11]} sell={dollar[4]}  text={"Efekt: półprodukt"} name={"Grafit"} />, myPopup[27]);
 ReactDOM.render(<App url={img[28]} buy={dollar[16]} sell={dollar[6]}  text={"Efekt: półprodukt"} name={"Sproszkowany Grafit"} />, myPopup[28]);
-ReactDOM.render(<App url={img[29]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: półprodukt"} name={"Smar Grafitowy"} />, myPopup[29]);
+ReactDOM.render(<App url={img[29]} buy={dollar[34]} sell={dollar[16]} text={"Efekt: +20-40 Obrażenia w bitwach o fort"} name={"Smar Grafitowy"} />, myPopup[29]);
 
 ReactDOM.render(<App url={img[30]} buy={dollar[53]}  sell={dollar[26]} text={"Efekt: półprodukt"} name={"Patelnia"} />, myPopup[30]);
 ReactDOM.render(<App url={img[31]} buy={dollar[52]}  sell={dollar[25]} text={"Efekt: półprodukt"} name={"Stopione Żelazo"} />, myPopup[31]);
 ReactDOM.render(<App url={img[32]} buy={dollar[80]}  sell={dollar[41]} text={"Efekt: półprodukt"} name={"Nóż"} />, myPopup[32]);
-ReactDOM.render(<App url={img[33]} buy={dollar[9]}   sell={dollar[3]}  text={"Efekt: półprodukt"} name={"Zaostrzenie Broni"} />, myPopup[33]);
-ReactDOM.render(<App url={img[34]} buy={dollar[100]} sell={dollar[55]} text={"Efekt: półprodukt"} name={"Bagnet"} />, myPopup[34]);
-ReactDOM.render(<App url={img[35]} buy={dollar[74]}  sell={dollar[37]} text={"Efekt: półprodukt"} name={"Odważnik"} />, myPopup[35]);
+ReactDOM.render(<App url={img[33]} buy={dollar[9]}   sell={dollar[3]}  text={"Efekt: +10-20 Obrażenia w pojedynkach"} name={"Zaostrzenie Broni"} />, myPopup[33]);
+ReactDOM.render(<App url={img[34]} buy={dollar[100]} sell={dollar[55]} text={"Efekt: +25-75 Obrażenia w bitwach o fort"} name={"Bagnet"} />, myPopup[34]);
+ReactDOM.render(<App url={img[35]} buy={dollar[74]}  sell={dollar[37]} text={"Efekt: +15-25 Obrażenia w pojedynkach"} name={"Odważnik"} />, myPopup[35]);
 ReactDOM.render(<App url={img[36]} buy={dollar[64]}  sell={dollar[30]} text={"Efekt: półprodukt"} name={"Zacier"} />, myPopup[36]);
 ReactDOM.render(<App url={img[37]} buy={dollar[28]}  sell={dollar[11]} text={"Efekt: półprodukt"} name={"Ciasto"} />, myPopup[37]);
 ReactDOM.render(<App url={img[38]} buy={dollar[78]}  sell={dollar[40]} text={"Efekt: półprodukt"} name={"Marynowany Stek"} />, myPopup[38]);
-ReactDOM.render(<App url={img[39]} buy={dollar[131]} sell={dollar[88]} text={"Efekt: półprodukt"} name={"Trunek"} />, myPopup[39]);
+// ReactDOM.render(<AppAchivement url={img[39]} buy={dollar[131]} sell={dollar[88]} text={"Efekt: karta kolekcjonera"} achivement={string[0]} name={"Trunek"} />, myPopup[39]);
 
 ReactDOM.render(<App url={img[40]} buy={dollar[59]}  sell={dollar[28]}  text={"Efekt: półprodukt"} name={"Tort"} />, myPopup[40]);
 ReactDOM.render(<App url={img[41]} buy={dollar[29]}  sell={dollar[12]}  text={"Efekt: półprodukt"} name={"Bulion Rybny"} />, myPopup[41]);
