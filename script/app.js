@@ -1,6 +1,6 @@
 //import styles from "../css.westcss";
-export const img = [
-  "image/craft/Pureepomidorowe.png", "image/craft/SosPomidorowy.png", "image/craft/ZapieczoneFasolki.png", "image/craft/WegielDrzewny.png",
+const img = [
+  "image/craft/PureePomidorowe.png", "image/craft/SosPomidorowy.png", "image/craft/ZapieczoneFasolki.png", "image/craft/WegielDrzewny.png",
   "image/craft/MakaKukurydziana.png", "image/craft/DzbanWody.png", "image/craft/KawalekTortu.png", "image/craft/FasolaZBekonem.png",
   "image/craft/Dzem.png", "image/craft/NieoszlifowanyPiryt.png", "image/craft/DyskZPirytu.png", "image/craft/Amulet.png",
   "image/craft/Krzesiwo.png", "image/craft/Siarka.png", "image/craft/Zywica.png", "image/craft/PapierosZFiltrem.png",
@@ -37,7 +37,6 @@ export const img = [
   "image/craft/SchowekNaAmunicje.png", "image/craft/NarzedziaZegarmistrzowskie.png", "image/craft/ZlotaPozytywka.png", "image/craft/Latarnia.png",
   "image/menuicons.png"
 ];
-
 const dollar = [ 
       3,   6,   7,   8,   10,  11,  12,  14,  15,  16,
       17,  20,  21,  22,  23,  24,  25,  26,  27,  28,
@@ -57,7 +56,6 @@ const dollar = [
       436, 470, 500, 525, 527, 530, 551, 590, 600, 618,
       630, 671, 800
 ];
-
 class App extends React.Component {
 // state = {
   //   text: "Efekt: półprodukt"
@@ -148,62 +146,62 @@ ReactDOM.render(<App url={img[37]} buy={dollar[28]}  sell={dollar[11]} text={"Ef
 ReactDOM.render(<App url={img[38]} buy={dollar[78]}  sell={dollar[40]} text={"Efekt: półprodukt"} name={"Marynowany Stek"} />, myPopup[38]);
 // ReactDOM.render(<AppAchivement url={img[39]} buy={dollar[131]} sell={dollar[88]} text={"Efekt: karta kolekcjonera"} achivement={string[0]} name={"Trunek"} />, myPopup[39]);
 
-ReactDOM.render(<App url={img[40]} buy={dollar[59]}  sell={dollar[28]}  text={"Efekt: półprodukt"} name={"Tort"} />, myPopup[40]);
+// ReactDOM.render(<App url={img[40]} buy={dollar[59]}  sell={dollar[28]}  text={"Efekt: półprodukt"} name={"Tort"} />, myPopup[40]);
 ReactDOM.render(<App url={img[41]} buy={dollar[29]}  sell={dollar[12]}  text={"Efekt: półprodukt"} name={"Bulion Rybny"} />, myPopup[41]);
 ReactDOM.render(<App url={img[42]} buy={dollar[57]}  sell={dollar[27]}  text={"Efekt: półprodukt"} name={"Kwas Siarkowy"} />, myPopup[42]);
 ReactDOM.render(<App url={img[43]} buy={dollar[102]} sell={dollar[58]}  text={"Efekt: półprodukt"} name={"Atrament"} />, myPopup[43]);
 ReactDOM.render(<App url={img[44]} buy={dollar[116]} sell={dollar[73]}  text={"Efekt: półprodukt"} name={"Nafta"} />, myPopup[44]);
-ReactDOM.render(<App url={img[45]} buy={dollar[137]} sell={dollar[96]}  text={"Efekt: półprodukt"} name={"Bożek"} />, myPopup[45]);
-ReactDOM.render(<App url={img[46]} buy={dollar[151]} sell={dollar[121]} text={"Efekt: półprodukt"} name={"Destylat"} />, myPopup[46]);
+// ReactDOM.render(<App url={img[45]} buy={dollar[137]} sell={dollar[96]}  text={"Efekt: półprodukt"} name={"Bożek"} />, myPopup[45]);
+// ReactDOM.render(<App url={img[46]} buy={dollar[151]} sell={dollar[121]} text={"Efekt: półprodukt"} name={"Destylat"} />, myPopup[46]);
 ReactDOM.render(<App url={img[47]} buy={dollar[91]}  sell={dollar[48]}  text={"Efekt: półprodukt"} name={"Bimber"} />, myPopup[47]);
 ReactDOM.render(<App url={img[48]} buy={dollar[127]} sell={dollar[85]}  text={"Efekt: półprodukt"} name={"Obdarte Siodło"} />, myPopup[48]);
 ReactDOM.render(<App url={img[49]} buy={dollar[35]}  sell={dollar[17]}  text={"Efekt: półprodukt"} name={"Wypełniacz"} />, myPopup[49]);
 
 ReactDOM.render(<App url={img[50]} buy={dollar[73]}  sell={dollar[36]} text={"Efekt: półprodukt"} name={"Skórzane Pokrycie"} />, myPopup[50]);
-ReactDOM.render(<App url={img[51]} buy={dollar[119]} sell={dollar[76]} text={"Efekt: półprodukt"} name={"Znakownik"} />, myPopup[51]);
-ReactDOM.render(<App url={img[52]} buy={dollar[140]} sell={dollar[98]} text={"Efekt: półprodukt"} name={"Niewyregulowany Kompas"} />, myPopup[52]);
+// ReactDOM.render(<App url={img[51]} buy={dollar[119]} sell={dollar[76]} text={"Efekt: półprodukt"} name={"Znakownik"} />, myPopup[51]);
+// ReactDOM.render(<App url={img[52]} buy={dollar[140]} sell={dollar[98]} text={"Efekt: półprodukt"} name={"Niewyregulowany Kompas"} />, myPopup[52]);
 ReactDOM.render(<App url={img[53]} buy={dollar[119]} sell={dollar[76]} text={"Efekt: półprodukt"} name={"Strzemię"} />, myPopup[53]);
 ReactDOM.render(<App url={img[54]} buy={dollar[95]}  sell={dollar[51]} text={"Efekt: półprodukt"} name={"Stal"} />, myPopup[54]);
 ReactDOM.render(<App url={img[55]} buy={dollar[90]}  sell={dollar[48]} text={"Efekt: półprodukt"} name={"Stopiony Ołów"} />, myPopup[55]);
 ReactDOM.render(<App url={img[56]} buy={dollar[124]} sell={dollar[82]} text={"Efekt: półprodukt"} name={"Kowadło"} />, myPopup[56]);
-ReactDOM.render(<App url={img[57]} buy={dollar[118]} sell={dollar[75]} text={"Efekt: półprodukt"} name={"Ołowiana Figurka"} />, myPopup[57]);
-ReactDOM.render(<App url={img[58]} buy={dollar[102]} sell={dollar[58]} text={"Efekt: półprodukt"} name={"Niezastygnieta Kulka"} />, myPopup[58]);
+// ReactDOM.render(<App url={img[57]} buy={dollar[118]} sell={dollar[75]} text={"Efekt: półprodukt"} name={"Ołowiana Figurka"} />, myPopup[57]);
+// ReactDOM.render(<App url={img[58]} buy={dollar[102]} sell={dollar[58]} text={"Efekt: półprodukt"} name={"Niezastygnieta Kulka"} />, myPopup[58]);
 ReactDOM.render(<App url={img[59]} buy={dollar[31]}  sell={dollar[14]} text={"Efekt: półprodukt"} name={"Nity"} />, myPopup[59]);
 
-ReactDOM.render(<App url={img[60]} buy={dollar[65]}  sell={dollar[30]} text={"Efekt: półprodukt"} name={"Pieczony Indyk"} />, myPopup[60]);
-ReactDOM.render(<App url={img[61]} buy={dollar[86]}  sell={dollar[46]} text={"Efekt: półprodukt"} name={"Zupa Rybna"} />, myPopup[61]);
-ReactDOM.render(<App url={img[62]} buy={dollar[127]} sell={dollar[85]} text={"Efekt: półprodukt"} name={"Pieróg Z Warzywami"} />, myPopup[62]);
+ReactDOM.render(<App url={img[60]} buy={dollar[65]}  sell={dollar[30]} text={"Efekt: +2 Siła, +15 Zaskoczenie"} name={"Pieczony Indyk"} />, myPopup[60]);
+ReactDOM.render(<App url={img[61]} buy={dollar[86]}  sell={dollar[46]} text={"Efekt: +2 Sprawność, +15 Taktyka"} name={"Zupa Rybna"} />, myPopup[61]);
+ReactDOM.render(<App url={img[62]} buy={dollar[127]} sell={dollar[85]} text={"Efekt: +2 Zręczność, +15 Dowodzenie"} name={"Pieróg Z Warzywami"} />, myPopup[62]);
 ReactDOM.render(<App url={img[63]} buy={dollar[123]} sell={dollar[81]} text={"Efekt: półprodukt"} name={"Siekane Mieso"} />, myPopup[63]);
-ReactDOM.render(<App url={img[64]} buy={dollar[52]}  sell={dollar[25]} text={"Efekt: półprodukt"} name={"Herbata"} />, myPopup[64]);
-ReactDOM.render(<App url={img[65]} buy={dollar[104]} sell={dollar[63]} text={"Efekt: półprodukt"} name={"Prymka"} />, myPopup[65]);
-ReactDOM.render(<App url={img[66]} buy={dollar[83]}  sell={dollar[43]} text={"Efekt: półprodukt"} name={"Naleweka"} />, myPopup[66]);
+ReactDOM.render(<App url={img[64]} buy={dollar[52]}  sell={dollar[25]} text={"Efekt: +20% energii"} name={"Herbata"} />, myPopup[64]);
+ReactDOM.render(<App url={img[65]} buy={dollar[104]} sell={dollar[63]} text={"Efekt: Motywacja do pracy +25%"} name={"Prymka"} />, myPopup[65]);
+ReactDOM.render(<App url={img[66]} buy={dollar[83]}  sell={dollar[43]} text={"Efekt: 15% Punktów życia, +10% energii"} name={"Naleweka"} />, myPopup[66]);
 ReactDOM.render(<App url={img[67]} buy={dollar[105]} sell={dollar[64]} text={"Efekt: półprodukt"} name={"Bateria"} />, myPopup[67]);
-ReactDOM.render(<App url={img[68]} buy={dollar[56]}  sell={dollar[27]} text={"Efekt: półprodukt"} name={"Ostrogi"} />, myPopup[68]);
-ReactDOM.render(<App url={img[69]} buy={dollar[100]} sell={dollar[55]} text={"Efekt: półprodukt"} name={"Uzda"} />, myPopup[69]);
+ReactDOM.render(<App url={img[68]} buy={dollar[56]}  sell={dollar[27]} text={"Efekt: Skrócenie czasu o podróży 20%"} name={"Ostrogi"} />, myPopup[68]);
+ReactDOM.render(<App url={img[69]} buy={dollar[100]} sell={dollar[55]} text={"Efekt: Prędkość +50%"} name={"Uzda"} />, myPopup[69]);
 
-ReactDOM.render(<App url={img[70]} buy={dollar[69]}  sell={dollar[33]} text={"Efekt: półprodukt"} name={"Śpiwór"} />, myPopup[70]);
+ReactDOM.render(<App url={img[70]} buy={dollar[69]}  sell={dollar[33]} text={"Efekt: Motywacja do pracy +15%, +15% energii"} name={"Śpiwór"} />, myPopup[70]);
 ReactDOM.render(<App url={img[71]} buy={dollar[141]} sell={dollar[99]} text={"Efekt: półprodukt"} name={"Dera"} />, myPopup[71]);
-ReactDOM.render(<App url={img[72]} buy={dollar[96]}  sell={dollar[52]} text={"Efekt: półprodukt"} name={"Kabłąk"} />, myPopup[72]);
-ReactDOM.render(<App url={img[73]} buy={dollar[43]}  sell={dollar[22]} text={"Efekt: półprodukt"} name={"Chusta Do Chłodzenia"} />, myPopup[73]);
-ReactDOM.render(<App url={img[74]} buy={dollar[56]}  sell={dollar[27]} text={"Efekt: półprodukt"} name={"Łańcuch Do Broni"} />, myPopup[74]);
+ReactDOM.render(<App url={img[72]} buy={dollar[96]}  sell={dollar[52]} text={"Efekt: +20-30 Obrażeń w pojedynku"} name={"Kabłąk"} />, myPopup[72]);
+ReactDOM.render(<App url={img[73]} buy={dollar[43]}  sell={dollar[22]} text={"Efekt: +3 Multiplayer atak"} name={"Chusta Do Chłodzenia"} />, myPopup[73]);
+ReactDOM.render(<App url={img[74]} buy={dollar[56]}  sell={dollar[27]} text={"Efekt: +3 do obrony Multiplayer"} name={"Łańcuch Do Broni"} />, myPopup[74]);
 ReactDOM.render(<App url={img[75]} buy={dollar[112]} sell={dollar[71]} text={"Efekt: półprodukt"} name={"Rękojeść"} />, myPopup[75]);
 ReactDOM.render(<App url={img[76]} buy={dollar[53]}  sell={dollar[26]} text={"Efekt: półprodukt"} name={"Dorsz"} />, myPopup[76]);
 ReactDOM.render(<App url={img[77]} buy={dollar[37]}  sell={dollar[18]} text={"Efekt: półprodukt"} name={"Kadzidło"} />, myPopup[77]);
 ReactDOM.render(<App url={img[78]} buy={dollar[87]}  sell={dollar[46]} text={"Efekt: półprodukt"} name={"Sos"} />, myPopup[78]);
-ReactDOM.render(<App url={img[79]} buy={dollar[76]}  sell={dollar[38]} text={"Efekt: półprodukt"} name={"Ciasteczka Kukurydziane"} />, myPopup[79]);
+ReactDOM.render(<App url={img[79]} buy={dollar[76]}  sell={dollar[38]} text={"Efekt: +2 Sprawność, +15 Wytrzymałość, +15 Dowodzenie, +25 Pkt-pracy,"} name={"Ciasteczka Kukurydziane"} />, myPopup[79]);
 
-ReactDOM.render(<App url={img[80]} buy={dollar[60]}  sell={dollar[29]} text={"Efekt: półprodukt"} name={"Ryba Zawinięta W Gazetę"} />, myPopup[80]);
+// ReactDOM.render(<App url={img[80]} buy={dollar[60]}  sell={dollar[29]} text={"Efekt: półprodukt"} name={"Ryba Zawinięta W Gazetę"} />, myPopup[80]);
 ReactDOM.render(<App url={img[81]} buy={dollar[61]}  sell={dollar[29]} text={"Efekt: półprodukt"} name={"Sok Z Kaktusa"} />, myPopup[81]);
-ReactDOM.render(<App url={img[82]} buy={dollar[107]} sell={dollar[67]} text={"Efekt: półprodukt"} name={"Obiad Dżentelmena"} />, myPopup[82]);
+ReactDOM.render(<App url={img[82]} buy={dollar[107]} sell={dollar[67]} text={"Efekt: +2 Siła, +2 Zręczność, +2 Sprawność, +2 Charyzma,"} name={"Obiad Dżentelmena"} />, myPopup[82]);
 ReactDOM.render(<App url={img[83]} buy={dollar[92]}  sell={dollar[50]} text={"Efekt: półprodukt"} name={"Ług"} />, myPopup[83]);
 ReactDOM.render(<App url={img[84]} buy={dollar[81]}  sell={dollar[42]} text={"Efekt: półprodukt"} name={"Likier Ziołowy"} />, myPopup[84]);
 ReactDOM.render(<App url={img[85]} buy={dollar[84]}  sell={dollar[44]} text={"Efekt: półprodukt"} name={"Papier"} />, myPopup[85]);
-ReactDOM.render(<App url={img[86]} buy={dollar[76]}  sell={dollar[38]} text={"Efekt: półprodukt"} name={"Atrament Sympatyczny"} />, myPopup[86]);
-ReactDOM.render(<App url={img[87]} buy={dollar[59]}  sell={dollar[28]} text={"Efekt: półprodukt"} name={"Cyrkiel"} />, myPopup[87]);
+ReactDOM.render(<App url={img[86]} buy={dollar[76]}  sell={dollar[38]} text={"Efekt: +2 Siła, +15 Zakładanie pułapek, +15 Chowanie się, +15% energii, +15% Punktów życia"} name={"Atrament Sympatyczny"} />, myPopup[86]);
+// ReactDOM.render(<App url={img[87]} buy={dollar[59]}  sell={dollar[28]} text={"Efekt: półprodukt"} name={"Cyrkiel"} />, myPopup[87]);
 ReactDOM.render(<App url={img[88]} buy={dollar[97]}  sell={dollar[54]} text={"Efekt: półprodukt"} name={"Proch Strzelniczy"} />, myPopup[88]);
 ReactDOM.render(<App url={img[89]} buy={dollar[128]} sell={dollar[86]} text={"Efekt: półprodukt"} name={"Włókno Lnu"} />, myPopup[89]);
 
-ReactDOM.render(<App url={img[90]} buy={dollar[59]}  sell={dollar[28]}  text={"Efekt: półprodukt"} name={"Woda Różana"} />, myPopup[90]);
+ReactDOM.render(<App url={img[90]} buy={dollar[59]}  sell={dollar[28]}  text={"Efekt: +15% energii +25% Punktów życia"} name={"Woda Różana"} />, myPopup[90]);
 ReactDOM.render(<App url={img[91]} buy={dollar[156]} sell={dollar[133]} text={"Efekt: półprodukt"} name={"Ozdoba"} />, myPopup[91]);
 ReactDOM.render(<App url={img[92]} buy={dollar[90]}  sell={dollar[48]}  text={"Efekt: półprodukt"} name={"Część Powozu"} />, myPopup[92]);
 ReactDOM.render(<App url={img[93]} buy={dollar[119]} sell={dollar[76]}  text={"Efekt: półprodukt"} name={"Koło Powozu"} />, myPopup[93]);
