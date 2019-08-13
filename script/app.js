@@ -1,5 +1,7 @@
 //import styles from "../css.westcss";
-const img = [
+import React from 'react';
+
+img = [
   "image/craft/PureePomidorowe.png", "image/craft/SosPomidorowy.png", "image/craft/ZapieczoneFasolki.png", "image/craft/WegielDrzewny.png",
   "image/craft/MakaKukurydziana.png", "image/craft/DzbanWody.png", "image/craft/KawalekTortu.png", "image/craft/FasolaZBekonem.png",
   "image/craft/Dzem.png", "image/craft/NieoszlifowanyPiryt.png", "image/craft/DyskZPirytu.png", "image/craft/Amulet.png",
@@ -37,6 +39,7 @@ const img = [
   "image/craft/SchowekNaAmunicje.png", "image/craft/NarzedziaZegarmistrzowskie.png", "image/craft/ZlotaPozytywka.png", "image/craft/Latarnia.png",
   "image/menuicons.png"
 ];
+export default img;
 const dollar = [ 
       3,   6,   7,   8,   10,  11,  12,  14,  15,  16,
       17,  20,  21,  22,  23,  24,  25,  26,  27,  28,
