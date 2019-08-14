@@ -24,7 +24,7 @@ const img = [
   "image/craft/LikierZiolowy.png", "image/craft/Papier.png", "image/craft/AtramentSympatyczny.png", "image/craft/Cyrkiel.png",
   "image/craft/ProchStrzelniczy.png", "image/craft/WloknoLnu.png", "image/craft/WodaRozana.png", "image/craft/Ozdoba.png",
   "image/craft/CzescPowozu.png", "image/craft/KoloPowozu.png", "image/craft/PowozWyscigowy.png", "image/craft/EliksirCelnosci.png",
-  "image/craft/NaprawioneSiodlo.png", "image/craft/Notatnik.png", "image/craft/LekSiodla.png", "image/craft/Ksztaltownikrewolweru.png",
+  "image/craft/NaprawioneSiodlo.png", "image/craft/Notatnik.png", "image/craft/LekSiodla.png", "image/craft/KsztaltownikRewolweru.png",
   "image/craft/StaloweOstrze.png", "image/craft/Ozdoba.png", "image/craft/Westerner.png", "image/craft/NierozlupanaGeoda.png",
   "image/craft/SzwajcarskiScyzoryk.png", "image/craft/Szklo.png", "image/craft/KamienPolerski.png", "image/craft/SuszoneMieso.png",
   "image/craft/GumaDoZucia.png", "image/craft/Grog.png", "image/craft/Gulasz.png", "image/craft/Zeberka.png",
