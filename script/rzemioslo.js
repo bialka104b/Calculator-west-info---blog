@@ -211,6 +211,57 @@ var addSum4Zeberka1 = document.getElementById("zeberka1_add-sum4");
 var addSum4Zeberka2 = document.getElementById("zeberka2_add-sum4");
 var addSum4Zeberka3 = document.getElementById("zeberka3_add-sum4");
 calcZeberka.addEventListener("input", add);
+/**SER CASTELLO*/
+var calcSerCastello = document.getElementById("calc-ser-castello");
+var addSum6SerCastello1 = document.getElementById("ser-castello1_add-sum6");
+var addSum6SerCastello2 = document.getElementById("ser-castello2_add-sum6");
+var addSum2SerCastello3 = document.getElementById("ser-castello3_add-sum2");
+var addSum1SerCastello4 = document.getElementById("ser-castello4_add-sum1");
+calcSerCastello.addEventListener("input", add);
+/**DRINK*/
+var calcDrink = document.getElementById("calc-drink");
+var addSum10Drink1 = document.getElementById("drink1_add-sum10");
+var addSum5Drink2 = document.getElementById("drink2_add-sum5");
+var addSum4Drink3 = document.getElementById("drink3_add-sum4");
+var addSum1Drink4 = document.getElementById("drink4_add-sum1");
+var addSum1Drink5 = document.getElementById("drink5_add-sum1");
+var addSum1Drink6 = document.getElementById("drink6_add-sum1");
+calcDrink.addEventListener("input", add);
+/**NAWÓZ*/
+var calcNawoz = document.getElementById("calc-nawoz");
+var addSum10Nawoz1 = document.getElementById("nawoz1_add-sum10");
+var addSum5Nawoz2 = document.getElementById("nawoz2_add-sum5");
+var addSum2Nawoz3 = document.getElementById("nawoz3_add-sum2");
+var addSum1Nawoz4 = document.getElementById("nawoz4_add-sum1");
+var addSum1Nawoz5 = document.getElementById("nawoz5_add-sum1");
+var addSum1Nawoz6 = document.getElementById("nawoz6_add-sum1");
+calcNawoz.addEventListener("input", add);
+/**OWOCOWY KOKTAIL*/
+var calcOwocowyKoktajl = document.getElementById("calc-owocowy-koktajl");
+var addSum10OwocowyKoktajl1 = document.getElementById("owocowy-koktajl1_add-sum10");
+var addSum4OwocowyKoktajl2 = document.getElementById("owocowy-koktajl2_add-sum4");
+var addSum2OwocowyKoktajl3 = document.getElementById("owocowy-koktajl3_add-sum2");
+var addSum2OwocowyKoktajl4 = document.getElementById("owocowy-koktajl4_add-sum2");
+var addSum1OwocowyKoktajl5 = document.getElementById("owocowy-koktajl5_add-sum1");
+calcOwocowyKoktajl.addEventListener("input", add);
+/**BURGER GÓRNIKA*/
+var calcBurgerGornika = document.getElementById("calc-burger-gornika");
+var addSum10BurgerGornika1 = document.getElementById("burger-gornika1_add-sum10");
+var addSum4BurgerGornika2 = document.getElementById("burger-gornika2_add-sum4");
+var addSum3BurgerGornika3 = document.getElementById("burger-gornika3_add-sum3");
+var addSum2BurgerGornika4 = document.getElementById("burger-gornika4_add-sum2");
+var addSum1BurgerGornika5 = document.getElementById("burger-gornika5_add-sum1");
+calcBurgerGornika.addEventListener("input", add);
+/**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+var calcPaczkaGum = document.getElementById("calc-paczka-gum");
+var addSum2PaczkaGum1 = document.getElementById("paczka-gum1_add-sum2");
+var addSum2PaczkaGum2 = document.getElementById("paczka-gum2_add-sum2");
+var addSum2PaczkaGum3 = document.getElementById("paczka-gum3_add-sum2");
+var addSum2PaczkaGum4 = document.getElementById("paczka-gum4_add-sum2");
+var addSum1PaczkaGum5 = document.getElementById("paczka-gum5_add-sum1");
+var addSum1PaczkaGum6 = document.getElementById("paczka-gum6_add-sum1");
+calcPaczkaGum.addEventListener("input", add);
+
 /**ZNACHOR polecenia ułozone są alfabetycznie---------------------------------*/
 /**AMULET*/
 var calcAmulet = document.getElementById("calc-amulet");
