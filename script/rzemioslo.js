@@ -211,6 +211,9 @@ var addSum4Zeberka1 = document.getElementById("zeberka1_add-sum4");
 var addSum4Zeberka2 = document.getElementById("zeberka2_add-sum4");
 var addSum4Zeberka3 = document.getElementById("zeberka3_add-sum4");
 calcZeberka.addEventListener("input", add);
+/**--------------------------------------------------------------- */
+/**--------------------------------------------------------------- */
+/**--------------------------------------------------------------- */
 /**SER CASTELLO*/
 var calcSerCastello = document.getElementById("calc-ser-castello");
 var addSum6SerCastello1 = document.getElementById("ser-castello1_add-sum6");
@@ -261,6 +264,9 @@ var addSum2PaczkaGum4 = document.getElementById("paczka-gum4_add-sum2");
 var addSum1PaczkaGum5 = document.getElementById("paczka-gum5_add-sum1");
 var addSum1PaczkaGum6 = document.getElementById("paczka-gum6_add-sum1");
 calcPaczkaGum.addEventListener("input", add);
+
+
+
 
 /**ZNACHOR polecenia ułozone są alfabetycznie---------------------------------*/
 /**AMULET*/
@@ -467,6 +473,59 @@ var addSum1Zywica1 = document.getElementById("zywica1_add-sum1");
 var addSum1Zywica2 = document.getElementById("zywica2_add-sum1");
 var addSum1Zywica3 = document.getElementById("zywica3_add-sum1");
 calcZywica.addEventListener("input", add);
+
+
+/**LAPACZ SNOW*/
+var calcLapaczSnow = document.getElementById("calc-lapacz-snow");
+var addSum10LapaczSnow1 = document.getElementById("lapacz-snow1_add-sum10");
+var addSum3LapaczSnow2 = document.getElementById("lapacz-snow2_add-sum3");
+var addSum1LapaczSnow3 = document.getElementById("lapacz-snow3_add-sum1");
+var addSum1LapaczSnow4 = document.getElementById("lapacz-snow4_add-sum1");
+var addSum1LapaczSnow5 = document.getElementById("lapacz-snow5_add-sum1");
+calcLapaczSnow.addEventListener("input", add);
+/**CERTYFIKAT PODATKU IMPORTOWEGO*/
+var calcCertyfikatPodatku = document.getElementById("calc-certyfikat-podatku");
+var addSum3CertyfikatPodatku1 = document.getElementById("certyfikat-podatku1_add-sum3");
+var addSum1CertyfikatPodatku2 = document.getElementById("certyfikat-podatku2_add-sum1");
+var addSum1CertyfikatPodatku3 = document.getElementById("certyfikat-podatku3_add-sum1");
+var addSum1CertyfikatPodatku4 = document.getElementById("certyfikat-podatku4_add-sum1");
+var addSum1CertyfikatPodatku5 = document.getElementById("certyfikat-podatku5_add-sum1");
+calcCertyfikatPodatku.addEventListener("input", add);
+/**CUDOTWORCZA NALEWKA*/
+var calcCudotworczaNalewka = document.getElementById("calc-cudotworcza-nalewka");
+var addSum10CudotworczaNalewka1 = document.getElementById("cudotworcza-nalewka1_add-sum10");
+var addSum2CudotworczaNalewka2 = document.getElementById("cudotworcza-nalewka2_add-sum2");
+var addSum2CudotworczaNalewka3 = document.getElementById("cudotworcza-nalewka3_add-sum2");
+var addSum1CudotworczaNalewka4 = document.getElementById("cudotworcza-nalewka4_add-sum1");
+var addSum1CudotworczaNalewka5 = document.getElementById("cudotworcza-nalewka5_add-sum1");
+var addSum1CudotworczaNalewka6 = document.getElementById("cudotworcza-nalewka6_add-sum1");
+calcCudotworczaNalewka.addEventListener("input", add);
+/**REMEDIUM PRZECIW CIERPIENIU*/
+var calcRemediumPrzeciwCierpieniu = document.getElementById("calc-remedium-przeciw");
+var addSum5RemediumPrzeciwCierpieniu1 = document.getElementById("remedium-przeciw1_add-sum5");
+var addSum2RemediumPrzeciwCierpieniu2 = document.getElementById("remedium-przeciw2_add-sum2");
+var addSum1RemediumPrzeciwCierpieniu3 = document.getElementById("remedium-przeciw3_add-sum1");
+var addSum1RemediumPrzeciwCierpieniu4 = document.getElementById("remedium-przeciw4_add-sum1");
+calcRemediumPrzeciwCierpieniu.addEventListener("input", add);
+/**SILNY KWAS SIARKOWY Z LUGIEM*/
+var calcSilnyKwas = document.getElementById("calc-silny-kwas");
+var addSum10SilnyKwas1 = document.getElementById("silny-kwas1_add-sum10");
+var addSum10SilnyKwas2 = document.getElementById("silny-kwas2_add-sum10");
+var addSum10SilnyKwas3 = document.getElementById("silny-kwas3_add-sum10");
+var addSum10SilnyKwas4 = document.getElementById("silny-kwas4_add-sum10");
+var addSum4SilnyKwas5 = document.getElementById("silny-kwas5_add-sum4");
+calcSilnyKwas.addEventListener("input", add);
+/**METALOWA CZASZKA*/
+var calcMetalowaCzaszka = document.getElementById("calc-metalowa-czaszka");
+var addSum5MetalowaCzaszka1 = document.getElementById("metalowa-czaszka1_add-sum5");
+var addSum5MetalowaCzaszka2 = document.getElementById("metalowa-czaszka2_add-sum5");
+var addSum4MetalowaCzaszka3 = document.getElementById("metalowa-czaszka3_add-sum4");
+var addSum3MetalowaCzaszka4 = document.getElementById("metalowa-czaszka4_add-sum3");
+var addSum3MetalowaCzaszka5 = document.getElementById("metalowa-czaszka5_add-sum3");
+calcMetalowaCzaszka.addEventListener("input", add);
+
+
+
 /**RYMARZ polecenia ułozone są alfabetycznie----------------------------------*/
 /**ARRAS*/
 var calcArras = document.getElementById("calc-arras");
@@ -1147,6 +1206,83 @@ function add(){
   addSum1Zupa1.innerHTML = sum1Zupa1+"x";
   var sum1Zupa2 = Number(zupa*1);
   addSum1Zupa2.innerHTML = sum1Zupa2+"x";
+  /**SER CASTELLO*/
+  var ser = Number(calcSerCastello.value) || 0;
+  var sum6Ser1 = Number(ser*6);
+  addSum6SerCastello1.innerHTML = sum6Ser1+"x";
+  var sum6Ser2 = Number(ser*6);
+  addSum6SerCastello2.innerHTML = sum6Ser2+"x";
+  var sum2Ser3 = Number(ser*2);
+  addSum2SerCastello3.innerHTML = sum2Ser3+"x";
+  var sum1Ser4 = Number(ser*1);
+  addSum1SerCastello4.innerHTML = sum1Ser4+"x";
+  /**DRINK*/
+  var drink = Number(calcDrink.value) || 0;
+  var sum10Drink1 = Number(drink*10);
+  addSum10Drink1.innerHTML = sum10Drink1+"x";
+  var sum5Drink2 = Number(drink*5);
+  addSum5Drink2.innerHTML = sum5Drink2+"x";
+  var sum4Drink3 = Number(drink*4);
+  addSum4Drink3.innerHTML = sum4Drink3+"x";
+  var sum1Drink4 = Number(drink*1);
+  addSum1Drink4.innerHTML = sum1Drink4+"x";
+  var sum1Drink5 = Number(drink*1);
+  addSum1Drink5.innerHTML = sum1Drink5+"x";
+  var sum1Drink6 = Number(drink*1);
+  addSum1Drink6.innerHTML = sum1Drink6+"x";
+  /**NAWOZ */
+  var nawoz = Number(calcNawoz.value) || 0;
+  var sum10Nawoz1 = Number(nawoz*10);
+  addSum10Nawoz1.innerHTML = sum10Nawoz1+"x";
+  var sum5Nawoz2 = Number(nawoz*5);
+  addSum5Nawoz2.innerHTML = sum5Nawoz2+"x";
+  var sum2Nawoz3 = Number(nawoz*2);
+  addSum2Nawoz3.innerHTML = sum2Nawoz3+"x";
+  var sum1Nawoz4 = Number(nawoz*1);
+  addSum1Nawoz4.innerHTML = sum1Nawoz4+"x";
+  var sum1Nawoz5 = Number(nawoz*1);
+  addSum1Nawoz5.innerHTML = sum1Nawoz5+"x";
+  var sum1Nawoz6 = Number(nawoz*1);
+  addSum1Nawoz6.innerHTML = sum1Nawoz6+"x";
+  /**OWOCOWY KOKTAIL*/
+  var owocowyKoktail = Number(calcOwocowyKoktajl.value) || 0;
+  var sum10OwocowyKoktajl1 = Number(owocowyKoktail*10);
+  addSum10OwocowyKoktajl1.innerHTML = sum10OwocowyKoktajl1+"x";
+  var sum4OwocowyKoktajl2 = Number(owocowyKoktail*4);
+  addSum4OwocowyKoktajl2.innerHTML = sum4OwocowyKoktajl2+"x";
+  var sum2OwocowyKoktajl3 = Number(owocowyKoktail*2);
+  addSum2OwocowyKoktajl3.innerHTML = sum2OwocowyKoktajl3+"x";
+  var sum2OwocowyKoktajl4 = Number(owocowyKoktail*2);
+  addSum2OwocowyKoktajl4.innerHTML = sum2OwocowyKoktajl4+"x";
+  var sum1OwocowyKoktajl5 = Number(owocowyKoktail*1);
+  addSum1OwocowyKoktajl5.innerHTML = sum1OwocowyKoktajl5+"x";
+  /**BURGER GÓRNIKA*/
+  var burgerGornika = Number(calcBurgerGornika.value) || 0;
+  var sum10BurgerGornika1 = Number(burgerGornika*10);
+  addSum10BurgerGornika1.innerHTML = sum10BurgerGornika1+"x";
+  var sum4BurgerGornika2 = Number(burgerGornika*4);
+  addSum4BurgerGornika2.innerHTML = sum4BurgerGornika2+"x";
+  var sum3BurgerGornika3 = Number(burgerGornika*3);
+  addSum3BurgerGornika3.innerHTML = sum3BurgerGornika3+"x";
+  var sum2BurgerGornika4 = Number(burgerGornika*2);
+  addSum2BurgerGornika4.innerHTML = sum2BurgerGornika4+"x";
+  var sum1BurgerGornika5 = Number(burgerGornika*1);
+  addSum1BurgerGornika5.innerHTML = sum1BurgerGornika5+"x";
+  /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+  var paczkaGum = Number(calcPaczkaGum.value) || 0;
+  var sum2PaczkaGum1 = Number(paczkaGum*2);
+  addSum2PaczkaGum1.innerHTML = sum2PaczkaGum1+"x";
+  var sum2PaczkaGum2 = Number(paczkaGum*2);
+  addSum2PaczkaGum2.innerHTML = sum2PaczkaGum2+"x";
+  var sum2PaczkaGum3 = Number(paczkaGum*2);
+  addSum2PaczkaGum3.innerHTML = sum2PaczkaGum3+"x";
+  var sum2PaczkaGum4 = Number(paczkaGum*2);
+  addSum2PaczkaGum4.innerHTML = sum2PaczkaGum4+"x";
+  var sum1PaczkaGum5 = Number(paczkaGum*1);
+  addSum1PaczkaGum5.innerHTML = sum1PaczkaGum5+"x";
+  var sum1PaczkaGum6 = Number(paczkaGum*1);
+  addSum1PaczkaGum6.innerHTML = sum1PaczkaGum6+"x";
+
   
   /**PUREE POMIDOROWE*/
   var dodajKamienie = document.createElement("table");
@@ -2435,7 +2571,81 @@ function add(){
   addSum1Zywica1.innerHTML = sum1Zywica1+"x";
   var sum1Zywica2 = Number(zywica*1);
   addSum1Zywica2.innerHTML = sum1Zywica2+"x";
-  
+
+  /**LAPACZ SNOW*/
+  var lapaczSnow = Number(calcLapaczSnow.value) || 0;
+  var sum10LapaczSnow1 = Number(lapaczSnow*10);
+  addSum10LapaczSnow1.innerHTML = sum10LapaczSnow1+"x";
+  var sum3LapaczSnow2 = Number(lapaczSnow*3);
+  addSum3LapaczSnow2.innerHTML = sum3LapaczSnow2+"x";
+  var sum1LapaczSnow3 = Number(lapaczSnow*1);
+  addSum1LapaczSnow3.innerHTML = sum1LapaczSnow3+"x";
+  var sum1LapaczSnow4 = Number(lapaczSnow*1);
+  addSum1LapaczSnow4.innerHTML = sum1LapaczSnow4+"x";
+  var sum1LapaczSnow5 = Number(lapaczSnow*1);
+  addSum1LapaczSnow5.innerHTML = sum1LapaczSnow5+"x";
+  /**CERTYFIKAT PODATKU IMPORTOWEGO*/
+  var certyfikatPodatku = Number(calcCertyfikatPodatku.value) || 0;
+  var sum3CertyfikatPodatku1 = Number(certyfikatPodatku*3);
+  addSum3CertyfikatPodatku1.innerHTML = sum3CertyfikatPodatku1+"x";
+  var sum1CertyfikatPodatku2 = Number(certyfikatPodatku*1);
+  addSum1CertyfikatPodatku2.innerHTML = sum1CertyfikatPodatku2+"x";
+  var sum1CertyfikatPodatku3 = Number(certyfikatPodatku*1);
+  addSum1CertyfikatPodatku3.innerHTML = sum1CertyfikatPodatku3+"x";
+  var sum1CertyfikatPodatku4 = Number(certyfikatPodatku*1);
+  addSum1CertyfikatPodatku4.innerHTML = sum1CertyfikatPodatku4+"x";
+  var sum1CertyfikatPodatku5 = Number(certyfikatPodatku*1);
+  addSum1CertyfikatPodatku5.innerHTML = sum1CertyfikatPodatku5+"x";
+  /**CUDOTWORCZA NALEWKA*/
+  var cudotworczaNalewka = Number(calcCudotworczaNalewka.value) || 0;
+  var sum10CudotworczaNalewka1 = Number(cudotworczaNalewka*10);
+  addSum10CudotworczaNalewka1.innerHTML = sum10CudotworczaNalewka1+"x";
+  var sum2CudotworczaNalewka2 = Number(cudotworczaNalewka*2);
+  addSum2CudotworczaNalewka2.innerHTML = sum2CudotworczaNalewka2+"x";
+  var sum2CudotworczaNalewka3 = Number(cudotworczaNalewka*2);
+  addSum2CudotworczaNalewka3.innerHTML = sum2CudotworczaNalewka3+"x";
+  var sum1CudotworczaNalewka4 = Number(cudotworczaNalewka*1);
+  addSum1CudotworczaNalewka4.innerHTML = sum1CudotworczaNalewka4+"x";
+  var sum1CudotworczaNalewka5 = Number(cudotworczaNalewka*1);
+  addSum1CudotworczaNalewka5.innerHTML = sum1CudotworczaNalewka5+"x";
+  var sum1CudotworczaNalewka6 = Number(cudotworczaNalewka*1);
+  addSum1CudotworczaNalewka6.innerHTML = sum1CudotworczaNalewka6+"x";
+  /**REMEDIUM PRZECIW CIERPIENIU*/
+  var remediumPrzeciw = Number(calcRemediumPrzeciwCierpieniu.value) || 0;
+  var sum5RemediumPrzeciwCierpieniu1 = Number(remediumPrzeciw*5);
+  addSum5RemediumPrzeciwCierpieniu1.innerHTML = sum5RemediumPrzeciwCierpieniu1+"x";
+  var sum2RemediumPrzeciwCierpieniu2 = Number(remediumPrzeciw*2);
+  addSum2RemediumPrzeciwCierpieniu2.innerHTML = sum2RemediumPrzeciwCierpieniu2+"x";
+  var sum1RemediumPrzeciwCierpieniu3 = Number(remediumPrzeciw*1);
+  addSum1RemediumPrzeciwCierpieniu3.innerHTML = sum1RemediumPrzeciwCierpieniu3+"x";
+  var sum1RemediumPrzeciwCierpieniu4 = Number(remediumPrzeciw*1);
+  addSum1RemediumPrzeciwCierpieniu4.innerHTML = sum1RemediumPrzeciwCierpieniu4+"x";
+  /**SILNY KWAS SIARKOWY Z LUGIEM*/
+  var silnyKwas = Number(calcSilnyKwas.value) || 0;
+  var sum10SilnyKwas1 = Number(silnyKwas*10);
+  addSum10SilnyKwas1.innerHTML = sum10SilnyKwas1+"x";
+  var sum10SilnyKwas2 = Number(silnyKwas*10);
+  addSum10SilnyKwas2.innerHTML = sum10SilnyKwas2+"x";
+  var sum10SilnyKwas3 = Number(silnyKwas*10);
+  addSum10SilnyKwas3.innerHTML = sum10SilnyKwas3+"x";
+  var sum10SilnyKwas4 = Number(silnyKwas*10);
+  addSum10SilnyKwas4.innerHTML = sum10SilnyKwas4+"x";
+  var sum4SilnyKwas5 = Number(silnyKwas*4);
+  addSum4SilnyKwas5.innerHTML = sum4SilnyKwas5+"x";
+  /***METALOWA CZASZKA*/
+  var metalowaCzaszka = Number(calcMetalowaCzaszka.value) || 0;
+  var sum5MetalowaCzaszka1 = Number(metalowaCzaszka*5);
+  addSum5MetalowaCzaszka1.innerHTML = sum5MetalowaCzaszka1+"x";
+  var sum5MetalowaCzaszka2 = Number(metalowaCzaszka*5);
+  addSum5MetalowaCzaszka2.innerHTML = sum5MetalowaCzaszka2+"x";
+  var sum4MetalowaCzaszka3 = Number(metalowaCzaszka*4);
+  addSum4MetalowaCzaszka3.innerHTML = sum4MetalowaCzaszka3+"x";
+  var sum3MetalowaCzaszka4 = Number(metalowaCzaszka*3);
+  addSum3MetalowaCzaszka4.innerHTML = sum3MetalowaCzaszka4+"x";
+  var sum3MetalowaCzaszka5 = Number(metalowaCzaszka*3);
+  addSum3MetalowaCzaszka5.innerHTML = sum3MetalowaCzaszka5+"x";
+
+
   /**NIEOSZLIFOWANY PIRYT*/
   var dodajPiryt = document.createElement("table");
   dodajPiryt.innerHTML = 
