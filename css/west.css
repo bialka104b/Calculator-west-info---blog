@@ -525,47 +525,6 @@ section {
   padding: 0;
 }
 
-#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-700 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table {
-  display: inline;
-}
-
-#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-700 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .ilosc {
-  border: 2px outset #380007;
-}
-
-#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-700 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img {
-  background: url(../purty_wood/purty_wood.png) no-repeat;
-  border: 2px outset #380007;
-}
-
-#sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-400 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-500 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-600 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img,
-#sekcja-rzemioslo #rzemioslo .rzemioslo-700 .col-rzemioslo .product .wytworzenie .wytworzenie-produkty table .td-img img {
-  width: 33px;
-}
-
 #sekcja-rzemioslo #rzemioslo .rzemioslo-100 .col-rzemioslo .product .wytworzenie .wytworzenie-przepis,
 #sekcja-rzemioslo #rzemioslo .rzemioslo-200 .col-rzemioslo .product .wytworzenie .wytworzenie-przepis,
 #sekcja-rzemioslo #rzemioslo .rzemioslo-300 .col-rzemioslo .product .wytworzenie .wytworzenie-przepis,
@@ -1480,6 +1439,10 @@ table .ilosc {
 table .td-img {
   background: url(../purty_wood/purty_wood.png) no-repeat;
   border: 2px outset #380007;
+}
+
+table .td-img img {
+  width: 33px;
 }
 
 #item {

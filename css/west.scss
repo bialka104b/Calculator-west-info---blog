@@ -276,19 +276,6 @@ section {
 
             .wytworzenie-produkty {
               padding: 0;
-              table {
-                display: inline;
-                .ilosc {
-                  border: 2px outset #380007;
-                }
-                .td-img {
-                  background: url(../purty_wood/purty_wood.png) no-repeat;
-                  border: 2px outset #380007;
-                  img {
-                    width: 33px;
-                  }
-                }
-              }
             }
             .wytworzenie-przepis {
               padding: 0;
@@ -554,6 +541,9 @@ table {
   .td-img {
     background: url(../purty_wood/purty_wood.png) no-repeat;
     border: 2px outset #380007;
+    img {
+      width: 33px;
+    }
   }
 }
 #item {

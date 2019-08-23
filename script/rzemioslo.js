@@ -730,6 +730,53 @@ var addSum1Znakownik3 = document.getElementById("znakownik3_add-sum1");
 var addSum1Znakownik4 = document.getElementById("znakownik4_add-sum1");
 calcZnakownik.addEventListener("input", add);
 
+/**SKORZANY PLASZCZ*/
+var calcSkorzanyPlaszcz = document.getElementById("calc-skorzany-plaszcz");
+var addSum4SkorzanyPlaszcz1 = document.getElementById("skorzany-plaszcz1_add-sum4");
+var addSum3SkorzanyPlaszcz2 = document.getElementById("skorzany-plaszcz2_add-sum3");
+var addSum2SkorzanyPlaszcz3 = document.getElementById("skorzany-plaszcz3_add-sum2");
+var addSum2SkorzanyPlaszcz4 = document.getElementById("skorzany-plaszcz4_add-sum2");
+calcSkorzanyPlaszcz.addEventListener("input", add);
+/**DYLIZANS MARII ROALSTAD*/
+var calcDylizans = document.getElementById("calc-dylizans");
+var addSum10Dylizans1 = document.getElementById("dylizans1_add-sum10");
+var addSum1Dylizans2 = document.getElementById("dylizans2_add-sum1");
+var addSum1Dylizans3 = document.getElementById("dylizans3_add-sum1");
+var addSum1Dylizans4 = document.getElementById("dylizans4_add-sum1");
+var addSum1Dylizans5 = document.getElementById("dylizans5_add-sum1");
+var addSum1Dylizans6 = document.getElementById("dylizans6_add-sum1");
+calcDylizans.addEventListener("input", add);
+/**ZBROJA DLA WIERZCHOWCA*/
+var calcZbrojaDlaWierzchowca = document.getElementById("calc-zbroja-dla-wierzchowca");
+var addSum3ZbrojaDlaWierzchowca1 = document.getElementById("zbroja-dla-wierzchowca1_add-sum3");
+var addSum1ZbrojaDlaWierzchowca2 = document.getElementById("zbroja-dla-wierzchowca2_add-sum1");
+calcZbrojaDlaWierzchowca.addEventListener("input", add);
+/**PAS Z RZEMIENI*/
+var calcPasZRzemieni = document.getElementById("calc-pas-z-rzemieni");
+var addSum3PasZRzemieni1 = document.getElementById("pas-z-rzemieni1_add-sum3");
+var addSum1PasZRzemieni2 = document.getElementById("pas-z-rzemieni2_add-sum1");
+var addSum1PasZRzemieni3 = document.getElementById("pas-z-rzemieni3_add-sum1");
+var addSum1PasZRzemieni4 = document.getElementById("pas-z-rzemieni4_add-sum1");
+calcPasZRzemieni.addEventListener("input", add);
+/**PLOCIENNA SKRZYNKA*/
+var calcPlociennaSkrzynka = document.getElementById("calc-plocienna-skrzynka");
+var addSum10PlociennaSkrzynka1 = document.getElementById("plocienna-skrzynka1_add-sum10");
+var addSum8PlociennaSkrzynka2 = document.getElementById("plocienna-skrzynka2_add-sum8");
+var addSum3PlociennaSkrzynka3 = document.getElementById("plocienna-skrzynka3_add-sum3");
+var addSum3PlociennaSkrzynka4 = document.getElementById("plocienna-skrzynka4_add-sum3");
+var addSum3PlociennaSkrzynka5 = document.getElementById("plocienna-skrzynka5_add-sum3");
+calcPlociennaSkrzynka.addEventListener("input", add);
+/**PIESN DZIKIEGO ZACHODU*/
+var calcPiesnTW = document.getElementById("calc-piesn-TW");
+var addSum5PiesnTW1 = document.getElementById("piesn-TW1_add-sum5");
+var addSum3PiesnTW2 = document.getElementById("piesn-TW2_add-sum3");
+var addSum3PiesnTW3 = document.getElementById("piesn-TW3_add-sum3");
+var addSum2PiesnTW4 = document.getElementById("piesn-TW4_add-sum2");
+calcPiesnTW.addEventListener("input", add);
+
+
+
+
 /**KOWAL polecenia ułozone są alfabetycznie-----------------------------------*/
 /**BAGNET*/
 var calcBagnet = document.getElementById("calc-bagnet");
@@ -929,6 +976,55 @@ var calcZaostrzenie = document.getElementById("calc-zaostrzenie");
 var addSum2Zaostrzenie1 = document.getElementById("zaostrzenie1_add-sum2");
 var addSum1Zaostrzenie2 = document.getElementById("zaostrzenie2_add-sum1");
 calcZaostrzenie.addEventListener("input", add);
+
+/**KAWALERYJSKA SZABLA*/
+var calcKawaleryjskaSzabla = document.getElementById("calc-kawaleryjska-szabla");
+var addSum4KawaleryjskaSzabla1 = document.getElementById("kawaleryjska-szabla1_add-sum4");
+var addSum2KawaleryjskaSzabla2 = document.getElementById("kawaleryjska-szabla2_add-sum2");
+var addSum1KawaleryjskaSzabla3 = document.getElementById("kawaleryjska-szabla3_add-sum1");
+calcKawaleryjskaSzabla.addEventListener("input", add);
+/**wIZJER*/
+var calcWizjer = document.getElementById("calc-wizjer");
+var addSum2Wizjer1 = document.getElementById("wizjer1_add-sum2");
+var addSum2Wizjer2 = document.getElementById("wizjer2_add-sum2");
+var addSum1Wizjer3 = document.getElementById("wizjer3_add-sum1");
+var addSum1Wizjer4 = document.getElementById("wizjer4_add-sum1");
+var addSum1Wizjer5 = document.getElementById("wizjer5_add-sum1");
+var addSum1Wizjer6 = document.getElementById("wizjer6_add-sum1");
+calcWizjer.addEventListener("input", add);
+/**BOMBA - PILAPKA*/
+var calcBombaPulapka = document.getElementById("calc-bomba-pulapka");
+var addSum10BombaPulapka1 = document.getElementById("bomba-pulapka1_add-sum10");
+var addSum5BombaPulapka2 = document.getElementById("bomba-pulapka2_add-sum5");
+var addSum5BombaPulapka3 = document.getElementById("bomba-pulapka3_add-sum5");
+var addSum2BombaPulapka4 = document.getElementById("bomba-pulapka4_add-sum2");
+var addSum1BombaPulapka5 = document.getElementById("bomba-pulapka5_add-sum1");
+var addSum1BombaPulapka6 = document.getElementById("bomba-pulapka6_add-sum1");
+calcBombaPulapka.addEventListener("input", add);
+/**HARTOWANA STAL*/
+var calcHartowanaStal = document.getElementById("calc-hartowana-stal");
+var addSum5HartowanaStal1 = document.getElementById("hartowana-stal1_add-sum5");
+var addSum4HartowanaStal2 = document.getElementById("hartowana-stal2_add-sum4");
+var addSum3HartowanaStal3 = document.getElementById("hartowana-stal3_add-sum3");
+var addSum2HartowanaStal4 = document.getElementById("hartowana-stal4_add-sum2");
+var addSum1HartowanaStal5 = document.getElementById("hartowana-stal5_add-sum1");
+calcHartowanaStal.addEventListener("input", add);
+/**ZAAWANSOWANA SKRZYNKA NA NARZEDZIA*/
+var calcZaawansowanaSkrzynka = document.getElementById("calc-zaawansowana-skrzynka");
+var addSum4ZaawansowanaSkrzynka1 = document.getElementById("zaawansowana-skrzynka1_add-sum4");
+var addSum3ZaawansowanaSkrzynka2 = document.getElementById("zaawansowana-skrzynka2_add-sum3");
+var addSum3ZaawansowanaSkrzynka3 = document.getElementById("zaawansowana-skrzynka3_add-sum3");
+var addSum3ZaawansowanaSkrzynka4 = document.getElementById("zaawansowana-skrzynka4_add-sum3");
+var addSum2ZaawansowanaSkrzynka5 = document.getElementById("zaawansowana-skrzynka5_add-sum2");
+calcZaawansowanaSkrzynka.addEventListener("input", add);
+/**MANEKIN KRAWIECKI*/
+var calcManekinKrawiecki = document.getElementById("calc-manekin-krawiecki");
+var addSum6ManekinKrawiecki1 = document.getElementById("manekin-krawiecki1_add-sum6");
+var addSum6ManekinKrawiecki2 = document.getElementById("manekin-krawiecki2_add-sum6");
+var addSum3ManekinKrawiecki3 = document.getElementById("manekin-krawiecki3_add-sum3");
+var addSum3ManekinKrawiecki4 = document.getElementById("manekin-krawiecki4_add-sum3");
+var addSum1ManekinKrawiecki5 = document.getElementById("manekin-krawiecki5_add-sum1");
+calcManekinKrawiecki.addEventListener("input", add);
 
 function add(){
   /**KUCHARZ polecenia ułozone są alfabetycznie--------------------*/
@@ -1208,14 +1304,14 @@ function add(){
   addSum1Zupa2.innerHTML = sum1Zupa2+"x";
   /**SER CASTELLO*/
   var ser = Number(calcSerCastello.value) || 0;
-  var sum6Ser1 = Number(ser*6);
-  addSum6SerCastello1.innerHTML = sum6Ser1+"x";
-  var sum6Ser2 = Number(ser*6);
-  addSum6SerCastello2.innerHTML = sum6Ser2+"x";
-  var sum2Ser3 = Number(ser*2);
-  addSum2SerCastello3.innerHTML = sum2Ser3+"x";
-  var sum1Ser4 = Number(ser*1);
-  addSum1SerCastello4.innerHTML = sum1Ser4+"x";
+  var sum6SerCastello1 = Number(ser*6);
+  addSum6SerCastello1.innerHTML = sum6SerCastello1+"x";
+  var sum6SerCastello2 = Number(ser*6);
+  addSum6SerCastello2.innerHTML = sum6SerCastello2+"x";
+  var sum2SerCastello3 = Number(ser*2);
+  addSum2SerCastello3.innerHTML = sum2SerCastello3+"x";
+  var sum1SerCastello4 = Number(ser*1);
+  addSum1SerCastello4.innerHTML = sum1SerCastello4+"x";
   /**DRINK*/
   var drink = Number(calcDrink.value) || 0;
   var sum10Drink1 = Number(drink*10);
@@ -1283,11 +1379,10 @@ function add(){
   var sum1PaczkaGum6 = Number(paczkaGum*1);
   addSum1PaczkaGum6.innerHTML = sum1PaczkaGum6+"x";
 
-  
   /**PUREE POMIDOROWE*/
   var dodajKamienie = document.createElement("table");
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="puree1_add-sum1">'+sum1Puree1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Puree1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1296,7 +1391,7 @@ function add(){
   }
   var dodajPomidor = document.createElement("table");
   dodajPomidor.innerHTML = 
-  '<table><tr><td class="ilosc" id="puree2_add-sum1">'+sum1Puree2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/aa/Pomidor.png/33px-Pomidor.png" title="Pomidor"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Puree2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomidor.png" alt="Pomidor" title="Pomidor"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomidor");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomidor);
@@ -1307,7 +1402,7 @@ function add(){
   /**SOS POMIDOROWY*/
   var dodajPureePomidorowe = document.createElement("table");
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="sos-pomidorowy1_add-sum1">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -1318,7 +1413,7 @@ function add(){
   /**ZAPIECZONE FASOLKI*/
   var dodajSosPomidorowy = document.createElement("table");
   dodajSosPomidorowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="zapieczone1_add-sum1">'+sum1Zapieczone1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/SosPomidorowy.png/33px-SosPomidorowy.png" title="Sos pomidorowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zapieczone1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SosPomidorowy.png" alt="Sos pomidorowy" title="Sos pomidorowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSosPomidorowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSosPomidorowy);
@@ -1327,7 +1422,7 @@ function add(){
   }
   var dodajFasola = document.createElement("table");
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="zapieczone2_add-sum1">'+sum1Zapieczone2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zapieczone2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
@@ -1339,7 +1434,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Wegiel1 = sum1Wegiel1 + sum1Puree1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="wegiel1_add-sum1">'+sum1Wegiel1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wegiel1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1348,7 +1443,7 @@ function add(){
   }
   var dodajDrewno = document.createElement("table");
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="wegiel2_add-sum1">'+sum1Wegiel2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wegiel2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -1360,7 +1455,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Maka1 = sum1Wegiel1 + sum1Maka1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="maka-kuk1_add-sum1">'+sum1Maka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Maka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1369,7 +1464,7 @@ function add(){
   }
   var dodajKukurydza = document.createElement("table");
   dodajKukurydza.innerHTML = 
-  '<table><tr><td class="ilosc" id="maka-kuk2_add-sum1">'+sum1Maka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0a/Kukurydza.png/33px-Kukurydza.png" title="Kukurydza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Maka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kukurydza.png" alt="Kukurydza" title="Kukurydza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKukurydza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKukurydza);
@@ -1380,7 +1475,7 @@ function add(){
   /**DZBAN WODY*/
   var dodajDzban = document.createElement("table");
   dodajDzban.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzban1_add-sum1">'+sum1Dzban1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzban1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dzban.png" alt="Dzban" title="Dzban"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzban");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzban);
@@ -1389,7 +1484,7 @@ function add(){
   }
   var dodajSzklankaWody = document.createElement("table");
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzban2_add-sum1">'+sum1Dzban2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzban2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -1400,7 +1495,7 @@ function add(){
   /**KAWALEK TORTU*/
   var dodajMaka = document.createElement("table");
   dodajMaka.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu1_add-sum1">'+sum1KawTortu1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/01/Maka.png/33px-Maka.png" title="Mąka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Maka.png" alt="Mąka" title="Mąka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMaka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMaka);
@@ -1409,7 +1504,7 @@ function add(){
   }
   var dodajCukier = document.createElement("table");
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu2_add-sum1">'+sum1KawTortu2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -1418,7 +1513,7 @@ function add(){
   }
   var dodajJagody = document.createElement("table");
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu3_add-sum1">'+sum1KawTortu3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -1429,7 +1524,7 @@ function add(){
   /**FASOLA Z BEKONEM*/
   var dodajWegielDrzewny = document.createElement("table");
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon1_add-sum1">'+sum1FasolaBekon1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -1438,7 +1533,7 @@ function add(){
   }
   var dodajPatelnia = document.createElement("table");
   dodajPatelnia.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon2_add-sum1">'+sum1FasolaBekon2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/PatelniaRzemioslo.png/33px-PatelniaRzemioslo.png" title="Patelnia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Patelnia.png" alt="Patelnia" title="Patelnia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPatelnia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPatelnia);
@@ -1447,7 +1542,7 @@ function add(){
   }
   var dodajSzynka = document.createElement("table");
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon3_add-sum1">'+sum1FasolaBekon3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -1457,7 +1552,7 @@ function add(){
   var dodajFasola = document.createElement("table");
   sum1FasolaBekon4 = sum1FasolaBekon4 + sum1Zapieczone2;
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon4_add-sum1">'+sum1FasolaBekon4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
@@ -1468,7 +1563,7 @@ function add(){
   /**DZEM*/
   var dodajBorowki = document.createElement("table");
   dodajBorowki.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem1_add-sum2">'+sum2Dzem1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/Borowki.png/33px-Borowki.png" title="Borówki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Dzem1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBorowki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBorowki);
@@ -1478,7 +1573,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum2Dzem2 = sum2Dzem2 + sum1KawTortu2;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem2_add-sum2">'+sum2Dzem2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Dzem2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -1488,7 +1583,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1Dzem3 = sum1Dzem3 + sum1FasolaBekon1;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem3_add-sum1">'+sum1Dzem3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzem3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -1499,7 +1594,7 @@ function add(){
   /**ZACIER*/
   var dodajZboze = document.createElement("table");
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier1_add-sum1">'+sum1Zacier1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -1508,7 +1603,7 @@ function add(){
   }
   var dodajDzbanWody = document.createElement("table");
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier2_add-sum1">'+sum1Zacier2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -1518,7 +1613,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum1Zacier3 = sum2Dzem2 + sum1Zacier3;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier3_add-sum1">'+sum1Zacier3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -1530,7 +1625,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1Ciasto1 = sum1Ciasto1 + sum1Zacier2;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasto1_add-sum1">'+sum1Ciasto1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ciasto1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -1540,7 +1635,7 @@ function add(){
   var dodajMaka = document.createElement("table");
   sum1Ciasto2 = sum1Ciasto2 + sum1KawTortu1;
   dodajMaka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasto2_add-sum1">'+sum1Ciasto2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/01/Maka.png/33px-Maka.png" title="Mąka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ciasto2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Maka.png" alt="Mąka" title="Mąka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMaka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMaka);
@@ -1550,7 +1645,7 @@ function add(){
   /**MARYNOWANY STEK*/
   var dodajRum = document.createElement("table");
   dodajRum.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek1_add-sum1">'+sum1MarStek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/61/Rum.png/33px-Rum.png" title="Rum" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rum.png" alt="Rum" title="Rum"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRum");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRum);
@@ -1559,7 +1654,7 @@ function add(){
   }
   var dodajSaletra = document.createElement("table");
   dodajSaletra.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek2_add-sum1">'+sum1MarStek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/24/Saletra.png/33px-Saletra.png" title="Saletra" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Saletra.png" alt="Saletra" title="Saletra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSaletra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSaletra);
@@ -1568,7 +1663,7 @@ function add(){
   }
   var dodajStek = document.createElement("table");
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek3_add-sum1">'+sum1MarStek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -1578,7 +1673,7 @@ function add(){
   /**TRUNEK*/
   var dodajTequila = document.createElement("table");
   dodajTequila.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek1_add-sum2">'+sum2Trunek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/Tequila.png/33px-Tequila.png" title="Tequila"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Trunek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Tequila.png" alt="Tequila" title="Tequila"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajTequila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajTequila);
@@ -1588,7 +1683,7 @@ function add(){
   var dodajBorowki = document.createElement("table");
   sum1Trunek2 = sum1Trunek2 + sum2Dzem1;
   dodajBorowki.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek2_add-sum1">'+sum1Trunek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/Borowki.png/33px-Borowki.png" title="Borówki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Trunek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBorowki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBorowki);
@@ -1597,7 +1692,7 @@ function add(){
   }
   var dodajManierka = document.createElement("table");
   dodajManierka.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek3_add-sum1">'+sum1Trunek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/69/ManierkaRzemioslo.png/33px-ManierkaRzemioslo.png" title="Manierka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Trunek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Manierka.png" alt="Manierka" title="Manierka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajManierka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajManierka);
@@ -1607,7 +1702,7 @@ function add(){
   /**TORT*/
   var dodajCiasto = document.createElement("table");
   dodajCiasto.innerHTML = 
-  '<table><tr><td class="ilosc" id="tort1_add-sum2">'+sum2Tort1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/db/CiastoRzemioslo.png/33px-CiastoRzemioslo.png" title="Ciasto"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Tort1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCiasto");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCiasto);
@@ -1617,7 +1712,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum1Tort2 = sum1Tort2 + sum1KawTortu3;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="tort2_add-sum1">'+sum1Tort2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Tort2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -1628,7 +1723,7 @@ function add(){
   /**BULION RYBNY*/
   var dodajPstrag = document.createElement("table");
   dodajPstrag.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion1_add-sum1">'+sum1Bulion1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fe/Pstrag.png/33px-Pstrag.png" title="Pstrąg"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pstrag.png" alt="Pstrąg" title="Pstrąg"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPstrag");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPstrag);
@@ -1637,7 +1732,7 @@ function add(){
   }
   var dodajLosos = document.createElement("table");
   dodajLosos.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion2_add-sum1">'+sum1Bulion2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/11/Losos.png/33px-Losos.png" title="Łosoś"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Losos.png" alt="Łosoś" title="Łosoś"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLosos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLosos);
@@ -1646,7 +1741,7 @@ function add(){
   }
   var dodajMiesoKraba = document.createElement("table");
   dodajMiesoKraba.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion3_add-sum1">'+sum1Bulion3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3d/MiesoKraba.png/33px-MiesoKraba.png" title="Mięso kraba"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MiesoKraba.png" alt="Mięso kraba" title="Mięso kraba"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMiesoKraba");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMiesoKraba);
@@ -1658,7 +1753,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum2PieczonyIndyk1 = sum1Tort2 + sum2PieczonyIndyk1;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk1_add-sum2">'+sum2PieczonyIndyk1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2PieczonyIndyk1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -1667,7 +1762,7 @@ function add(){
   }
   var dodajIndyk = document.createElement("table");
   dodajIndyk.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk2_add-sum1">'+sum1PieczonyIndyk2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/Indyk.png/33px-Indyk.png" title="Indyk"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Indyk.png" alt="Indyk" title="Indyk"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajIndyk");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajIndyk);
@@ -1676,7 +1771,7 @@ function add(){
   }
   var dodajPomarancza = document.createElement("table");
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk3_add-sum1">'+sum1PieczonyIndyk3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -1686,7 +1781,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1PieczonyIndyk4 = sum1Dzem3 + sum1PieczonyIndyk4;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk4_add-sum1">'+sum1PieczonyIndyk4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -1698,7 +1793,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Zupa1 = sum1Zupa1 + sum1SosPomidorowy1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="zuparybna1_add-sum1">'+sum1Zupa1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zupa1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -1707,7 +1802,7 @@ function add(){
   }
   var dodajBulionRybny = document.createElement("table");
   dodajBulionRybny.innerHTML = 
-  '<table><tr><td class="ilosc" id="zuparybna2_add-sum1">'+sum1Zupa2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/14/BulionRzemioslo.png/33px-BulionRzemioslo.png" title="Bulion rybny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zupa2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bulion.png" alt="Bulion rybny" title="Bulion rybny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBulionRybny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBulionRybny);
@@ -1717,7 +1812,7 @@ function add(){
   /**PIEROG Z WARZYWAMI*/
   var dodajDynia = document.createElement("table");
   dodajDynia.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog1_add-sum1">'+sum1Pierog1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/75/Dynia.png/33px-Dynia.png" title="Dynia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dynia.png" alt="Dynia" title="Dynia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDynia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDynia);
@@ -1726,7 +1821,7 @@ function add(){
   }
   var dodajZiemniak = document.createElement("table");
   dodajZiemniak.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog2_add-sum1">'+sum1Pierog2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9e/Ziemniak.png/33px-Ziemniak.png" title="Ziemniak"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZiemniak");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZiemniak);
@@ -1736,7 +1831,7 @@ function add(){
   var dodajCiasto = document.createElement("table");
   sum1Pierog3 = sum1Pierog3 + sum2Tort1;
   dodajCiasto.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog3_add-sum1">'+sum1Pierog3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/db/CiastoRzemioslo.png/33px-CiastoRzemioslo.png" title="Ciasto"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCiasto");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCiasto);
@@ -1747,7 +1842,7 @@ function add(){
   var dodajSzynka = document.createElement("table");
   sum2SiekaneM1 = sum2SiekaneM1 + sum1FasolaBekon3;
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso1_add-sum2">'+sum2SiekaneM1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SiekaneM1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -1756,7 +1851,7 @@ function add(){
   }
   var dodajNoz = document.createElement("table");
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso2_add-sum1">'+sum1SiekaneM2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SiekaneM2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -1765,7 +1860,7 @@ function add(){
   }
   var dodajDeskaDoKrojenia = document.createElement("table");
   dodajDeskaDoKrojenia.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso3_add-sum1">'+sum1SiekaneM3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/57/DeskaDoKrojeniaRzemioslo.png/33px-DeskaDoKrojeniaRzemioslo.png" title="Deska do krojenia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SiekaneM3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDeskaDoKrojenia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDeskaDoKrojenia);
@@ -1776,7 +1871,7 @@ function add(){
   var dodajPstrag = document.createElement("table");
   sum1Dorsz1 = sum1Dorsz1 + sum1Bulion1;
   dodajPstrag.innerHTML = 
-  '<table><tr><td class="ilosc" id="dorsz1_add-sum1">'+sum1Dorsz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fe/Pstrag.png/33px-Pstrag.png" title="Pstrąg"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dorsz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pstrag.png" alt="Pstrąg" title="Pstrąg"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPstrag");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPstrag);
@@ -1785,7 +1880,7 @@ function add(){
   }
   var dodajPalDrewniany = document.createElement("table");
   dodajPalDrewniany.innerHTML = 
-  '<table><tr><td class="ilosc" id="dorsz2_add-sum1">'+sum1Dorsz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2a/PalDrewniany.png/33px-PalDrewniany.png" title="Pal drewniany"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dorsz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PalDrewniany.png" alt="Pal drewniany" title="Pal drewniany"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPalDrewniany");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPalDrewniany);
@@ -1796,7 +1891,7 @@ function add(){
   /**KADZIDLO*/
   var dodajLiscieTytoniu = document.createElement("table");
   dodajLiscieTytoniu.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo1_add-sum4">'+sum4Kadzidlo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d5/LiscieTytoniu.png/33px-LiscieTytoniu.png" title="Liście tytoniu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Kadzidlo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LiscieTytoniu.png" alt="Liście tytoniu" title="Liście tytoniu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLiscieTytoniu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLiscieTytoniu);
@@ -1806,7 +1901,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum2Kadzidlo2 = sum2Kadzidlo2 + sum2PieczonyIndyk1;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo2_add-sum2">'+sum2Kadzidlo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Kadzidlo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -1815,7 +1910,7 @@ function add(){
   }
   var dodajPapierosy = document.createElement("table");
   dodajPapierosy.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo3_add-sum1">'+sum1Kadzidlo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Papierosy.png/33px-Papierosy.png" title="Papierosy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kadzidlo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Papierosy.png" alt="Papierosy" title="Papierosy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapierosy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapierosy);
@@ -1827,7 +1922,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Sos1 = sum1Zupa1 + sum1Sos1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="sos1_add-sum1">'+sum1Sos1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sos1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -1837,7 +1932,7 @@ function add(){
   var dodajDynia = document.createElement("table");
   sum1Sos2 = sum1Sos2 + sum1Pierog1;
   dodajDynia.innerHTML = 
-  '<table><tr><td class="ilosc" id="sos2_add-sum1">'+sum1Sos2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/75/Dynia.png/33px-Dynia.png" title="Dynia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sos2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dynia.png" alt="Dynia" title="Dynia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDynia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDynia);
@@ -1848,7 +1943,7 @@ function add(){
   /**CIASTECZKA KUKURYDZIANE*/
   var dodajMakaKukurydziana = document.createElement("table");
   dodajMakaKukurydziana.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka1_add-sum2">'+sum2Ciasteczka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d0/MakaKukurydziana.png/33px-MakaKukurydziana.png" title="Mąka kukurydziana"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MakaKukurydziana.png" alt="Mąka kukurydziana" title="Mąka kukurydziana"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMakaKukurydziana");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMakaKukurydziana);
@@ -1857,7 +1952,7 @@ function add(){
   }
   var dodajButelkaMleka = document.createElement("table");
   dodajButelkaMleka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka2_add-sum2">'+sum2Ciasteczka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/ButelkaMleka.png/33px-ButelkaMleka.png" title="Butelka Mleka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajButelkaMleka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajButelkaMleka);
@@ -1866,7 +1961,7 @@ function add(){
   }
   var dodajSuroweJajka = document.createElement("table");
   dodajSuroweJajka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka3_add-sum2">'+sum2Ciasteczka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e8/SuroweJajka.png/33px-SuroweJajka.png" title="Surowe jajka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SuroweJajka.png" alt="Surowe jajka" title="Surowe jajka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSuroweJajka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSuroweJajka);
@@ -1878,7 +1973,7 @@ function add(){
   var dodajLosos = document.createElement("table");
   sum4Ryba1 = sum4Ryba1 + sum1Bulion2;
   dodajLosos.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta1_add-sum4">'+sum4Ryba1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/11/Losos.png/33px-Losos.png" title="Łosoś"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Ryba1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Losos.png" alt="Łosoś" title="Łosoś"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLosos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLosos);
@@ -1887,7 +1982,7 @@ function add(){
   }
   var dodajSkora = document.createElement("table");
   dodajSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta2_add-sum4">'+sum4Ryba2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Skora.png/33px-Skora.png" title="Skóra"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Ryba2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Skora.png" alt="Skóra" title="Skóra"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkora);
@@ -1896,7 +1991,7 @@ function add(){
   }
   var dodajGazeta = document.createElement("table");
   dodajGazeta.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta3_add-sum2">'+sum2Ryba3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Gazeta.png/33px-Gazeta.png" title="Gazeta"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ryba3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gazeta.png" alt="Gazeta" title="Gazeta"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajGazeta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGazeta);
@@ -1908,7 +2003,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum2SokKaktus1 = sum1Zacier3 + sum2SokKaktus1;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus1_add-sum2">'+sum2SokKaktus1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SokKaktus1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -1918,7 +2013,7 @@ function add(){
   var dodajPomarancza = document.createElement("table");
   sum2SokKaktus2 = sum2SokKaktus2 + sum1PieczonyIndyk3;
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus2_add-sum2">'+sum2SokKaktus2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SokKaktus2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -1928,7 +2023,7 @@ function add(){
   var dodajNoz = document.createElement("table");
   sum1SokKaktus3 = sum1SokKaktus3 + sum1SiekaneM2;
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus3_add-sum1">'+sum1SokKaktus3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SokKaktus3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -1938,7 +2033,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1SokKaktus4 = sum1Ciasto1 + sum1SokKaktus4;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus4_add-sum1">'+sum1SokKaktus4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SokKaktus4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -1948,7 +2043,7 @@ function add(){
   /**OBIAD DZENTELMENA*/
   var dodajWhiskey = document.createElement("table");
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz1_add-sum3">'+sum3Obiad1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Obiad1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -1957,7 +2052,7 @@ function add(){
   }
   var dodajCygara = document.createElement("table");
   dodajCygara.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz2_add-sum2">'+sum2Obiad2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/50/Cygara.png/33px-Cygara.png" title="Cygara"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Obiad2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cygara.png" alt="Cygara" title="Cygara"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCygara");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCygara);
@@ -1967,7 +2062,7 @@ function add(){
   var dodajGazeta = document.createElement("table");
   sum1Obiad3 = sum1Obiad3 + sum2Ryba3;
   dodajGazeta.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz3_add-sum1">'+sum1Obiad3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Gazeta.png/33px-Gazeta.png" title="Gazeta"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Obiad3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gazeta.png" alt="Gazeta" title="Gazeta"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajGazeta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGazeta);
@@ -1979,7 +2074,7 @@ function add(){
   var dodajWhiskey = document.createElement("table");
   sum6SuszMieso1 = sum6SuszMieso1 + sum3Obiad1;
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso1_add-sum6">'+sum6SuszMieso1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum6SuszMieso1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -1989,7 +2084,7 @@ function add(){
   var dodajSzynka = document.createElement("table");
   sum6SuszMieso2 = sum2SiekaneM1 + sum6SuszMieso2;
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso2_add-sum6">'+sum6SuszMieso2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum6SuszMieso2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -1999,7 +2094,7 @@ function add(){
   var dodajSaletra = document.createElement("table");
   sum4SuszMieso3 = sum4SuszMieso3 + sum1MarStek2;
   dodajSaletra.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso3_add-sum4">'+sum4SuszMieso3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/24/Saletra.png/33px-Saletra.png" title="Saletra" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4SuszMieso3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Saletra.png" alt="Saletra" title="Saletra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSaletra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSaletra);
@@ -2009,7 +2104,7 @@ function add(){
   var dodajStek = document.createElement("table");
   sum4SuszMieso4 = sum4SuszMieso4 + sum1MarStek3;
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso4_add-sum4">'+sum4SuszMieso4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4SuszMieso4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -2020,7 +2115,7 @@ function add(){
   /**GUMA DO ZUCIA*/
   var dodajSuszoneMieso = document.createElement("table");
   dodajSuszoneMieso.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma1_add-sum1">'+sum1Guma1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2a/SuszoneMiesoRzemioslo.png/33px-SuszoneMiesoRzemioslo.png" title="Suszone mięso"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SuszoneMieso.png" alt="Suszone mięso" title="Suszone mięso"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSuszoneMieso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSuszoneMieso);
@@ -2029,7 +2124,7 @@ function add(){
   }
   var dodajDorsz = document.createElement("table");
   dodajDorsz.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma2_add-sum1">'+sum1Guma2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a4/DorszRzemioslo.png/33px-DorszRzemioslo.png" title="Dorsz"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dorsz.png" alt="Dorsz" title="Dorsz"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDorsz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDorsz);
@@ -2038,7 +2133,7 @@ function add(){
   }
   var dodajOstrePapryki = document.createElement("table");
   dodajOstrePapryki.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma3_add-sum1">'+sum1Guma3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8f/OstrePapryki.png/33px-OstrePapryki.png" title="Ostre papryki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOstrePapryki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOstrePapryki);
@@ -2049,7 +2144,7 @@ function add(){
   /**GROG*/
   var dodajWodka = document.createElement("table");
   dodajWodka.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog1_add-sum">'+sum2Grog1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/16/Wodka.png/33px-Wodka.png" title="Wódka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Grog1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wodka.png" alt="Wódka" title="Wódka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWodka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWodka);
@@ -2058,7 +2153,7 @@ function add(){
   }
   var dodajZacier = document.createElement("table");
   dodajZacier.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog2_add-sum">'+sum2Grog2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/53/ZacierRzemioslo.png/33px-ZacierRzemioslo.png" title="Zacier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Grog2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zacier.png" alt="Zacier" title="Zacier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZacier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZacier);
@@ -2068,7 +2163,7 @@ function add(){
   var dodajRum = document.createElement("table");
   sum1Grog3 = sum1MarStek1 + sum1Grog3;
   dodajRum.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog3_add-sum1">'+sum1Grog3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/61/Rum.png/33px-Rum.png" title="Rum" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Grog3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rum.png" alt="Rum" title="Rum"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRum");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRum);
@@ -2077,7 +2172,7 @@ function add(){
   }
   var dodajProchStrzelniczy = document.createElement("table");
   dodajProchStrzelniczy.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog4_add-sum1">'+sum1Grog4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/59/ProchStrzelniczyRzemioslo.png/33px-ProchStrzelniczyRzemioslo.png" title="Proch strzelniczy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Grog4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ProchStrzelniczy.png" alt="Proch strzelniczy" title="Proch strzelniczy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajProchStrzelniczy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajProchStrzelniczy);
@@ -2089,7 +2184,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Gulasz1 = sum1Gulasz1 + sum1Sos1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz1_add-sum1">'+sum1Gulasz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -2098,7 +2193,7 @@ function add(){
   }
   var dodajMarynowanyStek = document.createElement("table");
   dodajMarynowanyStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz2_add-sum1">'+sum1Gulasz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/27/MarynowanyStekRzemioslo.png/33px-MarynowanyStekRzemioslo.png" title="Marynowany stek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MarynowanyStek.png" alt="Marynowany stek" title="Marynowany stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMarynowanyStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMarynowanyStek);
@@ -2107,7 +2202,7 @@ function add(){
   }
   var dodajWegiel = document.createElement("table");
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz3_add-sum1">'+sum1Gulasz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -2116,7 +2211,7 @@ function add(){
   }
   var dodajGarnekDoGotowania = document.createElement("table");
   dodajGarnekDoGotowania.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz4_add-sum1">'+sum1Gulasz4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/GarnekDoGotowania.png/33px-GarnekDoGotowania.png" title="Garnek do gotowania"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/GarnekDoGotowania.png" alt="Garnek do gotowania" title="Garnek do gotowania"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGarnekDoGotowania");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGarnekDoGotowania);
@@ -2128,7 +2223,7 @@ function add(){
   var dodajStek = document.createElement("table");
   sum4Zeberka1 = sum4SuszMieso4 + sum4Zeberka1;
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka1_add-sum4">'+sum4Zeberka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -2137,7 +2232,7 @@ function add(){
   }
   var dodajSos = document.createElement("table");
   dodajSos.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka2_add-sum4">'+sum4Zeberka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d6/SosRzemioslo.png/33px-SosRzemioslo.png" title="Sos"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sos.png" alt="Sos" title="Sos"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSos);
@@ -2147,7 +2242,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum4Zeberka3 = sum4Zeberka3 + sum1PieczonyIndyk4;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka3_add-sum4">'+sum4Zeberka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -2158,7 +2253,7 @@ function add(){
   /**MIOD*/
   var dodajPrasaDoMiodu = document.createElement("table");
   dodajPrasaDoMiodu.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod1_add-sum1">'+sum1Miod1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/41/PrasaDoMioduRzemioslo.png/33px-PrasaDoMioduRzemioslo.png" title="Prasa do miodu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Miod1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PrasaDoMiodu.png" alt="Prasa do miodu" title="Prasa do miodu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPrasaDoMiodu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPrasaDoMiodu);
@@ -2167,7 +2262,7 @@ function add(){
   }
   var dodajRoza = document.createElement("table");
   dodajRoza.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod2_add-sum1">'+sum1Miod2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Roza.png/33px-Roza.png" title="Róża"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Miod2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Roza.png" alt="Róża" title="Róża"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRoza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRoza);
@@ -2179,7 +2274,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum12FasPuszka1 = sum12FasPuszka1 + sum1Maka1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka1_add-sum12">'+sum12FasPuszka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum12FasPuszka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -2189,7 +2284,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum12FasPuszka2 = sum12FasPuszka2 + sum1Gulasz3;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka2_add-sum12">'+sum12FasPuszka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum12FasPuszka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -2199,7 +2294,7 @@ function add(){
   var dodajFasola = document.createElement("table");
   sum7FasPuszka3 = sum1FasolaBekon4 + sum7FasPuszka3;
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka3_add-sum7">'+sum7FasPuszka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum7FasPuszka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
@@ -2208,7 +2303,7 @@ function add(){
   }
   var dodajMlotek = document.createElement("table");
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka4_add-sum5">'+sum5FasPuszka4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5FasPuszka4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -2217,7 +2312,7 @@ function add(){
   }
   var dodajStal = document.createElement("table");
   dodajStal.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka5_add-sum3">'+sum3FasPuszka5+'</td><td class="td-img"><div><img alt="" src="https://wiki.the-west.pl/images/thumb/9/92/StalRzemioslo.png/33px-StalRzemioslo.png" title="Stal"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3FasPuszka5+'</td><td class="td-img"><div><img src="image/craft/Stal.png" alt="Stal" title="Stal"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStal);
@@ -2228,7 +2323,7 @@ function add(){
   /**NAJOSTRZEJSZE CHILI NA ZACHODZIE*/
   var dodajSiekaneMieso = document.createElement("table");
   dodajSiekaneMieso.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili1_add-sum7">'+sum7Chili1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b6/SiekaneMiesoRzemioslo.png/33px-SiekaneMiesoRzemioslo.png" title="Siekane mięso"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum7Chili1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SiekaneMieso.png" alt="Siekane mięso" title="Siekane mięso"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiekaneMieso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiekaneMieso);
@@ -2238,7 +2333,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum5Chili2 = sum12FasPuszka2 + sum5Chili2;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili2_add-sum5">'+sum5Chili2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Chili2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -2247,7 +2342,7 @@ function add(){
   }
   var dodajFasolaWPuszce = document.createElement("table");
   dodajFasolaWPuszce.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili3_add-sum4">'+sum4Chili3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/FasolaWPuszceRzemioslo.png/33px-FasolaWPuszceRzemioslo.png" title="Fasola w puszce"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Chili3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/FasolaWPuszce.png" alt="Fasola w puszce" title="Fasola w puszce"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasolaWPuszce");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasolaWPuszce);
@@ -2256,7 +2351,7 @@ function add(){
   }
   var dodajPapryczkiHabanero = document.createElement("table");
   dodajPapryczkiHabanero.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili4_add-sum1">'+sum1Chili4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c8/PapryczkiHabanero.png/33px-PapryczkiHabanero.png" title="Papryczki Habanero"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Chili4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PapryczkiHabanero.png" alt="Papryczki Habanero" title="Papryczki Habanero"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapryczkiHabanero");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapryczkiHabanero);
@@ -2266,7 +2361,7 @@ function add(){
   /**MIOD PITNY*/
   var dodajMiod = document.createElement("table");
   dodajMiod.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny1_add-sum2">'+sum2MiodPitny1+'</td><td class="td-img"><div><img alt="" src="https://wiki.the-west.pl/images/thumb/5/52/MiodRzemioslo.png/33px-MiodRzemioslo.png" title="Miód"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2MiodPitny1+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMiod");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMiod);
@@ -2276,7 +2371,7 @@ function add(){
   var dodajButelkaMleka = document.createElement("table");
   sum2MiodPitny2 = sum2MiodPitny2 + sum2Ciasteczka2;
   dodajButelkaMleka.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny2_add-sum2">'+sum2MiodPitny2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/ButelkaMleka.png/33px-ButelkaMleka.png" title="Butelka Mleka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2MiodPitny2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajButelkaMleka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajButelkaMleka);
@@ -2286,7 +2381,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1MiodPitny3 = sum1MiodPitny3 + sum1SokKaktus4;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny3_add-sum1">'+sum1MiodPitny3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MiodPitny3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -2296,14 +2391,151 @@ function add(){
   var dodajMakaKukurydziana = document.createElement("table");
   sum1MiodPitny4 = sum1MiodPitny4 + sum2Ciasteczka1;
   dodajMakaKukurydziana.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny4_add-sum1">'+sum1MiodPitny4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d0/MakaKukurydziana.png/33px-MakaKukurydziana.png" title="Mąka kukurydziana"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MiodPitny4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MakaKukurydziana.png" alt="Mąka kukurydziana" title="Mąka kukurydziana"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMakaKukurydziana");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMakaKukurydziana);
   if (sum1MiodPitny4===0) {
     parent_object.removeChild(dodajMakaKukurydziana);
   } 
-  
+
+  /**SER CASTELLO*/
+  var dodajButelkaMleka = document.createElement("table");
+  sum6SerCastello1 = sum2MiodPitny2 + sum6SerCastello1;
+  dodajButelkaMleka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum6SerCastello1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajButelkaMleka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajButelkaMleka);
+  if (sum6SerCastello1===0) {
+    parent_object.removeChild(dodajButelkaMleka);
+  }
+  var dodajWhiskey = document.createElement("table");
+  sum6SerCastello2 = sum6SuszMieso1 + sum6SerCastello2;
+  dodajWhiskey.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum6SerCastello2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWhiskey");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWhiskey);
+  if (sum6SerCastello2===0) {
+    parent_object.removeChild(dodajWhiskey);
+  }
+  var dodajMiod = document.createElement("table");
+  sum2SerCastello3 = sum2SerCastello3 + sum2MiodPitny1;
+  dodajMiod.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2SerCastello3+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMiod");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMiod);
+  if (sum2SerCastello3===0) {
+    parent_object.removeChild(dodajMiod);
+  }
+  var dodajOstrePapryki = document.createElement("table");
+  sum1SerCastello4 = sum1SerCastello4 + sum1Guma3;
+  dodajOstrePapryki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1SerCastello4+'</td><td class="td-img"><div><img src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajOstrePapryki);
+  if (sum1SerCastello4===0) {
+    parent_object.removeChild(dodajOstrePapryki);
+  }
+  /**DRINK*/
+  var dodajWodka = document.createElement("table");
+  sum10Drink1 = sum10Drink1 + sum2Grog1;
+  dodajWodka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10Drink1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wodka.png" alt="Wódka" title="Wódka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWodka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWodka);
+  if (sum10Drink1===0) {
+    parent_object.removeChild(dodajWodka);
+  }
+  var dodajOstrePapryki = document.createElement("table");
+  sum5Drink2 = sum1SerCastello4 + sum5Drink2;
+  dodajOstrePapryki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum5Drink2+'</td><td class="td-img"><div><img src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajOstrePapryki);
+  if (sum5Drink2===0) {
+    parent_object.removeChild(dodajOstrePapryki);
+  }
+  var dodajKwiatPokoju = document.createElement("table");
+  dodajKwiatPokoju.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4Drink3+'</td><td class="td-img"><div><img src="image/craft/KwiatPokoju.png" alt="Kwiat Pokoju" title="Kwiat Pokoju"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajKwiatPokoju);
+  if (sum4Drink3===0) {
+    parent_object.removeChild(dodajKwiatPokoju);
+  }
+  // /**DRINK*/
+  // var drink = Number(calcDrink.value) || 0;
+  // var sum10Drink1 = Number(drink*10);
+  // addSum10Drink1.innerHTML = sum10Drink1+"x";
+  // var sum5Drink2 = Number(drink*5);
+  // addSum5Drink2.innerHTML = sum5Drink2+"x";
+  // var sum4Drink3 = Number(drink*4);
+  // addSum4Drink3.innerHTML = sum4Drink3+"x";
+  // var sum1Drink4 = Number(drink*1);
+  // addSum1Drink4.innerHTML = sum1Drink4+"x";
+  // var sum1Drink5 = Number(drink*1);
+  // addSum1Drink5.innerHTML = sum1Drink5+"x";
+  // var sum1Drink6 = Number(drink*1);
+  // addSum1Drink6.innerHTML = sum1Drink6+"x";
+  // /**NAWOZ */
+  // var nawoz = Number(calcNawoz.value) || 0;
+  // var sum10Nawoz1 = Number(nawoz*10);
+  // addSum10Nawoz1.innerHTML = sum10Nawoz1+"x";
+  // var sum5Nawoz2 = Number(nawoz*5);
+  // addSum5Nawoz2.innerHTML = sum5Nawoz2+"x";
+  // var sum2Nawoz3 = Number(nawoz*2);
+  // addSum2Nawoz3.innerHTML = sum2Nawoz3+"x";
+  // var sum1Nawoz4 = Number(nawoz*1);
+  // addSum1Nawoz4.innerHTML = sum1Nawoz4+"x";
+  // var sum1Nawoz5 = Number(nawoz*1);
+  // addSum1Nawoz5.innerHTML = sum1Nawoz5+"x";
+  // var sum1Nawoz6 = Number(nawoz*1);
+  // addSum1Nawoz6.innerHTML = sum1Nawoz6+"x";
+  // /**OWOCOWY KOKTAIL*/
+  // var owocowyKoktail = Number(calcOwocowyKoktajl.value) || 0;
+  // var sum10OwocowyKoktajl1 = Number(owocowyKoktail*10);
+  // addSum10OwocowyKoktajl1.innerHTML = sum10OwocowyKoktajl1+"x";
+  // var sum4OwocowyKoktajl2 = Number(owocowyKoktail*4);
+  // addSum4OwocowyKoktajl2.innerHTML = sum4OwocowyKoktajl2+"x";
+  // var sum2OwocowyKoktajl3 = Number(owocowyKoktail*2);
+  // addSum2OwocowyKoktajl3.innerHTML = sum2OwocowyKoktajl3+"x";
+  // var sum2OwocowyKoktajl4 = Number(owocowyKoktail*2);
+  // addSum2OwocowyKoktajl4.innerHTML = sum2OwocowyKoktajl4+"x";
+  // var sum1OwocowyKoktajl5 = Number(owocowyKoktail*1);
+  // addSum1OwocowyKoktajl5.innerHTML = sum1OwocowyKoktajl5+"x";
+  // /**BURGER GÓRNIKA*/
+  // var burgerGornika = Number(calcBurgerGornika.value) || 0;
+  // var sum10BurgerGornika1 = Number(burgerGornika*10);
+  // addSum10BurgerGornika1.innerHTML = sum10BurgerGornika1+"x";
+  // var sum4BurgerGornika2 = Number(burgerGornika*4);
+  // addSum4BurgerGornika2.innerHTML = sum4BurgerGornika2+"x";
+  // var sum3BurgerGornika3 = Number(burgerGornika*3);
+  // addSum3BurgerGornika3.innerHTML = sum3BurgerGornika3+"x";
+  // var sum2BurgerGornika4 = Number(burgerGornika*2);
+  // addSum2BurgerGornika4.innerHTML = sum2BurgerGornika4+"x";
+  // var sum1BurgerGornika5 = Number(burgerGornika*1);
+  // addSum1BurgerGornika5.innerHTML = sum1BurgerGornika5+"x";
+  // /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+  // var paczkaGum = Number(calcPaczkaGum.value) || 0;
+  // var sum2PaczkaGum1 = Number(paczkaGum*2);
+  // addSum2PaczkaGum1.innerHTML = sum2PaczkaGum1+"x";
+  // var sum2PaczkaGum2 = Number(paczkaGum*2);
+  // addSum2PaczkaGum2.innerHTML = sum2PaczkaGum2+"x";
+  // var sum2PaczkaGum3 = Number(paczkaGum*2);
+  // addSum2PaczkaGum3.innerHTML = sum2PaczkaGum3+"x";
+  // var sum2PaczkaGum4 = Number(paczkaGum*2);
+  // addSum2PaczkaGum4.innerHTML = sum2PaczkaGum4+"x";
+  // var sum1PaczkaGum5 = Number(paczkaGum*1);
+  // addSum1PaczkaGum5.innerHTML = sum1PaczkaGum5+"x";
+  // var sum1PaczkaGum6 = Number(paczkaGum*1);
+  // addSum1PaczkaGum6.innerHTML = sum1PaczkaGum6+"x";
   /**ZNACHOR polecenia ułozone są alfabetycznie--------------------*/
   /**AMULET*/
   var amulet = Number(calcAmulet.value) || 0;
@@ -2649,7 +2881,7 @@ function add(){
   /**NIEOSZLIFOWANY PIRYT*/
   var dodajPiryt = document.createElement("table");
   dodajPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="nieosz-piryt1_add-sum1">'+sum1NieoszPiryt1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/1d/Piryt.png/33px-Piryt.png" title="Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NieoszPiryt1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Piryt.png" alt="Piryt" title="Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPiryt);
@@ -2659,7 +2891,7 @@ function add(){
   /**DYSK Z PIRYTU*/
   var dodajNieoszlifowanyPiryt = document.createElement("table");
   dodajNieoszlifowanyPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="dysk1_add-sum1">'+sum1Dysk1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/46/NieoszlifowanyPirytRzemioslo.png/33px-NieoszlifowanyPirytRzemioslo.png" title="Nieoszlifowany Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dysk1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NieoszlifowanyPiryt.png" alt="Nieoszlifowany Piryt" title="Nieoszlifowany Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNieoszlifowanyPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNieoszlifowanyPiryt);
@@ -2670,7 +2902,7 @@ function add(){
   /**AMULET*/
   var dodajDyskZPirytu = document.createElement("table");
   dodajDyskZPirytu.innerHTML = 
-  '<table><tr><td class="ilosc" id="amulet1_add-sum1">'+sum1Amulet1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a2/DyskZPirytuRzemioslo.png/33px-DyskZPirytuRzemioslo.png" title="Dysk z pirytu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Amulet1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DyskZPirytu.png" alt="Dysk z pirytu" title="Dysk z pirytu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDyskZPirytu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDyskZPirytu);
@@ -2679,7 +2911,7 @@ function add(){
   }
   var dodajPioroKruka = document.createElement("table");
   dodajPioroKruka.innerHTML = 
-  '<table><tr><td class="ilosc" id="amulet2_add-sum1">'+sum1Amulet2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/99/PioroKruka.png/33px-PioroKruka.png" title="Pióro kruka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Amulet2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PioroKruka.png" alt="Pióro kruka" title="Pióro kruka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPioroKruka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPioroKruka);
@@ -2691,7 +2923,7 @@ function add(){
   var dodajPiryt = document.createElement("table");
   sum1Krzesiwo1 = sum1Krzesiwo1 + sum1NieoszPiryt1;
   dodajPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="krzesiwo1_add-sum1">'+sum1Krzesiwo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/1d/Piryt.png/33px-Piryt.png" title="Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Krzesiwo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Piryt.png" alt="Piryt" title="Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPiryt);
@@ -2701,7 +2933,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Krzesiwo2 = sum1Krzesiwo2 + sum12FasPuszka1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="krzesiwo2_add-sum1">'+sum1Krzesiwo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Krzesiwo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -2710,7 +2942,7 @@ function add(){
   }
   var dodajBawelna = document.createElement("table");
   dodajBawelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="krzesiwo3_add-sum1">'+sum1Krzesiwo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Krzesiwo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bawelna.png" alt="Bawełna" title="Bawełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBawelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBawelna);
@@ -2721,7 +2953,7 @@ function add(){
   /**SIARKA*/
   var dodajRudaSiarki = document.createElement("table");
   dodajRudaSiarki.innerHTML = 
-  '<table><tr><td class="ilosc" id="siarka1_add-sum1">'+sum1Siarka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ec/RudaSiarki.png/33px-RudaSiarki.png" title="Ruda Siarki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Siarka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/RudaSiarki.png" alt="Ruda Siarki" title="Ruda Siarki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRudaSiarki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRudaSiarki);
@@ -2732,7 +2964,7 @@ function add(){
   /**ZYWICA*/
   var dodajPila = document.createElement("table");
   dodajPila.innerHTML = 
-  '<table><tr><td class="ilosc" id="zywica1_add-sum1">'+sum1Zywica1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Pila.png/33px-Pila.png" title="Piła"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zywica1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pila.png" alt="Piła" title="Piła"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPila);
@@ -2742,7 +2974,7 @@ function add(){
   var dodajDzban = document.createElement("table");
   sum1Zywica2 = sum1Zywica2 + sum1Dzban1;
   dodajDzban.innerHTML = 
-  '<table><tr><td class="ilosc" id="zywica2_add-sum1">'+sum1Zywica2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zywica2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dzban.png" alt="Dzban" title="Dzban"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzban");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzban);
@@ -2754,7 +2986,7 @@ function add(){
   var dodajLiscieTytoniu = document.createElement("table");
   sum1Papieros1 = sum1Papieros1 + sum4Kadzidlo1;
   dodajLiscieTytoniu.innerHTML = 
-  '<table><tr><td class="ilosc" id="papieros1_add-sum1">'+sum1Papieros1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d5/LiscieTytoniu.png/33px-LiscieTytoniu.png" title="Liście tytoniu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Papieros1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LiscieTytoniu.png" alt="Liście tytoniu" title="Liście tytoniu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLiscieTytoniu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLiscieTytoniu);
@@ -2764,7 +2996,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum1Papieros2 = sum1Papieros2 + sum5Chili2;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="papieros2_add-sum1">'+sum1Papieros2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Papieros2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -2773,7 +3005,7 @@ function add(){
   }
   var dodajPlakat = document.createElement("table");
   dodajPlakat.innerHTML = 
-  '<table><tr><td class="ilosc" id="papieros3_add-sum1">'+sum1Papieros3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/bd/Plakat.png/33px-Plakat.png" title="Plakat"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Papieros3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Plakat.png" alt="Plakat" title="Plakat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPlakat");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPlakat);
@@ -2784,7 +3016,7 @@ function add(){
   /**WYCIOR*/
   var dodajRopa = document.createElement("table");
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="wycior1_add-sum1">'+sum1Wycior1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wycior1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -2794,7 +3026,7 @@ function add(){
   var dodajPioroKruka = document.createElement("table");
   sum1Wycior2 = sum1Wycior2 + sum1Amulet2;
   dodajPioroKruka.innerHTML = 
-  '<table><tr><td class="ilosc" id="wycior2_add-sum1">'+sum1Wycior2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/99/PioroKruka.png/33px-PioroKruka.png" title="Pióro kruka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wycior2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PioroKruka.png" alt="Pióro kruka" title="Pióro kruka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPioroKruka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPioroKruka);
@@ -2803,7 +3035,7 @@ function add(){
   }
   var dodajSukno = document.createElement("table");
   dodajSukno.innerHTML = 
-  '<table><tr><td class="ilosc" id="wycior3_add-sum1">'+sum1Wycior3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Sukno.png/33px-Sukno.png" title="Sukno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wycior3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sukno.png" alt="Sukno" title="Sukno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSukno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSukno);
@@ -2813,7 +3045,7 @@ function add(){
   /**LEK NA ZOLADEK*/
   var dodajKrzesiwo = document.createElement("table");
   dodajKrzesiwo.innerHTML = 
-  '<table><tr><td class="ilosc" id="lek1_add-sum2">'+sum2Lek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Lek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Krzesiwo.png" alt="Krzesiwo" title="Krzesiwo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrzesiwo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrzesiwo);
@@ -2822,7 +3054,7 @@ function add(){
   }
   var dodajKreda = document.createElement("table");
   dodajKreda.innerHTML = 
-  '<table><tr><td class="ilosc" id="lek2_add-sum1">'+sum1Lek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/84/Kreda.png/33px-Kreda.png" title="Kreda"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kreda.png" alt="Kreda" title="Kreda"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKreda");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKreda);
@@ -2832,7 +3064,7 @@ function add(){
   /**KWAS SIARKOWY*/
   var dodajSiano = document.createElement("table");
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="kwas-siarkowy1_add-sum1">'+sum1KwasSiarkowy1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KwasSiarkowy1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -2841,7 +3073,7 @@ function add(){
   }
   var dodajSiarka = document.createElement("table");
   dodajSiarka.innerHTML = 
-  '<table><tr><td class="ilosc" id="kwas-siarkowy2_add-sum1">'+sum1KwasSiarkowy2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d4/SiarkaRzemioslo.png/33px-SiarkaRzemioslo.png" title="Siarka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KwasSiarkowy2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siarka.png" alt="Siarka" title="Siarka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiarka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiarka);
@@ -2852,7 +3084,7 @@ function add(){
   /**ATRAMENT*/
   var dodajIndygo = document.createElement("table");
   dodajIndygo.innerHTML = 
-  '<table><tr><td class="ilosc" id="atrament1_add-sum1">'+sum1Atrament1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/96/Indygo.png/33px-Indygo.png" title="Indygo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Atrament1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Indygo.png" alt="Indygo" title="Indygo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajIndygo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajIndygo);
@@ -2860,9 +3092,9 @@ function add(){
     parent_object.removeChild(dodajIndygo);
   }
   var dodajWhiskey = document.createElement("table");
-  sum1Atrament2 = sum1Atrament2 + sum6SuszMieso1;
+  sum1Atrament2 = sum1Atrament2 + sum6SerCastello2;
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="atrament1_add-sum2">'+sum1Atrament2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Atrament2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -2874,7 +3106,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum1Nafta1 = sum1Nafta1 + sum1Wycior1;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="nafta1_add-sum1">'+sum1Nafta1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nafta1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -2884,7 +3116,7 @@ function add(){
   var dodajSiano = document.createElement("table");
   sum1Nafta2 = sum1Nafta2 + sum1KwasSiarkowy1;
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="nafta2_add-sum1">'+sum1Nafta2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nafta2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -2894,7 +3126,7 @@ function add(){
   var dodajNieoszlifowanyPiryt = document.createElement("table");
   sum1Nafta3 = sum1Nafta3 + sum1Dysk1;
   dodajNieoszlifowanyPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="nafta3_add-sum1">'+sum1Nafta3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/46/NieoszlifowanyPirytRzemioslo.png/33px-NieoszlifowanyPirytRzemioslo.png" title="Nieoszlifowany Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nafta3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NieoszlifowanyPiryt.png" alt="Nieoszlifowany Piryt" title="Nieoszlifowany Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNieoszlifowanyPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNieoszlifowanyPiryt);
@@ -2905,7 +3137,7 @@ function add(){
   /**BOZEK*/
   var dodajZabKojota = document.createElement("table");
   dodajZabKojota.innerHTML = 
-  '<table><tr><td class="ilosc" id="bozek1_add-sum2">'+sum2Bozek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2c/ZabKojota.png/33px-ZabKojota.png" title="Ząb kojota"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Bozek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ZabKojota.png" alt="Ząb kojota" title="Ząb kojota"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZabKojota");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZabKojota);
@@ -2915,7 +3147,7 @@ function add(){
   var dodajNieoszlifowanyPiryt = document.createElement("table");
   sum2Bozek2 = sum1Nafta3 + sum2Bozek2;
   dodajNieoszlifowanyPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="bozek2_add-sum2">'+sum2Bozek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/46/NieoszlifowanyPirytRzemioslo.png/33px-NieoszlifowanyPirytRzemioslo.png" title="Nieoszlifowany Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Bozek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NieoszlifowanyPiryt.png" alt="Nieoszlifowany Piryt" title="Nieoszlifowany Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNieoszlifowanyPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNieoszlifowanyPiryt);
@@ -2925,7 +3157,7 @@ function add(){
   var dodajKrzesiwo = document.createElement("table");
   sum1Bozek3 = sum1Bozek3 + sum2Lek1;
   dodajKrzesiwo.innerHTML = 
-  '<table><tr><td class="ilosc" id="bozek3_add-sum1">'+sum1Bozek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bozek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Krzesiwo.png" alt="Krzesiwo" title="Krzesiwo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrzesiwo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrzesiwo);
@@ -2937,7 +3169,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3Destylat1 = sum3Destylat1 + sum1Wegiel2;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="destylat1_add-sum3">'+sum3Destylat1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Destylat1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -2947,7 +3179,7 @@ function add(){
   var dodajManierka = document.createElement("table");
   sum1Destylat2 = sum1Destylat2 + sum1Trunek3;
   dodajManierka.innerHTML = 
-  '<table><tr><td class="ilosc" id="destylat2_add-sum1">'+sum1Destylat2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/69/ManierkaRzemioslo.png/33px-ManierkaRzemioslo.png" title="Manierka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Destylat2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Manierka.png" alt="Manierka" title="Manierka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajManierka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajManierka);
@@ -2957,7 +3189,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum1Destylat3 = sum1Nafta1 + sum1Destylat3;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="destylat3_add-sum1">'+sum1Destylat3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Destylat3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -2969,7 +3201,7 @@ function add(){
   var dodajZboze = document.createElement("table");
   sum4Bimber1 = sum4Bimber1 + sum1Zacier1;
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier1_add-sum1">'+sum4Bimber1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Bimber1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -2979,7 +3211,7 @@ function add(){
   var dodajZiemniak = document.createElement("table");
   sum3Bimber2 = sum3Bimber2 + sum1Pierog2;
   dodajZiemniak.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog2_add-sum1">'+sum3Bimber2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9e/Ziemniak.png/33px-Ziemniak.png" title="Ziemniak"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Bimber2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZiemniak");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZiemniak);
@@ -2989,7 +3221,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum2Bimber3 = sum2Bimber3 + sum2SokKaktus1;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu2_add-sum1">'+sum2Bimber3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Bimber3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -2999,7 +3231,7 @@ function add(){
   var dodajKrzesiwo = document.createElement("table");
   sum1Bimber4 = sum1Bozek3 + sum1Bimber4;
   dodajKrzesiwo.innerHTML = 
-  '<table><tr><td class="ilosc" id="bozek3_add-sum1">'+sum1Bimber4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bimber4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Krzesiwo.png" alt="Krzesiwo" title="Krzesiwo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrzesiwo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrzesiwo);
@@ -3011,7 +3243,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum3Herbata1 = sum3Herbata1 + sum2Kadzidlo2;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="herbata1_add-sum3">'+sum3Herbata1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Herbata1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -3021,7 +3253,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1Herbata2 = sum1Herbata2 + sum1MiodPitny3;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="herbata2_add-sum1">'+sum1Herbata2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Herbata2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -3033,7 +3265,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum2Prymka1 = sum2Prymka1 + sum3Destylat1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="prymka1_add-sum2">'+sum2Prymka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Prymka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -3043,7 +3275,7 @@ function add(){
   var dodajLiscieTytoniu = document.createElement("table");
   sum1Prymka2 = sum1Prymka2 + sum1Papieros1;
   dodajLiscieTytoniu.innerHTML = 
-  '<table><tr><td class="ilosc" id="prymka2_add-sum1">'+sum1Prymka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d5/LiscieTytoniu.png/33px-LiscieTytoniu.png" title="Liście tytoniu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Prymka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LiscieTytoniu.png" alt="Liście tytoniu" title="Liście tytoniu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLiscieTytoniu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLiscieTytoniu);
@@ -3052,7 +3284,7 @@ function add(){
   }
   var dodajZywica = document.createElement("table");
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="prymka3_add-sum1">'+sum1Prymka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Prymka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -3064,7 +3296,7 @@ function add(){
   var dodajPomarancza = document.createElement("table");
   sum5Nalewka1 = sum5Nalewka1 + sum2SokKaktus2;
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="nalewka1_add-sum5">'+sum5Nalewka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Nalewka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -3074,7 +3306,7 @@ function add(){
   var dodajTequila = document.createElement("table");
   sum1Nalewka2 = sum1Nalewka2 + sum2Trunek1;
   dodajTequila.innerHTML = 
-  '<table><tr><td class="ilosc" id="nalewka2_add-sum1">'+sum1Nalewka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/Tequila.png/33px-Tequila.png" title="Tequila"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nalewka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Tequila.png" alt="Tequila" title="Tequila"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajTequila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajTequila);
@@ -3084,7 +3316,7 @@ function add(){
   var dodajDeskaDoKrojenia = document.createElement("table");
   sum1Nalewka3 = sum1SiekaneM3 + sum1Nalewka3;
   dodajDeskaDoKrojenia.innerHTML = 
-  '<table><tr><td class="ilosc" id="nalewka3_add-sum1">'+sum1Nalewka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/57/DeskaDoKrojeniaRzemioslo.png/33px-DeskaDoKrojeniaRzemioslo.png" title="Deska do krojenia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nalewka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDeskaDoKrojenia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDeskaDoKrojenia);
@@ -3096,7 +3328,7 @@ function add(){
   var dodajPomarancza = document.createElement("table");
   sum1Bateria1 = sum1Bateria1 + sum5Nalewka1;
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="bateria1_add-sum1">'+sum1Bateria1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bateria1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -3105,7 +3337,7 @@ function add(){
   }
   var dodajSzpulkaDrutu = document.createElement("table");
   dodajSzpulkaDrutu.innerHTML = 
-  '<table><tr><td class="ilosc" id="bateria2_add-sum1">'+sum1Bateria2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzpulkaDrutu.png/33px-SzpulkaDrutu.png" title="Szpulka drutu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bateria2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzpulkaDrutu.png" alt="Szpulka drutu" title="Szpulka drutu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzpulkaDrutu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzpulkaDrutu);
@@ -3117,7 +3349,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3Lug1 = sum2Prymka1 + sum3Lug1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="lug1_add-sum3">'+sum3Lug1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Lug1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -3127,7 +3359,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1Lug2 = sum1Lug2 + sum4Zeberka3;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="lug2_add-sum1">'+sum1Lug2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lug2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -3137,7 +3369,7 @@ function add(){
   var dodajNieoszlifowanyPiryt = document.createElement("table");
   sum1Lug3 = sum1Lug3 + sum2Bozek2;
   dodajNieoszlifowanyPiryt.innerHTML = 
-  '<table><tr><td class="ilosc" id="lug3_add-sum1">'+sum1Lug3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/46/NieoszlifowanyPirytRzemioslo.png/33px-NieoszlifowanyPirytRzemioslo.png" title="Nieoszlifowany Piryt"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lug3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NieoszlifowanyPiryt.png" alt="Nieoszlifowany Piryt" title="Nieoszlifowany Piryt"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNieoszlifowanyPiryt");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNieoszlifowanyPiryt);
@@ -3147,7 +3379,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum1Lug4 = sum1Lug4 + sum1Dzban2;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="lug4_add-sum1">'+sum1Lug4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lug4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -3158,7 +3390,7 @@ function add(){
   /**LIKIER ZIOLOWY*/
   var dodajKwiatLotosu = document.createElement("table");
   dodajKwiatLotosu.innerHTML = 
-  '<table><tr><td class="ilosc" id="likier-ziol1_add-sum1">'+sum1Likier1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f8/KwiatLotosu.png/33px-KwiatLotosu.png" title="Kwiat lotosu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Likier1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KwiatLotosu.png" alt="Kwiat lotosu" title="Kwiat lotosu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKwiatLotosu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKwiatLotosu);
@@ -3168,7 +3400,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum1Likier2 = sum1Likier2 + sum1Lug4;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="likier-ziol2_add-sum1">'+sum1Likier2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Likier2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -3180,7 +3412,7 @@ function add(){
   var dodajGazeta = document.createElement("table");
   sum5Papier1 = sum5Papier1 + sum1Obiad3;
   dodajGazeta.innerHTML = 
-  '<table><tr><td class="ilosc" id="papier1_add-sum5">'+sum5Papier1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Gazeta.png/33px-Gazeta.png" title="Gazeta"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Papier1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gazeta.png" alt="Gazeta" title="Gazeta"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajGazeta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGazeta);
@@ -3190,7 +3422,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1Papier2 = sum1Papier2 + sum1Herbata2;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="papier2_add-sum1">'+sum1Papier2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Papier2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -3201,7 +3433,7 @@ function add(){
   /**ATRAMENT SYMPATYCZNY*/
   var dodajLaskaCeremonialna = document.createElement("table");
   dodajLaskaCeremonialna.innerHTML = 
-  '<table><tr><td class="ilosc" id="atrament-symp1_add-sum1">'+sum1AtramentS1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/af/LaskaCeremonialna.png/33px-LaskaCeremonialna.png" title="Laska ceremonialna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1AtramentS1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LaskaCeremonialna.png" alt="Laska ceremonialna" title="Laska ceremonialna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLaskaCeremonialna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLaskaCeremonialna);
@@ -3210,7 +3442,7 @@ function add(){
   }
   var dodajAtrament = document.createElement("table");
   dodajAtrament.innerHTML = 
-  '<table><tr><td class="ilosc" id="atrament-symp2_add-sum1">'+sum1AtramentS2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/26/AtramentRzemioslo.png/33px-AtramentRzemioslo.png" title="Atrament"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1AtramentS2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Atrament.png" alt="Atrament" title="Atrament"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajAtrament");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajAtrament);
@@ -3219,7 +3451,7 @@ function add(){
   }
   var dodajPapier = document.createElement("table");
   dodajPapier.innerHTML = 
-  '<table><tr><td class="ilosc" id="atrament-symp3_add-sum1">'+sum1AtramentS3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ad/PapierRzemioslo.png/33px-PapierRzemioslo.png" title="Papier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1AtramentS3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Papier.png" alt="Papier" title="Papier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapier);
@@ -3231,7 +3463,7 @@ function add(){
   var dodajPalDrewniany = document.createElement("table");
   sum3Cyrkiel1 = sum3Cyrkiel1 + sum1Dorsz2;
   dodajPalDrewniany.innerHTML = 
-  '<table><tr><td class="ilosc" id="cyrkiel1_add-sum3">'+sum3Cyrkiel1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2a/PalDrewniany.png/33px-PalDrewniany.png" title="Pal drewniany"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Cyrkiel1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PalDrewniany.png" alt="Pal drewniany" title="Pal drewniany"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPalDrewniany");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPalDrewniany);
@@ -3240,7 +3472,7 @@ function add(){
   }
   var dodajLasso = document.createElement("table");
   dodajLasso.innerHTML = 
-  '<table><tr><td class="ilosc" id="cyrkiel2_add-sum2">'+sum2Cyrkiel2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ea/Lasso.png/33px-Lasso.png" title="Lasso"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Cyrkiel2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Lasso.png" alt="Lasso" title="Lasso"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLasso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLasso);
@@ -3251,7 +3483,7 @@ function add(){
   /**PROCH STRZELNICZY*/
   var dodajLuska = document.createElement("table");
   dodajLuska.innerHTML = 
-  '<table><tr><td class="ilosc" id="cyrkiel2_add-sum2">'+sum3Proch1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/Luska.png/33px-Luska.png" title="Łuska"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Proch1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Luska.png" alt="Łuska" title="Łuska"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLuska");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLuska);
@@ -3261,7 +3493,7 @@ function add(){
   var dodajSaletra = document.createElement("table");
   sum3Proch2 = sum3Proch2 + sum4SuszMieso3;
   dodajSaletra.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso3_add-sum4">'+sum3Proch2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/24/Saletra.png/33px-Saletra.png" title="Saletra" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Proch2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Saletra.png" alt="Saletra" title="Saletra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSaletra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSaletra);
@@ -3270,7 +3502,7 @@ function add(){
   }
   var dodajKwasSiarkowy = document.createElement("table");
   dodajKwasSiarkowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="cyrkiel2_add-sum2">'+sum3Proch3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e6/KwasSiarkowyRzemioslo.png/33px-KwasSiarkowyRzemioslo.png" title="Kwas siarkowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Proch3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KwasSiarkowy.png" alt="Kwas siarkowy" title="Kwas siarkowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKwasSiarkowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKwasSiarkowy);
@@ -3279,7 +3511,7 @@ function add(){
   }
   var dodajNafta = document.createElement("table");
   dodajNafta.innerHTML = 
-  '<table><tr><td class="ilosc" id="cyrkiel2_add-sum2">'+sum2Proch4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/45/NaftaRzemioslo.png/33px-NaftaRzemioslo.png" title="Nafta"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Proch4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Nafta.png" alt="Nafta" title="Nafta"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNafta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNafta);
@@ -3290,7 +3522,7 @@ function add(){
   /**WLOKNO LNU*/
   var dodajGwozdzie = document.createElement("table");
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="wlokno-lnu1_add-sum3">'+sum3Wlokno1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Wlokno1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGwozdzie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGwozdzie);
@@ -3300,7 +3532,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum2Wlokno2 = sum1Likier2 + sum2Wlokno2;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="wlokno-lnu2_add-sum2">'+sum2Wlokno2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Wlokno2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -3310,7 +3542,7 @@ function add(){
   var dodajSiano = document.createElement("table");
   sum2Wlokno3 = sum1Nafta2 + sum2Wlokno3;
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="wlokno-lnu3_add-sum2">'+sum2Wlokno3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Wlokno3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -3319,7 +3551,7 @@ function add(){
   }
   var dodajWycior = document.createElement("table");
   dodajWycior.innerHTML = 
-  '<table><tr><td class="ilosc" id="wlokno-lnu4_add-sum1">'+sum1Wlokno4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/1f/WyciorRzemioslo.png/33px-WyciorRzemioslo.png" title="Wycior"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wlokno4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wycior.png" alt="Wycior" title="Wycior"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWycior");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWycior);
@@ -3331,7 +3563,7 @@ function add(){
   var dodajRoza = document.createElement("table");
   sum2WodaRozana1 = sum2WodaRozana1 + sum1Miod2;
   dodajRoza.innerHTML = 
-  '<table><tr><td class="ilosc" id="woda-rozana1_add-sum2">'+sum2WodaRozana1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Roza.png/33px-Roza.png" title="Róża"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2WodaRozana1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Roza.png" alt="Róża" title="Róża"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRoza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRoza);
@@ -3341,7 +3573,7 @@ function add(){
   var dodajWhiskey = document.createElement("table");
   sum2WodaRozana2 = sum2WodaRozana2 + sum1Atrament2;
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="woda-rozana2_add-sum2">'+sum2WodaRozana2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum2WodaRozana2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -3353,7 +3585,7 @@ function add(){
   var dodajRudaSiarki = document.createElement("table");
   sum1Panaceum1 = sum1Panaceum1 + sum1Siarka1;
   dodajRudaSiarki.innerHTML = 
-  '<table><tr><td class="ilosc" id="panaceum1_add-sum1">'+sum1Panaceum1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ec/RudaSiarki.png/33px-RudaSiarki.png" title="Ruda Siarki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Panaceum1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/RudaSiarki.png" alt="Ruda Siarki" title="Ruda Siarki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRudaSiarki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRudaSiarki);
@@ -3362,7 +3594,7 @@ function add(){
   }
   var dodajSkoraWeza = document.createElement("table");
   dodajSkoraWeza.innerHTML = 
-  '<table><tr><td class="ilosc" id="panaceum2_add-sum1">'+sum1Panaceum2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ac/SkoraWeza.png/33px-SkoraWeza.png" title="Skóra węża"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Panaceum2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraWeza.png" alt="Skóra węża" title="Skóra węża"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraWeza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraWeza);
@@ -3371,7 +3603,7 @@ function add(){
   }
   var dodajLug = document.createElement("table");
   dodajLug.innerHTML = 
-  '<table><tr><td class="ilosc" id="panaceum3_add-sum1">'+sum1Panaceum3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/LugRzemioslo.png/33px-LugRzemioslo.png" title="Ług"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Panaceum3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Lug.png" alt="Ług" title="Ług"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLug");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLug);
@@ -3382,7 +3614,7 @@ function add(){
   /**REMEDIUM SILY*/
   var dodajSkoraAligatora = document.createElement("table");
   dodajSkoraAligatora.innerHTML = 
-  '<table><tr><td class="ilosc" id="remedium1_add-sum2">'+sum2Remedium1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7d/SkoraAligatora.png/33px-SkoraAligatora.png" title="Skóra aligatora"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Remedium1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraAligatora.png" alt="Skóra aligatora" title="Skóra aligatora"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraAligatora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraAligatora);
@@ -3391,7 +3623,7 @@ function add(){
   }
   var dodajNasiona = document.createElement("table");
   dodajNasiona.innerHTML = 
-  '<table><tr><td class="ilosc" id="remedium2_add-sum1">'+sum1Remedium2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ea/Nasiona.png/33px-Nasiona.png" title="Nasiona"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Remedium2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Nasiona.png" alt="Nasiona" title="Nasiona"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNasiona");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNasiona);
@@ -3400,7 +3632,7 @@ function add(){
   }
   var dodajBimber = document.createElement("table");
   dodajBimber.innerHTML = 
-  '<table><tr><td class="ilosc" id="remedium3_add-sum1">'+sum1Remedium3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/37/BimberRzemioslo.png/33px-BimberRzemioslo.png" title="Bimber"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Remedium3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bimber.png" alt="Bimber" title="Bimber"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBimber");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBimber);
@@ -3409,7 +3641,7 @@ function add(){
   }
   var dodajGumaDoZucia = document.createElement("table");
   dodajGumaDoZucia.innerHTML = 
-  '<table><tr><td class="ilosc" id="remedium4_add-sum1">'+sum1Remedium4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/GumaDoZuciaRzemioslo.png/33px-GumaDoZuciaRzemioslo.png" title="Guma do żucia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Remedium4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/GumaDoZucia.png" alt="Guma do żucia" title="Guma do żucia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGumaDoZucia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGumaDoZucia);
@@ -3420,7 +3652,7 @@ function add(){
   /**ODZYWKA DO WLOSOW*/
   var dodajSkoraPumy = document.createElement("table");
   dodajSkoraPumy.innerHTML = 
-  '<table><tr><td class="ilosc" id="odzywka1_add-sum1">'+sum1Odzywka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/SkoraPumy.png/33px-SkoraPumy.png" title="Skóra pumy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Odzywka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraPumy.png" alt="Skóra pumy" title="Skóra pumy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraPumy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraPumy);
@@ -3429,7 +3661,7 @@ function add(){
   }
   var dodajBateria = document.createElement("table");
   dodajBateria.innerHTML = 
-  '<table><tr><td class="ilosc" id="odzywka2_add-sum1">'+sum1Odzywka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ef/BateriaRzemioslo.png/33px-BateriaRzemioslo.png" title="Bateria"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Odzywka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bateria.png" alt="Bateria" title="Bateria"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBateria");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBateria);
@@ -3439,7 +3671,7 @@ function add(){
   var dodajNafta = document.createElement("table");
   sum1Odzywka3 = sum1Odzywka3 + sum2Proch4;
   dodajNafta.innerHTML = 
-  '<table><tr><td class="ilosc" id="odzywka3_add-sum1">'+sum1Odzywka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/45/NaftaRzemioslo.png/33px-NaftaRzemioslo.png" title="Nafta"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Odzywka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Nafta.png" alt="Nafta" title="Nafta"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNafta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNafta);
@@ -3451,7 +3683,7 @@ function add(){
   var dodajDzban = document.createElement("table");
   sum1ZTrunek1 = sum1ZTrunek1 + sum1Zywica2;
   dodajDzban.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakomity-trunek1_add-sum1">'+sum1ZTrunek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1ZTrunek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dzban.png" alt="Dzban" title="Dzban"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzban");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzban);
@@ -3460,7 +3692,7 @@ function add(){
   }
   var dodajLikierZiolowy = document.createElement("table");
   dodajLikierZiolowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakomity-trunek2_add-sum1">'+sum1ZTrunek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/19/LikierZiolowyRzemioslo.png/33px-LikierZiolowyRzemioslo.png" title="Likier ziołowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1ZTrunek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LikierZiolowy.png" alt="Likier ziołowy" title="Likier ziołowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLikierZiolowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLikierZiolowy);
@@ -3470,7 +3702,7 @@ function add(){
   var dodajBimber = document.createElement("table");
   sum1ZTrunek3 = sum1ZTrunek3 + sum1Remedium3;
   dodajBimber.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakomity-trunek3_add-sum1">'+sum1ZTrunek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/37/BimberRzemioslo.png/33px-BimberRzemioslo.png" title="Bimber"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1ZTrunek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bimber.png" alt="Bimber" title="Bimber"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBimber");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBimber);
@@ -3481,7 +3713,7 @@ function add(){
   /**UZDRAWIAJACA MARIONETKA*/
   var dodajRzemien = document.createElement("table");
   dodajRzemien.innerHTML = 
-  '<table><tr><td class="ilosc" id="marionetka1_add-sum2">'+sum2Marionetka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f9/RzemienRzemioslo.png/33px-RzemienRzemioslo.png" title="Rzemień"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Marionetka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rzemien.png" alt="Rzemień" title="Rzemień"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRzemien");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRzemien);
@@ -3490,7 +3722,7 @@ function add(){
   }
   var dodajWloknoLnu = document.createElement("table");
   dodajWloknoLnu.innerHTML = 
-  '<table><tr><td class="ilosc" id="marionetka2_add-sum1">'+sum1Marionetka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/95/WloknoLnuRzemioslo.png/33px-WloknoLnuRzemioslo.png" title="Włókno lnu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Marionetka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WloknoLnu.png" alt="Włókno lnu" title="Włókno lnu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWloknoLnu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWloknoLnu);
@@ -3500,7 +3732,7 @@ function add(){
   var dodajZywica = document.createElement("table");
   sum1Marionetka3 = sum1Prymka3 + sum1Marionetka3;
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="marionetka3_add-sum1">'+sum1Marionetka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Marionetka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -3509,7 +3741,7 @@ function add(){
   }
   var dodajCyrkiel = document.createElement("table");
   dodajCyrkiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="marionetka4_add-sum1">'+sum1Marionetka4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/97/CyrkielRzemioslo.png/33px-CyrkielRzemioslo.png" title="Cyrkiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Marionetka4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cyrkiel.png" alt="Cyrkiel" title="Cyrkiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCyrkiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCyrkiel);
@@ -3520,7 +3752,7 @@ function add(){
   /**BLYSZCZACA MIKSTURA*/
   var dodajKadzidlo = document.createElement("table");
   dodajKadzidlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="mikstura1_add-sum3">'+sum3Mikstura1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/68/KadzidloRzemioslo.png/33px-KadzidloRzemioslo.png" title="Kadzidło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Mikstura1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kadzidlo.png" alt="Kadzidło" title="Kadzidło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKadzidlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKadzidlo);
@@ -3530,7 +3762,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum3Mikstura2 = sum3Mikstura2 + sum1Destylat3;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="mikstura2_add-sum3">'+sum3Mikstura2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Mikstura2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -3540,7 +3772,7 @@ function add(){
   var dodajKwiatLotosu = document.createElement("table");
   sum2Mikstura3 = sum2Mikstura3 + sum1Likier1;
   dodajKwiatLotosu.innerHTML = 
-  '<table><tr><td class="ilosc" id="mikstura3_add-sum2">'+sum2Mikstura3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f8/KwiatLotosu.png/33px-KwiatLotosu.png" title="Kwiat lotosu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Mikstura3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KwiatLotosu.png" alt="Kwiat lotosu" title="Kwiat lotosu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKwiatLotosu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKwiatLotosu);
@@ -3549,7 +3781,7 @@ function add(){
   }
   var dodajPanaceum = document.createElement("table");
   dodajPanaceum.innerHTML = 
-  '<table><tr><td class="ilosc" id="mikstura4_add-sum1">'+sum1Mikstura4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/PanaceumRzemioslo.png/33px-PanaceumRzemioslo.png" title="Panaceum"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Mikstura4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Panaceum.png" alt="Panaceum" title="Panaceum"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPanaceum");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPanaceum);
@@ -3561,7 +3793,7 @@ function add(){
   var dodajLikierZiolowy = document.createElement("table");
   sum5Antidotum1 = sum5Antidotum1 + sum1ZTrunek2;
   dodajLikierZiolowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="antidotum1_add-sum5">'+sum5Antidotum1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/19/LikierZiolowyRzemioslo.png/33px-LikierZiolowyRzemioslo.png" title="Likier ziołowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Antidotum1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LikierZiolowy.png" alt="Likier ziołowy" title="Likier ziołowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLikierZiolowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLikierZiolowy);
@@ -3570,7 +3802,7 @@ function add(){
   }
   var dodajBlyszczacaMikstura = document.createElement("table");
   dodajBlyszczacaMikstura.innerHTML = 
-  '<table><tr><td class="ilosc" id="antidotum2_add-sum4">'+sum4Antidotum2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/23/BlyszczacaMiksturaRzemioslo.png/33px-BlyszczacaMiksturaRzemioslo.png" title="Błyszcząca mikstura"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Antidotum2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/BlyszczacaMikstura.png" alt="Błyszcząca mikstura" title="Błyszcząca mikstura"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBlyszczacaMikstura");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBlyszczacaMikstura);
@@ -3580,7 +3812,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum4Antidotum3 = sum4Antidotum3 + sum1Papieros2;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="antidotum3_add-sum4">'+sum4Antidotum3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Antidotum3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -3589,7 +3821,7 @@ function add(){
   }
   var dodajZabKobry = document.createElement("table");
   dodajZabKobry.innerHTML = 
-  '<table><tr><td class="ilosc" id="antidotum4_add-sum1">'+sum1Antidotum4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f2/ZabKobry.png/33px-ZabKobry.png" title="Ząb kobry"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Antidotum4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ZabKobry.png" alt="Ząb kobry" title="Ząb kobry"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZabKobry");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZabKobry);
@@ -3600,7 +3832,7 @@ function add(){
   /**DUCHOWA MUZYKA*/
   var dodajNuty = document.createElement("table");
   dodajNuty.innerHTML = 
-  '<table><tr><td class="ilosc" id="duchowa-muzyka1_add-sum4">'+sum4DuchMuz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/31/Nuty.png/33px-Nuty.png" title="Nuty"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4DuchMuz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Nuty.png" alt="Nuty" title="Nuty"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNuty");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNuty);
@@ -3609,7 +3841,7 @@ function add(){
   }
   var dodajAtramentSympatyczny = document.createElement("table");
   dodajAtramentSympatyczny.innerHTML = 
-  '<table><tr><td class="ilosc" id="duchowa-muzyka2_add-sum2">'+sum2DuchMuz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f9/AtramentSympatycznyRzemioslo.png/33px-AtramentSympatycznyRzemioslo.png" title="Atrament sympatyczny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2DuchMuz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/AtramentSympatyczny.png" alt="Atrament sympatyczny" title="Atrament sympatyczny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajAtramentSympatyczny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajAtramentSympatyczny);
@@ -3618,7 +3850,7 @@ function add(){
   }
   var dodajWyrokSmierci = document.createElement("table");
   dodajWyrokSmierci.innerHTML = 
-  '<table><tr><td class="ilosc" id="duchowa-muzyka3_add-sum1">'+sum1DuchMuz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/20/Wyroksmierci.png/33px-Wyroksmierci.png" title="Wyrok śmierci"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1DuchMuz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wyroksmierci.png" alt="Wyrok śmierci" title="Wyrok śmierci"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWyrokSmierci");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWyrokSmierci);
@@ -3627,7 +3859,7 @@ function add(){
   }
   var dodajDestylat = document.createElement("table");
   dodajDestylat.innerHTML = 
-  '<table><tr><td class="ilosc" id="duchowa-muzyka4_add-sum1">'+sum1DuchMuz4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7b/DestylatRzemioslo.png/33px-DestylatRzemioslo.png" title="Destylat"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1DuchMuz4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Destylat.png" alt="Destylat" title="Destylat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDestylat");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDestylat);
@@ -3637,7 +3869,7 @@ function add(){
   var dodajWloknoLnu = document.createElement("table");
   sum1DuchMuz5 = sum1DuchMuz5 + sum1Marionetka2;
   dodajWloknoLnu.innerHTML = 
-  '<table><tr><td class="ilosc" id="duchowa-muzyka5_add-sum1">'+sum1DuchMuz5+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/95/WloknoLnuRzemioslo.png/33px-WloknoLnuRzemioslo.png" title="Włókno lnu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1DuchMuz5+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WloknoLnu.png" alt="Włókno lnu" title="Włókno lnu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWloknoLnu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWloknoLnu);
@@ -3909,11 +4141,76 @@ function add(){
   var sum1Znakownik4 = Number(znakownik*1);
   addSum1Znakownik4.innerHTML = sum1Znakownik4+"x";
   
+  /**SKORZANY PLASZCZ*/
+  var skorzanyPlaszcz = Number(calcSkorzanyPlaszcz.value) || 0;
+  var sum4SkorzanyPlaszcz1 = Number(skorzanyPlaszcz*4);
+  addSum4SkorzanyPlaszcz1.innerHTML = sum4SkorzanyPlaszcz1+"x";
+  var sum3SkorzanyPlaszcz2 = Number(skorzanyPlaszcz*3);
+  addSum3SkorzanyPlaszcz2.innerHTML = sum3SkorzanyPlaszcz2+"x";
+  var sum2SkorzanyPlaszcz3 = Number(skorzanyPlaszcz*2);
+  addSum2SkorzanyPlaszcz3.innerHTML = sum2SkorzanyPlaszcz3+"x";
+  var sum2SkorzanyPlaszcz4 = Number(skorzanyPlaszcz*2);
+  addSum2SkorzanyPlaszcz4.innerHTML = sum2SkorzanyPlaszcz4+"x";
+  /**DYLIZANS MARII ROALSTAD*/
+  var dylizans = Number(calcDylizans.value) || 0;
+  var sum10Dylizans1 = Number(dylizans*10);
+  addSum10Dylizans1.innerHTML = sum10Dylizans1+"x";
+  var sum1Dylizans2 = Number(dylizans*1);
+  addSum1Dylizans2.innerHTML = sum1Dylizans2+"x";
+  var sum1Dylizans3 = Number(dylizans*1);
+  addSum1Dylizans3.innerHTML = sum1Dylizans3+"x";
+  var sum1Dylizans4 = Number(dylizans*1);
+  addSum1Dylizans4.innerHTML = sum1Dylizans4+"x";
+  var sum1Dylizans5 = Number(dylizans*1);
+  addSum1Dylizans5.innerHTML = sum1Dylizans5+"x";
+  var sum1Dylizans6 = Number(dylizans*1);
+  addSum1Dylizans6.innerHTML = sum1Dylizans6+"x";
+  /**ZBROJA DLA WIERZCHOWCA*/
+  var zbrojaDlaWierzchowca = Number(calcZbrojaDlaWierzchowca.value) || 0;
+  var sum3ZbrojaDlaWierzchowca1 = Number(zbrojaDlaWierzchowca*3);
+  addSum3ZbrojaDlaWierzchowca1.innerHTML = sum3ZbrojaDlaWierzchowca1+"x";
+  var sum1ZbrojaDlaWierzchowca2 = Number(zbrojaDlaWierzchowca*1);
+  addSum1ZbrojaDlaWierzchowca2.innerHTML = sum1ZbrojaDlaWierzchowca2+"x";
+  /**PAS Z RZEMIENI*/
+  var pasZRzemieni = Number(calcPasZRzemieni.value) || 0;
+  var sum3PasZRzemieni1 = Number(pasZRzemieni*3);
+  addSum3PasZRzemieni1.innerHTML = sum3PasZRzemieni1+"x";
+  var sum1PasZRzemieni2 = Number(pasZRzemieni*1);
+  addSum1PasZRzemieni2.innerHTML = sum1PasZRzemieni2+"x";
+  var sum1PasZRzemieni3 = Number(pasZRzemieni*1);
+  addSum1PasZRzemieni3.innerHTML = sum1PasZRzemieni3+"x";
+  var sum1PasZRzemieni4 = Number(pasZRzemieni*1);
+  addSum1PasZRzemieni4.innerHTML = sum1PasZRzemieni4+"x";
+  /**PLOCIENNA SKRZYNKA*/
+  var plociennaSkrzynka = Number(calcPlociennaSkrzynka.value) || 0;
+  var sum10PlociennaSkrzynka1 = Number(plociennaSkrzynka*10);
+  addSum10PlociennaSkrzynka1.innerHTML = sum10PlociennaSkrzynka1+"x";
+  var sum8PlociennaSkrzynka2 = Number(plociennaSkrzynka*8);
+  addSum8PlociennaSkrzynka2.innerHTML = sum8PlociennaSkrzynka2+"x";
+  var sum3PlociennaSkrzynka3 = Number(plociennaSkrzynka*3);
+  addSum3PlociennaSkrzynka3.innerHTML = sum3PlociennaSkrzynka3+"x";
+  var sum3PlociennaSkrzynka4 = Number(plociennaSkrzynka*3);
+  addSum3PlociennaSkrzynka4.innerHTML = sum3PlociennaSkrzynka4+"x";
+  var sum3PlociennaSkrzynka5 = Number(plociennaSkrzynka*3);
+  addSum3PlociennaSkrzynka5.innerHTML = sum3PlociennaSkrzynka5+"x";
+  /***PIESN DZIKIEGO ZACHODU*/
+  var piesnTW = Number(calcPiesnTW.value) || 0;
+  var sum5PiesnTW1 = Number(piesnTW*5);
+  addSum5PiesnTW1.innerHTML = sum5PiesnTW1+"x";
+  var sum3PiesnTW2 = Number(piesnTW*3);
+  addSum3PiesnTW2.innerHTML = sum3PiesnTW2+"x";
+  var sum3PiesnTW3 = Number(piesnTW*3);
+  addSum3PiesnTW3.innerHTML = sum3PiesnTW3+"x";
+  var sum2PiesnTW4 = Number(piesnTW*2);
+  addSum2PiesnTW4.innerHTML = sum2PiesnTW4+"x";
+
+
+
   /**WYGARBOWANA SKORA*/
   var dodajSkora = document.createElement("table");
   sum1WygarSkora1 = sum1WygarSkora1 + sum4Ryba2;
   dodajSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="wygarb-skora1_add-sum1">'+sum1WygarSkora1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Skora.png/33px-Skora.png" title="Skóra"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1WygarSkora1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Skora.png" alt="Skóra" title="Skóra"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkora);
@@ -3924,7 +4221,7 @@ function add(){
   /**SKORZANA TORBA*/
   var dodajWygarbowanaSkora = document.createElement("table");
   dodajWygarbowanaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="skorz-torba1_add-sum1">'+sum1SkorzTorba1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/80/WygarbowanaSkoraRzemioslo.png/33px-WygarbowanaSkoraRzemioslo.png" title="Wygarbowana skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SkorzTorba1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WygarbowanaSkora.png" alt="Wygarbowana skóra" title="Wygarbowana skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWygarbowanaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWygarbowanaSkora);
@@ -3935,7 +4232,7 @@ function add(){
   /**TORBA Z PASZA*/
   var dodajSkorzanaTorba = document.createElement("table");
   dodajSkorzanaTorba.innerHTML = 
-  '<table><tr><td class="ilosc" id="torba-pasza1_add-sum1">'+sum1TorbaPasza1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/bc/SkorzanaTorbaRzemioslo.png/33px-SkorzanaTorbaRzemioslo.png" title="Skórzana torba"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1TorbaPasza1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkorzanaTorba.png" alt="Skórzana torba" title="Skórzana torba"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkorzanaTorba");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkorzanaTorba);
@@ -3945,7 +4242,7 @@ function add(){
   var dodajZboze = document.createElement("table");
   sum1TorbaPasza2 = sum1TorbaPasza2 + sum4Bimber1;
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="torba-pasza2_add-sum1">'+sum1TorbaPasza2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1TorbaPasza2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -3956,7 +4253,7 @@ function add(){
   /**MANIERKA*/
   var dodajSkoraZBobra = document.createElement("table");
   dodajSkoraZBobra.innerHTML = 
-  '<table><tr><td class="ilosc" id="manierka1_add-sum1">'+sum1Manierka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4b/SkoraZBobra.png/33px-SkoraZBobra.png" title="Skóra z bobra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Manierka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBobra.png" alt="Skóra z bobra" title="Skóra z bobra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBobra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBobra);
@@ -3965,7 +4262,7 @@ function add(){
   }
   var dodajKrowiRog = document.createElement("table");
   dodajKrowiRog.innerHTML = 
-  '<table><tr><td class="ilosc" id="manierka2_add-sum1">'+sum1Manierka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/KrowiRog.png/33px-KrowiRog.png" title="Krowi róg"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Manierka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KrowiRog.png" alt="Krowi róg" title="Krowi róg"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrowiRog");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrowiRog);
@@ -3976,7 +4273,7 @@ function add(){
   /**RZEMIEN*/
   var dodajSierp = document.createElement("table");
   dodajSierp.innerHTML = 
-  '<table><tr><td class="ilosc" id="rzemien1_add-sum1">'+sum1Rzemien1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/04/Sierp.png/33px-Sierp.png" title="Sierp"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rzemien1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sierp.png" alt="Sierp" title="Sierp"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSierp");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSierp);
@@ -3986,7 +4283,7 @@ function add(){
   var dodajWygarbowanaSkora = document.createElement("table");
   sum1Rzemien2 = sum1Rzemien2 + sum1SkorzTorba1;
   dodajWygarbowanaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="rzemien2_add-sum1">'+sum1Rzemien2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/80/WygarbowanaSkoraRzemioslo.png/33px-WygarbowanaSkoraRzemioslo.png" title="Wygarbowana skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rzemien2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WygarbowanaSkora.png" alt="Wygarbowana skóra" title="Wygarbowana skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWygarbowanaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWygarbowanaSkora);
@@ -3998,7 +4295,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum1Deska1 = sum1Deska1 + sum3Lug1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="deska1_add-sum1">'+sum1Deska1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Deska1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -4009,7 +4306,7 @@ function add(){
   /**TORBA PODROZNA*/
   var dodajWelna = document.createElement("table");
   dodajWelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="torba-podr1_add-sum2">'+sum2TorbaPodr1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/ba/Welna.png/33px-Welna.png" title="Wełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2TorbaPodr1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Welna.png" alt="Wełna" title="Wełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWelna);
@@ -4019,7 +4316,7 @@ function add(){
   var dodajBawelna = document.createElement("table");
   sum1TorbaPodr2 = sum1TorbaPodr2 + sum1Krzesiwo3;
   dodajBawelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="torba-podr2_add-sum1">'+sum1TorbaPodr2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1TorbaPodr2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bawelna.png" alt="Bawełna" title="Bawełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBawelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBawelna);
@@ -4032,7 +4329,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum2Podkucie1 = sum2Podkucie1 + sum3Wlokno1;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="podkucie1_add-sum2">'+sum2Podkucie1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Podkucie1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajGwozdzie");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajGwozdzie);
@@ -4042,7 +4339,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1Podkucie2 = sum1Podkucie2 + sum5FasPuszka4;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="podkucie2_add-sum1">'+sum1Podkucie2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Podkucie2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -4051,7 +4348,7 @@ function add(){
   }
   var dodajPodkowa = document.createElement("table");
   dodajPodkowa.innerHTML = 
-  '<table><tr><td class="ilosc" id="podkucie3_add-sum1">'+sum1Podkucie3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/11/Podkowa.png/33px-Podkowa.png" title="Podkowa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Podkucie3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Podkowa.png" alt="Podkowa" title="Podkowa"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajPodkowa");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajPodkowa);
@@ -4063,7 +4360,7 @@ function add(){
   var dodajZboze = document.createElement("table");
   sum3Pasza1 = sum3Pasza1+ sum1TorbaPasza2;
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="pasza1_add-sum3">'+sum3Pasza1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Pasza1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -4073,7 +4370,7 @@ function add(){
   var dodajSiano = document.createElement("table");
   sum3Pasza2 = sum3Pasza2 + sum2Wlokno3;
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="pasza2_add-sum3">'+sum3Pasza2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Pasza2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -4083,7 +4380,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum3Pasza3 = sum3Pasza3 + sum2Wlokno2;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="pasza3_add-sum3">'+sum3Pasza3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Pasza3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -4093,7 +4390,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum2Pasza4 = sum2Pasza4 + sum3Herbata1;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="pasza1_add-sum3">'+sum2Pasza4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Pasza4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -4104,7 +4401,7 @@ function add(){
   /**OBDARTE SIODLO*/
   var dodajSiodlo = document.createElement("table");
   dodajSiodlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="obdarte-siodlo1_add-sum1">'+sum1ObdarteSiodlo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/25/Siodlo.png/33px-Siodlo.png" title="Siodło"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1ObdarteSiodlo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siodlo.png" alt="Siodło" title="Siodło"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSiodlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiodlo);
@@ -4114,7 +4411,7 @@ function add(){
   var dodajNoz = document.createElement("table");
   sum1ObdarteSiodlo2 = sum1ObdarteSiodlo2 + sum1SokKaktus3;
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="obdarte-siodlo2_add-sum1">'+sum1ObdarteSiodlo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1ObdarteSiodlo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -4126,7 +4423,7 @@ function add(){
   var dodajBawelna = document.createElement("table");
   sum4Wypelniacz1 = sum4Wypelniacz1 + sum1TorbaPodr2;
   dodajBawelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="wypelniacz1_add-sum4">'+sum4Wypelniacz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Wypelniacz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bawelna.png" alt="Bawełna" title="Bawełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBawelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBawelna);
@@ -4136,7 +4433,7 @@ function add(){
   var dodajZboze = document.createElement("table");
   sum4Wypelniacz2 = sum3Pasza1 + sum4Wypelniacz2;
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="wypelniacz2_add-sum4">'+sum4Wypelniacz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Wypelniacz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -4146,7 +4443,7 @@ function add(){
   var dodajWelna = document.createElement("table");
   sum2Wypelniacz3 = sum2Wypelniacz3 + sum2TorbaPodr1;
   dodajWelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="wypelniacz3_add-sum2">'+sum2Wypelniacz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/ba/Welna.png/33px-Welna.png" title="Wełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Wypelniacz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Welna.png" alt="Wełna" title="Wełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWelna);
@@ -4158,7 +4455,7 @@ function add(){
   var dodajZywica = document.createElement("table");
   sum1SkorzPokrycie1 = sum1SkorzPokrycie1 + sum1Marionetka3;
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="skorz-pokrycie1_add-sum1">'+sum1SkorzPokrycie1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SkorzPokrycie1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -4168,7 +4465,7 @@ function add(){
   var dodajSkoraWeza = document.createElement("table");
   sum1SkorzPokrycie2 = sum1SkorzPokrycie2 + sum1Panaceum2;
   dodajSkoraWeza.innerHTML = 
-  '<table><tr><td class="ilosc" id="skorz-pokrycie2_add-sum1">'+sum1SkorzPokrycie2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ac/SkoraWeza.png/33px-SkoraWeza.png" title="Skóra węża"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SkorzPokrycie2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraWeza.png" alt="Skóra węża" title="Skóra węża"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraWeza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraWeza);
@@ -4180,7 +4477,7 @@ function add(){
   var dodajSiano = document.createElement("table");
   sum2Znakownik1 = sum2Znakownik1 + sum3Pasza2;
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakownik1_add-sum2">'+sum2Znakownik1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Znakownik1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -4190,7 +4487,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum2Znakownik2 = sum2Znakownik2 + sum4Antidotum3;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakownik2_add-sum2">'+sum2Znakownik2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Znakownik2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -4199,7 +4496,7 @@ function add(){
   }
   var dodajPretyMetalowe = document.createElement("table");
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakownik3_add-sum1">'+sum1Znakownik3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/09/PretyMetalowe.png/33px-PretyMetalowe.png" title="Pręty metalowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Znakownik3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PretyMetalowe.png" alt="Pręty metalowe" title="Pręty metalowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -4209,7 +4506,7 @@ function add(){
   var dodajKrzesiwo = document.createElement("table");
   sum1Znakownik4 = sum1Znakownik4 + sum1Bimber4;
   dodajKrzesiwo.innerHTML = 
-  '<table><tr><td class="ilosc" id="znakownik4_add-sum1">'+sum1Znakownik4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Znakownik4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Krzesiwo.png" alt="Krzesiwo" title="Krzesiwo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrzesiwo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrzesiwo);
@@ -4221,7 +4518,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum1Kompas1 = sum1Kompas1 + sum3Pasza3;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="kompas1_add-sum1">'+sum1Kompas1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kompas1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -4231,7 +4528,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum1Kompas2 = sum1Kompas2 + sum2Podkucie1;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="kompas2_add-sum1">'+sum1Kompas2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kompas2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajGwozdzie");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajGwozdzie);
@@ -4243,7 +4540,7 @@ function add(){
   var dodajPretyMetalowe = document.createElement("table");
   sum1Strzemie1 = sum1Strzemie1 + sum1Znakownik3;
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="strzemie1_add-sum1">'+sum1Strzemie1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/09/PretyMetalowe.png/33px-PretyMetalowe.png" title="Pręty metalowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Strzemie1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PretyMetalowe.png" alt="Pręty metalowe" title="Pręty metalowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -4252,7 +4549,7 @@ function add(){
   }
   var dodajMlotKowalski = document.createElement("table");
   dodajMlotKowalski.innerHTML = 
-  '<table><tr><td class="ilosc" id="strzemie2_add-sum1">'+sum1Strzemie2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/35/MlotKowalski.png/33px-MlotKowalski.png" title="Młot kowalski"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Strzemie2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MlotKowalski.png" alt="Młot kowalski" title="Młot kowalski"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotKowalski");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotKowalski);
@@ -4262,7 +4559,7 @@ function add(){
   var dodajRzemien = document.createElement("table");
   sum1Strzemie3 = sum1Strzemie3 + sum2Marionetka1;
   dodajRzemien.innerHTML = 
-  '<table><tr><td class="ilosc" id="strzemie3_add-sum1">'+sum1Strzemie3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f9/RzemienRzemioslo.png/33px-RzemienRzemioslo.png" title="Rzemień"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Strzemie3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rzemien.png" alt="Rzemień" title="Rzemień"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRzemien");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRzemien);
@@ -4273,7 +4570,7 @@ function add(){
   /**OSTROGI*/
   var dodajDrutKolczasty = document.createElement("table");
   dodajDrutKolczasty.innerHTML = 
-  '<table><tr><td class="ilosc" id="ostrogi1_add-sum3">'+sum3Ostrogi1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/40/DrutKolczasty.png/33px-DrutKolczasty.png" title="Drut kolczasty"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Ostrogi1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DrutKolczasty.png" alt="Drut kolczasty" title="Drut kolczasty"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrutKolczasty");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrutKolczasty);
@@ -4282,7 +4579,7 @@ function add(){
   }
   var dodajCwiercdolarowka = document.createElement("table");
   dodajCwiercdolarowka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ostrogi2_add-sum1">'+sum1Ostrogi2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6a/Cwiercdolarowka.png/33px-Cwiercdolarowka.png" title="Ćwierćdolarówka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ostrogi2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cwiercdolarowka.png" alt="Ćwierćdolarówka" title="Ćwierćdolarówka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCwiercdolarowka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCwiercdolarowka);
@@ -4292,7 +4589,7 @@ function add(){
   var dodajPila = document.createElement("table");
   sum1Ostrogi3 = sum1Ostrogi3 + sum1Zywica1;
   dodajPila.innerHTML = 
-  '<table><tr><td class="ilosc" id="ostrogi3_add-sum1">'+sum1Ostrogi3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Pila.png/33px-Pila.png" title="Piła"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ostrogi3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pila.png" alt="Piła" title="Piła"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPila);
@@ -4304,7 +4601,7 @@ function add(){
   var dodajLasso = document.createElement("table");
   sum2Uzda1 = sum2Uzda1 + sum2Cyrkiel2;
   dodajLasso.innerHTML = 
-  '<table><tr><td class="ilosc" id="uzda1_add-sum2">'+sum2Uzda1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/ea/Lasso.png/33px-Lasso.png" title="Lasso"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Uzda1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Lasso.png" alt="Lasso" title="Lasso"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLasso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLasso);
@@ -4314,7 +4611,7 @@ function add(){
   var dodajSzpulkaDrutu = document.createElement("table");
   sum1Uzda2 = sum1Uzda2 + sum1Bateria2;
   dodajSzpulkaDrutu.innerHTML = 
-  '<table><tr><td class="ilosc" id="uzda2_add-sum1">'+sum1Uzda2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzpulkaDrutu.png/33px-SzpulkaDrutu.png" title="Szpulka drutu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Uzda2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzpulkaDrutu.png" alt="Szpulka drutu" title="Szpulka drutu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzpulkaDrutu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzpulkaDrutu);
@@ -4324,7 +4621,7 @@ function add(){
   var dodajDeskaDoKrojenia = document.createElement("table");
   sum1Uzda3 = sum1Uzda3 + sum1Nalewka3;
   dodajDeskaDoKrojenia.innerHTML = 
-  '<table><tr><td class="ilosc" id="uzda3_add-sum1">'+sum1Uzda3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/57/DeskaDoKrojeniaRzemioslo.png/33px-DeskaDoKrojeniaRzemioslo.png" title="Deska do krojenia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Uzda3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDeskaDoKrojenia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDeskaDoKrojenia);
@@ -4336,7 +4633,7 @@ function add(){
   var dodajSiano = document.createElement("table");
   sum3Spiwor1 = sum2Znakownik1 + sum3Spiwor1;
   dodajSiano.innerHTML = 
-  '<table><tr><td class="ilosc" id="spiwor1_add-sum3">'+sum3Spiwor1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Spiwor1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiano);
@@ -4346,7 +4643,7 @@ function add(){
   var dodajSkoraPumy = document.createElement("table");
   sum2Spiwor2 = sum2Spiwor2 + sum1Odzywka1;
   dodajSkoraPumy.innerHTML = 
-  '<table><tr><td class="ilosc" id="spiwor2_add-sum2">'+sum2Spiwor2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/SkoraPumy.png/33px-SkoraPumy.png" title="Skóra pumy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Spiwor2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraPumy.png" alt="Skóra pumy" title="Skóra pumy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraPumy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraPumy);
@@ -4356,7 +4653,7 @@ function add(){
   var dodajSukno = document.createElement("table");
   sum1Spiwor3 = sum1Spiwor3 + sum1Wycior3;
   dodajSukno.innerHTML = 
-  '<table><tr><td class="ilosc" id="spiwor3_add-sum1">'+sum1Spiwor3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Sukno.png/33px-Sukno.png" title="Sukno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Spiwor3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sukno.png" alt="Sukno" title="Sukno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSukno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSukno);
@@ -4367,7 +4664,7 @@ function add(){
   /**DERA*/
   var dodajSkoraZBizona = document.createElement("table");
   dodajSkoraZBizona.innerHTML = 
-  '<table><tr><td class="ilosc" id="dera1_add-sum1">'+sum1Dera1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8e/SkoraZBizona.png/33px-SkoraZBizona.png" title="Skóra z bizona"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dera1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBizona.png" alt="Skóra z bizona" title="Skóra z bizona"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBizona");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBizona);
@@ -4377,7 +4674,7 @@ function add(){
   var dodajSkoraZBobra = document.createElement("table");
   sum1Dera2 = sum1Dera2 + sum1Manierka1;
   dodajSkoraZBobra.innerHTML = 
-  '<table><tr><td class="ilosc" id="dera2_add-sum1">'+sum1Dera2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4b/SkoraZBobra.png/33px-SkoraZBobra.png" title="Skóra z bobra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dera2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBobra.png" alt="Skóra z bobra" title="Skóra z bobra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBobra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBobra);
@@ -4387,7 +4684,7 @@ function add(){
   var dodajNoz = document.createElement("table");
   sum1Dera3 = sum1Dera3 + sum1ObdarteSiodlo2;
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="dera3_add-sum1">'+sum1Dera3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dera3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -4398,7 +4695,7 @@ function add(){
   /**OZDOBA RYMARZ*/
   var dodajKamieniePolszlachetne = document.createElement("table");
   dodajKamieniePolszlachetne.innerHTML = 
-  '<table><tr><td class="ilosc" id="ozdoba-rym1_add-sum1">'+sum1OzdobaRym1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/31/KamieniePolszlachetne.png/33px-KamieniePolszlachetne.png" title="Kamienie półszlachetne"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1OzdobaRym1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KamieniePolszlachetne.png" alt="Kamienie półszlachetne" title="Kamienie półszlachetne"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamieniePolszlachetne");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamieniePolszlachetne);
@@ -4407,7 +4704,7 @@ function add(){
   }
   var dodajOlow = document.createElement("table");
   dodajOlow.innerHTML = 
-  '<table><tr><td class="ilosc" id="ozdoba-rym2_add-sum1">'+sum1OzdobaRym2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/Olow.png/33px-Olow.png" title="Ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1OzdobaRym2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Olow.png" alt="Ołów" title="Ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOlow");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOlow);
@@ -4416,7 +4713,7 @@ function add(){
   }
   var dodajSrebro = document.createElement("table");
   dodajSrebro.innerHTML = 
-  '<table><tr><td class="ilosc" id="ozdoba-rym3_add-sum1">'+sum1OzdobaRym3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b8/Srebro.png/33px-Srebro.png" title="Srebro"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1OzdobaRym3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Srebro.png" alt="Srebro" title="Srebro"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSrebro");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSrebro);
@@ -4428,7 +4725,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3CzescPowozu1 = sum3CzescPowozu1 + sum1Deska1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="czesc-powozu1_add-sum3">'+sum3CzescPowozu1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3CzescPowozu1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -4438,7 +4735,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum2CzescPowozu2 = sum1Kompas2 + sum2CzescPowozu2;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="czesc-powozu2_add-sum2">'+sum2CzescPowozu2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2CzescPowozu2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajGwozdzie");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajGwozdzie);
@@ -4448,7 +4745,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1CzescPowozu3 = sum1CzescPowozu3 + sum1Podkucie2;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="czesc-powozu3_add-sum1">'+sum1CzescPowozu3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1CzescPowozu3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -4460,7 +4757,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3KoloPowozu1 = sum3CzescPowozu1 + sum3KoloPowozu1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="kolo-powozu1_add-sum3">'+sum3KoloPowozu1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3KoloPowozu1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -4470,7 +4767,7 @@ function add(){
   var dodajPretyMetalowe = document.createElement("table");
   sum2KoloPowozu2 = sum1Strzemie1 + sum2KoloPowozu2;
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="kolo-powozu2_add-sum2">'+sum2KoloPowozu2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/09/PretyMetalowe.png/33px-PretyMetalowe.png" title="Pręty metalowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2KoloPowozu2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PretyMetalowe.png" alt="Pręty metalowe" title="Pręty metalowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -4480,7 +4777,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum1KoloPowozu3 = sum1KoloPowozu3 + sum2CzescPowozu2;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="kolo-powozu3_add-sum1">'+sum1KoloPowozu3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KoloPowozu3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajGwozdzie");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajGwozdzie);
@@ -4491,7 +4788,7 @@ function add(){
   /**POWOZ WYSCIGOWY*/
   var dodajLejce = document.createElement("table");
   dodajLejce.innerHTML = 
-  '<table><tr><td class="ilosc" id="powoz1_add-sum1">'+sum1Powoz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/LejceProdukt.png/33px-LejceProdukt.png" title="Lejce"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Powoz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Lejce.png" alt="Lejce" title="Lejce"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLejce");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLejce);
@@ -4500,7 +4797,7 @@ function add(){
   }
   var dodajCzescPowozu = document.createElement("table");
   dodajCzescPowozu.innerHTML = 
-  '<table><tr><td class="ilosc" id="powoz2_add-sum1">'+sum1Powoz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9d/CzescPowozuRzemioslo.png/33px-CzescPowozuRzemioslo.png" title="Część powozu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Powoz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/CzescPowozu.png" alt="Część powozu" title="Część powozu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCzescPowozu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCzescPowozu);
@@ -4509,7 +4806,7 @@ function add(){
   }
   var dodajKoloPowozu = document.createElement("table");
   dodajKoloPowozu.innerHTML = 
-  '<table><tr><td class="ilosc" id="powoz3_add-sum1">'+sum1Powoz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/KoloPowozuRzemioslo.png/33px-KoloPowozuRzemioslo.png" title="Koło powozu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Powoz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KoloPowozu.png" alt="Koło powozu" title="Koło powozu"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajKoloPowozu");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajKoloPowozu);
@@ -4521,7 +4818,7 @@ function add(){
   var dodajWhiskey = document.createElement("table");
   sum2Eliksir1 = sum2Eliksir1 + sum2WodaRozana2;
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="eliksir1_add-sum2">'+sum2Eliksir1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Eliksir1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -4530,7 +4827,7 @@ function add(){
   }
   var dodajEliksir = document.createElement("table");
   dodajEliksir.innerHTML = 
-  '<table><tr><td class="ilosc" id="eliksir2_add-sum1">'+sum1Eliksir2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9d/Eliksir.png/33px-Eliksir.png" title="Eliksir"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Eliksir2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Eliksir.png" alt="Eliksir" title="Eliksir"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajEliksir");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajEliksir);
@@ -4540,7 +4837,7 @@ function add(){
   var dodajManierka = document.createElement("table");
   sum1Eliksir3 = sum1Eliksir3 + sum1Destylat2;
   dodajManierka.innerHTML = 
-  '<table><tr><td class="ilosc" id="eliksir3_add-sum1">'+sum1Eliksir3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/69/ManierkaRzemioslo.png/33px-ManierkaRzemioslo.png" title="Manierka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Eliksir3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Manierka.png" alt="Manierka" title="Manierka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajManierka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajManierka);
@@ -4551,7 +4848,7 @@ function add(){
   /**NAPRAWIONE SIODLO*/
   var dodajSzczypce = document.createElement("table");
   dodajSzczypce.innerHTML = 
-  '<table><tr><td class="ilosc" id="napr-siodlo1_add-sum3">'+sum3NaprSiodlo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/SzczypceProdukt.png/33px-SzczypceProdukt.png" title="Szczypce"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3NaprSiodlo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szczypce.png" alt="Szczypce" title="Szczypce"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzczypce");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzczypce);
@@ -4561,7 +4858,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum1NaprSiodlo2 = sum1NaprSiodlo2 + sum3Mikstura2;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="napr-siodlo2_add-sum1">'+sum1NaprSiodlo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NaprSiodlo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -4570,7 +4867,7 @@ function add(){
   }
   var dodajSkorzanePokrycie = document.createElement("table");
   dodajSkorzanePokrycie.innerHTML = 
-  '<table><tr><td class="ilosc" id="napr-siodlo3_add-sum1">'+sum1NaprSiodlo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/SkorzanePokrycieRzemioslo.png/33px-SkorzanePokrycieRzemioslo.png" title="Skórzane pokrycie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NaprSiodlo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkorzanePokrycie.png" alt="Skórzane pokrycie" title="Skórzane pokrycie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkorzanePokrycie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkorzanePokrycie);
@@ -4579,7 +4876,7 @@ function add(){
   }
   var dodajObdarteSiodlo = document.createElement("table");
   dodajObdarteSiodlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="napr-siodlo4_add-sum1">'+sum1NaprSiodlo4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/ObdarteSiodloRzemioslo.png/33px-ObdarteSiodloRzemioslo.png" title="Obdarte siodło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NaprSiodlo4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ObdarteSiodlo.png" alt="Obdarte siodło" title="Obdarte siodło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajObdarteSiodlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajObdarteSiodlo);
@@ -4591,7 +4888,7 @@ function add(){
   var dodajSkorzanePokrycie = document.createElement("table");
   sum1Notatnik1 = sum1Notatnik1 + sum1NaprSiodlo3;
   dodajSkorzanePokrycie.innerHTML = 
-  '<table><tr><td class="ilosc" id="notatnik1_add-sum1">'+sum1Notatnik1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/SkorzanePokrycieRzemioslo.png/33px-SkorzanePokrycieRzemioslo.png" title="Skórzane pokrycie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Notatnik1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkorzanePokrycie.png" alt="Skórzane pokrycie" title="Skórzane pokrycie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkorzanePokrycie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkorzanePokrycie);
@@ -4601,7 +4898,7 @@ function add(){
   var dodajPapier = document.createElement("table");
   sum1Notatnik2 = sum1Notatnik2 + sum1AtramentS3;
   dodajPapier.innerHTML = 
-  '<table><tr><td class="ilosc" id="notatnik2_add-sum1">'+sum1Notatnik2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ad/PapierRzemioslo.png/33px-PapierRzemioslo.png" title="Papier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Notatnik2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Papier.png" alt="Papier" title="Papier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapier);
@@ -4613,7 +4910,7 @@ function add(){
   var dodajZywica = document.createElement("table");
   sum1LekSiodla1 = sum1LekSiodla1 + sum1SkorzPokrycie1;
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="lek-siodla1_add-sum1">'+sum1LekSiodla1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1LekSiodla1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -4623,7 +4920,7 @@ function add(){
   var dodajKamieniePolszlachetne = document.createElement("table");
   sum2LekSiodla2 = sum2LekSiodla2 + sum1OzdobaRym1;
   dodajKamieniePolszlachetne.innerHTML = 
-  '<table><tr><td class="ilosc" id="lek-siodla2_add-sum2">'+sum2LekSiodla2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/31/KamieniePolszlachetne.png/33px-KamieniePolszlachetne.png" title="Kamienie półszlachetne"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2LekSiodla2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KamieniePolszlachetne.png" alt="Kamienie półszlachetne" title="Kamienie półszlachetne"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamieniePolszlachetne");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamieniePolszlachetne);
@@ -4635,7 +4932,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum1Impregnat1 = sum1Impregnat1 + sum1NaprSiodlo2;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="impregnat1_add-sum1">'+sum1Impregnat1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Impregnat1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -4645,7 +4942,7 @@ function add(){
   var dodajKwiatLotosu = document.createElement("table");
   sum1Impregnat2 = sum1Impregnat2 + sum2Mikstura3;
   dodajKwiatLotosu.innerHTML = 
-  '<table><tr><td class="ilosc" id="impregnat2_add-sum1">'+sum1Impregnat2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f8/KwiatLotosu.png/33px-KwiatLotosu.png" title="Kwiat lotosu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Impregnat2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KwiatLotosu.png" alt="Kwiat lotosu" title="Kwiat lotosu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKwiatLotosu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKwiatLotosu);
@@ -4655,7 +4952,7 @@ function add(){
   var dodajPomarancza = document.createElement("table");
   sum1Impregnat3 = sum1Impregnat3 + sum1Bateria1;
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="impregnat3_add-sum1">'+sum1Impregnat3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Impregnat3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -4666,7 +4963,7 @@ function add(){
   /**ARRAS*/
   var dodajBandaze = document.createElement("table");
   dodajBandaze.innerHTML = 
-  '<table><tr><td class="ilosc" id="arras1_add-sum2">'+sum2Arras1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3d/Bandaze.png/33px-Bandaze.png" title="Bandaże"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Arras1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bandaze.png" alt="Bandaże" title="Bandaże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBandaze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBandaze);
@@ -4676,7 +4973,7 @@ function add(){
   var dodajIndygo = document.createElement("table");
   sum1Arras2 = sum1Arras2 + sum1Atrament1;
   dodajIndygo.innerHTML = 
-  '<table><tr><td class="ilosc" id="arras2_add-sum1">'+sum1Arras2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/96/Indygo.png/33px-Indygo.png" title="Indygo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Arras2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Indygo.png" alt="Indygo" title="Indygo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajIndygo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajIndygo);
@@ -4685,7 +4982,7 @@ function add(){
   }
   var dodajSzwajcarskiScyzoryk = document.createElement("table");
   dodajSzwajcarskiScyzoryk.innerHTML = 
-  '<table><tr><td class="ilosc" id="arras3_add-sum1">'+sum1Arras3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzwajcarskiScyzorykRzemioslo.png/33px-SzwajcarskiScyzorykRzemioslo.png" title="Szwajcarski scyzoryk"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Arras3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzwajcarskiScyzoryk.png" alt="Szwajcarski scyzoryk" title="Szwajcarski scyzoryk"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzwajcarskiScyzoryk");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzwajcarskiScyzoryk);
@@ -4694,7 +4991,7 @@ function add(){
   }
   var dodajDera = document.createElement("table");
   dodajDera.innerHTML = 
-  '<table><tr><td class="ilosc" id="arras4_add-sum1">'+sum1Arras4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/04/DeraRzemioslo.png/33px-DeraRzemioslo.png" title="Dera"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Arras4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dera.png" alt="Dera" title="Dera"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDera");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDera);
@@ -4705,7 +5002,7 @@ function add(){
   /**WYTRZYMALE LEJCE*/
   var dodajOzdobaRymarz = document.createElement("table");
   dodajOzdobaRymarz.innerHTML = 
-  '<table><tr><td class="ilosc" id="lejce1_add-sum1">'+sum1Lejce1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e4/OzdobaRzemioslo.png/33px-OzdobaRzemioslo.png" title="Ozdoba od rymarza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lejce1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ozdoba.png" alt="Ozdoba od rymarza" title="Ozdoba od rymarza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOzdobaRymarz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOzdobaRymarz);
@@ -4715,7 +5012,7 @@ function add(){
   var dodajRzemien = document.createElement("table");
   sum1Lejce2 = sum1Lejce2 + sum1Strzemie3;
   dodajRzemien.innerHTML = 
-  '<table><tr><td class="ilosc" id="lejce2_add-sum1">'+sum1Lejce2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/f9/RzemienRzemioslo.png/33px-RzemienRzemioslo.png" title="Rzemień"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lejce2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rzemien.png" alt="Rzemień" title="Rzemień"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRzemien");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRzemien);
@@ -4727,7 +5024,7 @@ function add(){
   var dodajWygarbowanaSkora = document.createElement("table");
   sum1Kabura1 = sum1Rzemien2 + sum1Kabura1;
   dodajWygarbowanaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="kabura1_add-sum1">'+sum1Kabura1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/80/WygarbowanaSkoraRzemioslo.png/33px-WygarbowanaSkoraRzemioslo.png" title="Wygarbowana skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kabura1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WygarbowanaSkora.png" alt="Wygarbowana skóra" title="Wygarbowana skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWygarbowanaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWygarbowanaSkora);
@@ -4736,7 +5033,7 @@ function add(){
   }
   var dodajWypelniacz = document.createElement("table");
   dodajWypelniacz.innerHTML = 
-  '<table><tr><td class="ilosc" id="kabura2_add-sum1">'+sum1Kabura2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/WypelniaczRzemioslo.png/33px-WypelniaczRzemioslo.png" title="Wypełniacz"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kabura2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wypelniacz.png" alt="Wypełniacz" title="Wypełniacz"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWypelniacz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWypelniacz);
@@ -4746,7 +5043,7 @@ function add(){
   var dodajSkorzanePokrycie = document.createElement("table");
   sum1Kabura3 = sum1Kabura3 + sum1Notatnik1;
   dodajSkorzanePokrycie.innerHTML = 
-  '<table><tr><td class="ilosc" id="kabura3_add-sum1">'+sum1Kabura3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/SkorzanePokrycieRzemioslo.png/33px-SkorzanePokrycieRzemioslo.png" title="Skórzane pokrycie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kabura3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkorzanePokrycie.png" alt="Skórzane pokrycie" title="Skórzane pokrycie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkorzanePokrycie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkorzanePokrycie);
@@ -4758,7 +5055,7 @@ function add(){
   var dodajKoloPowozu = document.createElement("table");
   sum2WPowoz1 = sum2WPowoz1 + sum1Powoz3;
   dodajKoloPowozu.innerHTML = 
-  '<table><tr><td class="ilosc" id="wedrowny-powoz1_add-sum2">'+sum2WPowoz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/KoloPowozuRzemioslo.png/33px-KoloPowozuRzemioslo.png" title="Koło powozu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2WPowoz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KoloPowozu.png" alt="Koło powozu" title="Koło powozu"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajKoloPowozu");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajKoloPowozu);
@@ -4768,7 +5065,7 @@ function add(){
   var dodajCzescPowozu = document.createElement("table");
   sum1WPowoz2 = sum1WPowoz2 + sum1Powoz2;
   dodajCzescPowozu.innerHTML = 
-  '<table><tr><td class="ilosc" id="wedrowny-powoz2_add-sum1">'+sum1WPowoz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9d/CzescPowozuRzemioslo.png/33px-CzescPowozuRzemioslo.png" title="Część powozu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1WPowoz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/CzescPowozu.png" alt="Część powozu" title="Część powozu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCzescPowozu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCzescPowozu);
@@ -4778,7 +5075,7 @@ function add(){
   var dodajWloknoLnu = document.createElement("table");
   sum1WPowoz3 = sum1WPowoz3 + sum1DuchMuz5;
   dodajWloknoLnu.innerHTML = 
-  '<table><tr><td class="ilosc" id="wedrowny-powoz3_add-sum1">'+sum1WPowoz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/95/WloknoLnuRzemioslo.png/33px-WloknoLnuRzemioslo.png" title="Włókno lnu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1WPowoz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WloknoLnu.png" alt="Włókno lnu" title="Włókno lnu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWloknoLnu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWloknoLnu);
@@ -4790,7 +5087,7 @@ function add(){
   var dodajWygarbowanaSkora = document.createElement("table");
   sum5LeciutkaSkora1 = sum5LeciutkaSkora1 + sum1Kabura1;
   dodajWygarbowanaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="leciutka-skora1_add-sum5">'+sum5LeciutkaSkora1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/80/WygarbowanaSkoraRzemioslo.png/33px-WygarbowanaSkoraRzemioslo.png" title="Wygarbowana skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5LeciutkaSkora1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WygarbowanaSkora.png" alt="Wygarbowana skóra" title="Wygarbowana skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWygarbowanaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWygarbowanaSkora);
@@ -4800,7 +5097,7 @@ function add(){
   var dodajSkorzanePokrycie = document.createElement("table");
   sum3LeciutkaSkora2 = sum1Kabura3 + sum3LeciutkaSkora2;
   dodajSkorzanePokrycie.innerHTML = 
-  '<table><tr><td class="ilosc" id="leciutka-skora2_add-sum3">'+sum3LeciutkaSkora2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/SkorzanePokrycieRzemioslo.png/33px-SkorzanePokrycieRzemioslo.png" title="Skórzane pokrycie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3LeciutkaSkora2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkorzanePokrycie.png" alt="Skórzane pokrycie" title="Skórzane pokrycie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkorzanePokrycie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkorzanePokrycie);
@@ -4810,7 +5107,7 @@ function add(){
   var dodajLug = document.createElement("table");
   sum3LeciutkaSkora3 = sum3LeciutkaSkora3 + sum1Panaceum3;
   dodajLug.innerHTML = 
-  '<table><tr><td class="ilosc" id="leciutka-skora3_add-sum3">'+sum3LeciutkaSkora3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/LugRzemioslo.png/33px-LugRzemioslo.png" title="Ług"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3LeciutkaSkora3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Lug.png" alt="Ług" title="Ług"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLug");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLug);
@@ -4819,7 +5116,7 @@ function add(){
   }
   var dodajWykwintnyImpregnat = document.createElement("table");
   dodajWykwintnyImpregnat.innerHTML = 
-  '<table><tr><td class="ilosc" id="leciutka-skora4_add-sum1">'+sum1LeciutkaSkora4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/WykwintnyImpregnatRzemioslo.png/33px-WykwintnyImpregnatRzemioslo.png" title="Wykwintny impregnat"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1LeciutkaSkora4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WykwintnyImpregnat.png" alt="Wykwintny impregnat" title="Wykwintny impregnat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWykwintnyImpregnat");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWykwintnyImpregnat);
@@ -4831,7 +5128,7 @@ function add(){
   var dodajSkoraZBizona = document.createElement("table");
   sum6SiodloPony1 = sum1Dera1 + sum6SiodloPony1;
   dodajSkoraZBizona.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-pony1_add-sum6">'+sum6SiodloPony1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8e/SkoraZBizona.png/33px-SkoraZBizona.png" title="Skóra z bizona"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum6SiodloPony1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBizona.png" alt="Skóra z bizona" title="Skóra z bizona"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBizona");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBizona);
@@ -4841,7 +5138,7 @@ function add(){
   var dodajOzdobaRymarz = document.createElement("table");
   sum5SiodloPony2 = sum5SiodloPony2 + sum1Lejce1;
   dodajOzdobaRymarz.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-pony2_add-sum5">'+sum5SiodloPony2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e4/OzdobaRzemioslo.png/33px-OzdobaRzemioslo.png" title="Ozdoba od rymarza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5SiodloPony2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ozdoba.png" alt="Ozdoba od rymarza" title="Ozdoba od rymarza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOzdobaRymarz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOzdobaRymarz);
@@ -4850,7 +5147,7 @@ function add(){
   }
   var dodajLeciutkaSkora = document.createElement("table");
   dodajLeciutkaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-pony3_add-sum4">'+sum4SiodloPony3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c0/LeciutkaSkoraRzemioslo.png/33px-LeciutkaSkoraRzemioslo.png" title="Leciutka skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4SiodloPony3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LeciutkaSkora.png" alt="Leciutka skóra" title="Leciutka skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLeciutkaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLeciutkaSkora);
@@ -4859,7 +5156,7 @@ function add(){
   }
   var dodajKozackiCzaprak = document.createElement("table");
   dodajKozackiCzaprak.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-pony4_add-sum1">'+sum1SiodloPony4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/KozackiCzaprak.png/33px-KozackiCzaprak.png" title="Kozacki czaprak"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SiodloPony4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KozackiCzaprak.png" alt="Kozacki czaprak" title="Kozacki czaprak"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKozakiCzaprak");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKozackiCzaprak);
@@ -4871,7 +5168,7 @@ function add(){
   var dodajWygarbowanaSkora = document.createElement("table");
   sum2Schowek1 = sum5LeciutkaSkora1 + sum2Schowek1;
   dodajWygarbowanaSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="schowek1_add-sum2">'+sum2Schowek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/80/WygarbowanaSkoraRzemioslo.png/33px-WygarbowanaSkoraRzemioslo.png" title="Wygarbowana skóra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Schowek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WygarbowanaSkora.png" alt="Wygarbowana skóra" title="Wygarbowana skóra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWygarbowanaSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWygarbowanaSkora);
@@ -4881,7 +5178,7 @@ function add(){
   var dodajSzczypce = document.createElement("table");
   sum1Schowek2 = sum1Schowek2 + sum3NaprSiodlo1;
   dodajSzczypce.innerHTML = 
-  '<table><tr><td class="ilosc" id="schowek2_add-sum1">'+sum1Schowek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/SzczypceProdukt.png/33px-SzczypceProdukt.png" title="Szczypce"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Schowek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szczypce.png" alt="Szczypce" title="Szczypce"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzczypce");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzczypce);
@@ -4891,7 +5188,7 @@ function add(){
   var dodajLuska = document.createElement("table");
   sum1Schowek3 = sum1Schowek3 + sum3Proch1;
   dodajLuska.innerHTML = 
-  '<table><tr><td class="ilosc" id="schowek3_add-sum1">'+sum1Schowek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/Luska.png/33px-Luska.png" title="Łuska"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Schowek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Luska.png" alt="Łuska" title="Łuska"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLuska");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLuska);
@@ -4901,13 +5198,15 @@ function add(){
   var dodajWykwintnyImpregnat = document.createElement("table");
   sum1Schowek4 = sum1Schowek4 + sum1LeciutkaSkora4;
   dodajWykwintnyImpregnat.innerHTML = 
-  '<table><tr><td class="ilosc" id="schowek4_add-sum1">'+sum1Schowek4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/WykwintnyImpregnatRzemioslo.png/33px-WykwintnyImpregnatRzemioslo.png" title="Wykwintny impregnat"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Schowek4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WykwintnyImpregnat.png" alt="Wykwintny impregnat" title="Wykwintny impregnat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWykwintnyImpregnat");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWykwintnyImpregnat);
   if (sum1Schowek4===0) {
     parent_object.removeChild(dodajWykwintnyImpregnat);
   }
+
+
   
   /**KOWAL polecenia ułozone są alfabetycznie---------------------*/
   /**BAGNET*/
@@ -5167,11 +5466,85 @@ function add(){
   var sum1Zaostrzenie2 = Number(zaostrzenie*1);
   addSum1Zaostrzenie2.innerHTML = sum1Zaostrzenie2+"x";
   
+
+  /**KAWALERYJSKA SZABLA*/
+  var kawaleryjskaSzabla = Number(calcKawaleryjskaSzabla.value) || 0;
+  var sum4KawaleryjskaSzabla1 = Number(kawaleryjskaSzabla*4);
+  addSum4KawaleryjskaSzabla1.innerHTML = sum4KawaleryjskaSzabla1+"x";
+  var sum2KawaleryjskaSzabla2 = Number(kawaleryjskaSzabla*2);
+  addSum2KawaleryjskaSzabla2.innerHTML = sum2KawaleryjskaSzabla2+"x";
+  var sum1KawaleryjskaSzabla3 = Number(kawaleryjskaSzabla*1);
+  addSum1KawaleryjskaSzabla3.innerHTML = sum1KawaleryjskaSzabla3+"x";
+  /**WIZJER*/
+  var wizjer = Number(calcWizjer.value) || 0;
+  var sum2Wizjer1 = Number(wizjer*2);
+  addSum2Wizjer1.innerHTML = sum2Wizjer1+"x";
+  var sum2Wizjer2 = Number(wizjer*2);
+  addSum2Wizjer2.innerHTML = sum2Wizjer2+"x";
+  var sum1Wizjer3 = Number(wizjer*1);
+  addSum1Wizjer3.innerHTML = sum1Wizjer3+"x";
+  var sum1Wizjer4 = Number(wizjer*1);
+  addSum1Wizjer4.innerHTML = sum1Wizjer4+"x";
+  var sum1Wizjer5 = Number(wizjer*1);
+  addSum1Wizjer5.innerHTML = sum1Wizjer5+"x";
+  var sum1Wizjer6 = Number(wizjer*1);
+  addSum1Wizjer6.innerHTML = sum1Wizjer6+"x";
+  /**BOMBA - PILAPKA*/
+  var bombaPulapka = Number(calcBombaPulapka.value) || 0;
+  var sum10BombaPulapka1 = Number(bombaPulapka*10);
+  addSum10BombaPulapka1.innerHTML = sum10BombaPulapka1+"x";
+  var sum5BombaPulapka2 = Number(bombaPulapka*5);
+  addSum5BombaPulapka2.innerHTML = sum5BombaPulapka2+"x";
+  var sum5BombaPulapka3 = Number(bombaPulapka*5);
+  addSum5BombaPulapka3.innerHTML = sum5BombaPulapka3+"x";
+  var sum2BombaPulapka4 = Number(bombaPulapka*2);
+  addSum2BombaPulapka4.innerHTML = sum2BombaPulapka4+"x";
+  var sum1BombaPulapka5 = Number(bombaPulapka*1);
+  addSum1BombaPulapka5.innerHTML = sum1BombaPulapka5+"x";
+  var sum1BombaPulapka6 = Number(bombaPulapka*1);
+  addSum1BombaPulapka6.innerHTML = sum1BombaPulapka6+"x";
+  /**HARTOWANA STAL*/
+  var hartowanaStal = Number(calcHartowanaStal.value) || 0;
+  var sum5HartowanaStal1 = Number(hartowanaStal*5);
+  addSum5HartowanaStal1.innerHTML = sum5HartowanaStal1+"x";
+  var sum4HartowanaStal2 = Number(hartowanaStal*4);
+  addSum4HartowanaStal2.innerHTML = sum4HartowanaStal2+"x";
+  var sum3HartowanaStal3 = Number(hartowanaStal*3);
+  addSum3HartowanaStal3.innerHTML = sum3HartowanaStal3+"x";
+  var sum2HartowanaStal4 = Number(hartowanaStal*2);
+  addSum2HartowanaStal4.innerHTML = sum2HartowanaStal4+"x";
+  var sum1HartowanaStal5 = Number(hartowanaStal*1);
+  addSum1HartowanaStal5.innerHTML = sum1HartowanaStal5+"x";
+  /**ZAAWANSOWANA SKRZYNKA NA NARZEDZIA*/
+  var zaawansowanaSkrzynka = Number(calcZaawansowanaSkrzynka.value) || 0;
+  var sum4ZaawansowanaSkrzynka1 = Number(zaawansowanaSkrzynka*4);
+  addSum4ZaawansowanaSkrzynka1.innerHTML = sum4ZaawansowanaSkrzynka1+"x";
+  var sum3ZaawansowanaSkrzynka2 = Number(zaawansowanaSkrzynka*3);
+  addSum3ZaawansowanaSkrzynka2.innerHTML = sum3ZaawansowanaSkrzynka2+"x";
+  var sum3ZaawansowanaSkrzynka3 = Number(zaawansowanaSkrzynka*3);
+  addSum3ZaawansowanaSkrzynka3.innerHTML = sum3ZaawansowanaSkrzynka3+"x";
+  var sum3ZaawansowanaSkrzynka4 = Number(zaawansowanaSkrzynka*3);
+  addSum3ZaawansowanaSkrzynka4.innerHTML = sum3ZaawansowanaSkrzynka4+"x";
+  var sum2ZaawansowanaSkrzynka5 = Number(zaawansowanaSkrzynka*2);
+  addSum2ZaawansowanaSkrzynka5.innerHTML = sum2ZaawansowanaSkrzynka5+"x";
+  /***MANEKIN KRAWIECKI*/
+  var manekinKrawiecki = Number(calcManekinKrawiecki.value) || 0;
+  var sum6ManekinKrawiecki1 = Number(manekinKrawiecki*6);
+  addSum6ManekinKrawiecki1.innerHTML = sum6ManekinKrawiecki1+"x";
+  var sum6ManekinKrawiecki2 = Number(manekinKrawiecki*6);
+  addSum6ManekinKrawiecki2.innerHTML = sum6ManekinKrawiecki2+"x";
+  var sum3ManekinKrawiecki3 = Number(manekinKrawiecki*3);
+  addSum3ManekinKrawiecki3.innerHTML = sum3ManekinKrawiecki3+"x";
+  var sum3ManekinKrawiecki4 = Number(manekinKrawiecki*3);
+  addSum3ManekinKrawiecki4.innerHTML = sum3ManekinKrawiecki4+"x";
+  var sum1ManekinKrawiecki5 = Number(manekinKrawiecki*1);
+  addSum1ManekinKrawiecki5.innerHTML = sum1ManekinKrawiecki5+"x";
+
   /**GRAFIT*/
   var dodajWegiel = document.createElement("table");
   sum1Grafit1 = sum1Grafit1 + sum2Znakownik2;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="grafit1_add-sum1">'+sum1Grafit1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Grafit1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -5182,7 +5555,7 @@ function add(){
   /**SPROSZKOWANY GRAFIT*/
   var dodajGrafit = document.createElement("table");
   dodajGrafit.innerHTML = 
-  '<table><tr><td class="ilosc" id="sprosz-grafit1_add-sum1">'+sum1SproszGrafit1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/GrafitRzemioslo.png/33px-GrafitRzemioslo.png" title="Grafit"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SproszGrafit1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Grafit.png" alt="Grafit" title="Grafit"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGrafit");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGrafit);
@@ -5193,7 +5566,7 @@ function add(){
   /**SMAR GRAFITOWY*/
   var dodajSproszkowanyGrafit = document.createElement("table");
   dodajSproszkowanyGrafit.innerHTML = 
-  '<table><tr><td class="ilosc" id="smar1_add-sum1">'+sum1Smar1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/50/SproszkowanyGrafitRzemioslo.png/33px-SproszkowanyGrafitRzemioslo.png" title="Sproszkowany grafit"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Smar1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SproszkowanyGrafit.png" alt="Sproszkowany grafit" title="Sproszkowany grafit"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSproszkowanyGrafit");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSproszkowanyGrafit);
@@ -5203,7 +5576,7 @@ function add(){
   var dodajWelna = document.createElement("table");
   sum1Smar2 = sum1Smar2 + sum2Wypelniacz3;
   dodajWelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="smar2_add-sum1">'+sum1Smar2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/ba/Welna.png/33px-Welna.png" title="Wełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Smar2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Welna.png" alt="Wełna" title="Wełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWelna);
@@ -5215,7 +5588,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1Patelnia1 = sum1Patelnia1 + sum1CzescPowozu3;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="patelnia1_add-sum1">'+sum1Patelnia1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Patelnia1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -5225,7 +5598,7 @@ function add(){
   var dodajPretyMetalowe = document.createElement("table");
   sum1Patelnia2 = sum2KoloPowozu2 + sum1Patelnia2;
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="patelnia2_add-sum1">'+sum1Patelnia2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Skora.png/33px-Skora.png" title="Skóra"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Patelnia2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Skora.png" alt="Skóra" title="Skóra"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -5237,7 +5610,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum1StopZelazo1 = sum1StopZelazo1 + sum3KoloPowozu1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="stop-zelazo1_add-sum1">'+sum1StopZelazo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StopZelazo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -5247,7 +5620,7 @@ function add(){
   var dodajPretyMetalowe = document.createElement("table");
   sum1StopZelazo2 = sum1Patelnia2 + sum1StopZelazo2;
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="stop-zelazo2_add-sum1">'+sum1StopZelazo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/09/PretyMetalowe.png/33px-PretyMetalowe.png" title="Pręty metalowe"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StopZelazo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PretyMetalowe.png" alt="Pręty metalowe" title="Pręty metalowe"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -5259,7 +5632,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1Noz1 = sum1Patelnia1 + sum1Noz1;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="noz1_add-sum1">'+sum1Noz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Noz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -5269,7 +5642,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Noz2 = sum1Noz2 + sum1Krzesiwo2;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="noz2_add-sum1">'+sum1Noz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Noz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -5278,7 +5651,7 @@ function add(){
   }
   var dodajStopioneZelazo = document.createElement("table");
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="noz3_add-sum1">'+sum1Noz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Noz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5290,7 +5663,7 @@ function add(){
   var dodajBawelna = document.createElement("table");
   sum2Zaostrzenie1 = sum2Zaostrzenie1 + sum4Wypelniacz1;
   dodajBawelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="zaostrzenie1_add-sum2">'+sum2Zaostrzenie1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Zaostrzenie1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bawelna.png" alt="Bawełna" title="Bawełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBawelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBawelna);
@@ -5300,7 +5673,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Zaostrzenie2 = sum1Zaostrzenie2 + sum1Noz2;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="zaostrzenie2_add-sum1">'+sum1Zaostrzenie2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zaostrzenie2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -5312,7 +5685,7 @@ function add(){
   var dodajBawelna = document.createElement("table");
   sum3Bagnet1 = sum3Bagnet1 + sum2Zaostrzenie1;
   dodajBawelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="bagnet1_add-sum3">'+sum3Bagnet1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fb/Bawelna.png/33px-Bawelna.png" title="Bawełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Bagnet1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bawelna.png" alt="Bawełna" title="Bawełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBawelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBawelna);
@@ -5322,7 +5695,7 @@ function add(){
   var dodajSkora = document.createElement("table");
   sum1Bagnet2 = sum1Bagnet2 + sum1WygarSkora1;
   dodajSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="bagnet2_add-sum1">'+sum1Bagnet2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Skora.png/33px-Skora.png" title="Skóra"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bagnet2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Skora.png" alt="Skóra" title="Skóra"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkora);
@@ -5332,7 +5705,7 @@ function add(){
   var dodajNoz = document.createElement("table");
   sum1Bagnet3 = sum1Bagnet3 + sum1Dera3;
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="bagnet3_add-sum1">'+sum1Bagnet3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bagnet3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -5344,7 +5717,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum2Odwaznik1 = sum2Odwaznik1 + sum1Zaostrzenie2;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="odwaznik1_add-sum2">'+sum2Odwaznik1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Odwaznik1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -5354,7 +5727,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum1Odwaznik2 = sum1Odwaznik2 + sum1Noz3;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="odwaznik2_add-sum1">'+sum1Odwaznik2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Odwaznik2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5366,7 +5739,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum1Stal1 = sum1Stal1 + sum1Grafit1;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="stal1_add-sum1">'+sum1Stal1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Stal1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -5377,7 +5750,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum1Stal2 = sum1Stal2 + sum1Odwaznik2;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="stal2_add-sum1">'+sum1Stal2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Stal2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5389,7 +5762,7 @@ function add(){
   var dodajOlow = document.createElement("table");
   sum1StopOlow1 = sum1StopOlow1 + sum1OzdobaRym2;
   dodajOlow.innerHTML = 
-  '<table><tr><td class="ilosc" id="stop-olow1_add-sum1">'+sum1StopOlow1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/Olow.png/33px-Olow.png" title="Ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StopOlow1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Olow.png" alt="Ołów" title="Ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOlow");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOlow);
@@ -5399,7 +5772,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1StopOlow2 = sum1StopOlow2 + sum1Lug2;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="stop-olow2_add-sum1">'+sum1StopOlow2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StopOlow2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -5411,7 +5784,7 @@ function add(){
   var dodajGrafit = document.createElement("table");
   sum1Kowadlo1 = sum1Kowadlo1 + sum1SproszGrafit1;
   dodajGrafit.innerHTML = 
-  '<table><tr><td class="ilosc" id="kowadlo1_add-sum1">'+sum1Kowadlo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/GrafitRzemioslo.png/33px-GrafitRzemioslo.png" title="Grafit"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kowadlo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Grafit.png" alt="Grafit" title="Grafit"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGrafit");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGrafit);
@@ -5421,7 +5794,7 @@ function add(){
   var dodajStal = document.createElement("table");
   sum1Kowadlo2 = sum1Kowadlo2 + sum3FasPuszka5;
   dodajStal.innerHTML = 
-  '<table><tr><td class="ilosc" id="kowadlo2_add-sum1">'+sum1Kowadlo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/92/StalRzemioslo.png/33px-StalRzemioslo.png" title="Stal"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kowadlo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stal.png" alt="Stal" title="Stal"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStal);
@@ -5431,7 +5804,7 @@ function add(){
   var dodajKrzesiwo = document.createElement("table");
   sum1Kowadlo3 = sum1Kowadlo3 + sum1Znakownik4;
   dodajKrzesiwo.innerHTML = 
-  '<table><tr><td class="ilosc" id="kowadlo3_add-sum1">'+sum1Kowadlo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8d/KrzesiwoRzemioslo.png/33px-KrzesiwoRzemioslo.png" title="Krzesiwo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kowadlo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Krzesiwo.png" alt="Krzesiwo" title="Krzesiwo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKrzesiwo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKrzesiwo);
@@ -5443,7 +5816,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3Figurka1 = sum3Figurka1 + sum1StopZelazo1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="figurka1_add-sum3">'+sum3Figurka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Figurka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -5453,7 +5826,7 @@ function add(){
   var dodajOlow = document.createElement("table");
   sum1Figurka2 = sum1Figurka2 + sum1StopOlow1;
   dodajOlow.innerHTML = 
-  '<table><tr><td class="ilosc" id="figurka2_add-sum1">'+sum1Figurka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/Olow.png/33px-Olow.png" title="Ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Figurka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Olow.png" alt="Ołów" title="Ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOlow");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOlow);
@@ -5463,7 +5836,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1Figurka3 = sum1Figurka3 + sum1StopOlow2;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="figurka3_add-sum1">'+sum1Figurka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Figurka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -5475,7 +5848,7 @@ function add(){
   var dodajKamieniePolszlachetne = document.createElement("table");
   sum1Kulka1 = sum1Kulka1 + sum2LekSiodla2;
   dodajKamieniePolszlachetne.innerHTML = 
-  '<table><tr><td class="ilosc" id="kulka1_add-sum1">'+sum1Kulka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/31/KamieniePolszlachetne.png/33px-KamieniePolszlachetne.png" title="Kamienie półszlachetne"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kulka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KamieniePolszlachetne.png" alt="Kamienie półszlachetne" title="Kamienie półszlachetne"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamieniePolszlachetne");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamieniePolszlachetne);
@@ -5485,7 +5858,7 @@ function add(){
   var dodajZywica = document.createElement("table");
   sum1Kulka2 = sum1Kulka2 + sum1LekSiodla1;
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="kulka2_add-sum1">'+sum1Kulka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kulka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -5497,7 +5870,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum3Nity1 = sum3Nity1 + sum1KoloPowozu3;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="nity1_add-sum3">'+sum3Nity1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Nity1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGwozdzie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGwozdzie);
@@ -5507,7 +5880,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1Nity2 = sum1Nity2 + sum1Noz1;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="nity2_add-sum1">'+sum1Nity2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Nity2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -5519,7 +5892,7 @@ function add(){
   var dodajDrutKolczasty = document.createElement("table");
   sum2Kablak1 = sum2Kablak1 + sum3Ostrogi1;
   dodajDrutKolczasty.innerHTML = 
-  '<table><tr><td class="ilosc" id="kablak1_add-sum2">'+sum2Kablak1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/40/DrutKolczasty.png/33px-DrutKolczasty.png" title="Drut kolczasty"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Kablak1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DrutKolczasty.png" alt="Drut kolczasty" title="Drut kolczasty"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrutKolczasty");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrutKolczasty);
@@ -5529,7 +5902,7 @@ function add(){
   var dodajSkoraZBobra = document.createElement("table");
   sum2Kablak2 = sum2Kablak2 + sum1Dera2;
   dodajSkoraZBobra.innerHTML = 
-  '<table><tr><td class="ilosc" id="kablak2_add-sum2">'+sum2Kablak2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4b/SkoraZBobra.png/33px-SkoraZBobra.png" title="Skóra z bobra"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Kablak2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBobra.png" alt="Skóra z bobra" title="Skóra z bobra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBobra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBobra);
@@ -5541,7 +5914,7 @@ function add(){
   var dodajWelna = document.createElement("table");
   sum2Chusta1 = sum2Chusta1 + sum1Smar2;
   dodajWelna.innerHTML = 
-  '<table><tr><td class="ilosc" id="chusta1_add-sum2">'+sum2Chusta1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/ba/Welna.png/33px-Welna.png" title="Wełna"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Chusta1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Welna.png" alt="Wełna" title="Wełna"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWelna");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWelna);
@@ -5551,7 +5924,7 @@ function add(){
   var dodajSzpulkaDrutu = document.createElement("table");
   sum2Chusta2 = sum2Chusta2 + sum1Uzda2;
   dodajSzpulkaDrutu.innerHTML = 
-  '<table><tr><td class="ilosc" id="chusta2_add-sum2">'+sum2Chusta2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzpulkaDrutu.png/33px-SzpulkaDrutu.png" title="Szpulka drutu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Chusta2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzpulkaDrutu.png" alt="Szpulka drutu" title="Szpulka drutu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzpulkaDrutu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzpulkaDrutu);
@@ -5561,7 +5934,7 @@ function add(){
   var dodajSzklankaWody = document.createElement("table");
   sum1Chusta3 = sum1Kompas1 + sum1Chusta3;
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="chusta3_add-sum1">'+sum1Chusta3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Chusta3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -5573,7 +5946,7 @@ function add(){
   var dodajSzpulkaDrutu = document.createElement("table");
   sum2Lancuch1 = sum2Lancuch1 + sum2Chusta2;
   dodajSzpulkaDrutu.innerHTML = 
-  '<table><tr><td class="ilosc" id="lancuch1_add-sum2">'+sum2Lancuch1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzpulkaDrutu.png/33px-SzpulkaDrutu.png" title="Szpulka drutu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Lancuch1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzpulkaDrutu.png" alt="Szpulka drutu" title="Szpulka drutu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzpulkaDrutu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzpulkaDrutu);
@@ -5582,7 +5955,7 @@ function add(){
   }
   var dodajBransoletaZZebem = document.createElement("table");
   dodajBransoletaZZebem.innerHTML = 
-  '<table><tr><td class="ilosc" id="lancuch2_add-sum1">'+sum1Lancuch2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/94/BransoletaZZebem.png/33px-BransoletaZZebem.png" title="Bransoleta z zębem"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Lancuch2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/BransoletaZZebem.png" alt="Bransoleta z zębem" title="Bransoleta z zębem"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBransoletaZZebem");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBransoletaZZebem);
@@ -5594,7 +5967,7 @@ function add(){
   var dodajZywica = document.createElement("table");
   sum1Rekojesc1 = sum1Rekojesc1 + sum1Kulka2;
   dodajZywica.innerHTML = 
-  '<table><tr><td class="ilosc" id="rekojesc1_add-sum1">'+sum1Rekojesc1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/5b/ZywicaRzemioslo.png/33px-ZywicaRzemioslo.png" title="Żywica"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rekojesc1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zywica.png" alt="Żywica" title="Żywica"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZywica");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZywica);
@@ -5604,7 +5977,7 @@ function add(){
   var dodajPila = document.createElement("table");
   sum1Rekojesc2 = sum1Rekojesc2 + sum1Ostrogi3;
   dodajPila.innerHTML = 
-  '<table><tr><td class="ilosc" id="rekojesc2_add-sum1">'+sum1Rekojesc2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Pila.png/33px-Pila.png" title="Piła"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rekojesc2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pila.png" alt="Piła" title="Piła"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPila);
@@ -5614,7 +5987,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum1Rekojesc3 = sum1Rekojesc3 + sum3Figurka1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="rekojesc3_add-sum1">'+sum1Rekojesc3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rekojesc3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -5624,7 +5997,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum1Rekojesc4 = sum1Rekojesc4 + sum3Nity1;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="rekojesc3_add-sum1">'+sum1Rekojesc4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Rekojesc4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGwozdzie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGwozdzie);
@@ -5636,7 +6009,7 @@ function add(){
   var dodajGrafit = document.createElement("table");
   sum2Ksztaltownik1 = sum2Ksztaltownik1 + sum1Kowadlo1;
   dodajGrafit.innerHTML = 
-  '<table><tr><td class="ilosc" id="ksztaltownik1_add-sum2">'+sum2Ksztaltownik1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/GrafitRzemioslo.png/33px-GrafitRzemioslo.png" title="Grafit"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ksztaltownik1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Grafit.png" alt="Grafit" title="Grafit"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGrafit");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGrafit);
@@ -5646,7 +6019,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum2Ksztaltownik2 = sum2Ksztaltownik2 + sum1Stal1;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="ksztaltownik2_add-sum2">'+sum2Ksztaltownik2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ksztaltownik2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -5656,7 +6029,7 @@ function add(){
   var dodajMlotek = document.createElement("table");
   sum1Ksztaltownik3 = sum1Ksztaltownik3 + sum1Nity2;
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="ksztaltownik3_add-sum1">'+sum1Ksztaltownik3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ksztaltownik3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -5666,7 +6039,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum1Ksztaltownik4 = sum1Stal2 + sum1Ksztaltownik4;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="ksztaltownik4_add-sum1">'+sum1Ksztaltownik4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ksztaltownik4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5678,7 +6051,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum2StalOstrze1 = sum2Ksztaltownik2 + sum2StalOstrze1;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="stal-ostrze1_add-sum2">'+sum2StalOstrze1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2StalOstrze1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -5688,7 +6061,7 @@ function add(){
   var dodajMlotKowalski = document.createElement("table");
   sum1StalOstrze2 = sum1StalOstrze2 + sum1Strzemie2;
   dodajMlotKowalski.innerHTML = 
-  '<table><tr><td class="ilosc" id="stal-ostrze2_add-sum1">'+sum1StalOstrze2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/35/MlotKowalski.png/33px-MlotKowalski.png" title="Młot kowalski"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StalOstrze2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MlotKowalski.png" alt="Młot kowalski" title="Młot kowalski"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotKowalski");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotKowalski);
@@ -5698,7 +6071,7 @@ function add(){
   var dodajStal = document.createElement("table");
   sum1StalOstrze3 = sum1StalOstrze3 + sum1Kowadlo2;
   dodajStal.innerHTML = 
-  '<table><tr><td class="ilosc" id="stal-ostrze3_add-sum1">'+sum1StalOstrze3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/92/StalRzemioslo.png/33px-StalRzemioslo.png" title="Stal"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1StalOstrze3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stal.png" alt="Stal" title="Stal"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStal);
@@ -5709,7 +6082,7 @@ function add(){
   /**OZDBA KOWAL*/
   var dodajZlotyPyl = document.createElement("table");
   dodajZlotyPyl.innerHTML = 
-  '<table><tr><td class="ilosc" id="ozdoba-kow1_add-sum1">'+sum1OzdobaKow1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b7/ZlotyPyl.png/33px-ZlotyPyl.png" title="Złoty pył"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1OzdobaKow1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ZlotyPyl.png" alt="Złoty pył" title="Złoty pył"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZlotyPyl");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZlotyPyl);
@@ -5720,7 +6093,7 @@ function add(){
   /**WESTERNER*/
   var dodajKsztaltownikRewolweru = document.createElement("table");
   dodajKsztaltownikRewolweru.innerHTML = 
-  '<table><tr><td class="ilosc" id="westerner1_add-sum1">'+sum1Westerner1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/KsztaltownikRewolweruRzemioslo.png/33px-KsztaltownikRewolweruRzemioslo.png" title="Kształtownik rewolweru"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Westerner1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KsztaltownikRewolweru.png" alt="Kształtownik rewolweru" title="Kształtownik rewolweru"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKsztaltownikRewolweru");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKsztaltownikRewolweru);
@@ -5729,7 +6102,7 @@ function add(){
   }
   var dodajKuleDuzegoKalibru = document.createElement("table");
   dodajKuleDuzegoKalibru.innerHTML = 
-  '<table><tr><td class="ilosc" id="westerner2_add-sum1">'+sum1Westerner2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d4/KuleDuzegoKalibru.png/33px-KuleDuzegoKalibru.png" title="Kule dużego kalibru"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Westerner2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KuleDuzegoKalibru.png" alt="Kule dużego kalibru" title="Kule dużego kalibru"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKuleDuzegoKalibru");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKuleDuzegoKalibru);
@@ -5741,7 +6114,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Geoda1 = sum2Odwaznik1 + sum1Geoda1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="geoda1_add-sum1">'+sum1Geoda1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Geoda1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -5751,7 +6124,7 @@ function add(){
   var dodajPila = document.createElement("table");
   sum1Geoda2 = sum1Geoda2 + sum1Rekojesc2;
   dodajPila.innerHTML = 
-  '<table><tr><td class="ilosc" id="geoda2_add-sum1">'+sum1Geoda2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Pila.png/33px-Pila.png" title="Piła"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Geoda2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pila.png" alt="Piła" title="Piła"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPila);
@@ -5761,7 +6134,7 @@ function add(){
   var dodajMlotKowalski = document.createElement("table");
   sum1Geoda3 = sum1Geoda3 + sum1StalOstrze2;
   dodajMlotKowalski.innerHTML = 
-  '<table><tr><td class="ilosc" id="geoda3_add-sum1">'+sum1Geoda3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/35/MlotKowalski.png/33px-MlotKowalski.png" title="Młot kowalski"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Geoda3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MlotKowalski.png" alt="Młot kowalski" title="Młot kowalski"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotKowalski");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotKowalski);
@@ -5772,7 +6145,7 @@ function add(){
   /**SZWAJCARSKI SCYZORYK*/
   var dodajOzdobaKowal = document.createElement("table");
   dodajOzdobaKowal.innerHTML = 
-  '<table><tr><td class="ilosc" id="scyzoryk1_add-sum1">'+sum1Scyzoryk1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e4/OzdobaRzemioslo.png/33px-OzdobaRzemioslo.png" title="Ozdoba od kowala"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Scyzoryk1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ozdoba.png" alt="Ozdoba od kowala" title="Ozdoba od kowala"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOzdobaKowal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOzdobaKowal);
@@ -5781,7 +6154,7 @@ function add(){
   }
   var dodajScyzoryk = document.createElement("table");
   dodajScyzoryk.innerHTML = 
-  '<table><tr><td class="ilosc" id="scyzoryk2_add-sum1">'+sum1Scyzoryk2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/db/Scyzoryk.png/33px-Scyzoryk.png" title="Scyzoryk"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Scyzoryk2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Scyzoryk.png" alt="Scyzoryk" title="Scyzoryk"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajScyzoryk");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajScyzoryk);
@@ -5792,7 +6165,7 @@ function add(){
   /**SZKLO*/
   var dodajStopionyOlow = document.createElement("table");
   dodajStopionyOlow.innerHTML = 
-  '<table><tr><td class="ilosc" id="szklo1_add-sum1">'+sum1Szklo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/StopionyOlowRzemioslo.png/33px-StopionyOlowRzemioslo.png" title="Stopiony ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Szklo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopionyOlow.png" alt="Stopiony ołów" title="Stopiony ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopionyOlow");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopionyOlow);
@@ -5801,7 +6174,7 @@ function add(){
   }
   var dodajNiezastygnietaKulka = document.createElement("table");
   dodajNiezastygnietaKulka.innerHTML = 
-  '<table><tr><td class="ilosc" id="szklo2_add-sum1">'+sum1Szklo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/72/NiezastygnietaKulkaRzemioslo.png/33px-NiezastygnietaKulkaRzemioslo.png" title="Niezastygnięta kulka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Szklo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NiezastygnietaKulka.png" alt="Niezastygnięta kulka" title="Niezastygnięta kulka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNiezastygnietaKulka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNiezastygnietaKulka);
@@ -5811,7 +6184,7 @@ function add(){
   var dodajKamieniePolszlachetne = document.createElement("table");
   sum1Szklo3 = sum1Szklo3 + sum1Kulka1;
   dodajKamieniePolszlachetne.innerHTML = 
-  '<table><tr><td class="ilosc" id="szklo3_add-sum1">'+sum1Szklo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/31/KamieniePolszlachetne.png/33px-KamieniePolszlachetne.png" title="Kamienie półszlachetne"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Szklo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/KamieniePolszlachetne.png" alt="Kamienie półszlachetne" title="Kamienie półszlachetne"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamieniePolszlachetne");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamieniePolszlachetne);
@@ -5821,7 +6194,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1Szklo4 = sum1Figurka3 + sum1Szklo4;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="szklo4_add-sum1">'+sum1Szklo4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Szklo4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -5833,7 +6206,7 @@ function add(){
   var dodajRopa = document.createElement("table");
   sum2KamPolerski1 = sum2KamPolerski1 + sum1Impregnat1;
   dodajRopa.innerHTML = 
-  '<table><tr><td class="ilosc" id="kam-polerski1_add-sum2">'+sum2KamPolerski1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/Ropa.png/33px-Ropa.png" title="Ropa"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2KamPolerski1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ropa.png" alt="Ropa" title="Ropa"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRopa");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRopa);
@@ -5843,7 +6216,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1KamPolerski2 = sum1KamPolerski2 + sum1Geoda1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="kam-polerski2_add-sum1">'+sum1KamPolerski2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KamPolerski2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -5853,7 +6226,7 @@ function add(){
   var dodajSkoraZBizona = document.createElement("table");
   sum1KamPolerski3 = sum1KamPolerski3 + sum6SiodloPony1;
   dodajSkoraZBizona.innerHTML = 
-  '<table><tr><td class="ilosc" id="kam-polerski3_add-sum1">'+sum1KamPolerski3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8e/SkoraZBizona.png/33px-SkoraZBizona.png" title="Skóra z bizona"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KamPolerski3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SkoraZBizona.png" alt="Skóra z bizona" title="Skóra z bizona"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSkoraZBizona");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkoraZBizona);
@@ -5865,7 +6238,7 @@ function add(){
   var dodajStopionyOlow = document.createElement("table");
   sum1Sruby1 = sum1Sruby1 + sum1Szklo1;
   dodajStopionyOlow.innerHTML = 
-  '<table><tr><td class="ilosc" id="nierdzewne-sruby1_add-sum1">'+sum1Sruby1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d8/StopionyOlowRzemioslo.png/33px-StopionyOlowRzemioslo.png" title="Stopiony ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sruby1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopionyOlow.png" alt="Stopiony ołów" title="Stopiony ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopionyOlow");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopionyOlow);
@@ -5875,7 +6248,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum1Sruby2 = sum1Sruby2 + sum1Ksztaltownik4;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="nierdzewne-sruby2_add-sum1">'+sum1Sruby2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sruby2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5885,7 +6258,7 @@ function add(){
   var dodajStal = document.createElement("table");
   sum1Sruby3 = sum1StalOstrze3 + sum1Sruby3;
   dodajStal.innerHTML = 
-  '<table><tr><td class="ilosc" id="nierdzewne-sruby3_add-sum1">'+sum1Sruby3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/92/StalRzemioslo.png/33px-StalRzemioslo.png" title="Stal"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sruby3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stal.png" alt="Stal" title="Stal"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStal);
@@ -5896,7 +6269,7 @@ function add(){
   /**SIODLO WELLS FARGO*/
   var dodajRekojesc = document.createElement("table");
   dodajRekojesc.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-wells1_add-sum1">'+sum1Wells1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d7/RekojescRzemioslo.png/33px-RekojescRzemioslo.png" title="Rękojeść"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wells1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rekojesc.png" alt="Rękojeść" title="Rękojeść"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRekojesc");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRekojesc);
@@ -5905,7 +6278,7 @@ function add(){
   }
   var dodajNaprawioneSiodlo = document.createElement("table");
   dodajNaprawioneSiodlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-wells2_add-sum1">'+sum1Wells2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a8/NaprawioneSiodloRzemioslo.png/33px-NaprawioneSiodloRzemioslo.png" title="Naprawione siodło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wells2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NaprawioneSiodlo.png" alt="Naprawione siodło" title="Naprawione siodło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNaprawioneSiodlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNaprawioneSiodlo);
@@ -5914,7 +6287,7 @@ function add(){
   }
   var dodajTrabkaDoMusztry = document.createElement("table");
   dodajTrabkaDoMusztry.innerHTML = 
-  '<table><tr><td class="ilosc" id="siodlo-wells3_add-sum1">'+sum1Wells3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/47/TrabkaDoMusztry.png/33px-TrabkaDoMusztry.png" title="Trąbka do musztry"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wells3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/TrabkaDoMusztry.png" alt="Trąbka do musztry" title="Trąbka do musztry"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajTrabkaDoMusztry");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajTrabkaDoMusztry);
@@ -5925,7 +6298,7 @@ function add(){
   /**PIERSIOWKA*/
   var dodajKowadlo = document.createElement("table");
   dodajKowadlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="piersiowka1_add-sum1">'+sum1Piersiowka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/26/KowadloRzemioslo.png/33px-KowadloRzemioslo.png" title="Kowadło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Piersiowka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kowadlo.png" alt="Kowadło" title="Kowadło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKowadlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKowadlo);
@@ -5935,7 +6308,7 @@ function add(){
   var dodajSrebro = document.createElement("table");
   sum1Piersiowka2 = sum1Piersiowka2 + sum1OzdobaRym3;
   dodajSrebro.innerHTML = 
-  '<table><tr><td class="ilosc" id="piersiowka2_add-sum1">'+sum1Piersiowka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b8/Srebro.png/33px-Srebro.png" title="Srebro"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Piersiowka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Srebro.png" alt="Srebro" title="Srebro"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSrebro");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSrebro);
@@ -5947,7 +6320,7 @@ function add(){
   var dodajKowadlo = document.createElement("table");
   sum2NowZbroja1 = sum2NowZbroja1 + sum1Piersiowka1;
   dodajKowadlo.innerHTML = 
-  '<table><tr><td class="ilosc" id="now-zbroja1_add-sum2">'+sum2NowZbroja1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/26/KowadloRzemioslo.png/33px-KowadloRzemioslo.png" title="Kowadło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2NowZbroja1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kowadlo.png" alt="Kowadło" title="Kowadło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKowadlo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKowadlo);
@@ -5956,7 +6329,7 @@ function add(){
   }
   var dodajNity = document.createElement("table");
   dodajNity.innerHTML = 
-  '<table><tr><td class="ilosc" id="now-zbroja2_add-sum1">'+sum1NowZbroja2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b7/NityRzemioslo.png/33px-NityRzemioslo.png" title="Nity"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NowZbroja2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Nity.png" alt="Nity" title="Nity"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNity");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNity);
@@ -5966,7 +6339,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum1NowZbroja3 = sum1Sruby2 + sum1NowZbroja3;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="now-zbroja3_add-sum1">'+sum1NowZbroja3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NowZbroja3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -5978,7 +6351,7 @@ function add(){
   var dodajDrewno = document.createElement("table");
   sum3Prasa1 = sum1Rekojesc3 + sum3Prasa1;
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="prasa1_add-sum3">'+sum3Prasa1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Prasa1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -5988,7 +6361,7 @@ function add(){
   var dodajRekojesc = document.createElement("table");
   sum2Prasa2 = sum2Prasa2 + sum1Wells1;
   dodajRekojesc.innerHTML = 
-  '<table><tr><td class="ilosc" id="prasa2_add-sum2">'+sum2Prasa2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d7/RekojescRzemioslo.png/33px-RekojescRzemioslo.png" title="Rękojeść"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Prasa2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rekojesc.png" alt="Rękojeść" title="Rękojeść"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRekojesc");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRekojesc);
@@ -5998,7 +6371,7 @@ function add(){
   var dodajPretyMetalowe = document.createElement("table");
   sum1Prasa3 = sum1Prasa3 + sum1StopZelazo2;
   dodajPretyMetalowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="prasa3_add-sum1">'+sum1Prasa3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/09/PretyMetalowe.png/33px-PretyMetalowe.png" title="Pręty metalowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Prasa3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PretyMetalowe.png" alt="Pręty metalowe" title="Pręty metalowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPretyMetalowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPretyMetalowe);
@@ -6007,7 +6380,7 @@ function add(){
   }
   var dodajMlotek = document.createElement("table");
   sum1Prasa4 = sum1Prasa4 + sum1Ksztaltownik3;
-  dodajMlotek.innerHTML = '<table><tr><td class="ilosc" id="prasa4_add-sum1">'+sum1Prasa4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  dodajMlotek.innerHTML = '<table><tr><td class="ilosc">'+sum1Prasa4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -6019,7 +6392,7 @@ function add(){
   var dodajDrutKolczasty = document.createElement("table");
   sum3NarzZegarm1 = sum3NarzZegarm1 + sum2Kablak1;
   dodajDrutKolczasty.innerHTML = 
-  '<table><tr><td class="ilosc" id="narz-zegarm1_add-sum3">'+sum3NarzZegarm1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/40/DrutKolczasty.png/33px-DrutKolczasty.png" title="Drut kolczasty"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3NarzZegarm1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DrutKolczasty.png" alt="Drut kolczasty" title="Drut kolczasty"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrutKolczasty");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrutKolczasty);
@@ -6029,7 +6402,7 @@ function add(){
   var dodajSierp = document.createElement("table");
   sum2NarzZegarm2 = sum1Rzemien1 + sum2NarzZegarm2;
   dodajSierp.innerHTML = 
-  '<table><tr><td class="ilosc" id="narz-zegarm2_add-sum2">'+sum2NarzZegarm2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/04/Sierp.png/33px-Sierp.png" title="Sierp"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2NarzZegarm2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sierp.png" alt="Sierp" title="Sierp"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSierp");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSierp);
@@ -6038,7 +6411,7 @@ function add(){
   }
   var dodajStrzemie = document.createElement("table");
   dodajStrzemie.innerHTML = 
-  '<table><tr><td class="ilosc" id="narz-zegarm3_add-sum2">'+sum2NarzZegarm3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/18/StrzemieRzemioslo.png/33px-StrzemieRzemioslo.png" title="Strzemię"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2NarzZegarm3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Strzemie.png" alt="Strzemię" title="Strzemię"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStrzemie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStrzemie);
@@ -6047,7 +6420,7 @@ function add(){
   }
   var dodajStaloweOstrze = document.createElement("table");
   dodajStaloweOstrze.innerHTML = 
-  '<table><tr><td class="ilosc" id="narz-zegarm4_add-sum2">'+sum2NarzZegarm4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7b/StaloweOstrzeRzemioslo.png/33px-StaloweOstrzeRzemioslo.png" title="Stalowe ostrze"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2NarzZegarm4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StaloweOstrze.png" alt="Stalowe ostrze" title="Stalowe ostrze"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStaloweOstrze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStaloweOstrze);
@@ -6056,7 +6429,7 @@ function add(){
   }
   var dodajNierdzewneSruby = document.createElement("table");
   dodajNierdzewneSruby.innerHTML = 
-  '<table><tr><td class="ilosc" id="narz-zegarm5_add-sum1">'+sum1NarzZegarm5+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a0/NierdzewneSrubyRzemioslo.png/33px-NierdzewneSrubyRzemioslo.png" title="Nierdzewne śruby"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1NarzZegarm5+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NierdzewneSruby.png" alt="Nierdzewne śruby" title="Nierdzewne śruby"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNierdzewneSruby");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNierdzewneSruby);
@@ -6068,7 +6441,7 @@ function add(){
   var dodajSzpulkaDrutu = document.createElement("table");
   sum5Pozytywka1 = sum5Pozytywka1 + sum2Lancuch1;
   dodajSzpulkaDrutu.innerHTML = 
-  '<table><tr><td class="ilosc" id="pozytywka1_add-sum5">'+sum5Pozytywka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/SzpulkaDrutu.png/33px-SzpulkaDrutu.png" title="Szpulka drutu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Pozytywka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzpulkaDrutu.png" alt="Szpulka drutu" title="Szpulka drutu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzpulkaDrutu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzpulkaDrutu);
@@ -6077,7 +6450,7 @@ function add(){
   } 
   var dodajZegarekKieszonkowy = document.createElement("table");
   dodajZegarekKieszonkowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="pozytywka2_add-sum4">'+sum4Pozytywka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/72/ZegarekKieszonkowy.png/33px-ZegarekKieszonkowy.png" title="Zegarek kieszonkowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Pozytywka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ZegarekKieszonkowy.png" alt="Zegarek kieszonkowy" title="Zegarek kieszonkowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZegarekKieszonkowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZegarekKieszonkowy);
@@ -6086,7 +6459,7 @@ function add(){
   }
   var dodajNarzedziaZegarmistrzowskie = document.createElement("table");
   dodajNarzedziaZegarmistrzowskie.innerHTML = 
-  '<table><tr><td class="ilosc" id="latarnia3_add-sum2">'+sum4Pozytywka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7c/NarzedziaZegarmistrzowskieRzemioslo.png/33px-NarzedziaZegarmistrzowskieRzemioslo.png" title="Stopiony ołów"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Pozytywka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/NarzedziaZegarmistrzowskie.png" alt="Stopiony ołów" title="Stopiony ołów"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNarzedziaZegarmistrzowskie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNarzedziaZegarmistrzowskie);
@@ -6095,7 +6468,7 @@ function add(){
   }
   var dodajPozlacaneTryby = document.createElement("table");
   dodajPozlacaneTryby.innerHTML = 
-  '<table><tr><td class="ilosc" id="pozytywka4_add-sum1">'+sum1Pozytywka4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e6/PozlacaneTryby.png/33px-PozlacaneTryby.png" title="Pozłacane tryby"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pozytywka4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PozlacaneTryby.png" alt="Pozłacane tryby" title="Pozłacane tryby"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPozlacaneTryby");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPozlacaneTryby);
@@ -6106,7 +6479,7 @@ function add(){
   /**LATARNIA*/
   var dodajSzklo = document.createElement("table");
   dodajSzklo.innerHTML = 
-  '<table><tr><td class="ilosc" id="latarnia1_add-sum3">'+sum3Latarnia1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/63/SzkloRzemioslo.png/33px-SzkloRzemioslo.png" title="Szkło"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Latarnia1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szklo.png" alt="Szkło" title="Szkło"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklo);
@@ -6116,7 +6489,7 @@ function add(){
   var dodajOzdobaKowal = document.createElement("table");
   sum2Latarnia2 = sum2Latarnia2 + sum1Scyzoryk1;
   dodajOzdobaKowal.innerHTML = 
-  '<table><tr><td class="ilosc" id="latarnia2_add-sum2">'+sum2Latarnia2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e4/OzdobaRzemioslo.png/33px-OzdobaRzemioslo.png" title="Ozdoba od kowala"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Latarnia2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ozdoba.png" alt="Ozdoba od kowala" title="Ozdoba od kowala"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOzdobaKowal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOzdobaKowal);
@@ -6126,7 +6499,7 @@ function add(){
   var dodajStopioneZelazo = document.createElement("table");
   sum2Latarnia3 = sum1NowZbroja3 + sum2Latarnia3;
   dodajStopioneZelazo.innerHTML = 
-  '<table><tr><td class="ilosc" id="latarnia3_add-sum2">'+sum2Latarnia3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/StopioneZelazoRzemioslo.png/33px-StopioneZelazoRzemioslo.png" title="Stopione żelazo"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Latarnia3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/StopioneZelazo.png" alt="Stopione żelazo" title="Stopione żelazo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStopioneZelazo");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStopioneZelazo);
@@ -6136,7 +6509,7 @@ function add(){
   var dodajGwozdzie = document.createElement("table");
   sum1Latarnia4 = sum1Latarnia4 + sum1Rekojesc4;
   dodajGwozdzie.innerHTML = 
-  '<table><tr><td class="ilosc" id="latarnia4_add-sum1">'+sum1Latarnia4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e1/Gwozdzie.png/33px-Gwozdzie.png" title="Gwoździe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Latarnia4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gwozdzie.png" alt="Gwoździe" title="Gwoździe"></div></td></tr></table>';
   var parent_object1 = document.getElementById("dodajGwozdzie");
   parent_object1.innerHTML = '';
   parent_object1.appendChild(dodajGwozdzie);
@@ -6144,21 +6517,21 @@ function add(){
     parent_object1.removeChild(dodajGwozdzie);
   }
   const kucharz = [
-    '[item=793000], ','[item=1942000], ',
-    '[item=748000], ','[item=1859000], ','[item=745000], ','[item=1811000], ','[item=1815000], ',
-    '[item=709000], ','[item=1870000], ','[item=1866000], ','[item=705000], ','[item=1822000], ',
-    '[item=1810000], ','[item=2450000], ','[item=717000], ','[item=719000], ','[item=700000], ',
+    '[item=793000], ', '[item=1942000], ',
+    '[item=748000], ', '[item=1859000], ','[item=745000], ', '[item=1811000], ','[item=1815000], ',
+    '[item=709000], ', '[item=1870000], ','[item=1866000], ','[item=705000], ', '[item=1822000], ',
+    '[item=1810000], ','[item=2450000], ','[item=717000], ', '[item=719000], ', '[item=700000], ',
     '[item=1980000], ','[item=1875000], ','[item=2447000], ','[item=2456000], ','[item=1865000], ',
     '[item=1826000], ','[item=2526000], ','[item=1941000], ','[item=1867000], ','[item=778000], ',
-    '[item=710000], ','[item=1877000], ','[item=2735000], ','[item=746000], ','[item=1874000], ',
+    '[item=710000], ', '[item=1877000], ','[item=2735000], ','[item=746000], ', '[item=1874000], ',
     '[item=1999000], ','[item=2000000], ','[item=2737000], ','[item=2432000], ','[item=1862000], '];
   const znachor = [
-    '[item=1945000], ','[item=708000], ','[item=743000], ','[item=757000], ',
-    '[item=1816000], ','[item=1881000], ','[item=718000], ','[item=1808000], ','[item=703000], ',
-    '[item=702000], ','[item=792000], ','[item=1944000], ','[item=744000], ','[item=1856000], ',
-    '[item=2444000], ','[item=1885000], ','[item=795000], ','[item=1821000], ','[item=1884000], ',
+    '[item=1945000], ','[item=708000], ', '[item=743000], ', '[item=757000], ',
+    '[item=1816000], ','[item=1881000], ','[item=718000], ', '[item=1808000], ','[item=703000], ',
+    '[item=702000], ', '[item=792000], ', '[item=1944000], ','[item=744000], ', '[item=1856000], ',
+    '[item=2444000], ','[item=1885000], ','[item=795000], ', '[item=1821000], ','[item=1884000], ',
     '[item=1882000], ','[item=1835000], ','[item=1818000], ','[item=2455000], ','[item=1812000], ',
-    '[item=2517000], ','[item=1893000], ','[item=1886000], ','[item=741000], ','[item=1889000], ',
+    '[item=2517000], ','[item=1893000], ','[item=1886000], ','[item=741000], ', '[item=1889000], ',
     '[item=1897000], ','[item=1876000], ','[item=1983000], ','[item=1895000], ','[item=2002000], ',
     '[item=2003000], ','[item=2436000], ','[item=2525000], ','[item=1833000], ','[item=1888000], '];
   const rymarz = [
