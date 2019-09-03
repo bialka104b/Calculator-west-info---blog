@@ -328,6 +328,7 @@ section {
             }
           }
         }
+        
       }
     }
     .rzemioslo-100 {
@@ -552,4 +553,22 @@ table {
   border: 2px solid #380007;
   width: 100%;
   margin-bottom: 10px;
+}
+.results .crafting[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results .crafting[visible='true']{
+  display:flex;
+  border-radius: 32.5px;
+  .craft {
+    border-bottom: 0!important;
+  }
+  .col-kucharz {
+    border-left: 0!important;
+  }
+  .col-kowal {
+    border-right: 0!important;
+  }
 }

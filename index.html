@@ -140,13 +140,14 @@ and open the template in the editor.
         <div class="tab-content" id="myTabContent">
           <!--RZEMIOSLO-->
           <div class="tab-pane show active" id="kalkulator" role="tabpanel" aria-labelledby="kalkulator-tab">
-            <section id="sekcja-rzemioslo">
+            <section id="sekcja-rzemioslo" class="results">
               <div id="rzemioslo">
-                <div class="row rzemioslo-100">
+                <div class="row rzemioslo-100 crafting">
                   <div class="col-12 craft" id="0-99">
                     <h2>Rzemiosło od 0 do 100&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
                   <div class="col-12 col-md-6 col-lg-3 col-rzemioslo col-kucharz zwin-do-99">
+
                     <div class="row row-kucharz">
                       <h3>Kucharz</h3>
                     </div>
@@ -2465,7 +2466,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-200">
+                <div class="row rzemioslo-200 crafting">
                   <div class="col-12 craft" id="100-199">
                     <h2>Rzemiosło od 100 do 250&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -4145,7 +4146,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-300">
+                <div class="row rzemioslo-300 crafting">
                   <div class="col-12 craft" id="200-299">
                     <h2>Rzemiosło od 250 do 350&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -5283,7 +5284,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-400">
+                <div class="row rzemioslo-400 crafting">
                   <div class="col-12 craft" id="300-399">
                     <h2>Rzemiosło od 350 do 500&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -7490,7 +7491,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-500">
+                <div class="row rzemioslo-500 crafting">
                   <div class="col-12 craft" id="400-499">
                     <h2>Rzemiosło od 500 do 600&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -9047,7 +9048,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-600">
+                <div class="row rzemioslo-600 crafting">
                   <div class="col-12 craft" id="500-599">
                     <h2>Rzemiosło od 600 do 700&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -10089,7 +10090,7 @@ and open the template in the editor.
                     </div>
                   </div>
                 </div>
-                <div class="row rzemioslo-700">
+                <div class="row rzemioslo-700 crafting">
                   <div class="col-12 craft" id="650-850">
                     <h2>Rzemiosło od 650 do 850 Wkrótce&nbsp;<i class="fas fa-caret-down"></i></h2>
                   </div>
@@ -15052,7 +15053,40 @@ and open the template in the editor.
       <p><span>Większośc grafik pochodzi z przeglądarkowej gry the-west.net oraz wikipedii <a
             href="/zadaniaBeta/zadaniaBeta.html" style="display:none;">zadaniaBeta</a></span></p>
     </footer>
-  </div>
+    <div class="form-group pull-right">
+        <input type="text" class="search form-control" placeholder="">
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+  $(".search").keyup(function () {
+    var searchTerm = $(".search").val();
+    var listItem = $('.results #rzemioslo').children('.crafting');
+    var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+    
+  $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+        return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+    }
+  });
+    
+  $(".results #rzemioslo .crafting").not(":containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','false');
+  });
+
+  $(".results #rzemioslo .crafting:containsi('" + searchSplit + "')").each(function(e){
+    $(this).attr('visible','true');
+  });
+
+  var jobCount = $('.results #rzemioslo .crafting[visible="true"]').length;
+    $('.counter').text(jobCount + ' item');
+
+  if(jobCount == '0') {$('.no-result').show();}
+    else {$('.no-result').hide();}
+		  });
+});
+    </script>
+    
+    </div>
+  <div id="scroll">tu bedzie ikona scrolla</div>
   <script type="text/javascript" src="script/rzemioslo.js"></script>
   <!-- Biblioteka React ona najpierw musi byc załadowana żeby apka działała (przed REACT DOM)-->
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>

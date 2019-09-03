@@ -1452,4 +1452,28 @@ table .td-img img {
   width: 100%;
   margin-bottom: 10px;
 }
+
+.results .crafting[visible='false'],
+.no-result {
+  display: none;
+}
+
+.results .crafting[visible='true'] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 32.5px;
+}
+
+.results .crafting[visible='true'] .craft {
+  border-bottom: 0 !important;
+}
+
+.results .crafting[visible='true'] .col-kucharz {
+  border-left: 0 !important;
+}
+
+.results .crafting[visible='true'] .col-kowal {
+  border-right: 0 !important;
+}
 /*# sourceMappingURL=west.css.map */
