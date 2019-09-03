@@ -42,6 +42,9 @@ and open the template in the editor.
   <div class="tlo">
     <header>
       <div id="root"></div>
+      <div class="form-group pull-right">
+        <input type="text" class="search form-control" placeholder="Wyszukaj produkt">
+      </div>
       <img src="https://westpl.innogamescdn.com//images/items/head/leather_hat_yellow.png?5" alt="">
       <h1>WEST</h1>
       <p title="Kalkulator rzemiosła">Kalkulator rzemiosła - strona poświęcona grze the-west<br />
@@ -135,6 +138,7 @@ and open the template in the editor.
               aria-selected="false">Forty</a>
           </li>
         </ul>
+
       </div>
       <div class="card-body">
         <div class="tab-content" id="myTabContent">
@@ -13866,18 +13870,19 @@ and open the template in the editor.
                               <p>1200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="image/buffy/IndianskiRytualnyNaszyjnik.png"
-                                alt="Indiański rytualny naszyjnik" class="img-responsive nagroda">
+                              <img src="image/buffy/IndianskiRytualnyNaszyjnik.png" alt="Indiański rytualny naszyjnik"
+                                class="img-responsive nagroda">
                               <p>[item=2483000]</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="image/buffy/ProszekZeSkorupy.png"
-                                alt="Proszek ze skorupy rakietowego żółwia" class="img-responsive nagroda">
+                              <img src="image/buffy/ProszekZeSkorupy.png" alt="Proszek ze skorupy rakietowego żółwia"
+                                class="img-responsive nagroda">
                               <p>[item=2135000]</p>
                             </div>
                           </div>
                         </div>
-                      </div><!--
+                      </div>
+                      <!--
                       <div class="row">
                         <div class="col-12 nazwa">List męża</div>
                         <div class="col-12 col-sm-2 data-nagroda">
@@ -15053,40 +15058,38 @@ and open the template in the editor.
       <p><span>Większośc grafik pochodzi z przeglądarkowej gry the-west.net oraz wikipedii <a
             href="/zadaniaBeta/zadaniaBeta.html" style="display:none;">zadaniaBeta</a></span></p>
     </footer>
-    <div class="form-group pull-right">
-        <input type="text" class="search form-control" placeholder="">
-    </div>
+
     <script type="text/javascript">
-      $(document).ready(function() {
-  $(".search").keyup(function () {
-    var searchTerm = $(".search").val();
-    var listItem = $('.results #rzemioslo').children('.crafting');
-    var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
-    
-  $.extend($.expr[':'], {'containsi': function(elem, i, match, array){
-        return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
-    }
-  });
-    
-  $(".results #rzemioslo .crafting").not(":containsi('" + searchSplit + "')").each(function(e){
-    $(this).attr('visible','false');
-  });
+      $(document).ready(function () {
+        $(".search").keyup(function () {
+          var searchTerm = $(".search").val();
+          var listItem = $('.results #rzemioslo').children('.crafting');
+          var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
 
-  $(".results #rzemioslo .crafting:containsi('" + searchSplit + "')").each(function(e){
-    $(this).attr('visible','true');
-  });
+          $.extend($.expr[':'], {
+            'containsi': function (elem, i, match, array) {
+              return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;
+            }
+          });
 
-  var jobCount = $('.results #rzemioslo .crafting[visible="true"]').length;
-    $('.counter').text(jobCount + ' item');
+          $(".results #rzemioslo .crafting").not(":containsi('" + searchSplit + "')").each(function (e) {
+            $(this).attr('visible', 'false');
+          });
 
-  if(jobCount == '0') {$('.no-result').show();}
-    else {$('.no-result').hide();}
-		  });
-});
+          $(".results #rzemioslo .crafting:containsi('" + searchSplit + "')").each(function (e) {
+            $(this).attr('visible', 'true');
+          });
+
+          var jobCount = $('.results #rzemioslo .crafting[visible="true"]').length;
+          $('.counter').text(jobCount + ' item');
+
+          if (jobCount == '0') { $('.no-result').show(); }
+          else { $('.no-result').hide(); }
+        });
+      });
     </script>
-    
-    </div>
-  <div id="scroll">tu bedzie ikona scrolla</div>
+  </div>
+  <div id="scroll"><a href="#root"><i class="far fa-arrow-alt-circle-up"></i></a></div>
   <script type="text/javascript" src="script/rzemioslo.js"></script>
   <!-- Biblioteka React ona najpierw musi byc załadowana żeby apka działała (przed REACT DOM)-->
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>

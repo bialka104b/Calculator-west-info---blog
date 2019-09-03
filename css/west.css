@@ -37,6 +37,48 @@ body #background-site {
   z-index: 0;
 }
 
+header .pull-right {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  border: 2px solid #390008;
+  border-radius: 3px;
+}
+
+header .pull-right:focus {
+  outline: none;
+}
+
+header .pull-right input {
+  outline-style: none;
+  background: rgba(46, 0, 7, 0.75);
+  color: white;
+  border-radius: 0;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
+  /* firefox 19+ */
+  /* ie */
+}
+
+header .pull-right input::-webkit-input-placeholder {
+  color: white;
+}
+
+header .pull-right input::-moz-placeholder {
+  color: white;
+}
+
+header .pull-right input:-ms-input-placeholder {
+  color: white;
+}
+
+header .pull-right input:focus {
+  -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  background: rgba(46, 0, 7, 0.75);
+  color: white;
+}
+
 header img {
   width: 150px;
   height: 150px;
@@ -1453,27 +1495,49 @@ table .td-img img {
   margin-bottom: 10px;
 }
 
-.results .crafting[visible='false'],
+.results .crafting[visible="false"],
 .no-result {
   display: none;
 }
 
-.results .crafting[visible='true'] {
+.results.crafting[visible="true"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border-radius: 32.5px;
 }
 
-.results .crafting[visible='true'] .craft {
-  border-bottom: 0 !important;
+.results #rzemioslo {
+  overflow: hidden !important;
 }
 
-.results .crafting[visible='true'] .col-kucharz {
-  border-left: 0 !important;
+#scroll {
+  position: fixed;
+  background: #380007;
+  left: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.results .crafting[visible='true'] .col-kowal {
-  border-right: 0 !important;
+#scroll a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#scroll a i {
+  font-size: 40px;
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+#scroll a i::before {
+  text-align: center;
+  display: block;
+  line-height: 50px;
 }
 /*# sourceMappingURL=west.css.map */
