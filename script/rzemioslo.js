@@ -1382,7 +1382,7 @@ function add(){
   /**PUREE POMIDOROWE*/
   var dodajKamienie = document.createElement("table");
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1Puree1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc" id="puree1_add-sum1">'+sum1Puree1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1391,7 +1391,7 @@ function add(){
   }
   var dodajPomidor = document.createElement("table");
   dodajPomidor.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1Puree2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomidor.png" alt="Pomidor" title="Pomidor"></div></td></tr></table>';
+  '<table><tr><td class="ilosc" id="puree2_add-sum1">'+sum1Puree2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/aa/Pomidor.png/33px-Pomidor.png" title="Pomidor"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomidor");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomidor);
@@ -1402,7 +1402,7 @@ function add(){
   /**SOS POMIDOROWY*/
   var dodajPureePomidorowe = document.createElement("table");
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc" id="sos-pomidorowy1_add-sum1">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -2470,72 +2470,254 @@ function add(){
   if (sum4Drink3===0) {
     parent_object.removeChild(dodajKwiatPokoju);
   }
-  // /**DRINK*/
-  // var drink = Number(calcDrink.value) || 0;
-  // var sum10Drink1 = Number(drink*10);
-  // addSum10Drink1.innerHTML = sum10Drink1+"x";
-  // var sum5Drink2 = Number(drink*5);
-  // addSum5Drink2.innerHTML = sum5Drink2+"x";
-  // var sum4Drink3 = Number(drink*4);
-  // addSum4Drink3.innerHTML = sum4Drink3+"x";
-  // var sum1Drink4 = Number(drink*1);
-  // addSum1Drink4.innerHTML = sum1Drink4+"x";
-  // var sum1Drink5 = Number(drink*1);
-  // addSum1Drink5.innerHTML = sum1Drink5+"x";
-  // var sum1Drink6 = Number(drink*1);
-  // addSum1Drink6.innerHTML = sum1Drink6+"x";
+  var dodajPismo = document.createElement("table");
+  dodajPismo.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink4+'</td><td class="td-img"><div><img src="image/craft/Pismo.png" alt="Pismo" title="Pismo"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPismo");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPismo);
+  if (sum1Drink4===0) {
+    parent_object.removeChild(dodajPismo);
+  }
+  var dodajSokZKaktusa = document.createElement("table");
+  dodajSokZKaktusa.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink5+'</td><td class="td-img"><div><img src="image/craft/SokZKaktusa.png" alt="Sok z Kaktusa" title="Sok z Kaktusa"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSokZKaktusa");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSokZKaktusa);
+  if (sum1Drink5===0) {
+    parent_object.removeChild(dodajSokZKaktusa);
+  }
+  var dodajDestylat = document.createElement("table");
+  dodajDestylat.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink6+'</td><td class="td-img"><div><img src="image/craft/Destylat.png" alt="Destylat" title="Destylat"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajDestylat");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajDestylat);
+  if (sum1Drink6===0) {
+    parent_object.removeChild(dodajDestylat);
+  }
+  
   // /**NAWOZ */
-  // var nawoz = Number(calcNawoz.value) || 0;
-  // var sum10Nawoz1 = Number(nawoz*10);
-  // addSum10Nawoz1.innerHTML = sum10Nawoz1+"x";
-  // var sum5Nawoz2 = Number(nawoz*5);
-  // addSum5Nawoz2.innerHTML = sum5Nawoz2+"x";
-  // var sum2Nawoz3 = Number(nawoz*2);
-  // addSum2Nawoz3.innerHTML = sum2Nawoz3+"x";
-  // var sum1Nawoz4 = Number(nawoz*1);
-  // addSum1Nawoz4.innerHTML = sum1Nawoz4+"x";
-  // var sum1Nawoz5 = Number(nawoz*1);
-  // addSum1Nawoz5.innerHTML = sum1Nawoz5+"x";
-  // var sum1Nawoz6 = Number(nawoz*1);
-  // addSum1Nawoz6.innerHTML = sum1Nawoz6+"x";
+  var dodajDeskaDoKrojenia = document.createElement("table");
+  sum10Nawoz1 = sum10Nawoz1 + sum1SiekaneM3;
+  dodajDeskaDoKrojenia.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10Nawoz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajDeskaDoKrojenia");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajDeskaDoKrojenia);
+  if (sum10Nawoz1===0) {
+    parent_object.removeChild(dodajDeskaDoKrojenia);
+  }
+  var dodajSiano = document.createElement("table");
+  dodajSiano.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum5Nawoz2+'</td><td class="td-img"><div><img src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSiano");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSiano);
+  if (sum5Nawoz2===0) {
+    parent_object.removeChild(dodajSiano);
+  }
+  var dodajZapieczoneFasolki = document.createElement("table");
+  dodajZapieczoneFasolki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2Nawoz3+'</td><td class="td-img"><div><img src="image/craft/ZapieczoneFasolki.png" alt="Zapieczone fasolki" title="Zapieczone fasolki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZapieczoneFasolki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZapieczoneFasolki);
+  if (sum2Nawoz3===0) {
+    parent_object.removeChild(dodajZapieczoneFasolki);
+  }
+  var dodajPierogZWarzywami = document.createElement("table");
+  dodajPierogZWarzywami.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz4+'</td><td class="td-img"><div><img src="image/craft/Pierog.png" alt="Pieróg z warzywami" title="Pieróg z warzywami"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPierogZWarzywami");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPierogZWarzywami);
+  if (sum1Nawoz4===0) {
+    parent_object.removeChild(dodajPierogZWarzywami);
+  }
+  var dodajMakaKukurydziana = document.createElement("table");
+  sum1Nawoz5 = sum1Nawoz5 + sum1MiodPitny4;
+  dodajMakaKukurydziana.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz5+'</td><td class="td-img"><div><img src="image/craft/MakaKukurydziana.png" alt="Maka Kukurydziana" title="Mąka Kukurydziana"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMakaKukurydziana");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMakaKukurydziana);
+  if (sum1Nawoz5===0) {
+    parent_object.removeChild(dodajMakaKukurydziana);
+  }
+  var dodajCiasto = document.createElement("table");
+  sum1Nawoz6 = sum1Nawoz6 + sum1Pierog3;
+  dodajCiasto.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz6+'</td><td class="td-img"><div><img src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajCiasto");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajCiasto);
+  if (sum1Nawoz6===0) {
+    parent_object.removeChild(dodajCiasto);
+  }
   // /**OWOCOWY KOKTAIL*/
-  // var owocowyKoktail = Number(calcOwocowyKoktajl.value) || 0;
-  // var sum10OwocowyKoktajl1 = Number(owocowyKoktail*10);
-  // addSum10OwocowyKoktajl1.innerHTML = sum10OwocowyKoktajl1+"x";
-  // var sum4OwocowyKoktajl2 = Number(owocowyKoktail*4);
-  // addSum4OwocowyKoktajl2.innerHTML = sum4OwocowyKoktajl2+"x";
-  // var sum2OwocowyKoktajl3 = Number(owocowyKoktail*2);
-  // addSum2OwocowyKoktajl3.innerHTML = sum2OwocowyKoktajl3+"x";
-  // var sum2OwocowyKoktajl4 = Number(owocowyKoktail*2);
-  // addSum2OwocowyKoktajl4.innerHTML = sum2OwocowyKoktajl4+"x";
-  // var sum1OwocowyKoktajl5 = Number(owocowyKoktail*1);
-  // addSum1OwocowyKoktajl5.innerHTML = sum1OwocowyKoktajl5+"x";
+  var dodajBorowki = document.createElement("table");
+  sum10OwocowyKoktajl1 = sum10OwocowyKoktajl1 + sum1Trunek2;
+  dodajBorowki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10OwocowyKoktajl1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajBorowki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajBorowki);
+  if (sum10OwocowyKoktajl1===0) {
+    parent_object.removeChild(dodajBorowki);
+  }
+  var dodajPomarancza = document.createElement("table");
+  sum4OwocowyKoktajl2 = sum4OwocowyKoktajl2 + sum2SokKaktus2;
+  dodajPomarancza.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4OwocowyKoktajl2+'</td><td class="td-img"><div><img src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomarancza");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomarancza);
+  if (sum4OwocowyKoktajl2===0) {
+    parent_object.removeChild(dodajPomarancza);
+  }
+  var dodajMiod = document.createElement("table");
+  sum2OwocowyKoktajl3 = sum2OwocowyKoktajl3 + sum2SerCastello3;
+  dodajMiod.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2OwocowyKoktajl3+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMiod");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMiod);
+  if (sum2OwocowyKoktajl3===0) {
+    parent_object.removeChild(dodajMiod);
+  }
+  var dodajZacier = document.createElement("table");
+  sum2OwocowyKoktajl4 = sum2OwocowyKoktajl4 + sum2Grog2;
+  dodajZacier.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2OwocowyKoktajl4+'</td><td class="td-img"><div><img src="image/craft/Zacier.png" alt="Zacier" title="Zacier"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZacier");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZacier);
+  if (sum2OwocowyKoktajl4===0) {
+    parent_object.removeChild(dodajZacier);
+  }
+  var dodajButelkaMleka = document.createElement("table");
+  sum1OwocowyKoktajl5 = sum1OwocowyKoktajl5 + sum6SerCastello1;
+  dodajButelkaMleka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1OwocowyKoktajl5+'</td><td class="td-img"><div><img src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajButelkaMleka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajButelkaMleka);
+  if (sum1OwocowyKoktajl5===0) {
+    parent_object.removeChild(dodajButelkaMleka);
+  }
+
   // /**BURGER GÓRNIKA*/
-  // var burgerGornika = Number(calcBurgerGornika.value) || 0;
-  // var sum10BurgerGornika1 = Number(burgerGornika*10);
-  // addSum10BurgerGornika1.innerHTML = sum10BurgerGornika1+"x";
-  // var sum4BurgerGornika2 = Number(burgerGornika*4);
-  // addSum4BurgerGornika2.innerHTML = sum4BurgerGornika2+"x";
-  // var sum3BurgerGornika3 = Number(burgerGornika*3);
-  // addSum3BurgerGornika3.innerHTML = sum3BurgerGornika3+"x";
-  // var sum2BurgerGornika4 = Number(burgerGornika*2);
-  // addSum2BurgerGornika4.innerHTML = sum2BurgerGornika4+"x";
-  // var sum1BurgerGornika5 = Number(burgerGornika*1);
-  // addSum1BurgerGornika5.innerHTML = sum1BurgerGornika5+"x";
-  // /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
-  // var paczkaGum = Number(calcPaczkaGum.value) || 0;
-  // var sum2PaczkaGum1 = Number(paczkaGum*2);
-  // addSum2PaczkaGum1.innerHTML = sum2PaczkaGum1+"x";
-  // var sum2PaczkaGum2 = Number(paczkaGum*2);
-  // addSum2PaczkaGum2.innerHTML = sum2PaczkaGum2+"x";
-  // var sum2PaczkaGum3 = Number(paczkaGum*2);
-  // addSum2PaczkaGum3.innerHTML = sum2PaczkaGum3+"x";
-  // var sum2PaczkaGum4 = Number(paczkaGum*2);
-  // addSum2PaczkaGum4.innerHTML = sum2PaczkaGum4+"x";
-  // var sum1PaczkaGum5 = Number(paczkaGum*1);
-  // addSum1PaczkaGum5.innerHTML = sum1PaczkaGum5+"x";
-  // var sum1PaczkaGum6 = Number(paczkaGum*1);
-  // addSum1PaczkaGum6.innerHTML = sum1PaczkaGum6+"x";
+  var dodajWegielDrzewny = document.createElement("table");
+  sum10BurgerGornika1 = sum10BurgerGornika1 + sum4Zeberka3;
+  dodajWegielDrzewny.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10BurgerGornika1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Wegiel drzewny" title="Wegiel drzewny"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWegielDrzewny");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWegielDrzewny);
+  if (sum10BurgerGornika1===0) {
+    parent_object.removeChild(dodajWegielDrzewny);
+  }
+  var dodajSos = document.createElement("table");
+  sum4BurgerGornika2 = sum4BurgerGornika2 + sum4Zeberka2;
+  dodajSos.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4BurgerGornika2+'</td><td class="td-img"><div><img src="image/craft/Sos.png" alt="Sos" title="Sos"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSos");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSos);
+  if (sum4BurgerGornika2===0) {
+    parent_object.removeChild(dodajSos);
+  }
+  var dodajSuszoneMieso = document.createElement("table");
+  sum3BurgerGornika3 = sum3BurgerGornika3 + sum1Guma1;
+  dodajSuszoneMieso.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum3BurgerGornika3+'</td><td class="td-img"><div><img src="image/craft/SuszoneMieso.png" alt="Zapieczone fasolki" title="Zapieczone fasolki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSuszoneMieso");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSuszoneMieso);
+  if (sum3BurgerGornika3===0) {
+    parent_object.removeChild(dodajSuszoneMieso);
+  }
+  var dodajCiasto = document.createElement("table");
+  sum2BurgerGornika4 = sum2BurgerGornika4 + sum1Nawoz6;
+  dodajCiasto.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2BurgerGornika4+'</td><td class="td-img"><div><img src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajCiasto");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajCiasto);
+  if (sum2BurgerGornika4===0) {
+    parent_object.removeChild(dodajCiasto);
+  }
+  var dodajStek = document.createElement("table");
+  sum1BurgerGornika5 = sum1BurgerGornika5 + sum4Zeberka1;
+  dodajStek.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1BurgerGornika5+'</td><td class="td-img"><div><img src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajStek");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajStek);
+  if (sum1BurgerGornika5===0) {
+    parent_object.removeChild(dodajStek);
+  }
+  /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+  var dodajPomidor = document.createElement("table");
+  sum2PaczkaGum1 = sum2PaczkaGum1 + sum1Puree2;
+  dodajPomidor.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomidor.png" alt="Pomidor" title="Pomidor"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomidor");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomidor);
+  if (sum2PaczkaGum1===0) {
+    parent_object.removeChild(dodajPomidor);
+  }
+  var dodajBorowki = document.createElement("table");
+  sum2PaczkaGum2 = sum2PaczkaGum2 + sum10OwocowyKoktajl1;
+  dodajBorowki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum2+'</td><td class="td-img"><div><img src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajBorowki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajBorowki);
+  if (sum2PaczkaGum2===0) {
+    parent_object.removeChild(dodajBorowki);
+  }
+  var dodajZiemniak = document.createElement("table");
+  sum2PaczkaGum3 = sum2PaczkaGum3 + sum1Pierog2;
+  dodajZiemniak.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum3+'</td><td class="td-img"><div><img src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZiemniak");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZiemniak);
+  if (sum2PaczkaGum3===0) {
+    parent_object.removeChild(dodajZiemniak);
+  }
+  var dodajPomarancza = document.createElement("table");
+  sum2PaczkaGum4 = sum2PaczkaGum4 + sum4OwocowyKoktajl2;
+  dodajPomarancza.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum4+'</td><td class="td-img"><div><img src="image/craft/Pomarancza.png" alt="Pomarancza" title="Pomarancza"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomarancza");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomarancza);
+  if (sum2PaczkaGum4===0) {
+    parent_object.removeChild(dodajPomarancza);
+  }
+  var dodajGumaDoZucia = document.createElement("table");
+  dodajGumaDoZucia.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1PaczkaGum5+'</td><td class="td-img"><div><img src="image/craft/GumaDoZucia.png" alt="Guma do żucia" title="Guma do żucia"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajGumaDoZucia");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajGumaDoZucia);
+  if (sum1PaczkaGum5===0) {
+    parent_object.removeChild(dodajGumaDoZucia);
+  }
+  var dodajIndygo = document.createElement("table");
+  dodajIndygo.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1PaczkaGum6+'</td><td class="td-img"><div><img src="image/craft/Indygo.png" alt="Indygo" title="Indygo"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajIndygo");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajIndygo);
+  if (sum1PaczkaGum6===0) {
+    parent_object.removeChild(dodajIndygo);
+  }
   /**ZNACHOR polecenia ułozone są alfabetycznie--------------------*/
   /**AMULET*/
   var amulet = Number(calcAmulet.value) || 0;
@@ -3063,6 +3245,7 @@ function add(){
   }
   /**KWAS SIARKOWY*/
   var dodajSiano = document.createElement("table");
+  sum1KwasSiarkowy1 = sum1KwasSiarkowy1 + sum5Nawoz2;
   dodajSiano.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1KwasSiarkowy1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
@@ -3083,6 +3266,7 @@ function add(){
   
   /**ATRAMENT*/
   var dodajIndygo = document.createElement("table");
+  sum1Atrament1 = sum1Atrament1 + sum1PaczkaGum6;
   dodajIndygo.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1Atrament1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Indygo.png" alt="Indygo" title="Indygo"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajIndygo");
@@ -3209,7 +3393,7 @@ function add(){
     parent_object.removeChild(dodajZboze);
   }
   var dodajZiemniak = document.createElement("table");
-  sum3Bimber2 = sum3Bimber2 + sum1Pierog2;
+  sum3Bimber2 = sum3Bimber2 + sum2PaczkaGum3;
   dodajZiemniak.innerHTML = 
   '<table><tr><td class="ilosc">'+sum3Bimber2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZiemniak");
@@ -3294,7 +3478,7 @@ function add(){
   
   /**NALEWKA*/
   var dodajPomarancza = document.createElement("table");
-  sum5Nalewka1 = sum5Nalewka1 + sum2SokKaktus2;
+  sum5Nalewka1 = sum5Nalewka1 + sum2PaczkaGum4;
   dodajPomarancza.innerHTML = 
   '<table><tr><td class="ilosc">'+sum5Nalewka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
@@ -3314,7 +3498,7 @@ function add(){
     parent_object.removeChild(dodajTequila);
   }
   var dodajDeskaDoKrojenia = document.createElement("table");
-  sum1Nalewka3 = sum1SiekaneM3 + sum1Nalewka3;
+  sum1Nalewka3 = sum10Nawoz1 + sum1Nalewka3;
   dodajDeskaDoKrojenia.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1Nalewka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDeskaDoKrojenia");
@@ -3357,7 +3541,7 @@ function add(){
     parent_object.removeChild(dodajDrewno);
   }
   var dodajWegielDrzewny = document.createElement("table");
-  sum1Lug2 = sum1Lug2 + sum4Zeberka3;
+  sum1Lug2 = sum1Lug2 + sum10BurgerGornika1;
   dodajWegielDrzewny.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1Lug2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
@@ -3640,6 +3824,7 @@ function add(){
     parent_object.removeChild(dodajBimber);
   }
   var dodajGumaDoZucia = document.createElement("table");
+  sum1Remedium4 = sum1Remedium4 + sum1PaczkaGum5;
   dodajGumaDoZucia.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1Remedium4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/GumaDoZucia.png" alt="Guma do żucia" title="Guma do żucia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGumaDoZucia");
@@ -3858,6 +4043,7 @@ function add(){
     parent_object.removeChild(dodajWyrokSmierci);
   }
   var dodajDestylat = document.createElement("table");
+  sum1DuchMuz4 = sum1DuchMuz4 + sum1Drink6;
   dodajDestylat.innerHTML = 
   '<table><tr><td class="ilosc">'+sum1DuchMuz4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Destylat.png" alt="Destylat" title="Destylat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDestylat");

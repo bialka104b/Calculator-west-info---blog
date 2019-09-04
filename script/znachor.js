@@ -664,6 +664,7 @@ function add(){
   }
   /**KWAS SIARKOWY*/
   var dodajSiano = document.createElement("table");
+  sum1KwasSiarkowy1 = sum1KwasSiarkowy1 + sum5Nawoz2;
   dodajSiano.innerHTML = 
   '<table><tr><td class="ilosc" id="kwas-siarkowy1_add-sum1">'+sum1KwasSiarkowy1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/06/Siano.png/33px-Siano.png" title="Siano"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiano");
@@ -1241,6 +1242,7 @@ function add(){
     parent_object.removeChild(dodajBimber);
   }
   var dodajGumaDoZucia = document.createElement("table");
+  sum1Remedium4 = sum1Remedium4 + sum1PaczkaGum5;
   dodajGumaDoZucia.innerHTML = 
   '<table><tr><td class="ilosc" id="remedium4_add-sum1">'+sum1Remedium4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/GumaDoZuciaRzemioslo.png/33px-GumaDoZuciaRzemioslo.png" title="Guma do żucia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGumaDoZucia");
@@ -1459,6 +1461,7 @@ function add(){
     parent_object.removeChild(dodajWyrokSmierci);
   }
   var dodajDestylat = document.createElement("table");
+  sum1DuchMuz4 = sum1DuchMuz4 + sum1Drink6;
   dodajDestylat.innerHTML = 
   '<table><tr><td class="ilosc" id="duchowa-muzyka4_add-sum1">'+sum1DuchMuz4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7b/DestylatRzemioslo.png/33px-DestylatRzemioslo.png" title="Destylat"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDestylat");

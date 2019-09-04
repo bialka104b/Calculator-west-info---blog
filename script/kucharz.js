@@ -210,25 +210,78 @@ var addSum4Zeberka1 = document.getElementById("zeberka1_add-sum4");
 var addSum4Zeberka2 = document.getElementById("zeberka2_add-sum4");
 var addSum4Zeberka3 = document.getElementById("zeberka3_add-sum4");
 calcZeberka.addEventListener("input", add);
+/**--------------------------------------------------------------- */
+/**--------------------------------------------------------------- */
+/**--------------------------------------------------------------- */
+/**SER CASTELLO*/
+var calcSerCastello = document.getElementById("calc-ser-castello");
+var addSum6SerCastello1 = document.getElementById("ser-castello1_add-sum6");
+var addSum6SerCastello2 = document.getElementById("ser-castello2_add-sum6");
+var addSum2SerCastello3 = document.getElementById("ser-castello3_add-sum2");
+var addSum1SerCastello4 = document.getElementById("ser-castello4_add-sum1");
+calcSerCastello.addEventListener("input", add);
+/**DRINK*/
+var calcDrink = document.getElementById("calc-drink");
+var addSum10Drink1 = document.getElementById("drink1_add-sum10");
+var addSum5Drink2 = document.getElementById("drink2_add-sum5");
+var addSum4Drink3 = document.getElementById("drink3_add-sum4");
+var addSum1Drink4 = document.getElementById("drink4_add-sum1");
+var addSum1Drink5 = document.getElementById("drink5_add-sum1");
+var addSum1Drink6 = document.getElementById("drink6_add-sum1");
+calcDrink.addEventListener("input", add);
+/**NAWÓZ*/
+var calcNawoz = document.getElementById("calc-nawoz");
+var addSum10Nawoz1 = document.getElementById("nawoz1_add-sum10");
+var addSum5Nawoz2 = document.getElementById("nawoz2_add-sum5");
+var addSum2Nawoz3 = document.getElementById("nawoz3_add-sum2");
+var addSum1Nawoz4 = document.getElementById("nawoz4_add-sum1");
+var addSum1Nawoz5 = document.getElementById("nawoz5_add-sum1");
+var addSum1Nawoz6 = document.getElementById("nawoz6_add-sum1");
+calcNawoz.addEventListener("input", add);
+/**OWOCOWY KOKTAIL*/
+var calcOwocowyKoktajl = document.getElementById("calc-owocowy-koktajl");
+var addSum10OwocowyKoktajl1 = document.getElementById("owocowy-koktajl1_add-sum10");
+var addSum4OwocowyKoktajl2 = document.getElementById("owocowy-koktajl2_add-sum4");
+var addSum2OwocowyKoktajl3 = document.getElementById("owocowy-koktajl3_add-sum2");
+var addSum2OwocowyKoktajl4 = document.getElementById("owocowy-koktajl4_add-sum2");
+var addSum1OwocowyKoktajl5 = document.getElementById("owocowy-koktajl5_add-sum1");
+calcOwocowyKoktajl.addEventListener("input", add);
+/**BURGER GÓRNIKA*/
+var calcBurgerGornika = document.getElementById("calc-burger-gornika");
+var addSum10BurgerGornika1 = document.getElementById("burger-gornika1_add-sum10");
+var addSum4BurgerGornika2 = document.getElementById("burger-gornika2_add-sum4");
+var addSum3BurgerGornika3 = document.getElementById("burger-gornika3_add-sum3");
+var addSum2BurgerGornika4 = document.getElementById("burger-gornika4_add-sum2");
+var addSum1BurgerGornika5 = document.getElementById("burger-gornika5_add-sum1");
+calcBurgerGornika.addEventListener("input", add);
+/**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+var calcPaczkaGum = document.getElementById("calc-paczka-gum");
+var addSum2PaczkaGum1 = document.getElementById("paczka-gum1_add-sum2");
+var addSum2PaczkaGum2 = document.getElementById("paczka-gum2_add-sum2");
+var addSum2PaczkaGum3 = document.getElementById("paczka-gum3_add-sum2");
+var addSum2PaczkaGum4 = document.getElementById("paczka-gum4_add-sum2");
+var addSum1PaczkaGum5 = document.getElementById("paczka-gum5_add-sum1");
+var addSum1PaczkaGum6 = document.getElementById("paczka-gum6_add-sum1");
+calcPaczkaGum.addEventListener("input", add);
 
 function add(){
   /**KUCHARZ polecenia ułozone są alfabetycznie--------------------*/
   /**BULION RYBNY*/
   var bulion = Number(calcBulion.value) || 0;
   var sum1Bulion1 = Number(bulion*1);
-  addSum1Bulion1.innerHTML = sum1Bulion1+"x";
+  addSum1Bulion1.innerHTML = sum1Bulion1+"/1x";
   var sum1Bulion2 = Number(bulion*1);
-  addSum1Bulion2.innerHTML = sum1Bulion2+"x";
+  addSum1Bulion2.innerHTML = sum1Bulion2+"/1x";
   var sum1Bulion3 = Number(bulion*1);
-  addSum1Bulion3.innerHTML = sum1Bulion3+"x";
+  addSum1Bulion3.innerHTML = sum1Bulion3+"/1x";
   /**CIASTECZKA KUKURYDZIANE*/
   var ciasteczka = Number(calcCiasteczka.value) || 0;
   var sum2Ciasteczka1 = Number(ciasteczka*2);
-  addSum2Ciasteczka1.innerHTML = sum2Ciasteczka1+"x";
+  addSum2Ciasteczka1.innerHTML = sum2Ciasteczka1+"/2x";
   var sum2Ciasteczka2 = Number(ciasteczka*2);
-  addSum2Ciasteczka2.innerHTML = sum2Ciasteczka2+"x";
+  addSum2Ciasteczka2.innerHTML = sum2Ciasteczka2+"/2x";
   var sum2Ciasteczka3 = Number(ciasteczka*2);
-  addSum2Ciasteczka3.innerHTML = sum2Ciasteczka3+"x";
+  addSum2Ciasteczka3.innerHTML = sum2Ciasteczka3+"/2x";
   /**CIASTO*/
   var ciasto = Number(calcCiasto.value) || 0;
   var sum1Ciasto1 = Number(ciasto*1);
@@ -487,6 +540,82 @@ function add(){
   addSum1Zupa1.innerHTML = sum1Zupa1+"x";
   var sum1Zupa2 = Number(zupa*1);
   addSum1Zupa2.innerHTML = sum1Zupa2+"x";
+  /**SER CASTELLO*/
+  var ser = Number(calcSerCastello.value) || 0;
+  var sum6SerCastello1 = Number(ser*6);
+  addSum6SerCastello1.innerHTML = sum6SerCastello1+"x";
+  var sum6SerCastello2 = Number(ser*6);
+  addSum6SerCastello2.innerHTML = sum6SerCastello2+"x";
+  var sum2SerCastello3 = Number(ser*2);
+  addSum2SerCastello3.innerHTML = sum2SerCastello3+"x";
+  var sum1SerCastello4 = Number(ser*1);
+  addSum1SerCastello4.innerHTML = sum1SerCastello4+"x";
+  /**DRINK*/
+  var drink = Number(calcDrink.value) || 0;
+  var sum10Drink1 = Number(drink*10);
+  addSum10Drink1.innerHTML = sum10Drink1+"x";
+  var sum5Drink2 = Number(drink*5);
+  addSum5Drink2.innerHTML = sum5Drink2+"x";
+  var sum4Drink3 = Number(drink*4);
+  addSum4Drink3.innerHTML = sum4Drink3+"x";
+  var sum1Drink4 = Number(drink*1);
+  addSum1Drink4.innerHTML = sum1Drink4+"x";
+  var sum1Drink5 = Number(drink*1);
+  addSum1Drink5.innerHTML = sum1Drink5+"x";
+  var sum1Drink6 = Number(drink*1);
+  addSum1Drink6.innerHTML = sum1Drink6+"x";
+  /**NAWOZ */
+  var nawoz = Number(calcNawoz.value) || 0;
+  var sum10Nawoz1 = Number(nawoz*10);
+  addSum10Nawoz1.innerHTML = sum10Nawoz1+"x";
+  var sum5Nawoz2 = Number(nawoz*5);
+  addSum5Nawoz2.innerHTML = sum5Nawoz2+"x";
+  var sum2Nawoz3 = Number(nawoz*2);
+  addSum2Nawoz3.innerHTML = sum2Nawoz3+"x";
+  var sum1Nawoz4 = Number(nawoz*1);
+  addSum1Nawoz4.innerHTML = sum1Nawoz4+"x";
+  var sum1Nawoz5 = Number(nawoz*1);
+  addSum1Nawoz5.innerHTML = sum1Nawoz5+"x";
+  var sum1Nawoz6 = Number(nawoz*1);
+  addSum1Nawoz6.innerHTML = sum1Nawoz6+"x";
+  /**OWOCOWY KOKTAIL*/
+  var owocowyKoktail = Number(calcOwocowyKoktajl.value) || 0;
+  var sum10OwocowyKoktajl1 = Number(owocowyKoktail*10);
+  addSum10OwocowyKoktajl1.innerHTML = sum10OwocowyKoktajl1+"x";
+  var sum4OwocowyKoktajl2 = Number(owocowyKoktail*4);
+  addSum4OwocowyKoktajl2.innerHTML = sum4OwocowyKoktajl2+"x";
+  var sum2OwocowyKoktajl3 = Number(owocowyKoktail*2);
+  addSum2OwocowyKoktajl3.innerHTML = sum2OwocowyKoktajl3+"x";
+  var sum2OwocowyKoktajl4 = Number(owocowyKoktail*2);
+  addSum2OwocowyKoktajl4.innerHTML = sum2OwocowyKoktajl4+"x";
+  var sum1OwocowyKoktajl5 = Number(owocowyKoktail*1);
+  addSum1OwocowyKoktajl5.innerHTML = sum1OwocowyKoktajl5+"x";
+  /**BURGER GÓRNIKA*/
+  var burgerGornika = Number(calcBurgerGornika.value) || 0;
+  var sum10BurgerGornika1 = Number(burgerGornika*10);
+  addSum10BurgerGornika1.innerHTML = sum10BurgerGornika1+"x";
+  var sum4BurgerGornika2 = Number(burgerGornika*4);
+  addSum4BurgerGornika2.innerHTML = sum4BurgerGornika2+"x";
+  var sum3BurgerGornika3 = Number(burgerGornika*3);
+  addSum3BurgerGornika3.innerHTML = sum3BurgerGornika3+"x";
+  var sum2BurgerGornika4 = Number(burgerGornika*2);
+  addSum2BurgerGornika4.innerHTML = sum2BurgerGornika4+"x";
+  var sum1BurgerGornika5 = Number(burgerGornika*1);
+  addSum1BurgerGornika5.innerHTML = sum1BurgerGornika5+"x";
+  /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+  var paczkaGum = Number(calcPaczkaGum.value) || 0;
+  var sum2PaczkaGum1 = Number(paczkaGum*2);
+  addSum2PaczkaGum1.innerHTML = sum2PaczkaGum1+"x";
+  var sum2PaczkaGum2 = Number(paczkaGum*2);
+  addSum2PaczkaGum2.innerHTML = sum2PaczkaGum2+"x";
+  var sum2PaczkaGum3 = Number(paczkaGum*2);
+  addSum2PaczkaGum3.innerHTML = sum2PaczkaGum3+"x";
+  var sum2PaczkaGum4 = Number(paczkaGum*2);
+  addSum2PaczkaGum4.innerHTML = sum2PaczkaGum4+"x";
+  var sum1PaczkaGum5 = Number(paczkaGum*1);
+  addSum1PaczkaGum5.innerHTML = sum1PaczkaGum5+"x";
+  var sum1PaczkaGum6 = Number(paczkaGum*1);
+  addSum1PaczkaGum6.innerHTML = sum1PaczkaGum6+"x";
   
   /**PUREE POMIDOROWE*/
   var dodajKamienie = document.createElement("table");
@@ -522,7 +651,7 @@ function add(){
   /**ZAPIECZONE FASOLKI*/
   var dodajSosPomidorowy = document.createElement("table");
   dodajSosPomidorowy.innerHTML = 
-  '<table><tr><td class="ilosc" id="zapieczone1_add-sum1">'+sum1Zapieczone1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/SosPomidorowy.png/33px-SosPomidorowy.png" title="Sos pomidorowy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zapieczone1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SosPomidorowy.png" alt="Sos pomidorowy" title="Sos pomidorowy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSosPomidorowy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSosPomidorowy);
@@ -531,19 +660,18 @@ function add(){
   }
   var dodajFasola = document.createElement("table");
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="zapieczone2_add-sum1">'+sum1Zapieczone2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zapieczone2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
   if (sum1Zapieczone2===0) {
     parent_object.removeChild(dodajFasola);
   }
-  
   /**WEGIEL DRZEWNY*/
   var dodajKamienie = document.createElement("table");
   sum1Wegiel1 = sum1Wegiel1 + sum1Puree1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="wegiel1_add-sum1">'+sum1Wegiel1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wegiel1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -552,7 +680,7 @@ function add(){
   }
   var dodajDrewno = document.createElement("table");
   dodajDrewno.innerHTML = 
-  '<table><tr><td class="ilosc" id="wegiel2_add-sum1">'+sum1Wegiel2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/88/Drewno.png/33px-Drewno.png" title="Drewno"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Wegiel2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Drewno.png" alt="Drewno" title="Drewno"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDrewno");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDrewno);
@@ -564,7 +692,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum1Maka1 = sum1Wegiel1 + sum1Maka1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="maka-kuk1_add-sum1">'+sum1Maka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Maka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -573,7 +701,7 @@ function add(){
   }
   var dodajKukurydza = document.createElement("table");
   dodajKukurydza.innerHTML = 
-  '<table><tr><td class="ilosc" id="maka-kuk2_add-sum1">'+sum1Maka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0a/Kukurydza.png/33px-Kukurydza.png" title="Kukurydza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Maka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kukurydza.png" alt="Kukurydza" title="Kukurydza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKukurydza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKukurydza);
@@ -584,7 +712,7 @@ function add(){
   /**DZBAN WODY*/
   var dodajDzban = document.createElement("table");
   dodajDzban.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzban1_add-sum1">'+sum1Dzban1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d9/Dzban.png/33px-Dzban.png" title="Dzban"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzban1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dzban.png" alt="Dzban" title="Dzban"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzban");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzban);
@@ -593,7 +721,7 @@ function add(){
   }
   var dodajSzklankaWody = document.createElement("table");
   dodajSzklankaWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzban2_add-sum1">'+sum1Dzban2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/cd/SzklankaWody.png/33px-SzklankaWody.png" title="Szklanka wody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzban2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SzklankaWody.png" alt="Szklanka wody" title="Szklanka wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzklankaWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzklankaWody);
@@ -604,7 +732,7 @@ function add(){
   /**KAWALEK TORTU*/
   var dodajMaka = document.createElement("table");
   dodajMaka.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu1_add-sum1">'+sum1KawTortu1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/01/Maka.png/33px-Maka.png" title="Mąka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Maka.png" alt="Mąka" title="Mąka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMaka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMaka);
@@ -613,7 +741,7 @@ function add(){
   }
   var dodajCukier = document.createElement("table");
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu2_add-sum1">'+sum1KawTortu2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -622,7 +750,7 @@ function add(){
   }
   var dodajJagody = document.createElement("table");
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="kaw-tortu3_add-sum1">'+sum1KawTortu3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1KawTortu3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -633,7 +761,7 @@ function add(){
   /**FASOLA Z BEKONEM*/
   var dodajWegielDrzewny = document.createElement("table");
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon1_add-sum1">'+sum1FasolaBekon1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -642,7 +770,7 @@ function add(){
   }
   var dodajPatelnia = document.createElement("table");
   dodajPatelnia.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon2_add-sum1">'+sum1FasolaBekon2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/4d/PatelniaRzemioslo.png/33px-PatelniaRzemioslo.png" title="Patelnia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Patelnia.png" alt="Patelnia" title="Patelnia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPatelnia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPatelnia);
@@ -651,7 +779,7 @@ function add(){
   }
   var dodajSzynka = document.createElement("table");
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon3_add-sum1">'+sum1FasolaBekon3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -661,7 +789,7 @@ function add(){
   var dodajFasola = document.createElement("table");
   sum1FasolaBekon4 = sum1FasolaBekon4 + sum1Zapieczone2;
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-bekon4_add-sum1">'+sum1FasolaBekon4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1FasolaBekon4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
@@ -672,7 +800,7 @@ function add(){
   /**DZEM*/
   var dodajBorowki = document.createElement("table");
   dodajBorowki.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem1_add-sum2">'+sum2Dzem1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/Borowki.png/33px-Borowki.png" title="Borówki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Dzem1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBorowki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBorowki);
@@ -682,7 +810,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum2Dzem2 = sum2Dzem2 + sum1KawTortu2;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem2_add-sum2">'+sum2Dzem2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Dzem2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -692,7 +820,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1Dzem3 = sum1Dzem3 + sum1FasolaBekon1;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="dzem3_add-sum1">'+sum1Dzem3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dzem3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -703,7 +831,7 @@ function add(){
   /**ZACIER*/
   var dodajZboze = document.createElement("table");
   dodajZboze.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier1_add-sum1">'+sum1Zacier1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/0c/Zboze.png/33px-Zboze.png" title="Zboże" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zboze.png" alt="Zboże" title="Zboże"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZboze");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZboze);
@@ -712,7 +840,7 @@ function add(){
   }
   var dodajDzbanWody = document.createElement("table");
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier2_add-sum1">'+sum1Zacier2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -722,7 +850,7 @@ function add(){
   var dodajCukier = document.createElement("table");
   sum1Zacier3 = sum2Dzem2 + sum1Zacier3;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="zacier3_add-sum1">'+sum1Zacier3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zacier3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -734,7 +862,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1Ciasto1 = sum1Ciasto1 + sum1Zacier2;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasto1_add-sum1">'+sum1Ciasto1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ciasto1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -744,7 +872,7 @@ function add(){
   var dodajMaka = document.createElement("table");
   sum1Ciasto2 = sum1Ciasto2 + sum1KawTortu1;
   dodajMaka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasto2_add-sum1">'+sum1Ciasto2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/01/Maka.png/33px-Maka.png" title="Mąka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Ciasto2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Maka.png" alt="Mąka" title="Mąka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMaka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMaka);
@@ -754,7 +882,7 @@ function add(){
   /**MARYNOWANY STEK*/
   var dodajRum = document.createElement("table");
   dodajRum.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek1_add-sum1">'+sum1MarStek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/61/Rum.png/33px-Rum.png" title="Rum" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rum.png" alt="Rum" title="Rum"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRum");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRum);
@@ -763,7 +891,7 @@ function add(){
   }
   var dodajSaletra = document.createElement("table");
   dodajSaletra.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek2_add-sum1">'+sum1MarStek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/24/Saletra.png/33px-Saletra.png" title="Saletra" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Saletra.png" alt="Saletra" title="Saletra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSaletra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSaletra);
@@ -772,7 +900,7 @@ function add(){
   }
   var dodajStek = document.createElement("table");
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="mar-stek3_add-sum1">'+sum1MarStek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MarStek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -782,7 +910,7 @@ function add(){
   /**TRUNEK*/
   var dodajTequila = document.createElement("table");
   dodajTequila.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek1_add-sum2">'+sum2Trunek1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9f/Tequila.png/33px-Tequila.png" title="Tequila"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Trunek1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Tequila.png" alt="Tequila" title="Tequila"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajTequila");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajTequila);
@@ -792,7 +920,7 @@ function add(){
   var dodajBorowki = document.createElement("table");
   sum1Trunek2 = sum1Trunek2 + sum2Dzem1;
   dodajBorowki.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek2_add-sum1">'+sum1Trunek2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/ff/Borowki.png/33px-Borowki.png" title="Borówki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Trunek2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBorowki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBorowki);
@@ -801,7 +929,7 @@ function add(){
   }
   var dodajManierka = document.createElement("table");
   dodajManierka.innerHTML = 
-  '<table><tr><td class="ilosc" id="trunek3_add-sum1">'+sum1Trunek3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/69/ManierkaRzemioslo.png/33px-ManierkaRzemioslo.png" title="Manierka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Trunek3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Manierka.png" alt="Manierka" title="Manierka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajManierka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajManierka);
@@ -811,7 +939,7 @@ function add(){
   /**TORT*/
   var dodajCiasto = document.createElement("table");
   dodajCiasto.innerHTML = 
-  '<table><tr><td class="ilosc" id="tort1_add-sum2">'+sum2Tort1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/db/CiastoRzemioslo.png/33px-CiastoRzemioslo.png" title="Ciasto"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Tort1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCiasto");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCiasto);
@@ -821,7 +949,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum1Tort2 = sum1Tort2 + sum1KawTortu3;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="tort2_add-sum1">'+sum1Tort2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Tort2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -832,7 +960,7 @@ function add(){
   /**BULION RYBNY*/
   var dodajPstrag = document.createElement("table");
   dodajPstrag.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion1_add-sum1">'+sum1Bulion1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fe/Pstrag.png/33px-Pstrag.png" title="Pstrąg"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pstrag.png" alt="Pstrąg" title="Pstrąg"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPstrag");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPstrag);
@@ -841,7 +969,7 @@ function add(){
   }
   var dodajLosos = document.createElement("table");
   dodajLosos.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion2_add-sum1">'+sum1Bulion2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/11/Losos.png/33px-Losos.png" title="Łosoś"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Losos.png" alt="Łosoś" title="Łosoś"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLosos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLosos);
@@ -850,7 +978,7 @@ function add(){
   }
   var dodajMiesoKraba = document.createElement("table");
   dodajMiesoKraba.innerHTML = 
-  '<table><tr><td class="ilosc" id="bulion3_add-sum1">'+sum1Bulion3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3d/MiesoKraba.png/33px-MiesoKraba.png" title="Mięso kraba"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Bulion3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MiesoKraba.png" alt="Mięso kraba" title="Mięso kraba"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMiesoKraba");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMiesoKraba);
@@ -862,7 +990,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum2PieczonyIndyk1 = sum1Tort2 + sum2PieczonyIndyk1;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk1_add-sum2">'+sum2PieczonyIndyk1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2PieczonyIndyk1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -871,7 +999,7 @@ function add(){
   }
   var dodajIndyk = document.createElement("table");
   dodajIndyk.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk2_add-sum1">'+sum1PieczonyIndyk2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/6b/Indyk.png/33px-Indyk.png" title="Indyk"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Indyk.png" alt="Indyk" title="Indyk"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajIndyk");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajIndyk);
@@ -880,7 +1008,7 @@ function add(){
   }
   var dodajPomarancza = document.createElement("table");
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk3_add-sum1">'+sum1PieczonyIndyk3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -890,7 +1018,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum1PieczonyIndyk4 = sum1Dzem3 + sum1PieczonyIndyk4;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="piecz-indyk4_add-sum1">'+sum1PieczonyIndyk4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1PieczonyIndyk4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -902,7 +1030,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Zupa1 = sum1Zupa1 + sum1SosPomidorowy1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="zuparybna1_add-sum1">'+sum1Zupa1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zupa1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -911,7 +1039,7 @@ function add(){
   }
   var dodajBulionRybny = document.createElement("table");
   dodajBulionRybny.innerHTML = 
-  '<table><tr><td class="ilosc" id="zuparybna2_add-sum1">'+sum1Zupa2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/14/BulionRzemioslo.png/33px-BulionRzemioslo.png" title="Bulion rybny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Zupa2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Bulion.png" alt="Bulion rybny" title="Bulion rybny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajBulionRybny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajBulionRybny);
@@ -921,7 +1049,7 @@ function add(){
   /**PIEROG Z WARZYWAMI*/
   var dodajDynia = document.createElement("table");
   dodajDynia.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog1_add-sum1">'+sum1Pierog1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/75/Dynia.png/33px-Dynia.png" title="Dynia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dynia.png" alt="Dynia" title="Dynia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDynia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDynia);
@@ -930,7 +1058,7 @@ function add(){
   }
   var dodajZiemniak = document.createElement("table");
   dodajZiemniak.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog2_add-sum1">'+sum1Pierog2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/9/9e/Ziemniak.png/33px-Ziemniak.png" title="Ziemniak"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZiemniak");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZiemniak);
@@ -940,7 +1068,7 @@ function add(){
   var dodajCiasto = document.createElement("table");
   sum1Pierog3 = sum1Pierog3 + sum2Tort1;
   dodajCiasto.innerHTML = 
-  '<table><tr><td class="ilosc" id="pierog3_add-sum1">'+sum1Pierog3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/db/CiastoRzemioslo.png/33px-CiastoRzemioslo.png" title="Ciasto"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Pierog3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCiasto");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCiasto);
@@ -951,7 +1079,7 @@ function add(){
   var dodajSzynka = document.createElement("table");
   sum2SiekaneM1 = sum2SiekaneM1 + sum1FasolaBekon3;
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso1_add-sum2">'+sum2SiekaneM1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SiekaneM1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -960,7 +1088,7 @@ function add(){
   }
   var dodajNoz = document.createElement("table");
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso2_add-sum1">'+sum1SiekaneM2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SiekaneM2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -969,7 +1097,7 @@ function add(){
   }
   var dodajDeskaDoKrojenia = document.createElement("table");
   dodajDeskaDoKrojenia.innerHTML = 
-  '<table><tr><td class="ilosc" id="siekane-mieso3_add-sum1">'+sum1SiekaneM3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/57/DeskaDoKrojeniaRzemioslo.png/33px-DeskaDoKrojeniaRzemioslo.png" title="Deska do krojenia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SiekaneM3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDeskaDoKrojenia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDeskaDoKrojenia);
@@ -980,7 +1108,7 @@ function add(){
   var dodajPstrag = document.createElement("table");
   sum1Dorsz1 = sum1Dorsz1 + sum1Bulion1;
   dodajPstrag.innerHTML = 
-  '<table><tr><td class="ilosc" id="dorsz1_add-sum1">'+sum1Dorsz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/f/fe/Pstrag.png/33px-Pstrag.png" title="Pstrąg"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dorsz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pstrag.png" alt="Pstrąg" title="Pstrąg"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPstrag");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPstrag);
@@ -989,7 +1117,7 @@ function add(){
   }
   var dodajPalDrewniany = document.createElement("table");
   dodajPalDrewniany.innerHTML = 
-  '<table><tr><td class="ilosc" id="dorsz2_add-sum1">'+sum1Dorsz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2a/PalDrewniany.png/33px-PalDrewniany.png" title="Pal drewniany"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Dorsz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PalDrewniany.png" alt="Pal drewniany" title="Pal drewniany"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPalDrewniany");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPalDrewniany);
@@ -1000,7 +1128,7 @@ function add(){
   /**KADZIDLO*/
   var dodajLiscieTytoniu = document.createElement("table");
   dodajLiscieTytoniu.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo1_add-sum4">'+sum4Kadzidlo1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d5/LiscieTytoniu.png/33px-LiscieTytoniu.png" title="Liście tytoniu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Kadzidlo1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/LiscieTytoniu.png" alt="Liście tytoniu" title="Liście tytoniu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLiscieTytoniu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLiscieTytoniu);
@@ -1010,7 +1138,7 @@ function add(){
   var dodajJagody = document.createElement("table");
   sum2Kadzidlo2 = sum2Kadzidlo2 + sum2PieczonyIndyk1;
   dodajJagody.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo2_add-sum2">'+sum2Kadzidlo2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl//images/thumb/1/18/Jagody.png/33px-Jagody.png" title="Jagody"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Kadzidlo2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Jagody.png" alt="Jagody" title="Jagody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajJagody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajJagody);
@@ -1019,7 +1147,7 @@ function add(){
   }
   var dodajPapierosy = document.createElement("table");
   dodajPapierosy.innerHTML = 
-  '<table><tr><td class="ilosc" id="kadzidlo3_add-sum1">'+sum1Kadzidlo3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Papierosy.png/33px-Papierosy.png" title="Papierosy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Kadzidlo3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Papierosy.png" alt="Papierosy" title="Papierosy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapierosy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapierosy);
@@ -1031,7 +1159,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Sos1 = sum1Zupa1 + sum1Sos1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="sos1_add-sum1">'+sum1Sos1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sos1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -1041,7 +1169,7 @@ function add(){
   var dodajDynia = document.createElement("table");
   sum1Sos2 = sum1Sos2 + sum1Pierog1;
   dodajDynia.innerHTML = 
-  '<table><tr><td class="ilosc" id="sos2_add-sum1">'+sum1Sos2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/75/Dynia.png/33px-Dynia.png" title="Dynia"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Sos2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dynia.png" alt="Dynia" title="Dynia"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDynia");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDynia);
@@ -1052,7 +1180,7 @@ function add(){
   /**CIASTECZKA KUKURYDZIANE*/
   var dodajMakaKukurydziana = document.createElement("table");
   dodajMakaKukurydziana.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka1_add-sum2">'+sum2Ciasteczka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d0/MakaKukurydziana.png/33px-MakaKukurydziana.png" title="Mąka kukurydziana"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MakaKukurydziana.png" alt="Mąka kukurydziana" title="Mąka kukurydziana"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMakaKukurydziana");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMakaKukurydziana);
@@ -1061,7 +1189,7 @@ function add(){
   }
   var dodajButelkaMleka = document.createElement("table");
   dodajButelkaMleka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka2_add-sum2">'+sum2Ciasteczka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/ButelkaMleka.png/33px-ButelkaMleka.png" title="Butelka Mleka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajButelkaMleka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajButelkaMleka);
@@ -1070,7 +1198,7 @@ function add(){
   }
   var dodajSuroweJajka = document.createElement("table");
   dodajSuroweJajka.innerHTML = 
-  '<table><tr><td class="ilosc" id="ciasteczka3_add-sum2">'+sum2Ciasteczka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/e8/SuroweJajka.png/33px-SuroweJajka.png" title="Surowe jajka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ciasteczka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SuroweJajka.png" alt="Surowe jajka" title="Surowe jajka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSuroweJajka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSuroweJajka);
@@ -1082,7 +1210,7 @@ function add(){
   var dodajLosos = document.createElement("table");
   sum4Ryba1 = sum4Ryba1 + sum1Bulion2;
   dodajLosos.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta1_add-sum4">'+sum4Ryba1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/11/Losos.png/33px-Losos.png" title="Łosoś"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Ryba1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Losos.png" alt="Łosoś" title="Łosoś"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajLosos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajLosos);
@@ -1091,7 +1219,7 @@ function add(){
   }
   var dodajSkora = document.createElement("table");
   dodajSkora.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta2_add-sum4">'+sum4Ryba2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Skora.png/33px-Skora.png" title="Skóra"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Ryba2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Skora.png" alt="Skóra" title="Skóra"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSkora");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSkora);
@@ -1100,7 +1228,7 @@ function add(){
   }
   var dodajGazeta = document.createElement("table");
   dodajGazeta.innerHTML = 
-  '<table><tr><td class="ilosc" id="ryba-zawinieta3_add-sum2">'+sum2Ryba3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Gazeta.png/33px-Gazeta.png" title="Gazeta"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Ryba3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gazeta.png" alt="Gazeta" title="Gazeta"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajGazeta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGazeta);
@@ -1110,9 +1238,9 @@ function add(){
   
   /**SOK Z KAKTUSA*/
   var dodajCukier = document.createElement("table");
-  sum2SokKaktus1 = sum2Dzem2 + sum2SokKaktus1;
+  sum2SokKaktus1 = sum1Zacier3 + sum2SokKaktus1;
   dodajCukier.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus1_add-sum2">'+sum2SokKaktus1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/e/eb/Cukier.png/33px-Cukier.png" title="Cukier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SokKaktus1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cukier.png" alt="Cukier" title="Cukier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCukier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCukier);
@@ -1122,7 +1250,7 @@ function add(){
   var dodajPomarancza = document.createElement("table");
   sum2SokKaktus2 = sum2SokKaktus2 + sum1PieczonyIndyk3;
   dodajPomarancza.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus2_add-sum2">'+sum2SokKaktus2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Pomarancza.png/33px-Pomarancza.png" title="Pomarańcza"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2SokKaktus2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomarancza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomarancza);
@@ -1132,7 +1260,7 @@ function add(){
   var dodajNoz = document.createElement("table");
   sum1SokKaktus3 = sum1SokKaktus3 + sum1SiekaneM2;
   dodajNoz.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus3_add-sum1">'+sum1SokKaktus3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/NozRzemioslo.png/33px-NozRzemioslo.png" title="Nóż"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SokKaktus3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Noz.png" alt="Nóż" title="Nóż"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajNoz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajNoz);
@@ -1142,7 +1270,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1SokKaktus4 = sum1Ciasto1 + sum1SokKaktus4;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="sok-kaktus4_add-sum1">'+sum1SokKaktus4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SokKaktus4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -1152,7 +1280,7 @@ function add(){
   /**OBIAD DZENTELMENA*/
   var dodajWhiskey = document.createElement("table");
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz1_add-sum3">'+sum3Obiad1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum3Obiad1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -1161,7 +1289,7 @@ function add(){
   }
   var dodajCygara = document.createElement("table");
   dodajCygara.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz2_add-sum2">'+sum2Obiad2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/50/Cygara.png/33px-Cygara.png" title="Cygara"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Obiad2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Cygara.png" alt="Cygara" title="Cygara"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajCygara");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajCygara);
@@ -1171,7 +1299,7 @@ function add(){
   var dodajGazeta = document.createElement("table");
   sum1Obiad3 = sum1Obiad3 + sum2Ryba3;
   dodajGazeta.innerHTML = 
-  '<table><tr><td class="ilosc" id="obiad-dz3_add-sum1">'+sum1Obiad3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/7f/Gazeta.png/33px-Gazeta.png" title="Gazeta"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Obiad3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Gazeta.png" alt="Gazeta" title="Gazeta"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajGazeta");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGazeta);
@@ -1183,7 +1311,7 @@ function add(){
   var dodajWhiskey = document.createElement("table");
   sum6SuszMieso1 = sum6SuszMieso1 + sum3Obiad1;
   dodajWhiskey.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso1_add-sum6">'+sum6SuszMieso1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/48/Whiskey.png/33px-Whiskey.png" title="Whiskey"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum6SuszMieso1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajWhiskey");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWhiskey);
@@ -1193,7 +1321,7 @@ function add(){
   var dodajSzynka = document.createElement("table");
   sum6SuszMieso2 = sum2SiekaneM1 + sum6SuszMieso2;
   dodajSzynka.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso2_add-sum6">'+sum6SuszMieso2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/be/Szynka.png/33px-Szynka.png" title="Szynka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum6SuszMieso2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Szynka.png" alt="Szynka" title="Szynka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSzynka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSzynka);
@@ -1203,7 +1331,7 @@ function add(){
   var dodajSaletra = document.createElement("table");
   sum4SuszMieso3 = sum4SuszMieso3 + sum1MarStek2;
   dodajSaletra.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso3_add-sum4">'+sum4SuszMieso3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/24/Saletra.png/33px-Saletra.png" title="Saletra" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4SuszMieso3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Saletra.png" alt="Saletra" title="Saletra"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSaletra");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSaletra);
@@ -1213,7 +1341,7 @@ function add(){
   var dodajStek = document.createElement("table");
   sum4SuszMieso4 = sum4SuszMieso4 + sum1MarStek3;
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="susz-mieso4_add-sum4">'+sum4SuszMieso4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4SuszMieso4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -1224,7 +1352,7 @@ function add(){
   /**GUMA DO ZUCIA*/
   var dodajSuszoneMieso = document.createElement("table");
   dodajSuszoneMieso.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma1_add-sum1">'+sum1Guma1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/2a/SuszoneMiesoRzemioslo.png/33px-SuszoneMiesoRzemioslo.png" title="Suszone mięso"></div></td> </tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SuszoneMieso.png" alt="Suszone mięso" title="Suszone mięso"></div></td> </tr></table>';
   var parent_object = document.getElementById("dodajSuszoneMieso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSuszoneMieso);
@@ -1233,7 +1361,7 @@ function add(){
   }
   var dodajDorsz = document.createElement("table");
   dodajDorsz.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma2_add-sum1">'+sum1Guma2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/a4/DorszRzemioslo.png/33px-DorszRzemioslo.png" title="Dorsz"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Dorsz.png" alt="Dorsz" title="Dorsz"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDorsz");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDorsz);
@@ -1242,7 +1370,7 @@ function add(){
   }
   var dodajOstrePapryki = document.createElement("table");
   dodajOstrePapryki.innerHTML = 
-  '<table><tr><td class="ilosc" id="guma3_add-sum1">'+sum1Guma3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/8f/OstrePapryki.png/33px-OstrePapryki.png" title="Ostre papryki"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Guma3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajOstrePapryki");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajOstrePapryki);
@@ -1253,7 +1381,7 @@ function add(){
   /**GROG*/
   var dodajWodka = document.createElement("table");
   dodajWodka.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog1_add-sum">'+sum2Grog1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/16/Wodka.png/33px-Wodka.png" title="Wódka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Grog1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wodka.png" alt="Wódka" title="Wódka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWodka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWodka);
@@ -1262,7 +1390,7 @@ function add(){
   }
   var dodajZacier = document.createElement("table");
   dodajZacier.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog2_add-sum">'+sum2Grog2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/53/ZacierRzemioslo.png/33px-ZacierRzemioslo.png" title="Zacier"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2Grog2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Zacier.png" alt="Zacier" title="Zacier"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajZacier");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajZacier);
@@ -1272,7 +1400,7 @@ function add(){
   var dodajRum = document.createElement("table");
   sum1Grog3 = sum1MarStek1 + sum1Grog3;
   dodajRum.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog3_add-sum1">'+sum1Grog3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/6/61/Rum.png/33px-Rum.png" title="Rum" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Grog3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Rum.png" alt="Rum" title="Rum"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRum");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRum);
@@ -1281,7 +1409,7 @@ function add(){
   }
   var dodajProchStrzelniczy = document.createElement("table");
   dodajProchStrzelniczy.innerHTML = 
-  '<table><tr><td class="ilosc" id="grog4_add-sum1">'+sum1Grog4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/59/ProchStrzelniczyRzemioslo.png/33px-ProchStrzelniczyRzemioslo.png" title="Proch strzelniczy"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Grog4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ProchStrzelniczy.png" alt="Proch strzelniczy" title="Proch strzelniczy"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajProchStrzelniczy");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajProchStrzelniczy);
@@ -1293,7 +1421,7 @@ function add(){
   var dodajPureePomidorowe = document.createElement("table");
   sum1Gulasz1 = sum1Gulasz1 + sum1Sos1;
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz1_add-sum1">'+sum1Gulasz1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PureePomidorowe.png" alt="Puree pomidorowe" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -1302,7 +1430,7 @@ function add(){
   }
   var dodajMarynowanyStek = document.createElement("table");
   dodajMarynowanyStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz2_add-sum1">'+sum1Gulasz2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/27/MarynowanyStekRzemioslo.png/33px-MarynowanyStekRzemioslo.png" title="Marynowany stek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MarynowanyStek.png" alt="Marynowany stek" title="Marynowany stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMarynowanyStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMarynowanyStek);
@@ -1311,7 +1439,7 @@ function add(){
   }
   var dodajWegiel = document.createElement("table");
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz3_add-sum1">'+sum1Gulasz3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -1320,7 +1448,7 @@ function add(){
   }
   var dodajGarnekDoGotowania = document.createElement("table");
   dodajGarnekDoGotowania.innerHTML = 
-  '<table><tr><td class="ilosc" id="gulasz4_add-sum1">'+sum1Gulasz4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3b/GarnekDoGotowania.png/33px-GarnekDoGotowania.png" title="Garnek do gotowania"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Gulasz4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/GarnekDoGotowania.png" alt="Garnek do gotowania" title="Garnek do gotowania"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajGarnekDoGotowania");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajGarnekDoGotowania);
@@ -1332,7 +1460,7 @@ function add(){
   var dodajStek = document.createElement("table");
   sum4Zeberka1 = sum4SuszMieso4 + sum4Zeberka1;
   dodajStek.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka1_add-sum4">'+sum4Zeberka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/82/Stek.png/33px-Stek.png" title="Stek" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStek);
@@ -1341,7 +1469,7 @@ function add(){
   }
   var dodajSos = document.createElement("table");
   dodajSos.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka2_add-sum4">'+sum4Zeberka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d6/SosRzemioslo.png/33px-SosRzemioslo.png" title="Sos"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Sos.png" alt="Sos" title="Sos"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSos");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSos);
@@ -1351,7 +1479,7 @@ function add(){
   var dodajWegielDrzewny = document.createElement("table");
   sum4Zeberka3 = sum4Zeberka3 + sum1PieczonyIndyk4;
   dodajWegielDrzewny.innerHTML = 
-  '<table><tr><td class="ilosc" id="zeberka3_add-sum4">'+sum4Zeberka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/7/78/WegielDrzewny.png/33px-WegielDrzewny.png" title="Węgiel drzewny"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Zeberka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Węgiel drzewny" title="Węgiel drzewny"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegielDrzewny");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegielDrzewny);
@@ -1362,7 +1490,7 @@ function add(){
   /**MIOD*/
   var dodajPrasaDoMiodu = document.createElement("table");
   dodajPrasaDoMiodu.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod1_add-sum1">'+sum1Miod1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/4/41/PrasaDoMioduRzemioslo.png/33px-PrasaDoMioduRzemioslo.png" title="Prasa do miodu"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Miod1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PrasaDoMiodu.png" alt="Prasa do miodu" title="Prasa do miodu"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPrasaDoMiodu");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPrasaDoMiodu);
@@ -1371,7 +1499,7 @@ function add(){
   }
   var dodajRoza = document.createElement("table");
   dodajRoza.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod2_add-sum1">'+sum1Miod2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/ab/Roza.png/33px-Roza.png" title="Róża"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Miod2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Roza.png" alt="Róża" title="Róża"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajRoza");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajRoza);
@@ -1383,7 +1511,7 @@ function add(){
   var dodajKamienie = document.createElement("table");
   sum12FasPuszka1 = sum12FasPuszka1 + sum1Maka1;
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka1_add-sum12">'+sum12FasPuszka1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum12FasPuszka1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Kamienie.png" alt="Kamienie" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1393,7 +1521,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum12FasPuszka2 = sum12FasPuszka2 + sum1Gulasz3;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka2_add-sum12">'+sum12FasPuszka2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum12FasPuszka2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -1403,7 +1531,7 @@ function add(){
   var dodajFasola = document.createElement("table");
   sum7FasPuszka3 = sum1FasolaBekon4 + sum7FasPuszka3;
   dodajFasola.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka3_add-sum7">'+sum7FasPuszka3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c9/Fasola.png/33px-Fasola.png" title="Fasola"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum7FasPuszka3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Fasola.png" alt="Fasola" title="Fasola"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasola");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasola);
@@ -1412,7 +1540,7 @@ function add(){
   }
   var dodajMlotek = document.createElement("table");
   dodajMlotek.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka4_add-sum5">'+sum5FasPuszka4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/1/15/Mlotek.png/33px-Mlotek.png" title="Młotek"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5FasPuszka4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Mlotek.png" alt="Młotek" title="Młotek"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMlotek");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMlotek);
@@ -1421,7 +1549,7 @@ function add(){
   }
   var dodajStal = document.createElement("table");
   dodajStal.innerHTML = 
-  '<table><tr><td class="ilosc" id="fasola-puszka5_add-sum3">'+sum3FasPuszka5+'</td><td class="td-img"><div><img alt="" src="https://wiki.the-west.pl/images/thumb/9/92/StalRzemioslo.png/33px-StalRzemioslo.png" title="Stal"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum3FasPuszka5+'</td><td class="td-img"><div><img src="image/craft/Stal.png" alt="Stal" title="Stal"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajStal");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajStal);
@@ -1432,7 +1560,7 @@ function add(){
   /**NAJOSTRZEJSZE CHILI NA ZACHODZIE*/
   var dodajSiekaneMieso = document.createElement("table");
   dodajSiekaneMieso.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili1_add-sum7">'+sum7Chili1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b6/SiekaneMiesoRzemioslo.png/33px-SiekaneMiesoRzemioslo.png" title="Siekane mięso"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum7Chili1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/SiekaneMieso.png" alt="Siekane mięso" title="Siekane mięso"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajSiekaneMieso");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajSiekaneMieso);
@@ -1442,7 +1570,7 @@ function add(){
   var dodajWegiel = document.createElement("table");
   sum5Chili2 = sum12FasPuszka2 + sum5Chili2;
   dodajWegiel.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili2_add-sum5">'+sum5Chili2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/8/89/Wegiel.png/33px-Wegiel.png" title="Węgiel"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum5Chili2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wegiel.png" alt="Węgiel" title="Węgiel"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajWegiel");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajWegiel);
@@ -1451,7 +1579,7 @@ function add(){
   }
   var dodajFasolaWPuszce = document.createElement("table");
   dodajFasolaWPuszce.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili3_add-sum4">'+sum4Chili3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/2/29/FasolaWPuszceRzemioslo.png/33px-FasolaWPuszceRzemioslo.png" title="Fasola w puszce"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum4Chili3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/FasolaWPuszce.png" alt="Fasola w puszce" title="Fasola w puszce"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajFasolaWPuszce");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajFasolaWPuszce);
@@ -1460,7 +1588,7 @@ function add(){
   }
   var dodajPapryczkiHabanero = document.createElement("table");
   dodajPapryczkiHabanero.innerHTML = 
-  '<table><tr><td class="ilosc" id="chili4_add-sum1">'+sum1Chili4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/c/c8/PapryczkiHabanero.png/33px-PapryczkiHabanero.png" title="Papryczki Habanero"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Chili4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/PapryczkiHabanero.png" alt="Papryczki Habanero" title="Papryczki Habanero"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPapryczkiHabanero");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPapryczkiHabanero);
@@ -1470,7 +1598,7 @@ function add(){
   /**MIOD PITNY*/
   var dodajMiod = document.createElement("table");
   dodajMiod.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny1_add-sum2">'+sum2MiodPitny1+'</td><td class="td-img"><div><img alt="" src="https://wiki.the-west.pl/images/thumb/5/52/MiodRzemioslo.png/33px-MiodRzemioslo.png" title="Miód"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2MiodPitny1+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMiod");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMiod);
@@ -1480,7 +1608,7 @@ function add(){
   var dodajButelkaMleka = document.createElement("table");
   sum2MiodPitny2 = sum2MiodPitny2 + sum2Ciasteczka2;
   dodajButelkaMleka.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny2_add-sum2">'+sum2MiodPitny2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/3/3f/ButelkaMleka.png/33px-ButelkaMleka.png" title="Butelka Mleka"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum2MiodPitny2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajButelkaMleka");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajButelkaMleka);
@@ -1490,7 +1618,7 @@ function add(){
   var dodajDzbanWody = document.createElement("table");
   sum1MiodPitny3 = sum1MiodPitny3 + sum1SokKaktus4;
   dodajDzbanWody.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny3_add-sum1">'+sum1MiodPitny3+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/5/52/DzbanWody.png/33px-DzbanWody.png" title="Dzban wody" alt="#"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MiodPitny3+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DzbanWody.png" alt="Dzban wody" title="Dzban wody"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajDzbanWody");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajDzbanWody);
@@ -1500,11 +1628,331 @@ function add(){
   var dodajMakaKukurydziana = document.createElement("table");
   sum1MiodPitny4 = sum1MiodPitny4 + sum2Ciasteczka1;
   dodajMakaKukurydziana.innerHTML = 
-  '<table><tr><td class="ilosc" id="miod-pitny4_add-sum1">'+sum1MiodPitny4+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/d/d0/MakaKukurydziana.png/33px-MakaKukurydziana.png" title="Mąka kukurydziana"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1MiodPitny4+'</td><td class="td-img"><div><img class="right-img" src="image/craft/MakaKukurydziana.png" alt="Mąka kukurydziana" title="Mąka kukurydziana"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajMakaKukurydziana");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajMakaKukurydziana);
   if (sum1MiodPitny4===0) {
     parent_object.removeChild(dodajMakaKukurydziana);
   } 
+
+  /**SER CASTELLO*/
+  var dodajButelkaMleka = document.createElement("table");
+  sum6SerCastello1 = sum2MiodPitny2 + sum6SerCastello1;
+  dodajButelkaMleka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum6SerCastello1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajButelkaMleka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajButelkaMleka);
+  if (sum6SerCastello1===0) {
+    parent_object.removeChild(dodajButelkaMleka);
+  }
+  var dodajWhiskey = document.createElement("table");
+  sum6SerCastello2 = sum6SuszMieso1 + sum6SerCastello2;
+  dodajWhiskey.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum6SerCastello2+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Whiskey.png" alt="Whiskey" title="Whiskey"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWhiskey");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWhiskey);
+  if (sum6SerCastello2===0) {
+    parent_object.removeChild(dodajWhiskey);
+  }
+  var dodajMiod = document.createElement("table");
+  sum2SerCastello3 = sum2SerCastello3 + sum2MiodPitny1;
+  dodajMiod.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2SerCastello3+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMiod");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMiod);
+  if (sum2SerCastello3===0) {
+    parent_object.removeChild(dodajMiod);
+  }
+  var dodajOstrePapryki = document.createElement("table");
+  sum1SerCastello4 = sum1SerCastello4 + sum1Guma3;
+  dodajOstrePapryki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1SerCastello4+'</td><td class="td-img"><div><img src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajOstrePapryki);
+  if (sum1SerCastello4===0) {
+    parent_object.removeChild(dodajOstrePapryki);
+  }
+  /**DRINK*/
+  var dodajWodka = document.createElement("table");
+  sum10Drink1 = sum10Drink1 + sum2Grog1;
+  dodajWodka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10Drink1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Wodka.png" alt="Wódka" title="Wódka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWodka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWodka);
+  if (sum10Drink1===0) {
+    parent_object.removeChild(dodajWodka);
+  }
+  var dodajOstrePapryki = document.createElement("table");
+  sum5Drink2 = sum1SerCastello4 + sum5Drink2;
+  dodajOstrePapryki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum5Drink2+'</td><td class="td-img"><div><img src="image/craft/OstrePapryki.png" alt="Ostre papryki" title="Ostre papryki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajOstrePapryki);
+  if (sum5Drink2===0) {
+    parent_object.removeChild(dodajOstrePapryki);
+  }
+  var dodajKwiatPokoju = document.createElement("table");
+  dodajKwiatPokoju.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4Drink3+'</td><td class="td-img"><div><img src="image/craft/KwiatPokoju.png" alt="Kwiat Pokoju" title="Kwiat Pokoju"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajOstrePapryki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajKwiatPokoju);
+  if (sum4Drink3===0) {
+    parent_object.removeChild(dodajKwiatPokoju);
+  }
+  var dodajPismo = document.createElement("table");
+  dodajPismo.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink4+'</td><td class="td-img"><div><img src="image/craft/Pismo.png" alt="Pismo" title="Pismo"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPismo");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPismo);
+  if (sum1Drink4===0) {
+    parent_object.removeChild(dodajPismo);
+  }
+  var dodajSokZKaktusa = document.createElement("table");
+  dodajSokZKaktusa.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink5+'</td><td class="td-img"><div><img src="image/craft/SokZKaktusa.png" alt="Sok z Kaktusa" title="Sok z Kaktusa"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSokZKaktusa");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSokZKaktusa);
+  if (sum1Drink5===0) {
+    parent_object.removeChild(dodajSokZKaktusa);
+  }
+  var dodajDestylat = document.createElement("table");
+  dodajDestylat.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Drink6+'</td><td class="td-img"><div><img src="image/craft/Destylat.png" alt="Destylat" title="Destylat"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajDestylat");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajDestylat);
+  if (sum1Drink6===0) {
+    parent_object.removeChild(dodajDestylat);
+  }
+  
+  // /**NAWOZ */
+  var dodajDeskaDoKrojenia = document.createElement("table");
+  sum10Nawoz1 = sum10Nawoz1 + sum1SiekaneM3;
+  dodajDeskaDoKrojenia.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10Nawoz1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/DeskaDoKrojenia.png" alt="Deska do krojenia" title="Deska do krojenia"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajDeskaDoKrojenia");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajDeskaDoKrojenia);
+  if (sum10Nawoz1===0) {
+    parent_object.removeChild(dodajDeskaDoKrojenia);
+  }
+  var dodajSiano = document.createElement("table");
+  dodajSiano.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum5Nawoz2+'</td><td class="td-img"><div><img src="image/craft/Siano.png" alt="Siano" title="Siano"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSiano");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSiano);
+  if (sum5Nawoz2===0) {
+    parent_object.removeChild(dodajSiano);
+  }
+  var dodajZapieczoneFasolki = document.createElement("table");
+  dodajZapieczoneFasolki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2Nawoz3+'</td><td class="td-img"><div><img src="image/craft/ZapieczoneFasolki.png" alt="Zapieczone fasolki" title="Zapieczone fasolki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZapieczoneFasolki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZapieczoneFasolki);
+  if (sum2Nawoz3===0) {
+    parent_object.removeChild(dodajZapieczoneFasolki);
+  }
+  var dodajPierogZWarzywami = document.createElement("table");
+  dodajPierogZWarzywami.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz4+'</td><td class="td-img"><div><img src="image/craft/Pierog.png" alt="Pieróg z warzywami" title="Pieróg z warzywami"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPierogZWarzywami");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPierogZWarzywami);
+  if (sum1Nawoz4===0) {
+    parent_object.removeChild(dodajPierogZWarzywami);
+  }
+  var dodajMakaKukurydziana = document.createElement("table");
+  sum1Nawoz5 = sum1Nawoz5 + sum1MiodPitny4;
+  dodajMakaKukurydziana.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz5+'</td><td class="td-img"><div><img src="image/craft/MakaKukurydziana.png" alt="Maka Kukurydziana" title="Mąka Kukurydziana"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMakaKukurydziana");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMakaKukurydziana);
+  if (sum1Nawoz5===0) {
+    parent_object.removeChild(dodajMakaKukurydziana);
+  }
+  var dodajCiasto = document.createElement("table");
+  sum1Nawoz6 = sum1Nawoz6 + sum1Pierog3;
+  dodajCiasto.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1Nawoz6+'</td><td class="td-img"><div><img src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajCiasto");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajCiasto);
+  if (sum1Nawoz6===0) {
+    parent_object.removeChild(dodajCiasto);
+  }
+  // /**OWOCOWY KOKTAIL*/
+  var dodajBorowki = document.createElement("table");
+  sum10OwocowyKoktajl1 = sum10OwocowyKoktajl1 + sum1Trunek2;
+  dodajBorowki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10OwocowyKoktajl1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajBorowki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajBorowki);
+  if (sum10OwocowyKoktajl1===0) {
+    parent_object.removeChild(dodajBorowki);
+  }
+  var dodajPomarancza = document.createElement("table");
+  sum4OwocowyKoktajl2 = sum4OwocowyKoktajl2 + sum2SokKaktus2;
+  dodajPomarancza.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4OwocowyKoktajl2+'</td><td class="td-img"><div><img src="image/craft/Pomarancza.png" alt="Pomarańcza" title="Pomarańcza"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomarancza");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomarancza);
+  if (sum4OwocowyKoktajl2===0) {
+    parent_object.removeChild(dodajPomarancza);
+  }
+  var dodajMiod = document.createElement("table");
+  sum2OwocowyKoktajl3 = sum2OwocowyKoktajl3 + sum2SerCastello3;
+  dodajMiod.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2OwocowyKoktajl3+'</td><td class="td-img"><div><img src="image/craft/Miod.png" alt="Miód" title="Miód"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajMiod");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajMiod);
+  if (sum2OwocowyKoktajl3===0) {
+    parent_object.removeChild(dodajMiod);
+  }
+  var dodajZacier = document.createElement("table");
+  sum2OwocowyKoktajl4 = sum2OwocowyKoktajl4 + sum2Grog2;
+  dodajZacier.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2OwocowyKoktajl4+'</td><td class="td-img"><div><img src="image/craft/Zacier.png" alt="Zacier" title="Zacier"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZacier");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZacier);
+  if (sum2OwocowyKoktajl4===0) {
+    parent_object.removeChild(dodajZacier);
+  }
+  var dodajButelkaMleka = document.createElement("table");
+  sum1OwocowyKoktajl5 = sum1OwocowyKoktajl5 + sum6SerCastello1;
+  dodajButelkaMleka.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1OwocowyKoktajl5+'</td><td class="td-img"><div><img src="image/craft/ButelkaMleka.png" alt="Butelka Mleka" title="Butelka Mleka"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajButelkaMleka");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajButelkaMleka);
+  if (sum1OwocowyKoktajl5===0) {
+    parent_object.removeChild(dodajButelkaMleka);
+  }
+
+  // /**BURGER GÓRNIKA*/
+  var dodajWegielDrzewny = document.createElement("table");
+  sum10BurgerGornika1 = sum10BurgerGornika1 + sum4Zeberka3;
+  dodajWegielDrzewny.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum10BurgerGornika1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/WegielDrzewny.png" alt="Wegiel drzewny" title="Wegiel drzewny"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajWegielDrzewny");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajWegielDrzewny);
+  if (sum10BurgerGornika1===0) {
+    parent_object.removeChild(dodajWegielDrzewny);
+  }
+  var dodajSos = document.createElement("table");
+  sum4BurgerGornika2 = sum4BurgerGornika2 + sum4Zeberka2;
+  dodajSos.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum4BurgerGornika2+'</td><td class="td-img"><div><img src="image/craft/Sos.png" alt="Sos" title="Sos"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSos");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSos);
+  if (sum4BurgerGornika2===0) {
+    parent_object.removeChild(dodajSos);
+  }
+  var dodajSuszoneMieso = document.createElement("table");
+  sum3BurgerGornika3 = sum3BurgerGornika3 + sum1Guma1;
+  dodajSuszoneMieso.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum3BurgerGornika3+'</td><td class="td-img"><div><img src="image/craft/SuszoneMieso.png" alt="Zapieczone fasolki" title="Zapieczone fasolki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajSuszoneMieso");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajSuszoneMieso);
+  if (sum3BurgerGornika3===0) {
+    parent_object.removeChild(dodajSuszoneMieso);
+  }
+  var dodajCiasto = document.createElement("table");
+  sum2BurgerGornika4 = sum2BurgerGornika4 + sum1Nawoz6;
+  dodajCiasto.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2BurgerGornika4+'</td><td class="td-img"><div><img src="image/craft/Ciasto.png" alt="Ciasto" title="Ciasto"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajCiasto");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajCiasto);
+  if (sum2BurgerGornika4===0) {
+    parent_object.removeChild(dodajCiasto);
+  }
+  var dodajStek = document.createElement("table");
+  sum1BurgerGornika5 = sum1BurgerGornika5 + sum4Zeberka1;
+  dodajStek.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1BurgerGornika5+'</td><td class="td-img"><div><img src="image/craft/Stek.png" alt="Stek" title="Stek"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajStek");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajStek);
+  if (sum1BurgerGornika5===0) {
+    parent_object.removeChild(dodajStek);
+  }
+  /**PACZKA SMAKOWITYCH GUM DO ŻUCIA*/
+  var dodajPomidor = document.createElement("table");
+  sum2PaczkaGum1 = sum2PaczkaGum1 + sum1SosPomidorowy1;
+  dodajPomidor.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum1+'</td><td class="td-img"><div><img class="right-img" src="image/craft/Pomidor.png" alt="Pomidor" title="Pomidor"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomidor");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomidor);
+  if (sum2PaczkaGum1===0) {
+    parent_object.removeChild(dodajPomidor);
+  }
+  var dodajBorowki = document.createElement("table");
+  sum2PaczkaGum2 = sum2PaczkaGum2 + sum10OwocowyKoktajl1;
+  dodajBorowki.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum2+'</td><td class="td-img"><div><img src="image/craft/Borowki.png" alt="Borówki" title="Borówki"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajBorowki");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajBorowki);
+  if (sum2PaczkaGum2===0) {
+    parent_object.removeChild(dodajBorowki);
+  }
+  var dodajZiemniak = document.createElement("table");
+  sum2PaczkaGum3 = sum2PaczkaGum3 + sum1Pierog2;
+  dodajZiemniak.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum3+'</td><td class="td-img"><div><img src="image/craft/Ziemniak.png" alt="Ziemniak" title="Ziemniak"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajZiemniak");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajZiemniak);
+  if (sum2PaczkaGum3===0) {
+    parent_object.removeChild(dodajZiemniak);
+  }
+  var dodajPomarancza = document.createElement("table");
+  sum2PaczkaGum4 = sum2PaczkaGum4 + sum4OwocowyKoktajl2;
+  dodajPomarancza.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum2PaczkaGum4+'</td><td class="td-img"><div><img src="image/craft/Pomarancza.png" alt="Pomarancza" title="Pomarancza"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajPomarancza");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajPomarancza);
+  if (sum2PaczkaGum4===0) {
+    parent_object.removeChild(dodajPomarancza);
+  }
+  var dodajGumaDoZucia = document.createElement("table");
+  dodajGumaDoZucia.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1PaczkaGum5+'</td><td class="td-img"><div><img src="image/craft/GumaDoZucia.png" alt="Guma do żucia" title="Guma do żucia"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajGumaDoZucia");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajGumaDoZucia);
+  if (sum1PaczkaGum5===0) {
+    parent_object.removeChild(dodajGumaDoZucia);
+  }
+  var dodajIndygo = document.createElement("table");
+  dodajIndygo.innerHTML = 
+  '<table><tr><td class="ilosc">'+sum1PaczkaGum6+'</td><td class="td-img"><div><img src="image/craft/Indygo.png" alt="Indygo" title="Indygo"></div></td></tr></table>';
+  var parent_object = document.getElementById("dodajIndygo");
+  parent_object.innerHTML = '';
+  parent_object.appendChild(dodajIndygo);
+  if (sum1PaczkaGum6===0) {
+    parent_object.removeChild(dodajIndygo);
+  }
 }
