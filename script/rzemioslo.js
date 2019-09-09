@@ -7579,8 +7579,8 @@ function add(){
     '[item=1906000], ','[item=720000], ', '[item=752000], ', '[item=716000], ', '[item=724000], ', 
     '[item=1903000], ','[item=2520000], ','[item=2439000], ','[item=725000], ', '[item=1911000], ',
     '[item=790000], ', '[item=747000], ', '[item=739000], ', '[item=765000], ', '[item=1925000], ',
-    '[item=767000], ', '[item=728000], ', '[item=2008000], ','[item=2009000], ','[item=2733000], ',
-    '[item=1914000], ','[item=1899000], ','[item=784000], ', /**tu mozna wstawiac reszte */
+    '[item=767000], ', '[item=728000], ', '[item=2008000], ','[item=2009000], ','[item=1914000], ',
+    '[item=1899000], ','[item=784000], ', '[item=2453000] ', /**tu mozna wstawiac reszte */
     '[item=711000], ', '[item=1880000], ',
     '[item=737000], ' ,'[item=2451000], ','[item=1832000], ','[item=2437000], ','[item=2739000], ',
     '[item=1915000], ','[item=1855000], ','[item=1856000], ','[item=1902000], ','[item=761000], ',
@@ -7616,12 +7616,12 @@ function add(){
       sum1Szklo3>0                || sum2KamPolerski1>0          || sum1KamPolerski2>0          || sum1KamPolerski3>0          || sum1Sruby1>0                || 
       sum1Wells2>0                || sum1Wells3>0                || sum1Piersiowka2>0           || sum2Prasa2>0                || 
       sum1Prasa3>0                || sum1Prasa4>0                || sum3NarzZegarm1>0           || sum2NarzZegarm2>0           || sum2NarzZegarm3>0           || 
-      sum5Pozytywka1>0            || sum4Pozytywka2>0            || sum4Pozytywka3>0            || sum1Pozytywka4>0            || sum3Latarnia1>0             || 
-      sum2Latarnia2>0             || sum2Latarnia3>0             || sum1Latarnia4>0             || sum2Wizjer2                 || sum1Wizjer3                 || 
-      sum1Wizjer5                 || sum1Wizjer6                 ||
+      sum5Pozytywka1>0            || sum4Pozytywka2>0            || sum4Pozytywka3>0            || sum1Pozytywka4>0            ||  
+      sum2Latarnia2>0             || sum2Latarnia3>0             || sum1Latarnia4>0             || sum2Wizjer2>0               || sum1Wizjer3>0               || 
+      sum1Wizjer5>0               || sum1Wizjer6>0               ||
       
-      sum10BombaPulapka1          || sum5BombaPulapka2           || 
-      sum5BombaPulapka3           || sum2BombaPulapka4           || sum1BombaPulapka5           || sum1BombaPulapka6           || sum5HartowanaStal1>0        ||
+      sum10BombaPulapka1>0        || sum5BombaPulapka2>0         || 
+      sum5BombaPulapka3>0         || sum2BombaPulapka4>0         || sum1BombaPulapka5>0         || sum1BombaPulapka6>0         || sum5HartowanaStal1>0        ||
       sum4HartowanaStal2>0        || sum3HartowanaStal3>0        || sum2HartowanaStal4>0        || sum1HartowanaStal5>0        || sum4ZaawansowanaSkrzynka1>0 || 
       sum3ZaawansowanaSkrzynka2>0 || sum3ZaawansowanaSkrzynka3>0 || sum3ZaawansowanaSkrzynka4>0 || sum2ZaawansowanaSkrzynka5>0 || sum6ManekinKrawiecki1>0     || 
       sum6ManekinKrawiecki2>0     || sum3ManekinKrawiecki3>0     || sum3ManekinKrawiecki4>0     || sum1ManekinKrawiecki5>0
@@ -7769,7 +7769,7 @@ function add(){
         sum1Szklo2                || sum1Szklo3                || sum2KamPolerski1  || sum1KamPolerski2 || sum1KamPolerski3          || 
         sum1Sruby1                || sum1Wells2                || sum1Wells3        || sum1Piersiowka2  || sum2Prasa2                || 
         sum1Prasa3                || sum1Prasa4                || sum3NarzZegarm1   || sum2NarzZegarm2  || sum2NarzZegarm3           || 
-        sum5Pozytywka1            || sum4Pozytywka2            || sum4Pozytywka3    || sum1Pozytywka4   || sum3Latarnia1             || 
+        sum5Pozytywka1            || sum4Pozytywka2            || sum4Pozytywka3    || sum1Pozytywka4   ||  
         sum2Latarnia2             || sum2Latarnia3             || sum1Latarnia4     || sum2Wizjer2      || sum1Wizjer3               || 
         sum1Wizjer5               || sum1Wizjer6               ||
         sum10BombaPulapka1        || sum5BombaPulapka2         || sum5BombaPulapka3         || sum2BombaPulapka4         ||sum1BombaPulapka5          || 
@@ -7812,37 +7812,36 @@ function add(){
       if (sum4Pozytywka2>0)       {parent.textContent = parent.textContent + sum4Pozytywka2        + kowal[31];}
       if (sum4Pozytywka3>0)       {parent.textContent = parent.textContent + sum4Pozytywka3        + kowal[32];}
       if (sum1Pozytywka4>0)       {parent.textContent = parent.textContent + sum1Pozytywka4        + kowal[33];}
-      if (sum3Latarnia1>0)        {parent.textContent = parent.textContent + sum3Latarnia1         + kowal[34];}
-      if (sum2Latarnia2>0)        {parent.textContent = parent.textContent + sum2Latarnia2         + kowal[35];}
-      if (sum2Latarnia3>0)        {parent.textContent = parent.textContent + sum2Latarnia3         + kowal[36];}
-      if (sum1Latarnia4>0)        {parent.textContent = parent.textContent + sum1Latarnia4         + kowal[37];}
+      if (sum2Latarnia2>0)        {parent.textContent = parent.textContent + sum2Latarnia2         + kowal[34];}
+      if (sum2Latarnia3>0)        {parent.textContent = parent.textContent + sum2Latarnia3         + kowal[35];}
+      if (sum1Latarnia4>0)        {parent.textContent = parent.textContent + sum1Latarnia4         + kowal[36];}
 
-      if (sum2Wizjer2>0)              {parent.textContent = parent.textContent + sum2Wizjer2               + kowal[38];}
-      if (sum1Wizjer3>0)              {parent.textContent = parent.textContent + sum1Wizjer3               + kowal[39];}
-      // if (sum1Wizjer5>0)        {parent.textContent = parent.textContent + sum1Wizjer5         + kowal[42];}
-      // if (sum1Wizjer6>0)        {parent.textContent = parent.textContent + sum1Wizjer6         + kowal[43];}
+      if (sum2Wizjer2>0)              {parent.textContent = parent.textContent + sum2Wizjer2               + kowal[37];}
+      if (sum1Wizjer3>0)              {parent.textContent = parent.textContent + sum1Wizjer3               + kowal[38];}
+      if (sum1Wizjer5>0)        {parent.textContent = parent.textContent + sum1Wizjer5         + kowal[39];}
+      if (sum1Wizjer6>0)        {parent.textContent = parent.textContent + sum1Wizjer6         + kowal[40];}
       
-      if (sum10BombaPulapka1>0)       {parent.textContent = parent.textContent + sum10BombaPulapka1        + kowal[40];}
-      if (sum5BombaPulapka2>0)        {parent.textContent = parent.textContent + sum5BombaPulapka2         + kowal[41];}
-      if (sum5BombaPulapka3>0)        {parent.textContent = parent.textContent + sum5BombaPulapka3         + kowal[42];}
-      if (sum2BombaPulapka4>0)        {parent.textContent = parent.textContent + sum2BombaPulapka4         + kowal[43];}
-      if (sum1BombaPulapka5>0)        {parent.textContent = parent.textContent + sum1BombaPulapka5         + kowal[44];}
-      if (sum1BombaPulapka6>0)        {parent.textContent = parent.textContent + sum1BombaPulapka6         + kowal[45];}
-      if (sum5HartowanaStal1>0)       {parent.textContent = parent.textContent + sum5HartowanaStal1        + kowal[46];}
-      if (sum4HartowanaStal2>0)       {parent.textContent = parent.textContent + sum4HartowanaStal2        + kowal[47];}
-      if (sum3HartowanaStal3>0)       {parent.textContent = parent.textContent + sum3HartowanaStal3        + kowal[48];}
-      if (sum2HartowanaStal4>0)       {parent.textContent = parent.textContent + sum2HartowanaStal4        + kowal[49];}
-      if (sum1HartowanaStal5>0)       {parent.textContent = parent.textContent + sum1HartowanaStal5        + kowal[50];}
-      if (sum4ZaawansowanaSkrzynka1>0){parent.textContent = parent.textContent + sum4ZaawansowanaSkrzynka1 + kowal[51];}
-      if (sum3ZaawansowanaSkrzynka2>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka2 + kowal[52];}
-      if (sum3ZaawansowanaSkrzynka3>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka3 + kowal[53];}
-      if (sum3ZaawansowanaSkrzynka4>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka4 + kowal[54];}
-      if (sum2ZaawansowanaSkrzynka5>0){parent.textContent = parent.textContent + sum2ZaawansowanaSkrzynka5 + kowal[55];}
-      if (sum6ManekinKrawiecki1>0)    {parent.textContent = parent.textContent + sum6ManekinKrawiecki1     + kowal[56];}
-      if (sum6ManekinKrawiecki2>0)    {parent.textContent = parent.textContent + sum6ManekinKrawiecki2     + kowal[57];}
-      if (sum3ManekinKrawiecki3>0)    {parent.textContent = parent.textContent + sum3ManekinKrawiecki3     + kowal[58];}
-      if (sum3ManekinKrawiecki4>0)    {parent.textContent = parent.textContent + sum3ManekinKrawiecki4     + kowal[59];}
-      if (sum1ManekinKrawiecki5>0)    {parent.textContent = parent.textContent + sum1ManekinKrawiecki5     + kowal[60];}
+      if (sum10BombaPulapka1>0)       {parent.textContent = parent.textContent + sum10BombaPulapka1        + kowal[41];}
+      if (sum5BombaPulapka2>0)        {parent.textContent = parent.textContent + sum5BombaPulapka2         + kowal[42];}
+      if (sum5BombaPulapka3>0)        {parent.textContent = parent.textContent + sum5BombaPulapka3         + kowal[43];}
+      if (sum2BombaPulapka4>0)        {parent.textContent = parent.textContent + sum2BombaPulapka4         + kowal[44];}
+      if (sum1BombaPulapka5>0)        {parent.textContent = parent.textContent + sum1BombaPulapka5         + kowal[45];}
+      if (sum1BombaPulapka6>0)        {parent.textContent = parent.textContent + sum1BombaPulapka6         + kowal[46];}
+      if (sum5HartowanaStal1>0)       {parent.textContent = parent.textContent + sum5HartowanaStal1        + kowal[47];}
+      if (sum4HartowanaStal2>0)       {parent.textContent = parent.textContent + sum4HartowanaStal2        + kowal[48];}
+      if (sum3HartowanaStal3>0)       {parent.textContent = parent.textContent + sum3HartowanaStal3        + kowal[49];}
+      if (sum2HartowanaStal4>0)       {parent.textContent = parent.textContent + sum2HartowanaStal4        + kowal[50];}
+      if (sum1HartowanaStal5>0)       {parent.textContent = parent.textContent + sum1HartowanaStal5        + kowal[51];}
+      if (sum4ZaawansowanaSkrzynka1>0){parent.textContent = parent.textContent + sum4ZaawansowanaSkrzynka1 + kowal[52];}
+      if (sum3ZaawansowanaSkrzynka2>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka2 + kowal[53];}
+      if (sum3ZaawansowanaSkrzynka3>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka3 + kowal[54];}
+      if (sum3ZaawansowanaSkrzynka4>0){parent.textContent = parent.textContent + sum3ZaawansowanaSkrzynka4 + kowal[55];}
+      if (sum2ZaawansowanaSkrzynka5>0){parent.textContent = parent.textContent + sum2ZaawansowanaSkrzynka5 + kowal[56];}
+      if (sum6ManekinKrawiecki1>0)    {parent.textContent = parent.textContent + sum6ManekinKrawiecki1     + kowal[57];}
+      if (sum6ManekinKrawiecki2>0)    {parent.textContent = parent.textContent + sum6ManekinKrawiecki2     + kowal[58];}
+      if (sum3ManekinKrawiecki3>0)    {parent.textContent = parent.textContent + sum3ManekinKrawiecki3     + kowal[59];}
+      if (sum3ManekinKrawiecki4>0)    {parent.textContent = parent.textContent + sum3ManekinKrawiecki4     + kowal[60];}
+      if (sum1ManekinKrawiecki5>0)    {parent.textContent = parent.textContent + sum1ManekinKrawiecki5     + kowal[61];}
     }
   } 
   else {
