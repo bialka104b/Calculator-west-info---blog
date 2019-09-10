@@ -1379,7 +1379,7 @@ function add(){
   /**PUREE POMIDOROWE*/
   var dodajKamienie = document.createElement("table");
   dodajKamienie.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1Puree1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/0/00/Kamienie.png/33px-Kamienie.png" title="Kamienie"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Puree1+'</td><td class="td-img"><div><img src="image/craft/Kamienie.png" title="Kamienie"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajKamienie");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajKamienie);
@@ -1388,7 +1388,7 @@ function add(){
   }
   var dodajPomidor = document.createElement("table");
   dodajPomidor.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1Puree2+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/a/aa/Pomidor.png/33px-Pomidor.png" title="Pomidor"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1Puree2+'</td><td class="td-img"><div><img src="image/craft/Pomidor.png" title="Pomidor"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPomidor");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPomidor);
@@ -1399,7 +1399,7 @@ function add(){
   /**SOS POMIDOROWY*/
   var dodajPureePomidorowe = document.createElement("table");
   dodajPureePomidorowe.innerHTML = 
-  '<table><tr><td class="ilosc">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img src="https://wiki.the-west.pl/images/thumb/b/b5/PureePomidorowe.png/33px-PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
+  '<table><tr><td class="ilosc">'+sum1SosPomidorowy1+'</td><td class="td-img"><div><img src="image/craft/PureePomidorowe.png" title="Puree pomidorowe"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPureePomidorowe");
   parent_object.innerHTML = '';
   parent_object.appendChild(dodajPureePomidorowe);
@@ -4061,6 +4061,7 @@ function add(){
   }
   /**LAPACZ SNOW*/
   var dodajPioroKruka = document.createElement("table");
+  sum10LapaczSnow1 = sum10LapaczSnow1 + sum1Wycior2;
   dodajPioroKruka.innerHTML = 
   '<table><tr><td class="ilosc">'+sum10LapaczSnow1+'</td><td class="td-img"><div><img src="image/craft/PioroKruka.png" alt="Pióro Kruka" title="Pióro Kruka"></div></td></tr></table>';
   var parent_object = document.getElementById("dodajPioroKruka");
@@ -7544,22 +7545,24 @@ function add(){
     parent_object.removeChild(dodajOlowianaFigurka);
   }
   const kucharz = [
-    '[item=793000], '/**Pomidor   */,      '[item=1942000], '/**Sos pomidorowy*/, '[item=748000], '/**Kukurydza */,    '[item=1859000], '/**Patelnia*/,     '[item=745000], '/**Mąka*/,
-    '[item=1811000], '/**Borówki*/,        '[item=1815000], '/**Mięso kraba*/,    '[item=709000], '/**Indyk     */,    '[item=1870000], '/**Bulion rybny*/, '[item=1866000], '/**Ciasto*/,   
-    '[item=705000], '/**Pstrąg   */,       '[item=1822000], '/**Papierosy*/,      '[item=1810000], '/**Dynia    */,    '[item=717000], '/**Łosoś  */,
-    '[item=719000], '/**Cygara  */,        '[item=700000], '/**Szynka    */,      '[item=1980000], '/**Suszone mięso*/,'[item=1875000], '/**Dorsz      */,  '[item=2447000], '/**papryki*/,
-    '[item=2456000], '/**Wodka*/,          '[item=1865000], '/**Zacier*/,         '[item=1826000], '/**Rum      */,    '[item=2526000], '/**Proch strzelniczy*/,'[item=1941000], '/**Puree*/,
-    '[item=1867000], '/**Marynowany stek*/,'[item=778000], '/**Garnek*/,          '[item=710000], '/**Stek*/,          '[item=1877000], '/**Sos*/,          '[item=2735000], '/**Prasa*/,
-    '[item=746000], '/**Fasola*/,          '[item=1874000], '/**Siekane mięso*/,  '[item=1999000], '/**fasola puszka*/,'[item=2000000], '/**Habanero*/,     '[item=2737000], '/**Miód*/,
-    '[item=1862000], '/**Maka kukurydziana*/];
+    '[item=1942000], '/**Sos pomido*/, '[item=748000], '/**Kukurydza */,    '[item=1859000], '/**Patelnia*/, '[item=745000], '/**Mąka*/,      '[item=1815000], '/**Mięso kraba*/,
+    '[item=709000], '/**Indyk     */,  '[item=1870000], '/**Bulion rybny*/, '[item=705000], '/**Pstrąg   */, '[item=1822000], '/**Papierosy*/,'[item=1810000], '/**Dynia    */,
+    '[item=717000], '/**Łosoś  */,     '[item=719000], '/**Cygara  */,      '[item=700000], '/**Szynka    */,'[item=1875000], '/**Dorsz    */,'[item=2447000], '/**papryki*/,
+    '[item=2456000], '/**Wodka*/,      '[item=1826000], '/**Rum      */,    '[item=2526000], '/**Proch strze*/,'[item=1941000], '/**Puree*/,  '[item=1867000], '/**Mary stek*/,
+    '[item=778000], '/**Garnek*/,      '[item=2735000], '/**Prasa*/,        '[item=746000], '/**Fasola*/,      '[item=1874000], '/**Sie mięso*/,'[item=1999000], '/**faso puszka*/,
+    '[item=2000000], '/**Habanero*/,   
+    '[item=1943000] '/**Zapieczone */,'[item=1873000] '/**Pierog */,'[item=1862000], '/**Maka kukuryd*/,
+    '[item=2737000], '/**Miód*/,     '[item=1865000], '/**Zacier*/,       '[item=1877000], '/**Sos*/,
+    '[item=1980000], '/**Suszo mięso*/,  '[item=1866000], '/**Ciasto*/,   '[item=710000], '/**Stek*/,
+    '[item=793000], '/**Pomidor   */,'[item=1811000], '/**Borówki*/];
   const znachor = [
-    '[item=708000], '/**Piryt*/,          '[item=743000], '/**Plakat*/,     '[item=757000], '/**Pióro kruk*/,  '[item=1816000], '/**Kreda*/,         '[item=1881000], '/**Siarka*/,       
+    '[item=708000], '/**Piryt*/,          '[item=743000], '/**Plakat*/,     '[item=1816000], '/**Kreda*/,         '[item=1881000], '/**Siarka*/,       
     '[item=718000], '/**Ząb kojota*/,     '[item=1808000], '/**Ziemniak*/,  '[item=703000], '/**Cukier*/,      '[item=792000], '/**Tequila*/,        '[item=1944000], '/**Nieoszlifow*/,   
     '[item=744000], '/**Gazeta*/,         '[item=2444000], '/**Laska cerem*/,'[item=795000], '/**Pal drewnia*/,'[item=1882000], '/**Wycior*/,    '[item=1835000], '/**Róza*/,          
     '[item=1818000], '/**Ruda siark*/,    '[item=1812000], '/**Nasiona*/,    '[item=2517000], '/**Guma do ż*/, '[item=1893000], '/**Bateria*/,   '[item=1886000], '/**Nafta*/,         
     '[item=741000], '/**Dzban*/,          '[item=1897000], '/**Cyrkiel*/,       '[item=1983000], '/**Panaceum*/,'[item=2002000], '/**Bł mikst*/,  '[item=2003000], '/**Ząb kobry*/,  
-    '[item=2525000], '/**Atrament S*/,    '[item=1833000], '/**Wyrok*/,         '[item=1888000], '/**Destylat*/,      
-    '[item=2162000] '/**Mielona kawa */,  '[item=2450000], '/**Surowe jajka*/, '[item=2432000], '/**Buteka mleka*/,   '[item=2731000] '/**Uzdraw marione */,'[item=1895000], '/**Likie ziol*/,
+    '[item=1833000], '/**Wyrok*/,         '[item=1888000], '/**Destylat*/,      
+    '[item=757000], '/**Pióro kruk*/,  '[item=2443000] '/**Dokum publiczne*/,'[item=2458000] '/**Pismo */,'[item=1923000] '/**Znakownik */,'[item=2525000], '/**Atrament S*/,    '[item=2162000] '/**Mielona kawa */,  '[item=2450000], '/**Surowe jajka*/, '[item=2432000], '/**Buteka mleka*/,   '[item=2731000] '/**Uzdraw marione */,'[item=1895000], '/**Likie ziol*/,
     '[item=1889000], '/**Bimber*/,     '[item=702000], '/**Liście tytoniu*/, '[item=1876000], '/**Kadzidlo*/,      '[item=751000] '/**Fajka pokoju*/,    
     '[item=1884000], '/**Kwas siark*/,    '[item=1821000], '/**Saletra*/,    '[item=1945000], '/**Dysk z*/,        '[item=2452000] '/**Czaszka */];
   const rymarz = [
@@ -7588,22 +7591,19 @@ function add(){
     '[item=1907000], '/**Nity*/,          '[item=756000] '/**Skrzynka z na*/,  '[item=712000], '/**Skóra*/,         '[item=715000], '/**Sukno*/,     '[item=2445000], '/**Scyzoryk*/,      
     '[item=2435000], '/**Bandaże*/,       '[item=1905000], '];
   if (
-      sum1Puree2>0                || sum1Zapieczone2>0           || sum1Maka2>0                 || sum1FasolaBekon2>0          || sum1Ciasto2>0               || 
-      sum1Trunek2>0               || sum1Bulion3>0               || sum1PieczonyIndyk2>0        || sum1Zupa2>0                 || sum1Pierog3>0               || 
-      sum1Dorsz1>0                || sum1Kadzidlo3>0             || sum1Sos2>0                  || sum4Ryba1>0                 || 
-      sum2Obiad2>0                || sum6SuszMieso2>0            || sum1Guma1>0                 || sum1Guma2>0                 || sum1Guma3>0                 ||
-      sum2Grog1>0                 || sum2Grog2>0                 || sum1Grog3>0                 || sum1Grog4>0                 || sum1Gulasz1>0               || 
-      sum1Gulasz2>0               || sum1Gulasz4>0               || sum4Zeberka1>0              || sum4Zeberka2>0              || sum1Miod1>0                 || 
-      sum7FasPuszka3>0            || sum7Chili1>0                || sum4Chili3>0                || sum1Chili4>0                || sum2MiodPitny1>0            || 
-      sum1MiodPitny4>0            || sum1Krzesiwo1>0             || sum1Papieros3>0             || sum1Wycior2>0               || 
-      sum1Lek2>0                  || sum1KwasSiarkowy2>0         || sum2Bozek1>0                || sum3Bimber2>0               || sum2Bimber3>0               || 
-      sum1Nalewka2>0              || sum1Lug3>0                  || sum5Papier1>0               || sum1AtramentS1>0            || sum1AtramentS2>0            || 
-      sum3Cyrkiel1>0              || 
-      sum1Wlokno4>0               || sum2WodaRozana1>0           || sum1Panaceum1>0             || sum1Remedium2>0             || sum1Remedium4>0             || 
-      sum1Odzywka2>0              || sum1Odzywka3>0              || sum1ZTrunek1>0              || sum1Marionetka4>0           || 
-      sum1Mikstura4>0             || sum4Antidotum2>0            || sum1Antidotum4>0            || 
-      sum2DuchMuz2>0              || sum1DuchMuz3>0              || sum1DuchMuz4>0              || sum1TorbaPasza1>0           || sum1Manierka2>0             || 
-      sum1Podkucie3>0             || sum2Pasza4>0                || sum1ObdarteSiodlo1>0        || sum4Wypelniacz2>0           || sum1SkorzPokrycie2>0        || 
+      sum1Zapieczone2>0           || sum1Maka2>0                 || sum1FasolaBekon2>0          || sum1Ciasto2>0               || sum1Bulion3>0               || 
+      sum1PieczonyIndyk2>0        || sum1Zupa2>0                 || sum1Dorsz1>0                || sum1Kadzidlo3>0             || sum1Sos2>0                  || 
+      sum4Ryba1>0                 || sum2Obiad2>0                || sum6SuszMieso2>0            || sum1Guma2>0                 || sum1Guma3>0                 || 
+      sum2Grog1>0                 || sum1Grog3>0                 || sum1Grog4>0                 || sum1Gulasz1>0               || sum1Gulasz2>0               || 
+      sum1Gulasz4>0               || sum1Miod1>0                 || sum7FasPuszka3>0            || sum7Chili1>0                || sum4Chili3>0                || 
+      sum1Chili4>0                || sum1Krzesiwo1>0             || sum1Papieros3>0             || sum1Lek2>0                  || 
+      sum1KwasSiarkowy2>0         || sum2Bozek1>0                || 
+      sum3Bimber2>0               || sum2Bimber3>0               || sum1Nalewka2>0              || sum1Lug3>0                  || sum5Papier1>0               || 
+      sum1AtramentS1>0            || sum1AtramentS2>0            || sum3Cyrkiel1>0              || sum1Wlokno4>0               || sum2WodaRozana1>0           || 
+      sum1Panaceum1>0             || sum1Remedium2>0             || sum1Remedium4>0             || sum1Odzywka2>0              || sum1Odzywka3>0              || 
+      sum1ZTrunek1>0              || sum1Marionetka4>0           || sum1Mikstura4>0             || sum4Antidotum2>0            || sum1Antidotum4>0            || 
+      sum1DuchMuz3>0              || sum1DuchMuz4>0              || sum1TorbaPasza1>0           || sum1Manierka2>0             || sum1Podkucie3>0             || 
+      sum2Pasza4>0                || sum1ObdarteSiodlo1>0        || sum4Wypelniacz2>0           || sum1SkorzPokrycie2>0        || 
       sum1Znakownik4>0            || sum1Kompas1>0               || sum1Ostrogi2>0              || sum2Uzda1>0                 || sum3Spiwor1>0               || 
       sum1Uzda3>0                 || sum1Powoz1>0                || sum2Eliksir1>0              || sum1Eliksir2>0              || sum1Eliksir3>0              || 
       sum1Arras2>0                || sum1Arras3>0                || sum2WPowoz1>0               || sum1WPowoz2>0               || sum1WPowoz3>0               || 
@@ -7614,8 +7614,12 @@ function add(){
       sum1Szklo3>0                || sum2KamPolerski1>0          || sum1KamPolerski2>0          || sum1KamPolerski3>0          || sum1Sruby1>0                || 
       sum1Wells2>0                || sum1Wells3>0                || sum1Piersiowka2>0           || sum1Prasa3>0                || sum1Prasa4>0                || 
       sum3NarzZegarm1>0           || sum2NarzZegarm2>0           || sum2NarzZegarm3>0           || sum5Pozytywka1>0            || sum4Pozytywka2>0            || 
-      sum4Pozytywka3>0            || sum1Pozytywka4>0            || sum2Latarnia2>0             || sum2Latarnia3>0             || sum1Latarnia4>0             || 
-      
+      sum4Pozytywka3>0            || sum1Pozytywka4>0            || sum2Latarnia2>0             || sum2Latarnia3>0             || sum1Latarnia4>0             ||
+      sum2Nawoz3>0 || sum1Nawoz4>0 || sum1Nawoz5>0 ||
+      sum2OwocowyKoktajl3>0       || sum2OwocowyKoktajl4>0       ||
+      sum4BurgerGornika2>0        || sum3BurgerGornika3>0        || sum2BurgerGornika4>0        || sum1BurgerGornika5>0        ||
+      sum2PaczkaGum1>0 || sum2PaczkaGum2>0 || sum10LapaczSnow1>0               ||
+      sum3CertyfikatPodatku1>0         || sum1CertyfikatPodatku2>0         || sum1CertyfikatPodatku3>0         || sum1CertyfikatPodatku5>0 ||
       sum10CudotworczaNalewka1>0       || sum2CudotworczaNalewka2>0        || sum2CudotworczaNalewka3>0        || sum1CudotworczaNalewka4>0   || sum1CudotworczaNalewka5>0   || sum1CudotworczaNalewka6>0  ||
       sum5RemediumPrzeciwCierpieniu1>0 || sum2RemediumPrzeciwCierpieniu2>0 || sum1RemediumPrzeciwCierpieniu4>0 || sum10SilnyKwas1>0           || sum10SilnyKwas3>0           || 
       sum5MetalowaCzaszka2>0           || sum3MetalowaCzaszka4>0           || sum10Dylizans1>0                 || sum1Dylizans2>0             || sum1Dylizans3>0             || 
@@ -7632,100 +7636,111 @@ function add(){
     parent.style.display = "block";
     parent.textContent = '';
     if (
-        sum1Puree2    || sum1Zapieczone2 || sum1Maka2     || sum1FasolaBekon2 || sum1Ciasto2     || sum1Trunek2 || sum1Bulion3 || sum1PieczonyIndyk2 || sum1Zupa2      || 
-        sum1Pierog3   || sum1Dorsz1      || sum1Kadzidlo3 || sum1Sos2         || sum4Ryba1   || sum2Obiad2  || sum6SuszMieso2     || sum1Guma1      || 
-        sum1Guma2     || sum1Guma3       || sum2Grog1     || sum2Grog2        || sum1Grog3       || sum1Grog4   || sum1Gulasz1 || sum1Gulasz2        || sum1Gulasz4    ||
-        sum4Zeberka1  || sum4Zeberka2    || sum1Miod1     || sum7FasPuszka3   || sum7Chili1      || sum4Chili3  || sum1Chili4  || sum2MiodPitny1     || sum1MiodPitny4
+        sum1Zapieczone2     || sum1Maka2         || sum1FasolaBekon2   || sum1Ciasto2     || sum1Bulion3    || sum1PieczonyIndyk2 || 
+        sum1Zupa2           || sum1Dorsz1        || sum1Kadzidlo3      || sum1Sos2        || sum4Ryba1      || sum2Obiad2         || 
+        sum6SuszMieso2      || sum1Guma2         || sum1Guma3          || sum2Grog1       || sum1Grog3      || sum1Grog4          || 
+        sum1Gulasz1         || sum1Gulasz2       || sum1Gulasz4        || sum1Miod1       || sum7FasPuszka3 || sum7Chili1         || 
+        sum4Chili3          || sum1Chili4        || 
+        
+        sum2Nawoz3          || sum1Nawoz4         || sum1Nawoz5         || sum2OwocowyKoktajl3 || sum2OwocowyKoktajl4 || sum4BurgerGornika2 || 
+        sum3BurgerGornika3  || sum2BurgerGornika4 || sum1BurgerGornika5 || sum2PaczkaGum1      || sum2PaczkaGum2
       ) {
-      if (sum1Puree2>0)        {parent.textContent = parent.textContent + sum1Puree2         + kucharz[0];}
-      if (sum1Zapieczone2>0)   {parent.textContent = parent.textContent + sum1Zapieczone2    + kucharz[1];}
-      if (sum1Maka2>0)         {parent.textContent = parent.textContent + sum1Maka2          + kucharz[2];}
-      if (sum1FasolaBekon2>0)  {parent.textContent = parent.textContent + sum1FasolaBekon2   + kucharz[3];}
-      if (sum1Ciasto2>0)       {parent.textContent = parent.textContent + sum1Ciasto2        + kucharz[4];}
-      if (sum1Trunek2>0)       {parent.textContent = parent.textContent + sum1Trunek2        + kucharz[5];}
-      if (sum1Bulion3>0)       {parent.textContent = parent.textContent + sum1Bulion3        + kucharz[6];}
-      if (sum1PieczonyIndyk2>0){parent.textContent = parent.textContent + sum1PieczonyIndyk2 + kucharz[7];}
-      if (sum1Zupa2>0)         {parent.textContent = parent.textContent + sum1Zupa2          + kucharz[8];}
-      if (sum1Pierog3>0)       {parent.textContent = parent.textContent + sum1Pierog3        + kucharz[9];}
-      if (sum1Dorsz1>0)        {parent.textContent = parent.textContent + sum1Dorsz1         + kucharz[10];}
-      if (sum1Kadzidlo3>0)     {parent.textContent = parent.textContent + sum1Kadzidlo3      + kucharz[11];}
-      if (sum1Sos2>0)          {parent.textContent = parent.textContent + sum1Sos2           + kucharz[12];}
-      if (sum4Ryba1>0)         {parent.textContent = parent.textContent + sum4Ryba1          + kucharz[13];}
-      if (sum2Obiad2>0)        {parent.textContent = parent.textContent + sum2Obiad2         + kucharz[14];}
-      if (sum6SuszMieso2>0)    {parent.textContent = parent.textContent + sum6SuszMieso2     + kucharz[15];}
-      if (sum1Guma1>0)         {parent.textContent = parent.textContent + sum1Guma1          + kucharz[16];}
-      if (sum1Guma2>0)         {parent.textContent = parent.textContent + sum1Guma2          + kucharz[17];}
-      if (sum1Guma3>0)         {parent.textContent = parent.textContent + sum1Guma3          + kucharz[18];}
-      if (sum2Grog1>0)         {parent.textContent = parent.textContent + sum2Grog1          + kucharz[19];}
-      if (sum2Grog2>0)         {parent.textContent = parent.textContent + sum2Grog2          + kucharz[20];}
-      if (sum1Grog3>0)         {parent.textContent = parent.textContent + sum1Grog3          + kucharz[21];}
-      if (sum1Grog4>0)         {parent.textContent = parent.textContent + sum1Grog4          + kucharz[22];}
-      if (sum1Gulasz1>0)       {parent.textContent = parent.textContent + sum1Gulasz1        + kucharz[23];}
-      if (sum1Gulasz2>0)       {parent.textContent = parent.textContent + sum1Gulasz2        + kucharz[24];}
-      if (sum1Gulasz4>0)       {parent.textContent = parent.textContent + sum1Gulasz4        + kucharz[25];}
-      if (sum4Zeberka1>0)      {parent.textContent = parent.textContent + sum4Zeberka1       + kucharz[26];}
-      if (sum4Zeberka2>0)      {parent.textContent = parent.textContent + sum4Zeberka2       + kucharz[27];}
-      if (sum1Miod1>0)         {parent.textContent = parent.textContent + sum1Miod1          + kucharz[28];}
-      if (sum7FasPuszka3>0)    {parent.textContent = parent.textContent + sum7FasPuszka3     + kucharz[29];}
-      if (sum7Chili1>0)        {parent.textContent = parent.textContent + sum7Chili1         + kucharz[30];}
-      if (sum4Chili3>0)        {parent.textContent = parent.textContent + sum4Chili3         + kucharz[31];}
-      if (sum1Chili4>0)        {parent.textContent = parent.textContent + sum1Chili4         + kucharz[32];}
-      if (sum2MiodPitny1>0)    {parent.textContent = parent.textContent + sum2MiodPitny1     + kucharz[33];}
-      if (sum1MiodPitny4>0)    {parent.textContent = parent.textContent + sum1MiodPitny4     + kucharz[34];}
-
+      if (sum1Zapieczone2>0)   {parent.textContent = parent.textContent + sum1Zapieczone2    + kucharz[0];}
+      if (sum1Maka2>0)         {parent.textContent = parent.textContent + sum1Maka2          + kucharz[1];}
+      if (sum1FasolaBekon2>0)  {parent.textContent = parent.textContent + sum1FasolaBekon2   + kucharz[2];}
+      if (sum1Ciasto2>0)       {parent.textContent = parent.textContent + sum1Ciasto2        + kucharz[3];}
+      if (sum1Bulion3>0)       {parent.textContent = parent.textContent + sum1Bulion3        + kucharz[4];}
+      if (sum1PieczonyIndyk2>0){parent.textContent = parent.textContent + sum1PieczonyIndyk2 + kucharz[5];}
+      if (sum1Zupa2>0)         {parent.textContent = parent.textContent + sum1Zupa2          + kucharz[6];}
+      if (sum1Dorsz1>0)        {parent.textContent = parent.textContent + sum1Dorsz1         + kucharz[7];}
+      if (sum1Kadzidlo3>0)     {parent.textContent = parent.textContent + sum1Kadzidlo3      + kucharz[8];}
+      if (sum1Sos2>0)          {parent.textContent = parent.textContent + sum1Sos2           + kucharz[9];}
+      if (sum4Ryba1>0)         {parent.textContent = parent.textContent + sum4Ryba1          + kucharz[10];}
+      if (sum2Obiad2>0)        {parent.textContent = parent.textContent + sum2Obiad2         + kucharz[11];}
+      if (sum6SuszMieso2>0)    {parent.textContent = parent.textContent + sum6SuszMieso2     + kucharz[12];}
+      if (sum1Guma2>0)         {parent.textContent = parent.textContent + sum1Guma2          + kucharz[13];}
+      if (sum1Guma3>0)         {parent.textContent = parent.textContent + sum1Guma3          + kucharz[14];}
+      if (sum2Grog1>0)         {parent.textContent = parent.textContent + sum2Grog1          + kucharz[15];}
+      if (sum1Grog3>0)         {parent.textContent = parent.textContent + sum1Grog3          + kucharz[16];}
+      if (sum1Grog4>0)         {parent.textContent = parent.textContent + sum1Grog4          + kucharz[17];}
+      if (sum1Gulasz1>0)       {parent.textContent = parent.textContent + sum1Gulasz1        + kucharz[18];}
+      if (sum1Gulasz2>0)       {parent.textContent = parent.textContent + sum1Gulasz2        + kucharz[19];}
+      if (sum1Gulasz4>0)       {parent.textContent = parent.textContent + sum1Gulasz4        + kucharz[20];}
+      if (sum1Miod1>0)         {parent.textContent = parent.textContent + sum1Miod1          + kucharz[21];}
+      if (sum7FasPuszka3>0)    {parent.textContent = parent.textContent + sum7FasPuszka3     + kucharz[22];}
+      if (sum7Chili1>0)        {parent.textContent = parent.textContent + sum7Chili1         + kucharz[23];}
+      if (sum4Chili3>0)        {parent.textContent = parent.textContent + sum4Chili3         + kucharz[24];}
+      if (sum1Chili4>0)        {parent.textContent = parent.textContent + sum1Chili4         + kucharz[25];}
+      
+      
+      if (sum2Nawoz3>0)         {parent.textContent = parent.textContent + sum2Nawoz3          + kucharz[26];}
+      if (sum1Nawoz4>0)         {parent.textContent = parent.textContent + sum1Nawoz4          + kucharz[27];}
+      if (sum1Nawoz5>0)         {parent.textContent = parent.textContent + sum1Nawoz5          + kucharz[28];}
+      if (sum2OwocowyKoktajl3>0){parent.textContent = parent.textContent + sum2OwocowyKoktajl3 + kucharz[29];}
+      if (sum2OwocowyKoktajl4>0){parent.textContent = parent.textContent + sum2OwocowyKoktajl4 + kucharz[30];}
+      if (sum4BurgerGornika2>0) {parent.textContent = parent.textContent + sum4BurgerGornika2  + kucharz[31];}
+      if (sum3BurgerGornika3>0) {parent.textContent = parent.textContent + sum3BurgerGornika3  + kucharz[32];}
+      if (sum2BurgerGornika4>0) {parent.textContent = parent.textContent + sum2BurgerGornika4  + kucharz[33];}
+      if (sum1BurgerGornika5>0) {parent.textContent = parent.textContent + sum1BurgerGornika5  + kucharz[34];}
+      if (sum2PaczkaGum1>0)     {parent.textContent = parent.textContent + sum2PaczkaGum1      + kucharz[35];}
+      if (sum2PaczkaGum2>0)     {parent.textContent = parent.textContent + sum2PaczkaGum2      + kucharz[36];}
+     
     }
     if (
-        sum1Krzesiwo1   || sum1Papieros3    || sum1Wycior2     || sum1Lek2        || sum1KwasSiarkowy2 || sum2Bozek1      || 
-        sum3Bimber2     || sum2Bimber3      || sum1Nalewka2    || sum1Lug3        || sum5Papier1       || sum1AtramentS1  || 
-        sum3Cyrkiel1    || sum1Wlokno4      || sum2WodaRozana1 || sum1Panaceum1   || sum1Remedium2     || sum1Remedium4   || 
-        sum1Odzywka2    || sum1Odzywka3     || sum1ZTrunek1    || sum1Marionetka4 || sum1Mikstura4     || sum4Antidotum2  || 
-        sum1Antidotum4  || sum2DuchMuz2     ||  sum1DuchMuz3   || sum1DuchMuz4    || 
-        sum10CudotworczaNalewka1       || sum2CudotworczaNalewka2        || sum2CudotworczaNalewka3        || sum1CudotworczaNalewka4 || sum1CudotworczaNalewka5 || sum1CudotworczaNalewka6 |
-        sum5RemediumPrzeciwCierpieniu1 || sum2RemediumPrzeciwCierpieniu2 || sum1RemediumPrzeciwCierpieniu4 ||
-        sum10SilnyKwas1 || sum10SilnyKwas3  || sum5MetalowaCzaszka2 || sum3MetalowaCzaszka4
+        sum1Krzesiwo1           || sum1Papieros3            || sum1Lek2                       || sum1KwasSiarkowy2              || sum2Bozek1                     || 
+        sum3Bimber2             || sum2Bimber3              || sum1Nalewka2                   || sum1Lug3                       || sum5Papier1                    || 
+        sum1AtramentS1          || sum3Cyrkiel1             || sum1Wlokno4                    || sum2WodaRozana1                || sum1Panaceum1                  || 
+        sum1Remedium2           || sum1Remedium4            || sum1Odzywka2                   || sum1Odzywka3                   || sum1ZTrunek1                   || 
+        sum1Marionetka4         || sum1Mikstura4            || sum4Antidotum2                 || sum1Antidotum4                 || sum1DuchMuz3                   || 
+        sum1DuchMuz4            || sum10LapaczSnow1         || sum3CertyfikatPodatku1         || sum1CertyfikatPodatku2         || sum1CertyfikatPodatku3         || 
+        sum1CertyfikatPodatku5  || sum10CudotworczaNalewka1 || sum2CudotworczaNalewka2        || sum2CudotworczaNalewka3        || sum1CudotworczaNalewka4        || 
+        sum1CudotworczaNalewka5 || sum1CudotworczaNalewka6  || sum5RemediumPrzeciwCierpieniu1 || sum2RemediumPrzeciwCierpieniu2 || sum1RemediumPrzeciwCierpieniu4 ||
+        sum10SilnyKwas1         || sum10SilnyKwas3          || sum5MetalowaCzaszka2           || sum3MetalowaCzaszka4
       ) {
       if (sum1Krzesiwo1>0)    {parent.textContent = parent.textContent + sum1Krzesiwo1     + znachor[0];}
       if (sum1Papieros3>0)    {parent.textContent = parent.textContent + sum1Papieros3     + znachor[1];}
-      if (sum1Wycior2>0)      {parent.textContent = parent.textContent + sum1Wycior2       + znachor[2];}
-      if (sum1Lek2>0)         {parent.textContent = parent.textContent + sum1Lek2          + znachor[3];}
-      if (sum1KwasSiarkowy2>0){parent.textContent = parent.textContent + sum1KwasSiarkowy2 + znachor[4];}
-      if (sum2Bozek1>0)       {parent.textContent = parent.textContent + sum2Bozek1        + znachor[5];}
-      if (sum3Bimber2>0)      {parent.textContent = parent.textContent + sum3Bimber2       + znachor[6];}
-      if (sum2Bimber3>0)      {parent.textContent = parent.textContent + sum2Bimber3       + znachor[7];}
-      if (sum1Nalewka2>0)     {parent.textContent = parent.textContent + sum1Nalewka2      + znachor[8];}
-      if (sum1Lug3>0)         {parent.textContent = parent.textContent + sum1Lug3          + znachor[9];}
-      if (sum5Papier1>0)      {parent.textContent = parent.textContent + sum5Papier1       + znachor[10];}
-      if (sum1AtramentS1>0)   {parent.textContent = parent.textContent + sum1AtramentS1    + znachor[11];}
-      if (sum3Cyrkiel1>0)     {parent.textContent = parent.textContent + sum3Cyrkiel1      + znachor[12];}
-      if (sum1Wlokno4>0)      {parent.textContent = parent.textContent + sum1Wlokno4       + znachor[13];}
-      if (sum2WodaRozana1>0)  {parent.textContent = parent.textContent + sum2WodaRozana1   + znachor[14];}
-      if (sum1Panaceum1>0)    {parent.textContent = parent.textContent + sum1Panaceum1     + znachor[15];}
-      if (sum1Remedium2>0)    {parent.textContent = parent.textContent + sum1Remedium2     + znachor[16];}
-      if (sum1Remedium4>0)    {parent.textContent = parent.textContent + sum1Remedium4     + znachor[17];}
-      if (sum1Odzywka2>0)     {parent.textContent = parent.textContent + sum1Odzywka2      + znachor[18];}
-      if (sum1Odzywka3>0)     {parent.textContent = parent.textContent + sum1Odzywka3      + znachor[19];}
-      if (sum1ZTrunek1>0)     {parent.textContent = parent.textContent + sum1ZTrunek1      + znachor[20];}
-      if (sum1Marionetka4>0)  {parent.textContent = parent.textContent + sum1Marionetka4   + znachor[21];}
-      if (sum1Mikstura4>0)    {parent.textContent = parent.textContent + sum1Mikstura4     + znachor[22];}
-      if (sum4Antidotum2>0)   {parent.textContent = parent.textContent + sum4Antidotum2    + znachor[23];}
-      if (sum1Antidotum4>0)   {parent.textContent = parent.textContent + sum1Antidotum4    + znachor[24];}
-      if (sum2DuchMuz2>0)     {parent.textContent = parent.textContent + sum2DuchMuz2      + znachor[25];}
-      if (sum1DuchMuz3>0)     {parent.textContent = parent.textContent + sum1DuchMuz3      + znachor[26];}
-      if (sum1DuchMuz4>0)     {parent.textContent = parent.textContent + sum1DuchMuz4      + znachor[27];}
-  
-      if (sum10CudotworczaNalewka1>0)      {parent.textContent = parent.textContent + sum10CudotworczaNalewka1       + znachor[28];}
-      if (sum2CudotworczaNalewka2>0)       {parent.textContent = parent.textContent + sum2CudotworczaNalewka2        + znachor[29];}
-      if (sum2CudotworczaNalewka3>0)       {parent.textContent = parent.textContent + sum2CudotworczaNalewka3        + znachor[30];}
-      if (sum1CudotworczaNalewka4>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka4        + znachor[31];}
-      if (sum1CudotworczaNalewka5>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka5        + znachor[32];}
-      if (sum1CudotworczaNalewka6>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka6        + znachor[33];}
-      if (sum5RemediumPrzeciwCierpieniu1>0){parent.textContent = parent.textContent + sum5RemediumPrzeciwCierpieniu1 + znachor[34];}
-      if (sum2RemediumPrzeciwCierpieniu2>0){parent.textContent = parent.textContent + sum2RemediumPrzeciwCierpieniu2 + znachor[35];}
-      if (sum1RemediumPrzeciwCierpieniu4>0){parent.textContent = parent.textContent + sum1RemediumPrzeciwCierpieniu4 + znachor[36];}
-      if (sum10SilnyKwas1>0)               {parent.textContent = parent.textContent + sum10SilnyKwas1                + znachor[37];}
-      if (sum10SilnyKwas3>0)               {parent.textContent = parent.textContent + sum10SilnyKwas3                + znachor[38];}
-      if (sum5MetalowaCzaszka2>0)          {parent.textContent = parent.textContent + sum5MetalowaCzaszka2           + znachor[39];}
-      if (sum3MetalowaCzaszka4>0)          {parent.textContent = parent.textContent + sum3MetalowaCzaszka4           + znachor[40];}
+      if (sum1Lek2>0)         {parent.textContent = parent.textContent + sum1Lek2          + znachor[2];}
+      if (sum1KwasSiarkowy2>0){parent.textContent = parent.textContent + sum1KwasSiarkowy2 + znachor[3];}
+      if (sum2Bozek1>0)       {parent.textContent = parent.textContent + sum2Bozek1        + znachor[4];}
+      if (sum3Bimber2>0)      {parent.textContent = parent.textContent + sum3Bimber2       + znachor[5];}
+      if (sum2Bimber3>0)      {parent.textContent = parent.textContent + sum2Bimber3       + znachor[6];}
+      if (sum1Nalewka2>0)     {parent.textContent = parent.textContent + sum1Nalewka2      + znachor[7];}
+      if (sum1Lug3>0)         {parent.textContent = parent.textContent + sum1Lug3          + znachor[8];}
+      if (sum5Papier1>0)      {parent.textContent = parent.textContent + sum5Papier1       + znachor[9];}
+      if (sum1AtramentS1>0)   {parent.textContent = parent.textContent + sum1AtramentS1    + znachor[10];}
+      if (sum3Cyrkiel1>0)     {parent.textContent = parent.textContent + sum3Cyrkiel1      + znachor[11];}
+      if (sum1Wlokno4>0)      {parent.textContent = parent.textContent + sum1Wlokno4       + znachor[12];}
+      if (sum2WodaRozana1>0)  {parent.textContent = parent.textContent + sum2WodaRozana1   + znachor[13];}
+      if (sum1Panaceum1>0)    {parent.textContent = parent.textContent + sum1Panaceum1     + znachor[14];}
+      if (sum1Remedium2>0)    {parent.textContent = parent.textContent + sum1Remedium2     + znachor[15];}
+      if (sum1Remedium4>0)    {parent.textContent = parent.textContent + sum1Remedium4     + znachor[16];}
+      if (sum1Odzywka2>0)     {parent.textContent = parent.textContent + sum1Odzywka2      + znachor[17];}
+      if (sum1Odzywka3>0)     {parent.textContent = parent.textContent + sum1Odzywka3      + znachor[18];}
+      if (sum1ZTrunek1>0)     {parent.textContent = parent.textContent + sum1ZTrunek1      + znachor[19];}
+      if (sum1Marionetka4>0)  {parent.textContent = parent.textContent + sum1Marionetka4   + znachor[20];}
+      if (sum1Mikstura4>0)    {parent.textContent = parent.textContent + sum1Mikstura4     + znachor[21];}
+      if (sum4Antidotum2>0)   {parent.textContent = parent.textContent + sum4Antidotum2    + znachor[22];}
+      if (sum1Antidotum4>0)   {parent.textContent = parent.textContent + sum1Antidotum4    + znachor[23];}
+      if (sum1DuchMuz3>0)     {parent.textContent = parent.textContent + sum1DuchMuz3      + znachor[24];}
+      if (sum1DuchMuz4>0)     {parent.textContent = parent.textContent + sum1DuchMuz4      + znachor[25];}
+      if (sum10LapaczSnow1>0) {parent.textContent = parent.textContent + sum10LapaczSnow1  + znachor[26];}
+      if (sum3CertyfikatPodatku1>0)        {parent.textContent = parent.textContent + sum3CertyfikatPodatku1         + znachor[27];}
+      if (sum1CertyfikatPodatku2>0)        {parent.textContent = parent.textContent + sum1CertyfikatPodatku2         + znachor[28];}
+      if (sum1CertyfikatPodatku3>0)        {parent.textContent = parent.textContent + sum1CertyfikatPodatku3         + znachor[29];}
+      if (sum1CertyfikatPodatku5>0)        {parent.textContent = parent.textContent + sum1CertyfikatPodatku5         + znachor[30];}
+      if (sum10CudotworczaNalewka1>0)      {parent.textContent = parent.textContent + sum10CudotworczaNalewka1       + znachor[31];}
+      if (sum2CudotworczaNalewka2>0)       {parent.textContent = parent.textContent + sum2CudotworczaNalewka2        + znachor[32];}
+      if (sum2CudotworczaNalewka3>0)       {parent.textContent = parent.textContent + sum2CudotworczaNalewka3        + znachor[33];}
+      if (sum1CudotworczaNalewka4>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka4        + znachor[34];}
+      if (sum1CudotworczaNalewka5>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka5        + znachor[35];}
+      if (sum1CudotworczaNalewka6>0)       {parent.textContent = parent.textContent + sum1CudotworczaNalewka6        + znachor[36];}
+      if (sum5RemediumPrzeciwCierpieniu1>0){parent.textContent = parent.textContent + sum5RemediumPrzeciwCierpieniu1 + znachor[37];}
+      if (sum2RemediumPrzeciwCierpieniu2>0){parent.textContent = parent.textContent + sum2RemediumPrzeciwCierpieniu2 + znachor[38];}
+      if (sum1RemediumPrzeciwCierpieniu4>0){parent.textContent = parent.textContent + sum1RemediumPrzeciwCierpieniu4 + znachor[39];}
+      if (sum10SilnyKwas1>0)               {parent.textContent = parent.textContent + sum10SilnyKwas1                + znachor[40];}
+      if (sum10SilnyKwas3>0)               {parent.textContent = parent.textContent + sum10SilnyKwas3                + znachor[41];}
+      if (sum5MetalowaCzaszka2>0)          {parent.textContent = parent.textContent + sum5MetalowaCzaszka2           + znachor[42];}
+      if (sum3MetalowaCzaszka4>0)          {parent.textContent = parent.textContent + sum3MetalowaCzaszka4           + znachor[43];}
     }
     if (
         sum1TorbaPasza1        || sum1Manierka2           || sum2Pasza4             || sum1Podkucie3             || sum1ObdarteSiodlo1     || 
