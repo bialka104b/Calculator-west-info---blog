@@ -11,11 +11,11 @@ and open the template in the editor.
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VV82BZDD3D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-VV82BZDD3D');
   </script>
-  
+
   <title>WEST-INFO - kalkulator rzemiosła w grze the-west. Zadania eventowe z Bety. Kalendarz zadań powtarzalnych
   </title>
   <meta charset="UTF-8">
@@ -47,8 +47,8 @@ and open the template in the editor.
       <h1 title="the-west west info">WEST</h1>
       <p title="Kalkulator rzemiosła">Kalkulator rzemiosła - strona poświęcona grze the-west<br />
         <span style="font-size:18px;" title="nowe aktualizacje the-west.pl">Nowe
-          zadania:<br>Czas Zbiorów oraz event dropiący<br>Sprawdź także nowe rzemiosło<br>14.09 do 28.09 Zadania powtarzalne:
-          Octoberfest nadchodzi</span><br />
+          zadania z Bety:<br>Save Octoberfest<br>Sprawdź także nowe rzemiosło<br>14.09 do 28.09 Zadania
+          powtarzalne: Octoberfest nadchodzi</span><br />
         <span>Aby policzyć ile produktów potrzebujesz do wytworzenia, rozwiń
           listę z rzemiosłem a następnie kliknij na produkt który chcesz wytworzyć i wpisz żądaną ilość.</span>
       </p>
@@ -70,6 +70,12 @@ and open the template in the editor.
         $('.linia-5').click(function () {
           $('.linia-5-zwin').slideToggle("slow");
         });
+        $('.linia-6').click(function () {
+          $('.linia-6-zwin').slideToggle("slow");
+        });
+        $('.linia-7').click(function () {
+          $('.linia-7-zwin').slideToggle("slow");
+        });
       });
     </script>
     <div class="card">
@@ -81,7 +87,8 @@ and open the template in the editor.
               aria-selected="true">Rzemiosło</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="kalendarz-tab" href="../zadaniaPowtarzalne/zadaniaPowtarzalne.html">Kalendarz zadań powtarzalnych</a>
+            <a class="nav-link" id="kalendarz-tab" href="../zadaniaPowtarzalne/zadaniaPowtarzalne.html">Kalendarz zadań
+              powtarzalnych</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" id="zadaniaBeta-tab" href="#zadaniaBeta">Zadania z Bety</a>
@@ -101,6 +108,256 @@ and open the template in the editor.
           <div class="tab-pane show active" id="zadaniaBeta" role="tabpanel" aria-labelledby="zadaniaBeta-tab">
             <section id="sekcja-beta">
               <div id="zad-beta">
+                <div class="row miesiac">
+                  <div class="col-12">
+                    <h2 class="linia-6" title="Save Octoberfest">Save Octoberfest</h2>
+                    <div class="zad-tabela linia-6-zwin">
+                      <div class="row">
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <h3>Zleceniodawca</h3>
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link">
+                          <h3>Potrzebne do przyjęcia</h3>
+                        </div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <h3>Potrzebne do zakończenia</h3>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <h3>Możliwe nagrody</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Po żniwach</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Henry Walker</p>
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link"></div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Zaakceptowane zadanie: Łowcy</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>100</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Łowcy</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Dzienne zadania</p>
+                          <img src="../image/Zleceniodawca/zadania-dzienne.png" alt="Zadania dzienne"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link"></div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Pecyzyjna kusza 1szt</div>
+                          <div>Precyzyjna strzelba 1szt</div>
+                          <div>Zardzewiały shotgun 1szt</div>
+                          <div>Precyzyjna proca 1szt</div>
+                          <div>Remington 1szt</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>300</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <p>5000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Przygotowanie do Octoberfestu</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Henry Walker</p>
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link"></div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Kufel [item=51655000] 10szt</div>
+                          <div>Mąka 15szt</div>
+                          <div>Surowe jajka 2szt</div>
+                          <div>Butelka mleka 2szt</div>
+                          <div>Zakończone zadanie: -----------</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>800</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <p>500</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Łowcy w opałach część 1</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Punkt Zachodni</p>
+                          <img src="../image/Zleceniodawca/PunktZachodni.png" alt="Punkt Zachodni"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link">Musisz być na miejscu: Punkt Zachodni</div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Zabij Zły Bliźniak</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>600</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Łowcy w opałacz część 2</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Punkt Zachodni</p>
+                          <img src="../image/Zleceniodawca/PunktZachodni.png" alt="Punkt Zachodni"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link">Musisz być na miejscu: Punkt Zachodni</div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Ratatuj z rybą [item=51127000] 2szt</div>
+                          <div>Ryba zawinięta w gazetę 3szt</div>
+                          <div>Biały koń 5szt</div>
+                          <div>Idź do Las Dicksona</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/Kufel=51655000.png" alt="Kufel"
+                                class="img-responsive nagroda">
+                              <p>4x [item=51655000]</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/UOP/blue_letter.png" alt="100 Obligacji"
+                                class="img-responsive nagroda">
+                              <p>100 Obligacji</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Łowcy w opałacz część 2</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Las Dicksona</p>
+                          <img src="../image/Zleceniodawca/LasDicksona.png" alt="Las Dicksona"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link">Musisz być na miejscu: Las Dicksona</div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Pomarańcza 10szt</div>
+                          <div>Rzemień 3szt</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>300</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/Kufel=51655000.png" alt="Kufel"
+                                class="img-responsive nagroda">
+                              <p>2x [item=51655000]</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 nazwa">Zasadzka</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Punkt Wschodni</p>
+                          <img src="../image/Zleceniodawca/PunktWschodni.png" alt="Punkt Wschodni"
+                            class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link">Musisz być na miejscu: Punkt Wschodni</div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Ziemniak 15szt</div>
+                          <div>Jagody 15szt</div>
+                          <div>Mięso kraba 10szt</div>
+                          <div>Fasola 20szt</div>
+                          <div>Kukurydza 20 szt</div>
+                          <div>Indyk 10szt</div>
+                          <div>Naprawa wozów 2h</div>
+                          <div>Ochrona wozów osadników 2h</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
+                              <p>800</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <p>500</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/Kufel=51655000.png" alt="Kufel"
+                                class="img-responsive nagroda">
+                              <p>2x [item=51655000]</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="row">
+                        <div class="col-12 nazwa">Dostawa Pony Express</div>
+                        <div class="col-12 col-sm-2 data-nagroda">
+                          <p>Maria Roalstad</p>
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                        </div>
+                        <div class="col-12 col-sm-3 nazwa-link"></div>
+                        <div class="col-12 col-sm-4 nazwa-link">
+                          <div>Kłusak</div>
+                          <div>Naprawione siodło [item=2520000]</div>
+                          <div>Transport amunicji 7h</div>
+                        </div>
+                        <div class="col-12 col-sm-3 data-nagroda">
+                          <div class="row img">
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <p>600</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <p>1200</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/buffy/IndianskiRytualnyNaszyjnik.png" alt="Indiański rytualny naszyjnik"
+                                class="img-responsive nagroda">
+                              <p>[item=2483000]</p>
+                            </div>
+                            <div class="col-3 col-sm-12 col-md-6 col-lg-3">
+                              <img src="../image/buffy/ProszekZeSkorupy.png" alt="Proszek ze skorupy rakietowego żółwia"
+                                class="img-responsive nagroda">
+                              <p>[item=2135000]</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+
                 <div class="row miesiac">
                   <div class="col-12">
                     <h2 class="linia-5" title="Czas żniw - Harvest Time">Czas żniw - Harvest Time</h2>
@@ -123,7 +380,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Renowacja domu</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -132,7 +390,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -154,7 +413,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Każda pomocna dłoń jest mile widziana</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Farma Wilsona</p>
-                          <img src="../image/Farma-Wilsona.png" alt="Farma Wilsona" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Farma-Wilsona.png" alt="Farma Wilsona"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Czas serwera: 2:00-12:00</div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -164,11 +424,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>120</p>
                             </div>
                           </div>
@@ -178,7 +439,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Następnego dnia</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Farma Wilsona</p>
-                          <img src="../image/Farma-Wilsona.png" alt="Farma Wilsona" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Farma-Wilsona.png" alt="Farma Wilsona"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Czas serwera: 10-24</div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -189,11 +451,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -208,7 +471,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Nocne poszukiwania</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Czas serwera: 10-24</div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -219,7 +483,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                           </div>
@@ -229,7 +494,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Senny dzień</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Farma Wilsona</p>
-                          <img src="../image/Farma-Wilsona.png" alt="Farma Wilsona" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Farma-Wilsona.png" alt="Farma Wilsona"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -239,11 +505,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>120</p>
                             </div>
                           </div>
@@ -253,7 +520,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Przeszukanie rannego mężczyzny</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Farma Wilsona</p>
-                          <img src="../image/Farma-Wilsona.png" alt="Farma Wilsona" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Farma-Wilsona.png" alt="Farma Wilsona"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -264,11 +532,13 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/craft/Pierog.png" alt="Pieróg z warzywami" class="img-responsive nagroda">
+                              <img src="../image/craft/Pierog.png" alt="Pieróg z warzywami"
+                                class="img-responsive nagroda">
                               <p>[item=1873000]</p>
                             </div>
                           </div>
@@ -278,7 +548,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Młody chłopak</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Miasto Widmo</p>
-                          <img src="../image/Miasto-Widmo.png" alt="Miasto Widmo" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Miasto-Widmo.png" alt="Miasto Widmo"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -299,7 +570,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Dostawa Pony Express</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -310,16 +582,17 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>1200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/buffy/IndianskiRytualnyNaszyjnik.png" alt="Indiański rytualny naszyjnik"
-                                class="img-responsive nagroda">
+                              <img src="../image/buffy/IndianskiRytualnyNaszyjnik.png"
+                                alt="Indiański rytualny naszyjnik" class="img-responsive nagroda">
                               <p>[item=2483000]</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -356,7 +629,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Zwiadowca</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
@@ -374,7 +648,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Obóz wroga</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -385,7 +660,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>300</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -405,7 +681,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Dobra strategia</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -414,7 +691,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -429,7 +707,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Kłopot</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -439,7 +718,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                           </div>
@@ -449,7 +729,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Idealny plan</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -458,7 +739,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                           </div>
@@ -468,14 +750,16 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Napad na bank</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -512,7 +796,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Zajęty dzień</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -521,7 +806,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>50</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -536,7 +822,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Strój Marii</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -547,7 +834,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="John Fitzburn" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="John Fitzburn"
+                                class="img-responsive nagroda">
                               <p>250</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -562,7 +850,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Dwóch niebezpiecznych bandytów</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -571,7 +860,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>400</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -591,7 +881,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Złodzieje</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -600,7 +891,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>400</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -615,7 +907,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Nasz ban jest okradziony</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Aby wykonać to zadanie nie możesz zaakceptować zadania
                           "Napad na bank"</div>
@@ -625,7 +918,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -640,7 +934,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Napad na bank</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">
                           Aby wykonać to zadanie nie możesz zaakceptować zadania "Nasz bank jest okradziony"
@@ -651,7 +946,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -666,7 +962,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Zespół muzyczny</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -697,7 +994,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Po paradzie I</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Waupee</p>
-                          <img src="../image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/dziadek-waupee.png" alt="Dziadek Waupee"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -728,7 +1026,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">List męża</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -763,7 +1062,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
@@ -802,7 +1102,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Renowacja domu</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Dzienne zadania</p>
-                          <img src="../image/zadania-dzienne.png" alt="Zadania dzienne" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/zadania-dzienne.png" alt="Zadania dzienne"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">
                           <div class="row img">
@@ -840,7 +1141,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -851,7 +1153,8 @@ and open the template in the editor.
                             <div class="col-3 col-sm-12 col-md-12 col-lg-12">
                               <img src="//westzz.innogamescdn.com/images/items/yield/item_51473.png?7" alt=""
                                 class="img-responsive nagroda">
-                              <p>Karty kolekcjonerskie i <img src="../image/menuicons.png" alt='osiągniecie'>Masz wszystkie
+                              <p>Karty kolekcjonerskie i <img src="../image/menuicons.png" alt='osiągniecie'>Masz
+                                wszystkie
                                 znaczki swiata!</p>
                             </div>
                           </div>
@@ -861,7 +1164,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Zobacz co znalazłem</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -873,7 +1177,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                           </div>
@@ -883,7 +1188,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Czy jestem Bob?</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -893,7 +1199,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -908,7 +1215,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Następna bitwa</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -918,7 +1226,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                           </div>
@@ -928,7 +1237,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Armia potrzebuje jedzenia</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>John Fitzburn</p>
-                          <img src="../image/John-Fitzburn.png" alt="John Fitzburn" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/John-Fitzburn.png" alt="John Fitzburn"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -942,11 +1252,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                           </div>
@@ -956,7 +1267,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
@@ -974,7 +1286,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Sprawdźmy resztę twojego domu</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1001,7 +1314,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Sekretna dziura w podłodze</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1014,7 +1328,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>200</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-6">
@@ -1029,7 +1344,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">List męża</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Dzienne zadania</p>
-                          <img src="../image/zadania-dzienne.png" alt="Zadania Dzienne" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/zadania-dzienne.png" alt="Zadania Dzienne"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1039,11 +1355,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>1000</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-6">
@@ -1058,14 +1375,16 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Powrót do rzeczywistości</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Henry Walker</p>
-                          <img src="../image/Henry-Walker.png" alt="Henry Walker" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Henry-Walker.png" alt="Henry Walker"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -1116,14 +1435,16 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Problem na farmie</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maya Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">Wypasanie Jagniąt 30 min</div>
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                           </div>
@@ -1133,7 +1454,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Baribal</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wauppe</p>
-                          <img src="../image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/dziadek-waupee.png" alt="Dziadek Waupee"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">"Baribal"</div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1143,7 +1465,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                           </div>
@@ -1153,7 +1476,7 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Wizyta plemienia Śpiewającej Wody</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wioska Indiańska Waupee</p>
-                          <img src="../image/wioska-indianska.png" alt="Wioska Indiańska Waupee"
+                          <img src="../image/Zleceniodawca/wioska-indianska.png" alt="Wioska Indiańska Waupee"
                             class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
@@ -1170,7 +1493,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -1185,7 +1509,7 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Niezauważony błąd</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wioska Indiańska Waupee</p>
-                          <img src="../image/wioska-indianska.png" alt="Wioska Indiańska Waupee"
+                          <img src="../image/Zleceniodawca/wioska-indianska.png" alt="Wioska Indiańska Waupee"
                             class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
@@ -1197,11 +1521,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>300</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                           </div>
@@ -1211,7 +1536,7 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Oswojony</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wioska Indiańska Waupee</p>
-                          <img src="../image/wioska-indianska.png" alt="Wioska Indiańska Waupee"
+                          <img src="../image/Zleceniodawca/wioska-indianska.png" alt="Wioska Indiańska Waupee"
                             class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
@@ -1223,7 +1548,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -1238,7 +1564,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Złe wieści</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maya Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1250,11 +1577,12 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>600</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/dolar.png" alt="Dolary" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/dolar.png" alt="Dolary" class="img-responsive nagroda">
                               <p>700</p>
                             </div>
                           </div>
@@ -1264,7 +1592,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Przekręt</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wauppe</p>
-                          <img src="../image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/dziadek-waupee.png" alt="Dziadek Waupee"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1276,7 +1605,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                           </div>
@@ -1286,7 +1616,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Zimna noc</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wauppe</p>
-                          <img src="../image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/dziadek-waupee.png" alt="Dziadek Waupee"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1297,7 +1628,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>400</p>
                             </div>
                           </div>
@@ -1307,7 +1639,7 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Wizyta "Białego Pazura"</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wioska Indiańska Waupee</p>
-                          <img src="../image/wioska-indianska.png" alt="Wioska Indiańska Waupee"
+                          <img src="../image/Zleceniodawca/wioska-indianska.png" alt="Wioska Indiańska Waupee"
                             class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
@@ -1321,7 +1653,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
@@ -1335,7 +1668,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Pamiątka</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Waupee</p>
-                          <img src="../image/dziadek-waupee.png" alt="Dziadek Waupee" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/dziadek-waupee.png" alt="Dziadek Waupee"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link">
@@ -1355,7 +1689,7 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Naturalny bieg wydarzeń</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Wioska Indiańska Waupee</p>
-                          <img src="../image/wioska-indianska.png" alt="Wioska Indiańska Waupee"
+                          <img src="../image/Zleceniodawca/wioska-indianska.png" alt="Wioska Indiańska Waupee"
                             class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link">Na miejscu: Wioska Indiańska Waupee</div>
@@ -1368,7 +1702,8 @@ and open the template in the editor.
                         <div class="col-12 col-sm-3 data-nagroda">
                           <div class="row img">
                             <div class="col-3 col-sm-12 col-md-6 col-lg-3">
-                              <img src="../image/exp.png" alt="Doświadczenie" class="img-responsive nagroda">
+                              <img src="../image/NagrodyDoZadan/exp.png" alt="Doświadczenie"
+                                class="img-responsive nagroda">
                               <p>500</p>
                             </div>
                           </div>
@@ -1378,7 +1713,8 @@ and open the template in the editor.
                         <div class="col-12 nazwa">Obowiązki</div>
                         <div class="col-12 col-sm-2 data-nagroda">
                           <p>Maria Roalstad</p>
-                          <img src="../image/Maria-Roalstad.png" alt="Maria Roalstad" class="img-responsive place-img">
+                          <img src="../image/Zleceniodawca/Maria-Roalstad.png" alt="Maria Roalstad"
+                            class="img-responsive place-img">
                         </div>
                         <div class="col-12 col-sm-3 nazwa-link"></div>
                         <div class="col-12 col-sm-4 nazwa-link"></div>
