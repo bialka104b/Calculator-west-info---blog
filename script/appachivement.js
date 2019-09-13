@@ -141,6 +141,30 @@ const img = [
   "image/craft/NarzedziaZegarmistrzowskie.png",
   "image/craft/ZlotaPozytywka.png",
   "image/craft/Latarnia.png",
+  "image/craft/item_51581_SerCastello.png",
+  "image/craft/item_51576_Drink.png",
+  "image/craft/item_51580_Nawoz.png",
+  "image/craft/item_51579_OwocowyKoktail.png",
+  "image/craft/item_51578_BurgerGornika.png",
+  "image/craft/item_51577_PaczkaSmakowitychGumBalonowych.png",
+  "image/craft/item_51599_LapaczSnow.png",
+  "image/craft/item_51598_CertyfikatPodatkuImportowego.png",
+  "image/craft/item_51594_CudotwórczaNalewka.png",
+  "image/craft/item_51597_RemediumPrzeciwCierpieniu.png",
+  "image/craft/item_51596_SilnyKwasSiarkowyZLugiem.png",
+  "image/craft/item_51595_MetalowaCzaszka.png",
+  "image/craft/item_51587_SkorzanyPlaszcz.png",
+  "image/craft/item_51582_DylizansMariiRoalstad.png",
+  "image/craft/item_51586_ZbrojaDlaWierzchowca.png",
+  "image/craft/item_51585_PasZRzemieni.png",
+  "image/craft/item_51584_PlociennaSkrzynka.png",
+  "image/craft/item_51583_PiesnDzikiegoZachodu.png",
+  "image/craft/item_51593_KawaleryjskaSzabla.png",
+  "image/craft/item_51592_Wizjer.png",
+  "image/craft/item_51588_Bomba-Pulapka.png",
+  "image/craft/item_51591_HartowanaStal.png",
+  "image/craft/item_51590_ZaawansowanaSkrzynkaNaNarzedzia.png",
+  "image/craft/item_51589_ManekinKrawiecki.png",
   "image/menuicons.png"
 ];
 const dollar = [
@@ -325,7 +349,11 @@ const string = [
   "Sir Mieszacz",
   "Produkty lecznicze",
   "Koneser",
-  "Wells Fargo"
+  "Wells Fargo",
+  "Gumy wszystkich smaków",
+  "Najcenniejsze kamienie",
+  "Muzyka świata",
+  "Najnowsza światowa moda"
 ];
 class AppAchivement extends React.Component {
   render() {
@@ -339,17 +367,17 @@ class AppAchivement extends React.Component {
             <h5>{this.props.name}</h5>
             <p>{string[0]}</p>
             <p>
-              <img src={img[140]} />
+              <img src={img[164]} />
               {this.props.achivement}
             </p>
             <p>
               <span>
                 <img src="image/Zakup.png" title="cena maksymalna" />
-                {this.props.buy}$
+                {this.props.buy}
               </span>
               <span>
                 <img src="image/Sprzedaz.png" title="cena minimalna" />
-                {this.props.sell}$
+                {this.props.sell}
               </span>
             </p>
           </div>
@@ -518,4 +546,45 @@ ReactDOM.render(
     name={"Siodło Wells Fargo"}
   />,
   myPopup[124]
+);
+
+ReactDOM.render(
+  <AppAchivement
+    url={img[145]}
+    buy={dollar[146]}
+    sell={dollar[105]}
+    achivement={string[17]}
+    name={"Paczka smakowitych gum do żucia"}
+  />,
+  myPopup[145]
+);
+ReactDOM.render(
+  <AppAchivement
+    url={img[151]}
+    buy={dollar[146]}
+    sell={dollar[105]}
+    achivement={string[18]}
+    name={"Metalowa czaszka"}
+  />,
+  myPopup[151]
+);
+ReactDOM.render(
+  <AppAchivement
+    url={img[157]}
+    buy={dollar[146]}
+    sell={dollar[105]}
+    achivement={string[19]}
+    name={"Pieśń Dzikiego Zachodu"}
+  />,
+  myPopup[157]
+);
+ReactDOM.render(
+  <AppAchivement
+    url={img[163]}
+    buy={dollar[146]}
+    sell={dollar[105]}
+    achivement={string[20]}
+    name={"Manekin krawiecki"}
+  />,
+  myPopup[163]
 );
